@@ -1,0 +1,5982 @@
+page wikipedia : http://fr.wikipedia.org/wiki/Abdelaziz_Bouteflika
+page wikipedia : http://fr.wikipedia.org/wiki/Abeille
+page wikipedia : http://fr.wikipedia.org/wiki/Abraham_Lincoln
+page wikipedia : http://fr.wikipedia.org/wiki/Accident_vasculaire_cérébral
+page wikipedia : http://fr.wikipedia.org/wiki/Accumulateur_électrique
+page wikipedia : http://fr.wikipedia.org/wiki/Acier
+page wikipedia : http://fr.wikipedia.org/wiki/Adolf_Hitler
+page wikipedia : http://fr.wikipedia.org/wiki/Adèle_Exarchopoulos
+ => Films notables - Les Enfants de Timpelbach
+ => Nationalité - &#160;
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Affaire_Dreyfus
+page wikipedia : http://fr.wikipedia.org/wiki/Afrique
+page wikipedia : http://fr.wikipedia.org/wiki/Afrique_du_Sud
+ => Code ISO 3166-1 - ZAF, ZA​
+ => Densité - 42&#160;hab./km
+ => Devise nationale - «&#160;!ke e: ǀxarra ǁke&#160;» (
+ => Domaine Internet - .za
+ => Forme de l'État - République constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 1
+
+ => Gentilé - Sudafricain(e)
+ => Hymne national - Hymne national sud-africain
+ => IDH -  0,629 (moyen) (
+ => Indicatif téléphonique - +27
+ => Indépendance - du 
+ => Langues officielles - 11 langues officielles
+ => Monnaie - Rand
+
+Monnaie-wiki : 1
+
+ => PIB nominal -  384,3$ milliards (
+ => Plus grande ville - Johannesburg
+
+Plus grande ville-lieu-1 : 1
+
+
+Plus grande ville-aki : 1
+
+
+Plus grande ville-wiki : 1
+
+ => Population totale - 51&#160;770&#160;560
+ => Président - Jacob Zuma
+ => Superficie en eau - Négligeable
+ => Superficie totale - 1&#160;219&#160;912&#160;
+ => Vice-président - Cyril Ramaphosa
+page wikipedia : http://fr.wikipedia.org/wiki/Agglomération_parisienne
+page wikipedia : http://fr.wikipedia.org/wiki/Airbus_A380
+page wikipedia : http://fr.wikipedia.org/wiki/Alain_Juppé
+page wikipedia : http://fr.wikipedia.org/wiki/Alain_Resnais
+ => Films notables - Nuit et brouillard
+ => Nationalité - &#160;
+ => Profession - Réalisateur
+page wikipedia : http://fr.wikipedia.org/wiki/Albert_Camus
+ => Mouvement - Existentialisme
+
+Mouvement-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Albert_Einstein
+ => Champs - Physique
+ => Diplôme - École polytechnique fédérale de Zurich
+ => Distinctions - Prix Nobel de physique
+ => Renommé pour - Relativité restreinte
+page wikipedia : http://fr.wikipedia.org/wiki/Alexandra_Lamy
+ => Films notables - Ricky
+
+Films notables-associated : 1
+
+
+Films notables-holo : 1
+
+
+Films notables-lieu : 1
+
+ => Nationalité - &#160;
+ => Nom de naissance - Alexandra Paulette Mathilde Lamy
+ => Profession - actrice
+
+Profession-isa : 1
+
+
+Profession-associated : 1
+
+
+Profession-wiki : 1
+
+ => Séries notables - Un gars, une fille
+page wikipedia : http://fr.wikipedia.org/wiki/Alexandre_le_Grand
+page wikipedia : http://fr.wikipedia.org/wiki/Alfred_Hitchcock
+ => Films notables - Les 39 Marches
+ => Nationalité - &#160;
+ => Nom de naissance - Alfred Joseph Hitchcock
+ => Profession - réalisateur
+ => Surnom - Hitch
+ => Séries notables - Alfred Hitchcock présente
+page wikipedia : http://fr.wikipedia.org/wiki/Algérie
+ => Capitale - Alger
+
+Capitale-lieu-1 : 1
+
+
+Capitale-wiki : 1
+
+
+Capitale-aki : 1
+
+ => Code ISO 3166-1 - DZA, DZ​
+ => Densité - 16&#160;hab./km
+ => Devise nationale - بالشّعب وللشّعب
+ => Domaine Internet - .dz
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 1
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 2
+
+ => Gentilé - Algérien, Algérienne
+ => Hymne national - Kassaman
+ => IDH -  0,717
+ => Indicatif téléphonique - +213
+ => Indépendance - De la 
+ => Langues - Arabe
+
+Langues-wiki : 1
+
+ => Monnaie - Dinar algérien
+ => Organisations internationales - ONU
+
+Organisations internationales-wiki : 1
+
+ => PIB nominal - 214,080 milliards de $ (
+ => Plus grande ville - Alger
+
+Plus grande ville-lieu-1 : 2
+
+
+Plus grande ville-wiki : 2
+
+
+Plus grande ville-aki : 2
+
+ => Population totale - 39&#160;500&#160;000
+ => Premier ministre - Abdelmalek Sellal
+ => Président de la République - Abdelaziz Bouteflika
+
+Président de la République-wiki : 1
+
+ => Superficie totale - 2&#160;381&#160;741&#160;
+ => révolution - 5 juillet
+page wikipedia : http://fr.wikipedia.org/wiki/Alive
+page wikipedia : http://fr.wikipedia.org/wiki/Allemagne
+ => Capitale - Berlin
+
+Capitale-lieu-1 : 2
+
+
+Capitale-associated : 1
+
+
+Capitale-has_part : 1
+
+
+Capitale-aki : 2
+
+ => Chancelière fédérale - Angela Merkel
+
+Chancelière fédérale-wiki : 1
+
+ => Code ISO 3166-1 - DEU, DE​
+ => Création RDA - 7 octobre 1949
+ => Création RFA - 23 mai 1949
+ => Densité - 226&#160;hab./km
+ => Dette publique brute -  2&#160;169,14 milliards d'
+ => Domaine Internet - .de
+ => Forme de l'État - République
+
+Forme de l'État-isa : 1
+
+
+Forme de l'État-associated : 1
+
+
+Forme de l'État-wiki : 2
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 3
+
+ => Gentilé - Allemand, -e
+ => Hymne national - Deutschlandlied
+
+Hymne national-wiki : 1
+
+ => Indicatif téléphonique - +49
+ => Langues officielles - Allemand
+
+Langues officielles-familly : 1
+
+
+Langues officielles-wiki : 1
+
+
+Langues officielles-aki : 1
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 2
+
+ => PIB -  45&#160;888 
+ => PIB nominal -  47&#160;590 
+ => Plus grandes villes - Berlin
+
+Plus grandes villes-lieu-1 : 1
+
+
+Plus grandes villes-associated : 1
+
+
+Plus grandes villes-has_part : 1
+
+
+Plus grandes villes-aki : 1
+
+ => Population totale - 80&#160;925&#160;000
+ => Président du Bundesrat - Volker Bouffier
+ => Président du Bundestag - Norbert Lammert
+ => Président fédéral - Joachim Gauck
+ => Réunification - 3 octobre 1990 (fête nationale)
+ => Superficie en eau - 2,18&#160;%
+ => Superficie totale - 357&#160;340&#160;
+ => Taux de chômage -  5,0% de la pop. active
+ => Traité de Verdun - 843
+ => Unification - 18 janvier 1871
+page wikipedia : http://fr.wikipedia.org/wiki/Alphabet_grec
+page wikipedia : http://fr.wikipedia.org/wiki/Amanda_Lear
+ => Activité principale - chanteuse
+
+Activité principale-wiki : 1
+
+ => Activités annexes - artiste peintre
+
+Activités annexes-wiki : 1
+
+ => Genre musical - Pop
+ => Labels - Ariola Records, Carrere Records, 
+ => Nom de naissance - Tapp
+page wikipedia : http://fr.wikipedia.org/wiki/Amazon.com
+ => Action - NASDAQ
+ => Activité - Commerce électronique
+ => Capitalisation - 141 680 000 000,00
+ => Chiffre d’affaires -  74,452 milliards 
+ => Création - 1994
+ => Dates clés - 1995
+ => Direction - Jeff Bezos
+ => Effectif - 132&#160;600 (juin 2014)
+ => Filiales - Mobipocket.com
+ => Fondateurs - Jeff Bezos
+ => Forme juridique - Incorporation
+ => Résultat net - 275 millions 
+ => Site web - &#160;
+ => Siège social - &#160;
+ => Slogan - work hard, have fun, make history
+page wikipedia : http://fr.wikipedia.org/wiki/Amber_Heard
+ => Films notables - All the Boys Love Mandy Lane
+ => Nom de naissance - Amber Laura Heard
+ => Profession - Actrice
+ => Site internet - http://amberheardofficial.com/
+page wikipedia : http://fr.wikipedia.org/wiki/Ambre
+page wikipedia : http://fr.wikipedia.org/wiki/Amour
+page wikipedia : http://fr.wikipedia.org/wiki/Android
+page wikipedia : http://fr.wikipedia.org/wiki/André_Dussollier
+ => Films notables - Trois hommes et un couffin
+
+Films notables-lieu : 2
+
+
+Films notables-associated : 2
+
+
+Films notables-holo : 2
+
+
+Films notables-aki : 1
+
+ => Nationalité - &#160;
+ => Profession - Acteur
+
+Profession-wiki : 2
+
+page wikipedia : http://fr.wikipedia.org/wiki/Andy_Warhol
+page wikipedia : http://fr.wikipedia.org/wiki/Angelina_Jolie
+ => Films notables - Lara Croft: Tomb Raider
+ => Nom de naissance - Angelina Jolie Voight
+
+Nom de naissance-locution : 1
+
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Angleterre
+page wikipedia : http://fr.wikipedia.org/wiki/Anne_Hidalgo
+page wikipedia : http://fr.wikipedia.org/wiki/Antoine_de_Caunes
+ => Profession - Acteur
+
+Profession-wiki : 3
+
+page wikipedia : http://fr.wikipedia.org/wiki/Antoni_Gaudí
+page wikipedia : http://fr.wikipedia.org/wiki/Anémie
+page wikipedia : http://fr.wikipedia.org/wiki/Apartheid
+page wikipedia : http://fr.wikipedia.org/wiki/Appareil
+page wikipedia : http://fr.wikipedia.org/wiki/Apple
+ => Action - AAPL
+ => Actionnaires - Arthur D. Levinson
+ => Activité - Informatique
+
+Activité-wiki : 1
+
+ => Dette - Aucune
+ => Direction - Tim Cook
+
+Direction-wiki : 1
+
+
+Direction-aki : 1
+
+ => Effectif - 92&#160;600 (à la fin de l'année fiscale 2014)
+ => Filiales - FileMaker Inc.
+ => Fondateurs - Steve Jobs
+
+Fondateurs-associated : 1
+
+
+Fondateurs-has_part : 1
+
+
+Fondateurs-aki : 1
+
+ => Personnages clés - Tim Cook
+
+Personnages clés-wiki : 1
+
+
+Personnages clés-aki : 1
+
+ => Produits - iPod
+
+Produits-associated : 1
+
+
+Produits-aki : 1
+
+ => Site web - apple.com
+ => Siège social - &#160;
+ => Slogan - Think different
+page wikipedia : http://fr.wikipedia.org/wiki/Argentine
+ => Capitale - Buenos Aires
+
+Capitale-lieu-1 : 3
+
+
+Capitale-wiki : 2
+
+ => Code ISO 3166-1 - ARG, AR​
+ => Densité - 14&#160;hab./km
+ => Devise nationale - Dans l’Union et la Liberté.
+ => Domaine Internet - .ar
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 3
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 4
+
+ => Gentilé - Argentin, argentine
+ => Hymne national - Himno Nacional Argentino
+ => IDH -  0,811
+ => Indicatif téléphonique - +54
+ => Indépendance - Espagne
+
+Indépendance-wiki : 1
+
+ => Langues officielles - Espagnol
+ => Monnaie - Peso argentin
+ => Plus grande ville - Buenos Aires
+
+Plus grande ville-lieu-1 : 3
+
+
+Plus grande ville-wiki : 3
+
+ => Population totale - 42 669 500&#160;
+ => Présidente de la Nation - Cristina Kirchner
+ => Superficie en eau - 1,1
+ => Superficie totale - 2 780 400
+ => Vice-président - Amado Boudou
+page wikipedia : http://fr.wikipedia.org/wiki/Arielle_Dombasle
+ => Films notables - Pauline à la plage
+ => Nom de naissance - Arielle Laure Maxime Sonnery
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Aristote
+page wikipedia : http://fr.wikipedia.org/wiki/Arnold_Schwarzenegger
+ => Films notables - Conan le Barbare
+
+Films notables-lieu : 3
+
+
+Films notables-associated : 3
+
+
+Films notables-holo : 3
+
+
+Films notables-aki : 2
+
+ => Nom de naissance - Arnold Alois Schwarzenegger
+ => Profession - Acteur
+ => Site internet - schwarzenegger.com
+ => Surnom - «&#160;Schwarzy&#160;»
+page wikipedia : http://fr.wikipedia.org/wiki/Arthur_Rimbaud
+ => Adjectifs dérivés - rimbaldien
+ => Langue d’écriture - Français
+ => Mouvement - Inclassable
+ => Nom de naissance - Jean Nicolas Arthur Rimbaud
+page wikipedia : http://fr.wikipedia.org/wiki/Artémis
+page wikipedia : http://fr.wikipedia.org/wiki/Auguste
+page wikipedia : http://fr.wikipedia.org/wiki/Australia
+page wikipedia : http://fr.wikipedia.org/wiki/Australie
+ => Capitale - Canberra
+
+Capitale-lieu-1 : 4
+
+
+Capitale-associated : 2
+
+
+Capitale-wiki : 3
+
+ => Code ISO 3166-1 - AUS, AU​
+ => Densité - 3&#160;hab./km
+ => Devise nationale - Advance Australia Fair.
+ => Domaine Internet - .au
+ => Forme de l'État - Monarchie parlementaire
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 5
+
+ => Gentilé - Australien, Australienne
+ => Gouverneur général - Peter Cosgrove
+ => Hymne national - Advance Australia Fair
+
+Hymne national-wiki : 2
+
+ => IDH -  0,938
+ => Indicatif téléphonique - +61
+ => Indépendance - Royaume-Uni
+
+Indépendance-wiki : 2
+
+ => Langues officielles - Anglais
+
+Langues officielles-wiki : 2
+
+ => Monnaie - Dollar australien
+ => Plus grande ville - Sydney
+
+Plus grande ville-lieu-1 : 4
+
+
+Plus grande ville-associated : 1
+
+
+Plus grande ville-has_part : 1
+
+
+Plus grande ville-wiki : 4
+
+
+Plus grande ville-aki : 3
+
+ => Population totale - 23&#160;500&#160;000
+ => Premier ministre - Tony Abbott
+ => Reine - Élisabeth II
+
+Reine-wiki : 1
+
+ => Superficie en eau - 1&#160;%
+ => Superficie totale - 7&#160;686&#160;850
+page wikipedia : http://fr.wikipedia.org/wiki/Autisme
+page wikipedia : http://fr.wikipedia.org/wiki/Autriche
+ => &#160; - 1156
+ => Capitale - Vienne
+
+Capitale-associated : 3
+
+
+Capitale-lieu-1 : 5
+
+
+Capitale-aki : 3
+
+ => Chancelier fédéral - Werner Faymann
+ => Code ISO 3166-1 - AUT, AT​
+ => Densité - 100,86&#160;hab./km
+ => Devise nationale - Aucune
+ => Domaine Internet - .at
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+ => Gentilé - Autrichien, Autrichienne
+ => Hymne national - Land der Berge, Land am Strome
+ => IDH - 0,881
+ => Indicatif téléphonique - +43
+ => Langues officielles - Allemand
+
+Langues officielles-wiki : 3
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 3
+
+ => PIB -  45&#160;411 
+ => PIB nominal -  51&#160;183 
+ => Plus grande ville - Vienne
+
+Plus grande ville-associated : 2
+
+
+Plus grande ville-lieu-1 : 5
+
+
+Plus grande ville-aki : 4
+
+ => Population totale - 8&#160;507&#160;786
+ => Président fédéral - Heinz Fischer
+ => Superficie en eau - 1,7&#160;%
+ => Superficie totale - 83&#160;878,99
+page wikipedia : http://fr.wikipedia.org/wiki/Ayrton_Senna
+ => Années d'activité - 1984
+ => Champion du monde - 1988
+ => Lieu de décès - Bologne
+
+Lieu de décès-wiki : 1
+
+ => Lieu de naissance - São Paulo
+ => Nationalité -  Brésilien
+ => Nombre de courses - 161
+ => Surnom - Magic Senna
+ => Équipe - Toleman
+page wikipedia : http://fr.wikipedia.org/wiki/Babar
+page wikipedia : http://fr.wikipedia.org/wiki/Babylone
+page wikipedia : http://fr.wikipedia.org/wiki/Backslash
+page wikipedia : http://fr.wikipedia.org/wiki/Baclofène
+page wikipedia : http://fr.wikipedia.org/wiki/Banksy
+page wikipedia : http://fr.wikipedia.org/wiki/Barack_Obama
+page wikipedia : http://fr.wikipedia.org/wiki/Barcelone
+page wikipedia : http://fr.wikipedia.org/wiki/Basket-ball
+ => Autres appellations - baloncesto
+ => Fédération internationale - FIBA
+ => Joueurs licenciés - environ 100 millions
+ => Joueurs pratiquants - environ 450 millions
+ => Sport olympique depuis - 1936
+page wikipedia : http://fr.wikipedia.org/wiki/Batman
+page wikipedia : http://fr.wikipedia.org/wiki/Belgique
+ => Capitale - Bruxelles
+
+Capitale-lieu-1 : 6
+
+
+Capitale-associated : 4
+
+
+Capitale-has_part : 2
+
+ => Code ISO 3166-1 - BEL, BE​
+ => Densité - 368&#160;hab./km
+ => Devise nationale - «&#160;
+ => Domaine Internet - .be
+
+Domaine Internet-wiki : 1
+
+ => Déclarée - 4 octobre
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 6
+
+ => Gentilé - Belge
+ => Hymne national - La Brabançonne
+ => IDH -  0,881
+ => Indicatif téléphonique - +32
+ => Indépendance - des 
+ => Langues officielles - Néerlandais
+
+Langues officielles-wiki : 4
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 4
+
+ => PIB - 40&#160;760 $ 
+ => PIB nominal - 47&#160;108 $ 
+ => Plus grande ville - Bruxelles
+
+Plus grande ville-lieu-1 : 6
+
+
+Plus grande ville-associated : 3
+
+
+Plus grande ville-has_part : 2
+
+ => Population totale - 11&#160;239&#160;755
+ => Premier ministre - Charles Michel
+ => Roi - Philippe
+
+Roi-wiki : 1
+
+ => Superficie en eau - 6,2&#160;%
+ => Superficie totale - 30&#160;528&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Belote
+page wikipedia : http://fr.wikipedia.org/wiki/Berlin
+page wikipedia : http://fr.wikipedia.org/wiki/Bernard_Lavilliers
+ => Activité principale - Chanteur
+
+Activité principale-wiki : 2
+
+ => Activités annexes - Acteur
+
+Activités annexes-wiki : 2
+
+ => Années actives - Depuis 1965
+ => Genre musical - Chanson française
+ => Labels - Barclay Records
+ => Nom de naissance - Bernard Oulion
+ => Site officiel - bernardlavilliers.com
+page wikipedia : http://fr.wikipedia.org/wiki/Bernard-Henri_Lévy
+ => Langue d’écriture - français
+ => Mouvement - Nouveaux philosophes
+page wikipedia : http://fr.wikipedia.org/wiki/Bertrand_Delanoë
+page wikipedia : http://fr.wikipedia.org/wiki/Beyoncé_Knowles
+ => Activité principale - Chanteuse
+ => Années actives - Depuis 
+ => Genre musical - R&amp;B
+ => Labels - Columbia
+ => Nom de naissance - Beyoncé Giselle Knowles
+ => Site officiel - beyonce.com
+page wikipedia : http://fr.wikipedia.org/wiki/Bill_Gates
+ => Nationalité - Américain
+ => Nom de naissance - William Henry «&#160;Bill&#160;» Gates III
+ => Pays de résidence - États-Unis
+
+Pays de résidence-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Bill_Murray
+ => Films notables - SOS Fantômes
+
+Films notables-lieu : 4
+
+
+Films notables-holo : 4
+
+
+Films notables-associated : 4
+
+
+Films notables-aki : 3
+
+ => Nom de naissance - William James Murray
+ => Profession - Acteur
+page wikipedia : http://fr.wikipedia.org/wiki/BitTorrent
+page wikipedia : http://fr.wikipedia.org/wiki/Bitcoin
+page wikipedia : http://fr.wikipedia.org/wiki/Boat
+page wikipedia : http://fr.wikipedia.org/wiki/Bob_Marley
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - 1962
+ => Genre musical - Dub
+ => Instruments - Voix
+ => Labels - Studio One
+ => Nom de naissance - Robert Nesta Marley
+ => Site officiel - bobmarley.com
+page wikipedia : http://fr.wikipedia.org/wiki/Boeing_777
+page wikipedia : http://fr.wikipedia.org/wiki/Booba
+ => Activité principale - Rappeur
+ => Années actives - Depuis 
+ => Genre musical - Hip-hop français
+ => Labels - Tallac
+ => Nom de naissance - Élie Yaffa
+ => Site officiel - oklm.com
+ => Surnom - B2oba
+page wikipedia : http://fr.wikipedia.org/wiki/Bordeaux
+page wikipedia : http://fr.wikipedia.org/wiki/Boris_Vian
+ => Langue d’écriture - français
+
+Langue d’écriture-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Brad_Pitt
+ => Films notables - Cf. 
+ => Nom de naissance - William Bradley Pitt
+ => Profession - Acteur
+
+Profession-wiki : 4
+
+page wikipedia : http://fr.wikipedia.org/wiki/Bradley_Cooper
+ => Films notables - Very Bad Trip
+ => Nom de naissance - Bradley Charles Cooper
+ => Profession - Acteur
+ => Séries notables - Alias
+page wikipedia : http://fr.wikipedia.org/wiki/Braquo
+ => Acteurs principaux - Jean-Hugues Anglade
+ => Chaîne d'origine - Canal+
+ => Création - Olivier Marchal
+ => Durée - 52 minutes
+ => Genre - Policier
+ => Musique - Erwann Kermorvant
+ => Nb. - 24 pour les 3 saisons
+ => Pays d'origine - &#160;
+ => Production - Hervé Chabalier
+ => Site web - http://www.canalplus.fr/c-series/pid3971-c-braquo.html
+page wikipedia : http://fr.wikipedia.org/wiki/Breaking_Bad
+ => Acteurs principaux - Bryan Cranston
+ => Chaîne d'origine - AMC
+ => Création - Vince Gilligan
+ => Durée - 47-55 minutes
+ => Genre - Drame
+ => Musique - Dave Porter
+ => Nb. - 62 
+ => Pays d'origine - &#160;
+ => Production - Mark Johnson
+ => Site web - http://www.amctv.com/shows/breaking-bad
+page wikipedia : http://fr.wikipedia.org/wiki/Bretagne
+page wikipedia : http://fr.wikipedia.org/wiki/Brigitte_Bardot
+ => Films notables - Les Grandes Manœuvres
+ => Nom de naissance - Brigitte Anne-Marie Bardot
+ => Profession - Actrice
+ => Site internet - www.fondationbrigittebardot.fr
+page wikipedia : http://fr.wikipedia.org/wiki/Bruce_Lee
+ => Films notables - The Big Boss
+ => Nom de naissance - Lee Jun-fan, Bruce Lee
+ => Profession - Réalisateur
+ => Site internet - www.brucelee.com
+ => Surnom - le Petit Dragon Lee
+page wikipedia : http://fr.wikipedia.org/wiki/Bruce_Willis
+ => Films notables - Die Hard
+ => Nom de naissance - Walter Bruce Willis
+ => Profession - Acteur
+ => Site internet - http://brucewillispl.com/
+ => Surnom - W.B. Willis
+ => Séries notables - Clair de lune
+page wikipedia : http://fr.wikipedia.org/wiki/Brésil
+ => Capitale - Brasilia
+
+Capitale-lieu-1 : 7
+
+
+Capitale-associated : 5
+
+
+Capitale-wiki : 4
+
+ => Code ISO 3166-1 - BRA, BR​
+ => Densité - 24&#160;hab./km
+ => Devise nationale - Ordem e Progresso
+ => Domaine Internet - .br
+ => Déclarée - 7 septembre 
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 4
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 7
+
+ => Gentilé - Brésilien, Brésilienne
+ => Hymne national - Hino Nacional Brasileiro
+ => IDH - 0,730 (élevé) (
+ => Indicatif téléphonique - +55
+ => Indépendance - Du Portugal
+ => Langues officielles - Portugais
+
+Langues officielles-wiki : 5
+
+ => Monnaie - Réal
+
+Monnaie-wiki : 5
+
+ => PIB nominal - 2 396 milliards de $
+ => Plus grandes villes - São Paulo
+ => Population totale - 201&#160;032&#160;714 (
+ => Présidente de la République - Dilma Rousseff
+ => Reconnue - 29 août 
+ => Superficie en eau - 0,65&#160;%
+ => Superficie totale - 8&#160;514&#160;876 (
+ => Vice-président - Michel Temer
+page wikipedia : http://fr.wikipedia.org/wiki/Burkina_Faso
+ => Capitale - Ouagadougou
+
+Capitale-associated : 6
+
+
+Capitale-lieu-1 : 8
+
+
+Capitale-aki : 4
+
+ => Chef de l'État - Michel Kafando
+ => Code ISO 3166-1 - BFA, BF​
+ => Densité - 59&#160;hab./km
+ => Devise nationale - Unité - Progrès - Justice
+ => Domaine Internet - .bf
+ => Forme de l'État - Faso
+
+Forme de l'État-associated : 2
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 8
+
+ => Gentilé - Burkinabè (invariable)
+ => Hymne national - Ditanyè
+ => IDH -  0,343
+ => Indicatif téléphonique - +226
+ => Indépendance - de la 
+ => Langues officielles - Français
+
+Langues officielles-wiki : 6
+
+ => Monnaie - Franc CFA
+ => Plus grande ville - Ouagadougou
+
+Plus grande ville-associated : 4
+
+
+Plus grande ville-lieu-1 : 7
+
+
+Plus grande ville-aki : 5
+
+ => Population totale - 18&#160;365&#160;123
+ => Premier ministre - Yacouba Isaac Zida
+ => Superficie en eau - Négligeable
+ => Superficie totale - 274 200&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Canada
+ => Capitale - Ottawa
+
+Capitale-lieu-1 : 9
+
+
+Capitale-wiki : 5
+
+ => Code ISO 3166-1 - CAN, CA​
+ => Densité - 3,5&#160;hab./km
+ => Devise nationale - «&#160;
+ => Domaine Internet - .ca
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 9
+
+ => Gentilé - Canadien, Canadienne
+ => Gouverneur général - David Johnston
+ => Hymne national - O Canada
+ => IDH -  0,902
+ => Indépendance - du 
+ => Langues officielles - Anglais
+
+Langues officielles-wiki : 7
+
+ => Monnaie - Dollar canadien
+ => PIB - 43 253 $ 
+ => PIB nominal - 52 037 $ 
+ => Plus grande ville - Toronto
+
+Plus grande ville-lieu-1 : 8
+
+
+Plus grande ville-wiki : 5
+
+ => Population totale - 35&#160;702&#160;707
+ => Premier ministre - Stephen Harper
+ => Reine - Élisabeth 
+ => Superficie en eau - 8,62&#160;%
+ => Superficie totale - 9&#160;984&#160;670&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Candide
+page wikipedia : http://fr.wikipedia.org/wiki/Cap-Vert
+ => Capitale - Praia
+
+Capitale-associated : 7
+
+
+Capitale-lieu-1 : 10
+
+
+Capitale-wiki : 6
+
+ => Code ISO 3166-1 - CPV, CV​
+ => Densité - 130&#160;hab./km
+ => Domaine Internet - .cv
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 10
+
+ => Gentilé - Cap-Verdien, Cap-Verdienne
+ => Hymne national - Cântico da Liberdade
+ => IDH -  0,534 (moyen) (
+ => Indicatif téléphonique - +238
+ => Indépendance - Du 
+ => Monnaie - Escudo cap-verdien
+ => Plus grande ville - Praia
+
+Plus grande ville-associated : 5
+
+
+Plus grande ville-lieu-1 : 9
+
+
+Plus grande ville-wiki : 6
+
+ => Population totale - 538 535
+ => Premier ministre - José Maria Neves
+ => Président de la République - Jorge Carlos Fonseca
+ => Superficie en eau - Négligeable
+ => Superficie totale - 4 033&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Capacité
+page wikipedia : http://fr.wikipedia.org/wiki/Captain_America
+page wikipedia : http://fr.wikipedia.org/wiki/Carnaval
+page wikipedia : http://fr.wikipedia.org/wiki/Carpe_diem
+page wikipedia : http://fr.wikipedia.org/wiki/Carême
+page wikipedia : http://fr.wikipedia.org/wiki/Cate_Blanchett
+ => Films notables - Le Seigneur des anneaux
+
+Films notables-lieu : 5
+
+
+Films notables-associated : 5
+
+
+Films notables-holo : 5
+
+ => Nom de naissance - Catherine Élise Blanchett
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Catherine_Deneuve
+ => Films notables - Les Parapluies de Cherbourg
+
+Films notables-lieu : 6
+
+
+Films notables-associated : 6
+
+
+Films notables-holo : 6
+
+
+Films notables-aki : 4
+
+ => Nationalité - &#160;
+ => Nom de naissance - Catherine Fabienne Dorléac
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Cathédrale_Notre-Dame_de_Paris
+page wikipedia : http://fr.wikipedia.org/wiki/Charlemagne
+page wikipedia : http://fr.wikipedia.org/wiki/Charles_Baudelaire
+ => Adjectifs dérivés - Baudelairien, baudelairienne
+ => Langue d’écriture - français
+
+Langue d’écriture-associated : 1
+
+ => Mouvement - Inclassable&#160;:
+ => Nom de naissance - Charles-Pierre Baudelaire
+page wikipedia : http://fr.wikipedia.org/wiki/Charles_de_Gaulle
+page wikipedia : http://fr.wikipedia.org/wiki/Charlie_Chaplin
+ => Films notables - Filmographie
+ => Nom de naissance - Charles Spencer Chaplin
+ => Profession - Acteur
+
+Profession-wiki : 5
+
+ => Site internet - http://charliechaplin.com
+ => Surnom - The Tramp
+page wikipedia : http://fr.wikipedia.org/wiki/Charmed
+ => Chaîne d'origine - The WB
+ => Création - Constance M. Burge
+ => Durée - 42 minutes environ
+ => Genre - Fantastique
+ => Musique - Love Spit Love
+ => Nb. - 178
+ => Pays d'origine - &#160;
+ => Production - Aaron Spelling
+
+Production-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Chat
+ => Classe - Mammalia
+ => Embranchement - Chordata
+ => Espèce - Felis silvestris
+
+Espèce-wiki : 1
+
+ => Famille - Felidae
+
+Famille-wiki : 1
+
+ => Genre - Felis
+ => Infra-classe - Eutheria
+ => Ordre - Carnivora
+
+Ordre-wiki : 1
+
+ => Règne - Animalia
+ => Sous-classe - Theria
+ => Sous-embr. - Vertebrata
+ => Sous-famille - Felinae
+ => Sous-ordre - Feliformia
+page wikipedia : http://fr.wikipedia.org/wiki/Che_Guevara
+ => Nationalité - &#160;
+ => Nom de naissance - Ernesto Guevara
+
+Nom de naissance-associated : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Cheval
+ => Classe - Mammalia
+ => Embranchement - Chordata
+ => Famille - Equidae
+ => Genre - Equus
+ => Infra-classe - Eutheria
+ => Ordre - Perissodactyla
+ => Règne - Animalia
+ => Sous-classe - Theria
+ => Sous-embr. - Vertebrata
+page wikipedia : http://fr.wikipedia.org/wiki/Chien
+ => Classe - Mammalia
+ => Embranchement - Chordata
+ => Espèce - Canis lupus
+ => Famille - Canidae
+ => Genre - Canis
+ => Ordre - Carnivora
+ => Règne - Animalia
+ => Sous-ordre - Caniformia
+page wikipedia : http://fr.wikipedia.org/wiki/China
+page wikipedia : http://fr.wikipedia.org/wiki/Chine
+ => Capitale - Pékin
+
+Capitale-lieu-1 : 11
+
+
+Capitale-associated : 8
+
+
+Capitale-has_part : 3
+
+ => Code ISO 3166-1 - CHN, CN​
+ => Densité - 141&#160;hab./km
+ => Domaine Internet - .cn
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 5
+
+ => Fuseau horaire - UTC
+ => Gentilé - Chinois(e)
+ => Guerre civile chinoise - Déclarée le 
+ => Hymne national - La Marche des Volontaires
+ => IDH -  0,719
+ => Indicatif téléphonique - +86
+ => Indépendance - Antiquité
+ => Langues officielles - Chinois
+
+Langues officielles-associated : 1
+
+ => Monnaie - yuan
+
+Monnaie-lieu-1 : 1
+
+
+Monnaie-wiki : 6
+
+ => PIB - 10 695 $ (
+ => PIB nominal - 7 548 $ (
+ => Population totale - 1 350 695 000
+ => Premier ministre - Li Keqiang
+ => Président - Xi Jinping
+ => Président de l'ANP - Zhang Dejiang
+ => Président de la CCPPC - Yu Zhengsheng
+ => Secrétaire général du PCC - Xi Jinping
+ => Superficie en eau - 2,85&#160;%
+ => Superficie totale - 9 596 961&#160;
+ => Ville la plus peuplée - Shanghai
+
+Ville la plus peuplée-lieu-1 : 1
+
+
+Ville la plus peuplée-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Christian_Bale
+ => Films notables - Empire du soleil
+ => Nom de naissance - Christian Charles Philip Bale
+ => Profession - Acteur
+
+Profession-wiki : 6
+
+page wikipedia : http://fr.wikipedia.org/wiki/Christian_Clavier
+ => Films notables - Les Bronzés (série de films)
+ => Nationalité - &#160;
+ => Profession - Acteur
+
+Profession-wiki : 7
+
+ => Séries notables - Napoléon
+page wikipedia : http://fr.wikipedia.org/wiki/Christiane_Taubira
+page wikipedia : http://fr.wikipedia.org/wiki/Christophe_Colomb
+ => Décès - 20 mai
+ => Naissance - Entre le 
+ => Nationalité - génoise
+
+Nationalité-wiki : 1
+
+ => Nom de naissance - Cristoforo Colombo (
+page wikipedia : http://fr.wikipedia.org/wiki/Château_de_Versailles
+page wikipedia : http://fr.wikipedia.org/wiki/Cigarette_électronique
+page wikipedia : http://fr.wikipedia.org/wiki/Cinquante_nuances_de_Grey
+page wikipedia : http://fr.wikipedia.org/wiki/Cinéma
+page wikipedia : http://fr.wikipedia.org/wiki/Cité_interdite
+page wikipedia : http://fr.wikipedia.org/wiki/Claire_Chazal
+page wikipedia : http://fr.wikipedia.org/wiki/Clara_Morgane
+ => Nom de naissance - Emmanuelle Aurélie Munos
+ => Pays de résidence - France
+page wikipedia : http://fr.wikipedia.org/wiki/Classicisme
+page wikipedia : http://fr.wikipedia.org/wiki/Claude_François
+ => Activité principale - Chanteur
+
+Activité principale-wiki : 3
+
+ => Années actives - 1962
+ => Genre musical - Variété française
+ => Instruments - Voix, percussions, violon, tumba et batterie
+ => Labels - Fontana
+ => Nom de naissance - Claude Antoine Marie François
+ => Site officiel - http://claudefrancois.fr/
+ => Surnom - Cloclo
+
+Surnom-associated : 1
+
+
+Surnom-syn : 1
+
+
+Surnom-aki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Claude_Lelouch
+ => Films notables - Un homme et une femme
+
+Films notables-associated : 7
+
+
+Films notables-wiki : 1
+
+ => Nationalité - &#160;
+ => Profession - Réalisateur
+ => Site internet - lesfilms13.com
+page wikipedia : http://fr.wikipedia.org/wiki/Claude_Monet
+page wikipedia : http://fr.wikipedia.org/wiki/Claude_Nougaro
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - De 
+ => Genre musical - Chanson française
+ => Labels - Universal Music
+ => Site officiel - www.nougaro.com
+page wikipedia : http://fr.wikipedia.org/wiki/Clitoris
+ => Gray's Anatomy - «&#160;
+ => MeSH - «&#160;
+ => Système - Appareil génital
+ => Terminologie Anatomique - A09.2.02.001
+page wikipedia : http://fr.wikipedia.org/wiki/Clémentine
+ => Clade - Malvidées
+ => Classe - Magnoliopsida
+ => Division - Magnoliophyta
+ => Famille - Rutaceae
+ => Genre - Citrus
+ => Ordre - Sapindales
+ => Règne - Plantae
+page wikipedia : http://fr.wikipedia.org/wiki/Coca-Cola
+page wikipedia : http://fr.wikipedia.org/wiki/Colisée
+page wikipedia : http://fr.wikipedia.org/wiki/Coluche
+ => Nom de naissance - Michel Gérard Joseph Colucci
+page wikipedia : http://fr.wikipedia.org/wiki/Combustible_fossile
+page wikipedia : http://fr.wikipedia.org/wiki/Communication
+page wikipedia : http://fr.wikipedia.org/wiki/Convention-cadre_des_Nations_uni
+page wikipedia : http://fr.wikipedia.org/wiki/Corse
+page wikipedia : http://fr.wikipedia.org/wiki/Corée_du_Nord
+ => Capitale - Pyongyang
+
+Capitale-lieu-1 : 12
+
+
+Capitale-wiki : 7
+
+ => Code ISO 3166-1 - PRK, KP​
+ => Densité - 203&#160;hab./km
+ => Devise nationale - 강성대국
+ => Domaine Internet - .kp
+ => Forme de l'État - De jure
+ => Fuseau horaire - UTC
+ => Gentilé - Nord-Coréen
+ => Hymne national - Chant patriotique
+ => Indicatif téléphonique - +850
+ => Indépendance - du 
+ => Langues officielles - Coréen
+ => Monnaie - Won
+ => Plus grande ville - Pyongyang
+
+Plus grande ville-lieu-1 : 10
+
+
+Plus grande ville-wiki : 7
+
+ => Population totale - 24&#160;457&#160;492&#160;
+ => Premier ministre - Pak Pong-ju
+ => Président du Comité de défense - Kim Jong-un
+ => Président du Présidium de l'Assemblée - Kim Yong-nam
+ => Revendiqué par - République de Corée
+ => Superficie en eau - 0,1&#160;%
+ => Superficie totale - 120 540&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Cotisations_sociales
+page wikipedia : http://fr.wikipedia.org/wiki/Coupe_du_monde_de_football
+ => Création - 1928
+ => Organisateur(s) - FIFA
+ => Participants - 32 qualifiés
+ => Plus titré(s) - &#160;
+ => Périodicité - 4 ans
+page wikipedia : http://fr.wikipedia.org/wiki/Courant_continu
+page wikipedia : http://fr.wikipedia.org/wiki/Crimée
+page wikipedia : http://fr.wikipedia.org/wiki/Cristiano_Ronaldo
+page wikipedia : http://fr.wikipedia.org/wiki/Croatie
+ => Capitale - Zagreb
+
+Capitale-lieu-1 : 13
+
+
+Capitale-wiki : 8
+
+ => Code ISO 3166-1 - HRV, HR​
+ => Densité - 75&#160;hab./km
+ => Domaine Internet - .hr
+ => Forme de l'État - République parlementaire
+ => Fuseau horaire - UTC
+ => Gentilé - Croate
+
+Gentilé-wiki : 1
+
+ => Hymne national - Lijepa naša domovino
+ => IDH -  0,805 (très élevé) (
+ => Indicatif téléphonique - +385
+ => Indépendance - De la 
+ => Langues officielles - Croate
+
+Langues officielles-wiki : 8
+
+ => Monnaie - Kuna
+ => Plus grandes villes - Zagreb
+
+Plus grandes villes-lieu-1 : 2
+
+
+Plus grandes villes-wiki : 1
+
+ => Population totale - 4&#160;284&#160;889
+ => Président du gouvernement - Zoran Milanović
+ => Présidente de la République - Kolinda Grabar-Kitarović
+ => Superficie en eau - 31&#160;067&#160;km
+ => Superficie totale - 56&#160;594
+page wikipedia : http://fr.wikipedia.org/wiki/Cryoconservation
+page wikipedia : http://fr.wikipedia.org/wiki/Crète
+page wikipedia : http://fr.wikipedia.org/wiki/Cuba
+ => Capitale - La Havane
+
+Capitale-associated : 9
+
+
+Capitale-wiki : 9
+
+ => Code ISO 3166-1 - CUB, CU​
+ => Densité - 101,6&#160;hab./km
+ => Devise nationale - La patrie ou la mort, nous vaincrons
+ => Domaine Internet - .cu
+ => Déclarée - 10 octobre
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+ => Gentilé - Cubain, cubaine
+ => Hymne national - La Bayamesa
+ => IDH -  0,776 (élevé) (
+ => Indicatif téléphonique - +53
+ => Indépendance - De l'Espagne, puis des 
+ => Langues officielles - Espagnol
+ => Monnaie - Peso cubain convertible
+ => PIB nominal - 72,300 milliards de $ (
+ => Plus grande ville - La Havane
+
+Plus grande ville-associated : 6
+
+
+Plus grande ville-wiki : 8
+
+ => Population totale - 11&#160;167&#160;325
+ => Premier secrétaire du Parti - Raúl Castro Ruz
+ => Président - Raúl Castro Ruz
+ => Superficie en eau - Négligeable
+ => Superficie totale - 110 860
+page wikipedia : http://fr.wikipedia.org/wiki/Curriculum_vitæ
+page wikipedia : http://fr.wikipedia.org/wiki/Cyril_Hanouna
+page wikipedia : http://fr.wikipedia.org/wiki/Céline_Dion
+ => Activité principale - Chanteuse
+ => Années actives - depuis 
+ => Genre musical - Variété française
+ => Instruments - Voix, 
+ => Labels - Columbia
+ => Nom de naissance - Céline Marie Claudette Dion
+ => Site officiel - www.celinedion.com
+page wikipedia : http://fr.wikipedia.org/wiki/Daft_Punk
+ => Années actives - Depuis 
+ => Genre musical - House
+ => Labels - EMI
+ => Membres - Thomas Bangalter
+ => Pays d'origine - &#160;
+ => Site officiel - daftpunk.com
+page wikipedia : http://fr.wikipedia.org/wiki/Danemark
+ => Capitale - Copenhague
+
+Capitale-lieu-1 : 14
+
+
+Capitale-associated : 10
+
+ => Code ISO 3166-1 - DNK, DK​
+ => Densité - 131,3&#160;hab./km
+ => Devise nationale - aucune
+ => Domaine Internet - .dk
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 11
+
+ => Gentilé - Danois, Danoise
+ => Hymne national - Der er et yndigt land
+ => IDH -  0,901 (très élevé) (
+ => Indicatif téléphonique - +45
+ => Langues officielles - Danois
+
+Langues officielles-wiki : 9
+
+ => Monnaie - Couronne (danoise)
+ => PIB - 43 080 $ 
+ => PIB nominal - 59 129 $ 
+ => Plus grande ville - Copenhague
+
+Plus grande ville-lieu-1 : 11
+
+
+Plus grande ville-associated : 7
+
+ => Population totale - 5&#160;668&#160;743
+ => Premier ministre - Helle Thorning-Schmidt
+ => Reine - Margrethe 
+ => Superficie en eau - 1,6&#160;%
+ => Superficie totale - 43&#160;100&#160;
+ => Unification et constitution en État - vers 
+page wikipedia : http://fr.wikipedia.org/wiki/Daniel_Craig
+ => Films notables - Les Sentiers de la perdition
+
+Films notables-lieu : 7
+
+
+Films notables-associated : 8
+
+
+Films notables-holo : 7
+
+
+Films notables-wiki : 2
+
+ => Nom de naissance - Daniel Wroughton Craig
+ => Profession - Acteur
+
+Profession-wiki : 8
+
+page wikipedia : http://fr.wikipedia.org/wiki/Dany_Boon
+ => Films notables - Joyeux Noël
+ => Nom de naissance - Daniel Hamidou
+ => Profession - Acteur
+
+Profession-wiki : 9
+
+page wikipedia : http://fr.wikipedia.org/wiki/David_Guetta
+ => Activité principale - Disc jockey
+ => Années actives - Depuis 
+ => Genre musical - Dance
+ => Labels - EMI Music France
+ => Nom de naissance - Pierre David Guetta
+ => Site officiel - davidguetta.com
+page wikipedia : http://fr.wikipedia.org/wiki/Dendrologie
+page wikipedia : http://fr.wikipedia.org/wiki/Desperate_Housewives
+ => Acteurs principaux - Teri Hatcher
+ => Autres titres - Beautés désespérées
+ => Chaîne d'origine - ABC
+ => Création - Marc Cherry
+ => Durée - 42 minutes
+ => Genre - Comédie dramatique
+ => Musique - Danny Elfman
+ => Nb. - 180
+ => Pays d'origine - &#160;
+ => Site web - http://abc.go.com/shows/desperate-housewives
+ => Titre original - Desperate Housewives
+page wikipedia : http://fr.wikipedia.org/wiki/Dietrich_von_Choltitz
+page wikipedia : http://fr.wikipedia.org/wiki/Dieudonné
+ => Nationalité - &#160;
+ => Nom de naissance - Dieudonné M'Bala M'Bala
+page wikipedia : http://fr.wikipedia.org/wiki/Dissolution_parlementaire_(Franc
+page wikipedia : http://fr.wikipedia.org/wiki/Divergente
+ => Durée - 139 minutes
+ => Genre - Science-fiction
+ => Pays d’origine - &#160;
+ => Réalisation - Neil Burger
+
+Réalisation-product_of : 1
+
+
+Réalisation-has_auteur : 1
+
+
+Réalisation-wiki : 1
+
+ => Scénario - Evan Daugherty
+ => Sociétés de production - Red Wagon Entertainment
+ => Sortie - 2014
+ => Titre original - Divergent
+ => Titre québécois - Divergence
+page wikipedia : http://fr.wikipedia.org/wiki/Django_Unchained
+ => Durée - 165 minutes
+ => Genre - Western
+ => Pays d’origine - &#160;
+ => Réalisation - Quentin Tarantino
+
+Réalisation-has_actors : 1
+
+ => Scénario - Quentin Tarantino
+
+Scénario-has_actors : 1
+
+ => Sociétés de production - The Weinstein Company
+ => Sortie - 2012
+ => Titre québécois - Django déchaîné
+page wikipedia : http://fr.wikipedia.org/wiki/Djerba
+page wikipedia : http://fr.wikipedia.org/wiki/Doctor_Who
+ => Autres titres - Docteur Who
+ => Création - Première série
+ => Diff. originale - Première série
+ => Durée - Première série
+ => Genre - Série de 
+ => Musique - Première série
+ => Nb. - Première série
+ => Production - Première série
+ => Site web - http://www.bbc.co.uk/doctorwho/
+page wikipedia : http://fr.wikipedia.org/wiki/Domestique
+page wikipedia : http://fr.wikipedia.org/wiki/Dr_House
+ => Acteurs principaux - Hugh Laurie
+
+Acteurs principaux-associated : 1
+
+ => Chaîne d'origine - Fox
+ => Création - David Shore
+ => Durée - 42 minutes
+ => Genre - Série médicale
+ => Musique - Teardrop
+ => Nb. - 177 
+ => Pays d'origine - &#160;
+ => Production - Bryan Singer
+ => Site web - http://www.fox.com/
+ => Titre original - House M.D.
+page wikipedia : http://fr.wikipedia.org/wiki/Droit_de_vote_des_femmes
+page wikipedia : http://fr.wikipedia.org/wiki/Du_contrat_social
+page wikipedia : http://fr.wikipedia.org/wiki/Déforestation
+page wikipedia : http://fr.wikipedia.org/wiki/Démocratie
+page wikipedia : http://fr.wikipedia.org/wiki/Département_français
+page wikipedia : http://fr.wikipedia.org/wiki/Désert_du_Namib
+page wikipedia : http://fr.wikipedia.org/wiki/Développement_durable
+page wikipedia : http://fr.wikipedia.org/wiki/Eau
+page wikipedia : http://fr.wikipedia.org/wiki/Edwy_Plenel
+page wikipedia : http://fr.wikipedia.org/wiki/Elvis_Presley
+ => Activité principale - Chanteur
+ => Années actives - 1953
+ => Genre musical - Rockabilly
+ => Instruments - Guitare, piano, basse
+ => Nom de naissance - Elvis Aaron Presley
+ => Surnom - The King
+
+Surnom-associated : 2
+
+
+Surnom-aki : 2
+
+page wikipedia : http://fr.wikipedia.org/wiki/Emilia_Clarke
+ => Films notables - Terminator Genisys
+ => Profession - Actrice
+ => Séries notables - Game of Thrones
+
+Séries notables-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Eminem
+ => Activité principale - Rappeur
+ => Années actives - Depuis 
+ => Genre musical - Midwest rap
+ => Labels - Shady
+ => Nom de naissance - Marshall Bruce Mathers 
+ => Site officiel - eminem.com
+ => Surnom - Slim Shady
+page wikipedia : http://fr.wikipedia.org/wiki/Emma_Watson
+ => Films notables - Saga d'Harry Potter
+ => Nom de naissance - Emma Charlotte Duerre Watson
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Empathie
+page wikipedia : http://fr.wikipedia.org/wiki/Empire_ottoman
+ => 29 juillet - Conquête de 
+ => Capitale - Söğüt
+ => Langue - Turc ottoman
+ => Monnaie - Akçe
+ => Population - ~ 30-
+ => Religion - Islam sunnite
+ => Statut - Sultanat
+
+Statut-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Endométriose
+page wikipedia : http://fr.wikipedia.org/wiki/English
+page wikipedia : http://fr.wikipedia.org/wiki/Espagne
+ => Capitale - Madrid
+
+Capitale-lieu-1 : 15
+
+
+Capitale-associated : 11
+
+
+Capitale-has_part : 4
+
+
+Capitale-aki : 5
+
+ => Code ISO 3166-1 - ESP, ES​
+ => Densité - 92,47&#160;hab./km
+ => Devise nationale - Plus Ultra
+ => Domaine Internet - .es
+ => Forme de l'État - Monarchie
+
+Forme de l'État-wiki : 6
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 12
+
+ => Gentilé - Espagnol, Espagnole
+ => Hymne national - Marcha Real
+ => IDH -  0,885 (très élevé) (
+ => Indicatif téléphonique - +34
+ => Langues officielles - Espagnol
+ => Monnaie - Euro
+
+Monnaie-wiki : 7
+
+ => PIB -  32&#160;975 
+ => PIB nominal -  30&#160;113 
+ => Plus grande ville - Madrid
+
+Plus grande ville-lieu-1 : 12
+
+
+Plus grande ville-associated : 8
+
+
+Plus grande ville-has_part : 3
+
+
+Plus grande ville-aki : 6
+
+ => Population totale - 47&#160;265&#160;321
+ => Président du gouvernement - Mariano Rajoy
+ => Roi - Felipe VI
+ => Superficie en eau - 1,04&#160;%
+ => Superficie totale - 505&#160;911
+ => Union des couronnes de - 1479
+page wikipedia : http://fr.wikipedia.org/wiki/Euro
+page wikipedia : http://fr.wikipedia.org/wiki/Europe
+page wikipedia : http://fr.wikipedia.org/wiki/Eva_Green
+ => Films notables - Innocents: The Dreamers
+ => Profession - Actrice
+ => Séries notables - Camelot
+
+Séries notables-wiki : 2
+
+page wikipedia : http://fr.wikipedia.org/wiki/Facebook
+page wikipedia : http://fr.wikipedia.org/wiki/Fibromyalgie
+page wikipedia : http://fr.wikipedia.org/wiki/Film_pornographique
+page wikipedia : http://fr.wikipedia.org/wiki/Finistère
+page wikipedia : http://fr.wikipedia.org/wiki/Florent_Pagny
+ => Activité principale - Chanteur
+
+Activité principale-wiki : 4
+
+ => Années actives - Depuis 
+ => Genre musical - Pop
+
+Genre musical-wiki : 1
+
+ => Instruments - Piano
+ => Site officiel - florentpagny.fr
+page wikipedia : http://fr.wikipedia.org/wiki/Flux_thermique
+page wikipedia : http://fr.wikipedia.org/wiki/Fonction_monotone
+page wikipedia : http://fr.wikipedia.org/wiki/Fonds_de_commerce
+page wikipedia : http://fr.wikipedia.org/wiki/Football
+ => Clubs - 301&#160;000 (
+ => Fédération internationale - FIFA
+
+Fédération internationale-wiki : 1
+
+ => Joueurs licenciés - 38&#160;287&#160;000 (2006)
+ => Joueurs pratiquants - 264&#160;552&#160;000 (2006)
+ => Joueurs professionnels - 113&#160;000 (2006)
+ => Sport olympique depuis - 1908
+page wikipedia : http://fr.wikipedia.org/wiki/Format_de_papier
+page wikipedia : http://fr.wikipedia.org/wiki/Franc-maçonnerie
+page wikipedia : http://fr.wikipedia.org/wiki/France
+ => Capitale - Paris
+
+Capitale-lieu-1 : 16
+
+
+Capitale-associated : 12
+
+
+Capitale-has_part : 5
+
+
+Capitale-syn : 1
+
+
+Capitale-domain-1 : 1
+
+
+Capitale-aki : 6
+
+ => Capétiens - Mai 987
+ => Code ISO 3166-1 - FRA, FR​
+ => Densité - 98,8
+ => Dette publique brute -  2&#160;034,9 milliards d'
+ => Devise nationale - Liberté, Égalité, Fraternité
+ => Domaine Internet - .fr
+ => Forme de l'État - République
+
+Forme de l'État-isa : 2
+
+
+Forme de l'État-associated : 3
+
+
+Forme de l'État-wiki : 7
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 13
+
+ => Gentilé - Français(e)
+ => Hymne national - «&#160;
+ => IDH -  0,884 (très élevé
+ => Indicatif téléphonique - +33 
+ => Langues officielles - Français
+
+Langues officielles-lieu-1 : 1
+
+
+Langues officielles-associated : 2
+
+ => Monarchie absolue - 1661
+ => Monnaie - Euro
+
+Monnaie-wiki : 8
+
+ => Organisations internationales - ONU
+
+Organisations internationales-wiki : 2
+
+ => PIB -  40&#160;375 
+ => PIB en volume -  2&#160;060,11 milliards d'
+ => PIB nominal -  44&#160;538 
+ => Plus grande ville - Paris
+
+Plus grande ville-lieu-1 : 13
+
+
+Plus grande ville-associated : 9
+
+
+Plus grande ville-has_part : 4
+
+
+Plus grande ville-syn : 1
+
+
+Plus grande ville-domain-1 : 1
+
+
+Plus grande ville-aki : 7
+
+ => Population totale - 66&#160;917&#160;994
+ => Premier ministre - Manuel Valls
+
+Premier ministre-wiki : 1
+
+ => Président - Gérard Larcher
+ => Président de l'Assemblée nationale - Claude Bartolone
+
+Président de l'Assemblée nationale-associated : 1
+
+
+Président de l'Assemblée nationale-domain-1 : 1
+
+
+Président de l'Assemblée nationale-wiki : 1
+
+ => Superficie en eau - 0,26%
+ => Superficie totale - 671&#160;308
+ => Taux de chômage -  10,3%
+ => Traité de Verdun - Août 843
+page wikipedia : http://fr.wikipedia.org/wiki/Franciscain
+page wikipedia : http://fr.wikipedia.org/wiki/Franck_Dubosc
+ => Films notables - Camping
+
+Films notables-associated : 9
+
+
+Films notables-holo : 8
+
+
+Films notables-lieu : 8
+
+ => Nationalité - Française
+ => Profession - Humoriste
+ => Site internet - franck-dubosc.com
+ => Séries notables - Peplum
+page wikipedia : http://fr.wikipedia.org/wiki/Français
+page wikipedia : http://fr.wikipedia.org/wiki/François_Hollande
+page wikipedia : http://fr.wikipedia.org/wiki/François_Mitterrand
+page wikipedia : http://fr.wikipedia.org/wiki/Frida_Kahlo
+page wikipedia : http://fr.wikipedia.org/wiki/Friends
+ => Acteurs principaux - Jennifer Aniston
+
+Acteurs principaux-associated : 2
+
+
+Acteurs principaux-aki : 1
+
+ => Chaîne d'origine - NBC
+
+Chaîne d'origine-wiki : 1
+
+ => Création - Marta Kauffman
+ => Durée - 22 minutes
+ => Genre - Sitcom
+ => Musique - Michael Skloff
+ => Nb. - 236
+ => Pays d'origine - &#160;
+ => Production - David Crane
+page wikipedia : http://fr.wikipedia.org/wiki/Fête_de_la_Saint-Patrick
+page wikipedia : http://fr.wikipedia.org/wiki/Fête_des_Mères
+page wikipedia : http://fr.wikipedia.org/wiki/G
+page wikipedia : http://fr.wikipedia.org/wiki/Gad_Elmaleh
+ => Films notables - La Vérité si je mens ! 2
+ => Profession - Humoriste
+page wikipedia : http://fr.wikipedia.org/wiki/Gale
+page wikipedia : http://fr.wikipedia.org/wiki/Game_of_Thrones
+ => Acteurs principaux - Peter Dinklage
+ => Autres titres - Le Trône de fer
+ => Chaîne d'origine - HBO
+
+Chaîne d'origine-lieu : 1
+
+
+Chaîne d'origine-associated : 1
+
+ => Création - David Benioff
+ => Durée - de 51 à 65 minutes
+ => Genre - Fantasy médiévale
+ => Musique - Ramin Djawadi
+ => Nb. - 48 
+ => Pays d'origine - &#160;
+ => Production - Mark Huffam
+ => Site web - http://www.hbo.com/game-of-thrones
+page wikipedia : http://fr.wikipedia.org/wiki/Gap
+page wikipedia : http://fr.wikipedia.org/wiki/Garou
+ => Activité principale - Chanteur
+
+Activité principale-wiki : 5
+
+ => Années actives - 1998
+ => Genre musical - Variété
+ => Labels - Sony BMG
+ => Nom de naissance - Pierre Garand
+ => Site officiel - garouofficiel.com
+page wikipedia : http://fr.wikipedia.org/wiki/Gastro-entérite
+page wikipedia : http://fr.wikipedia.org/wiki/Gaz_à_effet_de_serre
+page wikipedia : http://fr.wikipedia.org/wiki/George_Clooney
+page wikipedia : http://fr.wikipedia.org/wiki/Gestion_des_ressources_humaines
+page wikipedia : http://fr.wikipedia.org/wiki/Glande_thyroïde
+page wikipedia : http://fr.wikipedia.org/wiki/Google
+ => Action - NASDAQ
+
+Action-wiki : 1
+
+ => Activité - Internet
+
+Activité-wiki : 2
+
+ => Capitalisation - 393&#160;09 milliards de&#160;$
+ => Direction - Larry Page
+
+Direction-associated : 1
+
+
+Direction-aki : 2
+
+ => Effectif - 50&#160;200 (Q4 2014)
+ => Filiales - Sparrow
+ => Fondateurs - Larry Page
+
+Fondateurs-associated : 2
+
+
+Fondateurs-aki : 2
+
+ => Forme juridique - Incorporation
+ => Produits - Recherche Google
+ => Site web - google.com
+ => Siège social - &#160;
+ => Slogan - Don't be evil
+page wikipedia : http://fr.wikipedia.org/wiki/Google_Maps
+page wikipedia : http://fr.wikipedia.org/wiki/Grenoble
+page wikipedia : http://fr.wikipedia.org/wiki/Grigori_Raspoutine
+ => Décès - nuit du 
+ => Nationalité - russe
+
+Nationalité-wiki : 2
+
+ => Nom de naissance - Grigori Efimovitch Raspoutine
+ => Pays de résidence - Russie
+
+Pays de résidence-wiki : 2
+
+page wikipedia : http://fr.wikipedia.org/wiki/Grotte_de_Lascaux
+page wikipedia : http://fr.wikipedia.org/wiki/Groupe_des_huit
+page wikipedia : http://fr.wikipedia.org/wiki/Grèce
+ => Capitale - Athènes
+
+Capitale-lieu-1 : 17
+
+
+Capitale-associated : 13
+
+
+Capitale-has_part : 6
+
+
+Capitale-aki : 7
+
+ => Code ISO 3166-1 - GRC, GR​
+ => Densité - 85,3&#160;hab./km
+ => Devise nationale - Ελευθερία ή θάνατος
+ => Domaine Internet - .gr
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 8
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 14
+
+ => Gentilé - Grec, Grecque
+ => Hymne national - Ímnos is tin Elevtherían (
+ => IDH -  0,86 (très élevé) (
+ => Indicatif téléphonique - +30
+ => Indépendance - de l’
+ => Langues officielles - Grec
+
+Langues officielles-wiki : 10
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 9
+
+ => Plus grande ville - Athènes
+
+Plus grande ville-lieu-1 : 14
+
+
+Plus grande ville-associated : 10
+
+
+Plus grande ville-has_part : 5
+
+
+Plus grande ville-aki : 8
+
+ => Population totale - 10&#160;815&#160;197
+ => Premier ministre - Aléxis Tsípras
+ => Président de la République - Prokópis Pavlópoulos
+ => Superficie en eau - 0,86&#160;%
+ => Superficie totale - 131 957&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Guadeloupe
+page wikipedia : http://fr.wikipedia.org/wiki/Guerre_de_Crimée
+page wikipedia : http://fr.wikipedia.org/wiki/Guerre_de_Sécession
+page wikipedia : http://fr.wikipedia.org/wiki/Guerre_du_Viêt_Nam
+page wikipedia : http://fr.wikipedia.org/wiki/Guerre_froide
+page wikipedia : http://fr.wikipedia.org/wiki/Guillaume_Apollinaire
+ => Langue d’écriture - Français
+ => Mouvement - Précurseur du 
+ => Nom de naissance - Guglielmo Alberto Wladimiro Alessandro Apollinare de Kostrowitzky
+page wikipedia : http://fr.wikipedia.org/wiki/Guillaume_Gallienne
+ => Films notables - Jet Set
+ => Nationalité - &#160;
+ => Profession - Acteur
+
+Profession-wiki : 10
+
+ => Séries notables - Les Bonus de Guillaume
+page wikipedia : http://fr.wikipedia.org/wiki/Gustave_Eiffel
+ => Champs - Ingénierie
+ => Diplôme - École centrale Paris
+
+Diplôme-wiki : 1
+
+ => Institutions - Collège Sainte-Barbe
+ => Nationalité - Français
+ => Renommé pour - Constructions métalliques&#160;: 
+page wikipedia : http://fr.wikipedia.org/wiki/Guy_de_Maupassant
+ => Langue d’écriture - Français
+ => Mouvement - Réalisme
+ => Nom de naissance - Henry-René-Albert-Guy de Maupassant
+page wikipedia : http://fr.wikipedia.org/wiki/Générateur
+page wikipedia : http://fr.wikipedia.org/wiki/Géothermie
+page wikipedia : http://fr.wikipedia.org/wiki/H._H._Holmes
+page wikipedia : http://fr.wikipedia.org/wiki/Harlem_Shake
+page wikipedia : http://fr.wikipedia.org/wiki/Harrison_Ford
+ => Films notables - Star Wars
+
+Films notables-lieu : 9
+
+
+Films notables-associated : 10
+
+
+Films notables-holo : 9
+
+
+Films notables-wiki : 3
+
+
+Films notables-aki : 5
+
+ => Profession - Acteur
+
+Profession-wiki : 11
+
+page wikipedia : http://fr.wikipedia.org/wiki/Harry_Potter
+page wikipedia : http://fr.wikipedia.org/wiki/Hashtag
+page wikipedia : http://fr.wikipedia.org/wiki/Hayao_Miyazaki
+ => Films notables - Nausicaä de la vallée du vent
+ => Nationalité - &#160;
+ => Nom de naissance - 宮崎駿
+ => Profession - Réalisateur
+ => Site internet - ghibli.jp
+page wikipedia : http://fr.wikipedia.org/wiki/Haïti
+ => Capitale - Port-au-Prince
+
+Capitale-lieu-1 : 18
+
+
+Capitale-associated : 14
+
+
+Capitale-has_part : 7
+
+ => Code ISO 3166-1 - HTI, HT​
+ => Densité - 375&#160;hab./km
+ => Devise nationale - liberté, égalité, fraternité
+ => Domaine Internet - .ht
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+ => Gentilé - Haïtien, Haïtienne
+ => Hymne national - La Dessalinienne
+ => IDH -  0,454 (faible) (
+ => Indicatif téléphonique - +509
+ => Indépendance - de la 
+ => Langues officielles - Créole
+ => Monnaie - Gourde haïtienne
+ => PIB nominal - 4,3 (2013)
+ => Population totale - 9&#160;996&#160;731
+ => Port-au-Prince - Port-au-Prince
+
+Port-au-Prince-lieu-1 : 1
+
+
+Port-au-Prince-associated : 1
+
+
+Port-au-Prince-has_part : 1
+
+ => Premier ministre - Evans Paul
+ => Président de la République - Michel Martelly
+ => Superficie en eau - 1,9
+ => Superficie totale - 27&#160;750&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Heath_Ledger
+ => Films notables - The Patriot, le chemin de la liberté
+ => Nom de naissance - Heathcliff Andrew Ledger
+ => Profession - Acteur
+page wikipedia : http://fr.wikipedia.org/wiki/Henri_IV_de_France
+page wikipedia : http://fr.wikipedia.org/wiki/Hipster
+page wikipedia : http://fr.wikipedia.org/wiki/Homère
+ => Décès - VIII
+ => Langue d’écriture - Grec ancien
+ => Naissance - VIII
+ => Nom de naissance - Ὅμηρος
+page wikipedia : http://fr.wikipedia.org/wiki/Honoré_de_Balzac
+ => Adjectifs dérivés - balzacien
+ => Langue d’écriture - Français
+ => Mouvement - réalisme
+
+Mouvement-wiki : 2
+
+page wikipedia : http://fr.wikipedia.org/wiki/How_I_Met_Your_Mother
+ => Acteurs principaux - Josh Radnor
+ => Autres titres - Comment je l'ai rencontrée
+ => Chaîne d'origine - CBS
+
+Chaîne d'origine-wiki : 2
+
+ => Création - Carter Bays
+ => Durée - 22 minutes
+ => Genre - Sitcom
+ => Musique - Générique&#160;: 
+ => Nb. - 208 (
+ => Pays d'origine - &#160;
+ => Production - Jamie Rhonheimer
+page wikipedia : http://fr.wikipedia.org/wiki/Hunger_Games
+page wikipedia : http://fr.wikipedia.org/wiki/Hyperglycémie
+page wikipedia : http://fr.wikipedia.org/wiki/Hypertension_artérielle
+page wikipedia : http://fr.wikipedia.org/wiki/Hélène_de_Fougerolles
+ => Nationalité - Française
+ => Nom de naissance - Hélène Christine Marie Rigoine de Fougerolles
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Hénin-Beaumont
+page wikipedia : http://fr.wikipedia.org/wiki/Héraclès
+page wikipedia : http://fr.wikipedia.org/wiki/IPv6
+page wikipedia : http://fr.wikipedia.org/wiki/Illuminati
+page wikipedia : http://fr.wikipedia.org/wiki/Impressionnisme
+page wikipedia : http://fr.wikipedia.org/wiki/Inde
+ => Capitale - New Delhi
+
+Capitale-associated : 15
+
+
+Capitale-lieu-1 : 19
+
+
+Capitale-aki : 8
+
+ => Code ISO 3166-1 - IND, IN​
+ => Densité - 368&#160;hab./km
+ => Devise nationale - सत्यमेव जयते
+ => Domaine Internet - .in
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 9
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 15
+
+ => Gentilé - Indien, Indienne
+ => Hymne national - Jana Gana Mana
+ => IDH -  0,554 (moyen) (
+ => Indicatif téléphonique - +91
+ => Indépendance - Du 
+ => Langues officielles - Hindi
+ => Monnaie - Roupie indienne
+ => Organisations internationales - Commonwealth
+
+Organisations internationales-wiki : 3
+
+ => PIB - $4 000
+ => PIB nominal - 1 825 milliards de $
+ => Plus grande ville - Mumbai (Bombay)
+ => Population totale - 1&#160;277&#160;803&#160;914&#160;
+ => Premier ministre - Narendra Modi
+ => Président - Pranab Mukherjee
+ => Superficie en eau - 9,5&#160;%
+ => Superficie totale - 3&#160;287&#160;263&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/India
+page wikipedia : http://fr.wikipedia.org/wiki/Indiana_Jones
+page wikipedia : http://fr.wikipedia.org/wiki/Indice_de_masse_corporelle
+page wikipedia : http://fr.wikipedia.org/wiki/Indila
+ => Activité principale - Auteure-compositrice-interprète
+ => Années actives - Depuis 
+ => Genre musical - Groove
+ => Labels - Capitol
+ => Nom de naissance - Adila Sedraïa
+
+Nom de naissance-aki : 1
+
+ => Site officiel - indila.com
+page wikipedia : http://fr.wikipedia.org/wiki/Informatique
+page wikipedia : http://fr.wikipedia.org/wiki/Ingrid_Chauvin
+ => Profession - Actrice
+ => Séries notables - Lieutenant Marie Balaguère
+page wikipedia : http://fr.wikipedia.org/wiki/Instagram
+page wikipedia : http://fr.wikipedia.org/wiki/Internet
+page wikipedia : http://fr.wikipedia.org/wiki/Internet_Movie_Database
+page wikipedia : http://fr.wikipedia.org/wiki/Isabelle_Adjani
+ => Films notables - L'Histoire d'Adèle H.
+
+Films notables-lieu : 10
+
+
+Films notables-associated : 11
+
+
+Films notables-holo : 10
+
+
+Films notables-aki : 6
+
+ => Nationalité - &#160;
+ => Nom de naissance - Isabelle Yasmina Adjani
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Islam
+page wikipedia : http://fr.wikipedia.org/wiki/Islande
+ => Capitale - Reykjavik
+
+Capitale-associated : 16
+
+
+Capitale-lieu-1 : 20
+
+
+Capitale-aki : 9
+
+ => Code ISO 3166-1 - ISL, IS​
+ => Densité - 3,2&#160;hab./km
+ => Devise nationale - Með lögum skal land byggja
+ => Domaine Internet - .is
+ => Forme de l'État - République parlementaire
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 16
+
+ => Gentilé - Islandais(e)
+ => Hymne national - Lofsöngur
+ => IDH -  0,906 (très élevé) (
+ => Indicatif téléphonique - +354
+ => Indépendance - du 
+ => Langues officielles - Islandais
+
+Langues officielles-wiki : 11
+
+ => Monnaie - Couronne islandaise
+ => PIB - 41 001 $ 
+ => PIB nominal - 45 416 $ 
+ => Plus grande ville - Reykjavik
+
+Plus grande ville-associated : 11
+
+
+Plus grande ville-lieu-1 : 15
+
+
+Plus grande ville-aki : 9
+
+ => Population totale - 329&#160;040
+ => Premier ministre - Sigmundur Davíð Gunnlaugsson
+ => Président - Ólafur Ragnar Grímsson
+ => Superficie en eau - 2,7&#160;%
+ => Superficie totale - 103&#160;125&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Israël
+ => Capitale - Jérusalem
+
+Capitale-associated : 17
+
+
+Capitale-lieu-1 : 21
+
+ => Code ISO 3166-1 - ISR, IL​
+ => Densité - 401&#160;hab./km
+ => Devise nationale - Aucune
+ => Domaine Internet - .il
+ => Forme de l'État - Démocratie parlementaire
+ => Gentilé - Israéliens, Israéliennes
+ => Hymne national - Hatikvah
+ => IDH -  0,888 (très élevé) (
+ => Indicatif téléphonique - +972
+ => Indépendance - Du 
+ => Langues officielles - hébreu
+
+Langues officielles-wiki : 12
+
+ => Monnaie - Nouveau shekel
+ => PIB -  33&#160;352 
+ => PIB nominal -  37&#160;914 
+ => Plus grande ville - Jérusalem
+
+Plus grande ville-associated : 12
+
+
+Plus grande ville-lieu-1 : 16
+
+ => Population totale - 8&#160;334&#160;000&#160;
+ => Premier ministre - Benyamin Netanyahou
+
+Premier ministre-wiki : 2
+
+ => Président - Reuven Rivlin
+ => Président de la Knesset - Yuli-Yoel Edelstein
+ => Superficie en eau - 2&#160;%
+ => Superficie totale - 20&#160;770&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Italie
+ => Capitale - Rome
+
+Capitale-instance : 1
+
+
+Capitale-lieu-1 : 22
+
+
+Capitale-associated : 18
+
+
+Capitale-meaning : 1
+
+
+Capitale-aki : 10
+
+ => Code ISO 3166-1 - ITA, IT​
+ => Densité - 202&#160;hab./km
+ => Domaine Internet - .it
+ => Forme de l'État - République parlementaire
+ => Gentilé - Italien, Italienne
+ => Hymne national - Fratelli d’Italia
+ => IDH -  0,881 (très élevé) (
+ => Indicatif téléphonique - +39
+ => Langues officielles - Italien
+
+Langues officielles-wiki : 13
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 10
+
+ => PIB -  34&#160;455 
+ => PIB nominal -  3&#160;551 
+ => Plus grande ville - Rome
+
+Plus grande ville-instance : 1
+
+
+Plus grande ville-lieu-1 : 17
+
+
+Plus grande ville-associated : 13
+
+
+Plus grande ville-meaning : 1
+
+
+Plus grande ville-aki : 10
+
+ => Population totale - 60&#160;783&#160;711
+ => Président de la République - Sergio Mattarella
+ => Président du Conseil - Matteo Renzi
+ => Superficie en eau - 3,4
+ => Superficie totale - 301&#160;336&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Jacques_Brel
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - 1953
+ => Genre musical - Chanson française
+ => Labels - Disques Barclay
+ => Nom de naissance - Jacques Romain Georges Brel
+ => Site officiel - http://www.jacquesbrel.be/
+page wikipedia : http://fr.wikipedia.org/wiki/Jacques_Chirac
+page wikipedia : http://fr.wikipedia.org/wiki/Jacques_Mesrine
+ => Nom de naissance - Jacques René Mesrine
+page wikipedia : http://fr.wikipedia.org/wiki/James_Bond
+page wikipedia : http://fr.wikipedia.org/wiki/Japan
+page wikipedia : http://fr.wikipedia.org/wiki/Japon
+ => Capitale - Tokyo
+
+Capitale-associated : 19
+
+
+Capitale-lieu-1 : 23
+
+
+Capitale-aki : 11
+
+ => Code ISO 3166-1 - JPN, JP​
+ => Densité - 349
+ => Devise nationale - Aucune
+ => Domaine Internet - .jp
+ => Empereur - Akihito
+
+Empereur-wiki : 1
+
+ => Fondation de la nation - 11 février 660 av. J.-C.
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 17
+
+ => Gentilé - Japonais(e)
+ => Hymne national - Kimi ga yo
+ => IDH - 0.890
+ => Indicatif téléphonique - +81
+ => Langues officielles - Japonais
+
+Langues officielles-wiki : 14
+
+ => Monnaie - Yen
+
+Monnaie-wiki : 11
+
+ => PIB - 36 654 $ 
+ => PIB nominal - 38 468 $ 
+ => Plus grande ville - Tokyo
+
+Plus grande ville-associated : 14
+
+
+Plus grande ville-lieu-1 : 18
+
+
+Plus grande ville-aki : 11
+
+ => Population totale - 127&#160;103&#160;388
+ => Premier ministre - Shinzō Abe
+ => Superficie en eau - 1,7&#160;%
+ => Superficie totale - 377&#160;915&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Jared_Leto
+ => Activité principale - Acteur
+ => Années actives - 1994
+ => Genre musical - Rock alternatif
+ => Instruments - Voix
+ => Surnom - Bartholomew Cubbins
+page wikipedia : http://fr.wikipedia.org/wiki/Jason_Statham
+ => Films notables - Snatch
+
+Films notables-lieu : 11
+
+
+Films notables-associated : 12
+
+
+Films notables-holo : 11
+
+ => Profession - Acteur
+
+Profession-wiki : 12
+
+ => Surnom - Jay
+page wikipedia : http://fr.wikipedia.org/wiki/Java
+page wikipedia : http://fr.wikipedia.org/wiki/Jean_Dujardin
+ => Films notables - Brice de Nice
+
+Films notables-lieu : 12
+
+
+Films notables-associated : 13
+
+
+Films notables-holo : 12
+
+
+Films notables-wiki : 4
+
+
+Films notables-aki : 7
+
+ => Nationalité - &#160;
+ => Nom de naissance - Jean Edmond Dujardin
+ => Profession - Acteur
+ => Séries notables - Un gars, une fille
+
+Séries notables-associated : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Jean_Jaurès
+page wikipedia : http://fr.wikipedia.org/wiki/Jean_Racine
+ => Décès - 21 avril
+ => Langue d’écriture - français
+
+Langue d’écriture-associated : 2
+
+ => Mouvement - classicisme
+
+Mouvement-wiki : 3
+
+ => Naissance - 22 décembre
+page wikipedia : http://fr.wikipedia.org/wiki/Jean_Reno
+ => Films notables - Le Grand Bleu
+
+Films notables-lieu : 13
+
+
+Films notables-associated : 14
+
+
+Films notables-holo : 13
+
+
+Films notables-wiki : 5
+
+ => Nom de naissance - Juan Moreno y Herrera-Jiménez
+ => Profession - Acteur
+
+Profession-wiki : 13
+
+page wikipedia : http://fr.wikipedia.org/wiki/Jean_de_La_Fontaine
+ => Décès - 13 avril
+ => Langue d’écriture - français
+
+Langue d’écriture-associated : 3
+
+ => Naissance - 8 juillet
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-Claude_Gaudin
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-François_Copé
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-Jacques_Goldman
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - depuis 
+ => Genre musical - Variété
+ => Instruments - Chant
+ => Labels - WEA
+ => Surnom - O. Menor, Sam Brewski, Sweet Memories, First Prayer
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-Jacques_Rousseau
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-Marc_Ayrault
+page wikipedia : http://fr.wikipedia.org/wiki/Jean-Paul_Sartre
+page wikipedia : http://fr.wikipedia.org/wiki/Jenifer
+ => Activité principale - Chanteuse
+ => Années actives - Depuis 
+ => Genre musical - Variété
+ => Labels - Universal
+ => Nom de naissance - Jenifer Bartoli
+ => Site officiel - jeniferofficiel.com
+page wikipedia : http://fr.wikipedia.org/wiki/Jennifer_Aniston
+ => Films notables - The Good Girl
+ => Nom de naissance - Jennifer Joanna Aniston
+ => Profession - Actrice
+ => Surnom - Jen
+ => Séries notables - Friends
+
+Séries notables-wiki : 3
+
+
+Séries notables-aki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Jennifer_Lawrence
+ => Films notables - Winter's Bone
+
+Films notables-lieu : 14
+
+
+Films notables-associated : 15
+
+
+Films notables-holo : 14
+
+
+Films notables-aki : 8
+
+ => Nom de naissance - Jennifer Shrader Lawrence
+ => Profession - Actrice
+ => Surnom - Jen ou J-Law
+page wikipedia : http://fr.wikipedia.org/wiki/Jennifer_Lopez
+ => Activité principale - Actrice
+ => Années actives - Depuis 
+ => Genre musical - Dance
+
+Genre musical-wiki : 2
+
+ => Labels - Epic
+ => Site officiel - jenniferlopez.com
+ => Surnom - J-LO
+page wikipedia : http://fr.wikipedia.org/wiki/Jennifer_Love_Hewitt
+ => Films notables - Sister Act, acte 2
+ => Profession - Actrice
+ => Séries notables - La Vie à cinq
+page wikipedia : http://fr.wikipedia.org/wiki/Jeux_olympiques
+ => Création - Athènes 1896
+ => Nations - 205 pays représentés
+ => Organisateur(s) - Comité international olympique
+
+Organisateur(s)-wiki : 1
+
+ => Participants - environ 13&#160;000
+ => Périodicité - quatre ans entre deux éditions de jeux d'été, quatre ans entre deux éditions de jeux d'hiver, deux ans entre jeux d'été et jeux d'hiver
+ => Statut des participants - amateurs et professionnels (homme ou femme)
+ => Épreuves - environ 400
+page wikipedia : http://fr.wikipedia.org/wiki/Joaquin_Phoenix
+ => Films notables - Gladiator
+ => Profession - Acteur
+page wikipedia : http://fr.wikipedia.org/wiki/John_Lennon
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - 1957
+ => Genre musical - Rock
+ => Instruments - Guitare
+ => Labels - Apple
+
+Labels-wiki : 1
+
+ => Nom de naissance - John Winston Lennon
+ => Site officiel - www.johnlennon.com
+page wikipedia : http://fr.wikipedia.org/wiki/Johnny_Depp
+ => Films notables - Edward aux mains d'argent
+ => Nom de naissance - John Christopher Depp II
+ => Profession - Acteur
+ => Site internet - www.johnnydepp.com
+ => Séries notables - 21 Jump Street
+page wikipedia : http://fr.wikipedia.org/wiki/Johnny_Hallyday
+ => Activité principale - chanteur
+
+Activité principale-associated : 1
+
+
+Activité principale-isa : 1
+
+
+Activité principale-aki : 1
+
+ => Activités annexes - acteur
+
+Activités annexes-isa : 1
+
+
+Activités annexes-associated : 1
+
+
+Activités annexes-aki : 1
+
+ => Années actives - Depuis 
+ => Genre musical - Rock
+
+Genre musical-wiki : 3
+
+ => Instruments - Guitare
+ => Labels - Vogue
+
+Labels-wiki : 2
+
+ => Nom de naissance - Jean-Philippe Smet
+ => Site officiel - johnnyhallyday.com
+page wikipedia : http://fr.wikipedia.org/wiki/Joseph_Staline
+page wikipedia : http://fr.wikipedia.org/wiki/Journée_internationale_de_la_fem
+page wikipedia : http://fr.wikipedia.org/wiki/Jules_César
+page wikipedia : http://fr.wikipedia.org/wiki/Jules_Verne
+ => Langue d’écriture - Français
+ => Nom de naissance - Jules Gabriel Verne
+page wikipedia : http://fr.wikipedia.org/wiki/Julia_Roberts
+ => Films notables - Pretty Woman
+
+Films notables-lieu : 15
+
+
+Films notables-associated : 16
+
+
+Films notables-holo : 15
+
+
+Films notables-wiki : 6
+
+
+Films notables-aki : 9
+
+ => Nom de naissance - Julia Fiona Roberts
+ => Profession - Actrice
+ => Surnom - Jules
+page wikipedia : http://fr.wikipedia.org/wiki/Julie_Gayet
+ => Films notables - Delphine 1, Yvan 0
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Justin_Bieber
+ => Activité principale - auteur-compositeur-interprète
+ => Activités annexes - acteur
+
+Activités annexes-wiki : 3
+
+ => Années actives - 2008 - présent
+ => Genre musical - Pop
+
+Genre musical-wiki : 4
+
+ => Influences - Michael Jackson
+
+Influences-wiki : 1
+
+ => Instruments - voix
+
+Instruments-wiki : 1
+
+ => Labels - Island Records
+ => Nom de naissance - Justin Drew Bieber
+ => Site officiel - www.justinbiebermusic.com
+page wikipedia : http://fr.wikipedia.org/wiki/Justin_Timberlake
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - Depuis 
+ => Genre musical - Pop
+ => Instruments - Voix
+ => Labels - Jive
+ => Site officiel - justintimberlake.com
+page wikipedia : http://fr.wikipedia.org/wiki/Jésus_de_Nazareth
+page wikipedia : http://fr.wikipedia.org/wiki/Kad_Merad
+ => Films notables - Mais qui a tué Pamela Rose ?
+ => Nom de naissance - Kadour Merad
+ => Profession - Acteur
+
+Profession-wiki : 14
+
+page wikipedia : http://fr.wikipedia.org/wiki/Karl_Marx
+page wikipedia : http://fr.wikipedia.org/wiki/Katharine_Hepburn
+ => Films notables - L'Impossible Monsieur Bébé
+
+Films notables-lieu : 16
+
+
+Films notables-associated : 17
+
+
+Films notables-holo : 16
+
+ => Nom de naissance - Katharine Houghton Hepburn
+ => Profession - Actrice
+ => Surnom - First Lady of Cinema
+page wikipedia : http://fr.wikipedia.org/wiki/Katy_Perry
+ => Activité principale - Chanteuse
+ => Années actives - Depuis 
+ => Genre musical - Pop
+
+Genre musical-wiki : 5
+
+ => Instruments - Guitare
+ => Labels - Red Hill
+ => Nom de naissance - Katheryn Elizabeth Hudson
+ => Site officiel - katyperry.com
+page wikipedia : http://fr.wikipedia.org/wiki/Keanu_Reeves
+ => Films notables - Point Break
+
+Films notables-lieu : 17
+
+
+Films notables-associated : 18
+
+
+Films notables-holo : 17
+
+
+Films notables-wiki : 7
+
+
+Films notables-aki : 10
+
+ => Nom de naissance - Keanu Charles Reeves
+ => Profession - Acteur
+
+Profession-wiki : 15
+
+page wikipedia : http://fr.wikipedia.org/wiki/Keira_Knightley
+ => Films notables - Joue-la comme Beckham
+ => Nom de naissance - Keira Christina Knightley
+ => Profession - Actrice
+ => Site internet - Site de l'actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Kev_Adams
+ => Films notables - Les Profs
+ => Nom de naissance - Kevin Smadja
+ => Profession - Humoriste
+ => Site internet - http://kevadams-officiel.fr/
+ => Séries notables - Soda
+page wikipedia : http://fr.wikipedia.org/wiki/Kevin_Spacey
+ => Films notables - Usual Suspects
+ => Nom de naissance - Kevin Spacey Fowler
+ => Profession - Acteur
+ => Séries notables - House of Cards
+page wikipedia : http://fr.wikipedia.org/wiki/Kosovo
+ => Capitale - Pristina
+
+Capitale-associated : 20
+
+ => Code ISO 3166-1 - XK​
+ => Densité - 167&#160;hab./km
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 10
+
+ => Fuseau horaire - UTC
+ => Gentilé - Kosovar, Kosovare
+ => Hymne national - Europe
+
+Hymne national-associated : 1
+
+ => Indépendance - de la 
+ => Langues officielles - albanais
+
+Langues officielles-associated : 3
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 12
+
+ => PIB nominal - 6,959&#160;milliards
+ => Plus grande ville - Pristina
+
+Plus grande ville-associated : 15
+
+ => Population totale - 1&#160;820&#160;631&#160;
+ => Premier ministre - Isa Mustafa
+ => Président du Parlement - Kadri Veseli
+ => Présidente de la République - Atifete Jahjaga
+ => Reconnu par - 111 États
+ => Revendiqué par - Serbie
+
+Revendiqué par-associated : 1
+
+ => Superficie totale - 10 908&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Kristen_Bell
+ => Films notables - Sans Sarah, rien ne va !
+ => Nom de naissance - Kristen Anne Bell
+ => Profession - Actrice
+ => Surnom - K-Bell
+ => Séries notables - Veronica Mars
+
+Séries notables-holo : 1
+
+
+Séries notables-lieu : 1
+
+
+Séries notables-associated : 2
+
+
+Séries notables-wiki : 4
+
+page wikipedia : http://fr.wikipedia.org/wiki/Ku_Klux_Klan
+page wikipedia : http://fr.wikipedia.org/wiki/Kurt_Cobain
+ => Activité principale - Musicien
+
+Activité principale-wiki : 6
+
+ => Genre musical - Grunge
+ => Nom de naissance - Kurt Donald Cobain
+page wikipedia : http://fr.wikipedia.org/wiki/Kylie_Minogue
+ => Activité principale - Chanteuse
+ => Années actives - 1979
+ => Genre musical - Pop
+
+Genre musical-wiki : 6
+
+ => Site officiel - kylie.com
+page wikipedia : http://fr.wikipedia.org/wiki/La_Joconde
+page wikipedia : http://fr.wikipedia.org/wiki/La_Leçon_de_piano
+ => Durée - 121 min
+ => Pays d’origine - Nouvelle-Zélande
+ => Réalisation - Jane Campion
+ => Scénario - Jane Campion
+ => Sortie - 1993
+ => Titre original - The Piano
+page wikipedia : http://fr.wikipedia.org/wiki/La_Marseillaise
+page wikipedia : http://fr.wikipedia.org/wiki/La_Petite_Maison_dans_la_prairie
+ => Chaîne d'origine - NBC
+
+Chaîne d'origine-wiki : 3
+
+ => Création - Michael Landon
+
+Création-wiki : 1
+
+ => Durée - 160 × 45 minutes
+ => Genre - Série familiale
+ => Musique - David Rose
+ => Nb. - 205 et 4 téléfilms
+ => Pays d'origine - &#160;
+ => Production - Michael Landon
+
+Production-wiki : 2
+
+ => Titre original - Little House on the Prairie
+page wikipedia : http://fr.wikipedia.org/wiki/La_Rochelle
+page wikipedia : http://fr.wikipedia.org/wiki/La_Réunion
+page wikipedia : http://fr.wikipedia.org/wiki/Lady_Gaga
+ => Activité principale - Auteur-compositrice-interprète
+ => Années actives - Depuis 
+ => Genre musical - Pop
+
+Genre musical-wiki : 7
+
+ => Instruments - Voix
+ => Labels - Def Jam
+ => Nom de naissance - Stefani Joanne Angelina Germanotta
+ => Site officiel - ladygaga.com
+ => Surnom - Mother Monster
+page wikipedia : http://fr.wikipedia.org/wiki/Lambert_Wilson
+ => Films notables - La Femme publique
+ => Nationalité - &#160;
+ => Profession - Acteur
+
+Profession-wiki : 16
+
+page wikipedia : http://fr.wikipedia.org/wiki/Laurent_Delahousse
+page wikipedia : http://fr.wikipedia.org/wiki/Le_Corbusier
+page wikipedia : http://fr.wikipedia.org/wiki/Le_Juge_Fayard_dit_Le_Shériff
+ => Durée - 112 minutes
+ => Genre - Drame
+ => Pays d’origine - &#160;
+ => Réalisation - Yves Boisset
+ => Scénario - Yves Boisset
+ => Sociétés de production - Production Companies
+ => Sortie - 1977
+page wikipedia : http://fr.wikipedia.org/wiki/Le_Monde
+page wikipedia : http://fr.wikipedia.org/wiki/Le_Radeau_de_La_Méduse
+page wikipedia : http://fr.wikipedia.org/wiki/Le_Trône_de_fer
+page wikipedia : http://fr.wikipedia.org/wiki/Leonardo_DiCaprio
+ => Films notables - voir filmographie
+ => Nom de naissance - Leonardo Wilhelm DiCaprio
+ => Profession - Acteur
+
+Profession-wiki : 17
+
+ => Site internet - leonardodicaprio.com
+ => Surnom - Leo
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Anges_de_la_téléréalité
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Enfoirés
+ => Activité principale - artistes et bénévoles
+ => Années actives - Depuis 
+ => Genre musical - Variété française
+ => Site officiel - http://www.enfoires.fr
+ => Surnom - Les Enfoirés du cœur
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Frères_Scott
+ => Acteurs principaux - Chad Michael Murray
+ => Chaîne d'origine - The WB
+ => Création - Mark Schwahn
+ => Durée - 40 minutes environ
+ => Genre - Série dramatique pour adolescents
+ => Musique - Mark Morgan
+ => Nb. - 187
+ => Pays d'origine - &#160;
+ => Production - Brian Robbins
+ => Site web - http://www.cwtv.com/shows/one-tree-hill
+ => Titre original - One Tree Hill
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Garçons_et_Guillaume,_à_tabl
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Misérables
+page wikipedia : http://fr.wikipedia.org/wiki/Les_Simpson
+ => Chaîne d'origine - Fox Broadcasting Company
+ => Création - Matt Groening
+
+Création-associated : 1
+
+ => Durée - 21 minutes environ
+ => Genre - Série d'animation
+ => Musique - Danny Elfman
+ => Nb. - 577
+ => Pays d'origine - &#160;
+ => Production - Matt Groening
+
+Production-associated : 1
+
+ => Site web - http://www.thesimpsons.com
+ => Titre original - The Simpsons
+page wikipedia : http://fr.wikipedia.org/wiki/Leucocyte
+page wikipedia : http://fr.wikipedia.org/wiki/Liam_Hemsworth
+ => Films notables - La Dernière Chanson
+ => Profession - Acteur
+
+Profession-wiki : 18
+
+ => Surnom - LiHem
+ => Séries notables - Les Voisins
+page wikipedia : http://fr.wikipedia.org/wiki/Liam_Neeson
+ => Films notables - Mission
+
+Films notables-lieu : 18
+
+
+Films notables-associated : 19
+
+
+Films notables-holo : 18
+
+ => Profession - Acteur
+
+Profession-wiki : 19
+
+page wikipedia : http://fr.wikipedia.org/wiki/Lille
+page wikipedia : http://fr.wikipedia.org/wiki/Lion
+ => Classe - Mammalia
+
+Classe-wiki : 1
+
+ => Embranchement - Chordata
+ => Famille - Felidae
+
+Famille-wiki : 2
+
+ => Genre - Panthera
+
+Genre-wiki : 1
+
+ => Ordre - Carnivora
+
+Ordre-wiki : 2
+
+ => Règne - Animalia
+
+Règne-wiki : 1
+
+ => Sous-embr. - Vertebrata
+ => Sous-famille - Pantherinae
+
+Sous-famille-wiki : 1
+
+ => Sous-ordre - Feliformia
+page wikipedia : http://fr.wikipedia.org/wiki/Lionel_Messi
+page wikipedia : http://fr.wikipedia.org/wiki/Liste_des_départements_français
+page wikipedia : http://fr.wikipedia.org/wiki/Liste_des_monarques_de_France
+page wikipedia : http://fr.wikipedia.org/wiki/Londres
+page wikipedia : http://fr.wikipedia.org/wiki/Los_Angeles
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_Aragon
+ => Langue d’écriture - Français
+ => Mouvement - Dadaïsme
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_Pasteur
+ => Champs - Chimie
+
+Champs-wiki : 1
+
+ => Diplôme - École normale supérieure
+
+Diplôme-wiki : 2
+
+ => Institutions - Université de Strasbourg
+ => Renommé pour - Vaccin contre la rage
+ => Étudiants en thèse - Charles Friedel
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_XIII_de_France
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_XIV_de_France
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_XVI_de_France
+page wikipedia : http://fr.wikipedia.org/wiki/Louis_de_Funès
+ => Films notables - La Traversée de Paris
+
+Films notables-lieu : 19
+
+
+Films notables-associated : 20
+
+
+Films notables-holo : 19
+
+
+Films notables-wiki : 8
+
+
+Films notables-aki : 11
+
+ => Nationalité - &#160;
+ => Nom de naissance - Louis Germain David de Funès de Galarza
+ => Profession - Acteur
+
+Profession-wiki : 20
+
+page wikipedia : http://fr.wikipedia.org/wiki/Ludwig_van_Beethoven
+ => Activité principale - Compositeur
+ => Années d'activité - 1778
+ => Ascendants - Johann van Beethoven
+ => Maîtres - C. G. Neefe
+ => Naissance - 17 décembre
+ => Style - Classique
+ => Élèves - C. Czerny
+page wikipedia : http://fr.wikipedia.org/wiki/Luis_Mariano
+ => Activité principale - Chanteur
+ => Activités annexes - Acteur
+ => Années actives - 1943 - 1969
+ => Genre musical - opérette
+ => Nom de naissance - Mariano Eusebio González y García
+ => Site officiel - luismariano.com
+page wikipedia : http://fr.wikipedia.org/wiki/Lune
+page wikipedia : http://fr.wikipedia.org/wiki/Lycos
+page wikipedia : http://fr.wikipedia.org/wiki/Lyon
+page wikipedia : http://fr.wikipedia.org/wiki/Léa_Seydoux
+ => Films notables - La Belle Personne
+
+Films notables-lieu : 20
+
+
+Films notables-associated : 21
+
+
+Films notables-holo : 20
+
+
+Films notables-wiki : 9
+
+
+Films notables-aki : 12
+
+ => Nationalité - &#160;
+ => Nom de naissance - Léa Hélène Seydoux Fornier de Clausonne
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Léonard_de_Vinci
+page wikipedia : http://fr.wikipedia.org/wiki/Madagascar
+ => Capitale - Antananarivo
+
+Capitale-associated : 21
+
+
+Capitale-lieu-1 : 24
+
+
+Capitale-aki : 12
+
+ => Code ISO 3166-1 - MDG, MG​
+ => Densité - 36,25&#160;hab./km
+ => Devise nationale - Fitiavana, Tanindrazana, Fandrosoana
+ => Domaine Internet - .mg
+ => Forme de l'État - République
+
+Forme de l'État-associated : 4
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 18
+
+ => Gentilé - Malgache
+
+Gentilé-wiki : 2
+
+ => Hymne national - Ry Tanindrazanay malala ô
+ => IDH - 0.498 (faible) (
+ => Indicatif téléphonique - +261
+ => Indépendance - De la 
+ => Langues officielles - malgache
+
+Langues officielles-associated : 4
+
+
+Langues officielles-aki : 2
+
+ => Monnaie - Ariary
+ => PIB -  1&#160;414 
+ => PIB nominal -  10,61 milliards de 
+ => Plus grande ville - Antananarivo
+
+Plus grande ville-associated : 16
+
+
+Plus grande ville-lieu-1 : 19
+
+
+Plus grande ville-aki : 12
+
+ => Population totale - 22&#160;924&#160;851&#160;
+ => Premier ministre - Général 
+ => Président de la République - Hery Rajaonarimampianina
+ => Superficie en eau - 0,95
+ => Superficie totale - 587&#160;040&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Madonna
+ => Activité principale - Auteur-compositrice-interprète
+ => Activités annexes - Actrice
+ => Années actives - Depuis 
+ => Genre musical - Dance-pop
+ => Instruments - Voix
+ => Labels - Sire
+ => Nom de naissance - Madonna Louise Ciccone
+
+Nom de naissance-locution : 2
+
+ => Site officiel - www.madonna.com
+ => Surnom - The Queen of Pop
+page wikipedia : http://fr.wikipedia.org/wiki/Madrid
+page wikipedia : http://fr.wikipedia.org/wiki/Maladie_de_Crohn
+page wikipedia : http://fr.wikipedia.org/wiki/Malaise_vagal
+page wikipedia : http://fr.wikipedia.org/wiki/Malaisie
+ => Capitale - Kuala Lumpur
+
+Capitale-associated : 22
+
+
+Capitale-lieu-1 : 25
+
+ => Code ISO 3166-1 - MYS, MY​
+ => Densité - 86&#160;hab./km
+ => Devise nationale - Bersekutu Bertambah Mutu
+ => Domaine Internet - .my
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 19
+
+ => Gentilé - Malaisien,
+ => Hymne national - Negara Ku
+ => Indicatif téléphonique - +60
+ => Indépendance - Royaume-Uni
+
+Indépendance-wiki : 3
+
+ => Langues officielles - Malais
+
+Langues officielles-associated : 5
+
+ => Monnaie - Ringgit
+ => Plus grande ville - Kuala Lumpur
+
+Plus grande ville-associated : 17
+
+
+Plus grande ville-lieu-1 : 20
+
+ => Population totale - 30 417 000&#160;
+ => Premier ministre - Najib Tun Razak
+ => Roi - Abdul Halim Muadzam Shah
+ => Royaume établi en - 31 août
+ => Superficie en eau - 0,3&#160;%
+ => Superficie totale - 329 750&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Maldives
+ => Capitale - Malé
+
+Capitale-lieu-1 : 26
+
+ => Code ISO 3166-1 - MDV, MV​
+ => Densité - 1&#160;667&#160;hab./km
+ => Devise nationale - Gavmii mi ekuverikan matii tibegen kuriime salaam
+ => Domaine Internet - .mv
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+ => Gentilé - Maldivien(ne)
+ => Hymne national - Gavmii mi ekuverikan matii tibegen kuriime salaam
+ => IDH - 0,771 (moyen) (
+ => Indicatif téléphonique - +960
+ => Indépendance - du 
+ => Langues officielles - Maldivien
+ => Monnaie - Rufiyaa
+ => PIB - 1&#160;588&#160;millions de 
+ => PIB nominal - 1&#160;049&#160;millions de 
+ => Plus grande ville - Malé
+
+Plus grande ville-lieu-1 : 21
+
+ => Population totale - 394&#160;999
+ => Président - Abdulla Yameen Abdul Gayoom
+ => Superficie en eau - 0&#160;%
+ => Superficie totale - 227,45&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Malte
+ => Capitale - La Valette
+
+Capitale-associated : 23
+
+
+Capitale-lieu-1 : 27
+
+ => Code ISO 3166-1 - MLT, MT​
+ => Date - 21 septembre 1964
+ => Densité - 1&#160;413&#160;hab./km
+ => Domaine Internet - .mt
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 11
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 20
+
+ => Gentilé - Maltais, Maltaise
+ => Hymne national - L-Innu Malti
+ => IDH -  0,902 (élevé) (
+ => Indicatif téléphonique - +356
+ => Indépendance - Du 
+ => Langues officielles - Maltais
+ => Monnaie - Euro
+
+Monnaie-wiki : 13
+
+ => Population totale - 446&#160;547
+ => Premier ministre - Joseph Muscat
+ => Président de Malte - Marie-Louise Coleiro Preca
+ => Superficie en eau - Négligeable (Chadwick Lakes)
+ => Superficie totale - 316&#160;
+ => Ville la plus peuplée - Birkirkara
+
+Ville la plus peuplée-associated : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Manga
+page wikipedia : http://fr.wikipedia.org/wiki/Manuel_Valls
+page wikipedia : http://fr.wikipedia.org/wiki/Mardi_gras
+page wikipedia : http://fr.wikipedia.org/wiki/Marie_Curie
+ => Champs - Physique nucléaire
+ => Diplôme - Faculté des sciences de Paris
+ => Domicile - Paris
+
+Domicile-wiki : 1
+
+ => Institutions - École municipale de physique et de chimie industrielles de la ville de Paris
+ => Renommée pour - Travaux sur la 
+page wikipedia : http://fr.wikipedia.org/wiki/Marilyn_Monroe
+ => Films notables - Niagara
+
+Films notables-lieu : 21
+
+
+Films notables-associated : 22
+
+
+Films notables-holo : 21
+
+ => Nom de naissance - Norma Jeane Mortenson
+
+Nom de naissance-aki : 2
+
+ => Profession - Actrice
+ => Site internet - marilynmonroe.com
+page wikipedia : http://fr.wikipedia.org/wiki/Marine_Le_Pen
+page wikipedia : http://fr.wikipedia.org/wiki/Mark_Wahlberg
+ => Films notables - Boogie Nights
+ => Nom de naissance - Mark Robert Michael Wahlberg
+ => Profession - Acteur
+ => Site internet - Site officiel
+ => Surnom - Marky Mark
+page wikipedia : http://fr.wikipedia.org/wiki/Marketing
+page wikipedia : http://fr.wikipedia.org/wiki/Maroc
+ => Capitale - Rabat
+
+Capitale-lieu-1 : 28
+
+
+Capitale-wiki : 10
+
+
+Capitale-aki : 13
+
+ => Capitale économique - Casablanca
+
+Capitale économique-lieu-1 : 1
+
+
+Capitale économique-wiki : 1
+
+
+Capitale économique-aki : 1
+
+ => Chef du gouvernement - Abdel-Ilah Benkiran
+ => Code ISO 3166-1 - MAR, MA​
+ => Date - - 2 mars 1956 (pour le 
+ => Densité - 70&#160;92 (44&#160;55
+ => Domaine Internet - .ma
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 21
+
+ => Gentilé - Marocains, Marocaines
+ => Hymne national - النشيد الوطني المغربي
+ => IDH -  0,617
+ => Indicatif téléphonique - +212
+ => Indépendance - De la 
+ => Langues officielles - Arabe
+
+Langues officielles-wiki : 15
+
+ => Monnaie - Dirham marocain
+ => Organisations internationales - ONU
+
+Organisations internationales-wiki : 4
+
+ => Population totale - 33&#160;848&#160;242
+ => Roi - Mohammed VI
+
+Roi-wiki : 2
+
+ => Superficie en eau - 1,059&#160;%
+ => Superficie totale - 446&#160;550 (710 850
+page wikipedia : http://fr.wikipedia.org/wiki/Marseille
+page wikipedia : http://fr.wikipedia.org/wiki/Martin_Luther_King
+page wikipedia : http://fr.wikipedia.org/wiki/Martin_Luther_King,_Jr.
+page wikipedia : http://fr.wikipedia.org/wiki/Martinique
+page wikipedia : http://fr.wikipedia.org/wiki/Mary-Kate_et_Ashley_Olsen
+ => Nom de naissance - Mary-Kate Olsen
+ => Profession - Actrices
+ => Site internet - www.mary-kateandashley.com
+ => Séries notables - La Fête à la maison
+page wikipedia : http://fr.wikipedia.org/wiki/Masse_volumique
+page wikipedia : http://fr.wikipedia.org/wiki/Masturbation
+page wikipedia : http://fr.wikipedia.org/wiki/Matt_Damon
+ => Films notables - Will Hunting
+
+Films notables-lieu : 22
+
+
+Films notables-associated : 23
+
+
+Films notables-holo : 22
+
+
+Films notables-wiki : 10
+
+ => Nom de naissance - Matthew Paige Damon
+ => Profession - Acteur
+
+Profession-wiki : 21
+
+ => Séries notables - 30 Rock
+page wikipedia : http://fr.wikipedia.org/wiki/Matthew_McConaughey
+ => Films notables - Génération rebelle
+ => Nom de naissance - Matthew David McConaughey
+ => Profession - Acteur
+ => Séries notables - True Detective
+page wikipedia : http://fr.wikipedia.org/wiki/Mayotte
+page wikipedia : http://fr.wikipedia.org/wiki/Mazarine_Pingeot
+page wikipedia : http://fr.wikipedia.org/wiki/Mentalist
+ => Acteurs principaux - Simon Baker
+ => Autres titres - Le Mentaliste
+ => Chaîne d'origine - CBS
+ => Création - Bruno Heller
+ => Durée - 42 minutes
+ => Genre - Série 
+ => Nb. - 151 
+ => Pays d'origine - &#160;
+ => Production - Warner Bros. Television
+ => Site web - http://www.cbs.com/shows/the_mentalist/
+ => Titre original - The Mentalist
+page wikipedia : http://fr.wikipedia.org/wiki/Mer_Noire
+page wikipedia : http://fr.wikipedia.org/wiki/Mercredi_des_Cendres
+page wikipedia : http://fr.wikipedia.org/wiki/Meryl_Streep
+ => Films notables - Voyage au bout de l'enfer
+
+Films notables-lieu : 23
+
+
+Films notables-associated : 24
+
+
+Films notables-holo : 23
+
+
+Films notables-aki : 13
+
+ => Nom de naissance - Mary Louise Streep
+ => Profession - Actrice
+ => Séries notables - Holocauste
+page wikipedia : http://fr.wikipedia.org/wiki/Mexique
+ => Capitale - Mexico
+
+Capitale-associated : 24
+
+
+Capitale-lieu-1 : 29
+
+
+Capitale-aki : 14
+
+ => Code ISO 3166-1 - MEX, MX​
+ => Densité - 61&#160;hab./km
+ => Devise nationale - Aucune
+ => Domaine Internet - .mx
+ => Forme de l'État - République constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 22
+
+ => Gentilé - Mexicain(e)
+ => Hymne national - Himno Nacional Mexicano
+ => IDH -  0,775
+ => Indicatif téléphonique - +52 pour un fixe et +521 pour un portable
+ => Indépendance - de l'
+ => Langues officielles - Espagnol
+ => Monnaie - Peso mexicain
+ => Plus grande ville - Mexico
+
+Plus grande ville-associated : 18
+
+
+Plus grande ville-lieu-1 : 22
+
+
+Plus grande ville-aki : 13
+
+ => Population totale - 119&#160;713&#160;203
+ => Président - Enrique Peña Nieto
+ => Superficie en eau - 2,5&#160;%
+ => Superficie totale - 1&#160;964&#160;375&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Michael_Jackson
+ => Activité principale - Chanteur
+
+Activité principale-wiki : 7
+
+ => Années actives - 1963
+ => Genre musical - Disco
+
+Genre musical-wiki : 8
+
+ => Influences - Sammy Davis, Jr.
+ => Instruments - Piano, percussions, guitare, batterie
+ => Labels - Steeltown 
+ => Nom de naissance - Michael Joseph Jackson
+ => Site officiel - michaeljackson.com
+ => Surnom - The king of pop
+page wikipedia : http://fr.wikipedia.org/wiki/Michael_Jordan
+page wikipedia : http://fr.wikipedia.org/wiki/Michael_Schumacher
+ => Années d'activité - 1991
+ => Champion du monde - 7 (record)&#160;: 
+ => Nationalité -  Allemand
+ => Nombre de courses - 307
+ => Podiums - 155 (record)
+ => Pole positions - 68 (record)
+ => Qualité - Pilote automobile
+ => Site web - michael-schumacher.de
+ => Surnom - Schumi
+ => Victoires - 91 (record)
+ => Équipe - Jordan Grand Prix
+page wikipedia : http://fr.wikipedia.org/wiki/Michaël_Youn
+ => Films notables - La Beuze
+ => Nom de naissance - Michaël Benayoun
+ => Profession - acteur
+
+Profession-wiki : 22
+
+ => Site internet - www.michaelyoun.com
+page wikipedia : http://fr.wikipedia.org/wiki/Michel_Leeb
+ => Nationalité - &#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Michel_Legrand
+ => Films notables - Les Parapluies de Cherbourg
+
+Films notables-wiki : 11
+
+ => Nationalité - &#160;
+ => Profession - Compositeur
+ => Site internet - www.michellegrandofficial.com
+ => Surnom - Big Mike
+page wikipedia : http://fr.wikipedia.org/wiki/Michel-Ange
+page wikipedia : http://fr.wikipedia.org/wiki/Mick_Jagger
+ => Activité principale - chanteur
+ => Activités annexes - acteur
+ => Années actives - 1962
+ => Genre musical - Blues
+ => Instruments - Guitare
+ => Labels - Virgin
+ => Nom de naissance - Michael Philip Jagger
+ => Site officiel - www.mickjagger.com
+page wikipedia : http://fr.wikipedia.org/wiki/Mickey_Mouse
+page wikipedia : http://fr.wikipedia.org/wiki/Mila_Kunis
+ => Films notables - Max Payne
+ => Nom de naissance - Milena Markovna Kunis
+ => Profession - Actrice
+ => Séries notables - That '70s Show
+page wikipedia : http://fr.wikipedia.org/wiki/Miley_Cyrus
+ => Activité principale - Actrice
+ => Années actives - Depuis 
+ => Genre musical - Pop
+ => Instruments - Voix
+ => Labels - RCA Records
+ => Nom de naissance - Destiny Hope Cyrus
+ => Site officiel - www.mileycyrus.com
+page wikipedia : http://fr.wikipedia.org/wiki/Mimie_Mathy
+ => Nom de naissance - Michèle Mathy
+ => Profession - Actrice
+ => Séries notables - Joséphine, ange gardien
+
+Séries notables-wiki : 5
+
+page wikipedia : http://fr.wikipedia.org/wiki/Minecraft
+page wikipedia : http://fr.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi
+ => Nationalité - Indien
+page wikipedia : http://fr.wikipedia.org/wiki/Moldavie
+ => Capitale - Chișinău
+ => Code ISO 3166-1 - MDA, MD​
+ => Densité - 127&#160;hab./km
+ => Domaine Internet - .md
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 12
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 23
+
+ => Gentilé - Moldaves
+ => Hymne national - Limba noastră
+ => IDH - 0,663 (moyen) (
+ => Indicatif téléphonique - +373
+ => Indépendance - de l'
+ => Langues officielles - Roumain
+
+Langues officielles-wiki : 16
+
+ => Monnaie - Leu moldave
+ => Plus grande ville - Chișinău
+ => Population totale - 3&#160;656&#160;843
+ => Premier ministre - Chiril Gaburici
+ => Président - Nicolae Timofti
+ => Superficie en eau - 1,4
+ => Superficie totale - 33 843&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Molière
+ => Décès - 17 février
+ => Langue d’écriture - français
+
+Langue d’écriture-carac : 1
+
+
+Langue d’écriture-wiki : 2
+
+ => Naissance - Baptisé le 
+ => Nom de naissance - Jean-Baptiste Poquelin
+
+Nom de naissance-associated : 2
+
+
+Nom de naissance-meaning : 1
+
+
+Nom de naissance-syn : 1
+
+
+Nom de naissance-equiv : 1
+
+
+Nom de naissance-aki : 3
+
+
+Nom de naissance-locution : 3
+
+page wikipedia : http://fr.wikipedia.org/wiki/Monaco
+ => Code ISO 3166-1 - MCO, MC​
+ => De facto - 8 janvier
+ => Densité - 18&#160;292&#160;hab./km
+ => Devise nationale - Deo Juvante
+ => Domaine Internet - .mc
+ => Forme de l'État - Monarchie constitutionnelle
+ => Gentilé - Monégasque
+ => Hymne national - Hymne monégasque
+ => Indicatif téléphonique - +377
+ => Indépendance - &#160;
+ => Langues officielles - Français
+
+Langues officielles-wiki : 17
+
+ => Ministre d’État - Michel Roger
+ => Monnaie - Euro
+
+Monnaie-wiki : 14
+
+ => Population totale - 36&#160;950
+ => Prince souverain - Albert II
+
+Prince souverain-wiki : 1
+
+ => Quartier principal - Monte-Carlo
+
+Quartier principal-associated : 1
+
+
+Quartier principal-syn : 1
+
+
+Quartier principal-has_part : 1
+
+
+Quartier principal-lieu-1 : 1
+
+
+Quartier principal-wiki : 1
+
+ => Superficie en eau - Négligeable
+ => Superficie totale - 2,02&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Mononucléose_infectieuse
+page wikipedia : http://fr.wikipedia.org/wiki/Montesquieu
+ => Décès - 10 février
+ => Langue d’écriture - Français
+ => Mouvement - Lumières
+
+Mouvement-wiki : 4
+
+ => Naissance - 18 janvier
+ => Nom de naissance - Charles de Secondat
+page wikipedia : http://fr.wikipedia.org/wiki/Montpellier
+page wikipedia : http://fr.wikipedia.org/wiki/Montréal
+page wikipedia : http://fr.wikipedia.org/wiki/Moyen_Âge
+page wikipedia : http://fr.wikipedia.org/wiki/Mur_de_Berlin
+page wikipedia : http://fr.wikipedia.org/wiki/Musée_du_Louvre
+page wikipedia : http://fr.wikipedia.org/wiki/Mythologie_grecque
+page wikipedia : http://fr.wikipedia.org/wiki/Méningite
+page wikipedia : http://fr.wikipedia.org/wiki/NW
+page wikipedia : http://fr.wikipedia.org/wiki/Nabilla_Benattia
+ => Nationalité - Française
+
+Nationalité-wiki : 3
+
+ => Nom de naissance - Nabilla Leona Grange-Benattia
+ => Pays de résidence - Genève
+page wikipedia : http://fr.wikipedia.org/wiki/Nagui
+page wikipedia : http://fr.wikipedia.org/wiki/Najat_Vallaud-Belkacem
+page wikipedia : http://fr.wikipedia.org/wiki/Nantes
+page wikipedia : http://fr.wikipedia.org/wiki/Napoléon_III
+ => Prédicat - Sa Majesté impériale
+ => Style alternatif - Sire
+ => Style oral - Votre Majesté impériale
+page wikipedia : http://fr.wikipedia.org/wiki/Napoléon_Ier
+page wikipedia : http://fr.wikipedia.org/wiki/Naruto
+ => Auteur - Masashi Kishimoto
+ => Genre - Nekketsu
+ => Studio d’animation - Studio Pierrot
+ => Studio d’enregistrement - TV Tokyo Music
+ => Thèmes - Ninjas, démons, drame, combats
+ => Type - Shōnen
+ => Épisodes - 400+
+page wikipedia : http://fr.wikipedia.org/wiki/Natalie_Portman
+ => Films notables - Léon
+
+Films notables-lieu : 24
+
+
+Films notables-associated : 25
+
+
+Films notables-holo : 24
+
+ => Nom de naissance - Natalie Hershlag
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Nathalie_Kosciusko-Morizet
+page wikipedia : http://fr.wikipedia.org/wiki/Nelson_Mandela
+page wikipedia : http://fr.wikipedia.org/wiki/New_York
+page wikipedia : http://fr.wikipedia.org/wiki/Neymar
+page wikipedia : http://fr.wikipedia.org/wiki/Nice
+page wikipedia : http://fr.wikipedia.org/wiki/Nicholas_Hoult
+ => Films notables - Pour un garçon
+ => Nom de naissance - Nicholas Caradoc Hoult
+ => Profession - Acteur
+ => Séries notables - Skins
+page wikipedia : http://fr.wikipedia.org/wiki/Nicolas_Cage
+ => Films notables - Arizona Junior
+
+Films notables-holo : 25
+
+
+Films notables-lieu : 25
+
+
+Films notables-associated : 26
+
+ => Nom de naissance - Nicolas Kim Coppola
+ => Profession - Acteur
+page wikipedia : http://fr.wikipedia.org/wiki/Nicolas_Sarkozy
+page wikipedia : http://fr.wikipedia.org/wiki/Niki_Lauda
+ => Années d'activité - 1971-1979
+ => Champion du monde - 1975
+ => Date de naissance - 22 février
+ => Nationalité - Autrichien
+ => Nombre de courses - 171
+ => Qualité - Pilote automobile
+ => Surnom - L'ordinateur
+ => Équipe - March
+
+Équipe-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Nouvelle-Calédonie
+page wikipedia : http://fr.wikipedia.org/wiki/Nouvelle-Zélande
+ => Capitale - Wellington
+
+Capitale-wiki : 11
+
+ => Code ISO 3166-1 - NZL, NZ​
+ => Densité - 16,6&#160;hab./km
+ => Devise nationale - «&#160;God Defend New Zealand&#160;»
+ => Domaine Internet - .nz
+ => Forme de l'État - Monarchie parlementaire
+ => Fuseau horaire - UTC
+ => Gentilé - Néozélandais(e)
+ => Gouverneur général - Jeremiah Mateparae
+ => Hymne national - God Defend New Zealand
+ => IDH -  0,907
+ => Indicatif téléphonique - +64
+ => Indépendance - Royaume-Uni
+
+Indépendance-wiki : 4
+
+ => Langues officielles - Anglais
+
+Langues officielles-wiki : 18
+
+ => Monnaie - Dollar néo-zélandais
+ => PIB nominal - 171&#160;256&#160;millions $
+ => Plus grande ville - Auckland
+
+Plus grande ville-lieu-1 : 23
+
+
+Plus grande ville-wiki : 9
+
+ => Population totale - 4&#160;470&#160;800
+ => Premier ministre - John Key
+ => Reine - Élisabeth II
+
+Reine-wiki : 2
+
+ => Superficie en eau - 1,6&#160;%
+ => Superficie totale - 268&#160;680&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Numericable
+ => Activité - Opérateur de télécommunications
+ => Direction - Éric Dénoyer
+ => Effectif - 2&#160;000 salariés
+ => Forme juridique - SAS
+ => Produits - Télévision par câble
+ => Résultat net -  65 millions d'euros (2013)
+ => Site web - numericable.fr
+ => Siège social - &#160;
+ => Slogan - Prenez le pouvoir&#160;!
+ => Société mère - Groupe Numericable-SFR
+ => Sociétés sœurs - SFR
+
+Sociétés sœurs-wiki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Odyssée
+page wikipedia : http://fr.wikipedia.org/wiki/One_Piece
+ => Auteur - Eiichirō Oda
+ => Genre - Nekketsu
+ => Studio d’animation - Toei Animation
+ => Thèmes - Action
+ => Type - Shōnen
+ => Épisodes - 694
+page wikipedia : http://fr.wikipedia.org/wiki/Organisation_des_Nations_unies
+page wikipedia : http://fr.wikipedia.org/wiki/Oscars_du_cinéma
+page wikipedia : http://fr.wikipedia.org/wiki/Pablo_Picasso
+page wikipedia : http://fr.wikipedia.org/wiki/Paludisme
+page wikipedia : http://fr.wikipedia.org/wiki/Paris
+page wikipedia : http://fr.wikipedia.org/wiki/Paris_Saint-Germain_Football_Clu
+page wikipedia : http://fr.wikipedia.org/wiki/Pascal_Obispo
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - Depuis 
+ => Genre musical - Pop
+ => Site officiel - pascalobispo.com
+ => Surnom - Captain Samouraï Flower, Vitoo
+page wikipedia : http://fr.wikipedia.org/wiki/Patrick_Bruel
+ => Activité principale - Chanteur
+ => Années actives - 1978
+ => Genre musical - Variété française
+ => Nom de naissance - Patrick Maurice Benguigui
+ => Site officiel - patrickbruel.com
+page wikipedia : http://fr.wikipedia.org/wiki/Patrick_Buisson
+page wikipedia : http://fr.wikipedia.org/wiki/Paul_Verlaine
+ => Langue d’écriture - français
+
+Langue d’écriture-wiki : 3
+
+ => Mouvement - Symbolisme
+ => Nom de naissance - Paul Marie Verlaine
+page wikipedia : http://fr.wikipedia.org/wiki/Paul_et_Virginie
+page wikipedia : http://fr.wikipedia.org/wiki/Paul_Éluard
+ => Langue d’écriture - Français
+ => Mouvement - Dadaïsme
+ => Nom de naissance - Eugène Émile Paul Grindel
+page wikipedia : http://fr.wikipedia.org/wiki/Pays-Bas
+ => Capitale - Amsterdam
+
+Capitale-lieu-1 : 30
+
+
+Capitale-wiki : 12
+
+
+Capitale-aki : 15
+
+ => Code ISO 3166-1 - NLD, NL​
+ => Densité - 407&#160;hab./km
+ => Devise nationale - Je maintiendrai
+ => Domaine Internet - .nl
+ => Forme de l'État - Monarchie constitutionnelle
+ => Gentilé - Néerlandais(e)
+ => Hymne national - Wilhelmus van Nassouwe
+
+Hymne national-wiki : 3
+
+ => IDH -  0,921
+ => Indicatif téléphonique - +31
+ => Langues officielles - Néerlandais
+
+Langues officielles-wiki : 19
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 15
+
+ => PIB - 46&#160;440 $
+ => PIB nominal - 50&#160;816 $
+ => Plus grande ville - Amsterdam
+
+Plus grande ville-lieu-1 : 24
+
+
+Plus grande ville-wiki : 10
+
+
+Plus grande ville-aki : 14
+
+ => Population totale - 16&#160;902&#160;103
+ => Premier ministre - Mark Rutte
+ => Provinces-Unies - 26 juillet
+ => Roi - Willem-Alexander
+ => Superficie en eau - 18,41&#160;%
+ => Superficie totale - 41 530&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Pelé
+page wikipedia : http://fr.wikipedia.org/wiki/Pharrell_Williams
+ => Activité principale - Producteur
+ => Années actives - Depuis 
+ => Genre musical - Hip-hop
+ => Instruments - Voix
+ => Labels - Star Trak
+ => Site officiel - pharrellwilliams.com
+page wikipedia : http://fr.wikipedia.org/wiki/Philippe_Bouvard
+ => Nom de naissance - Philippe Pierre Louis Bouvard
+page wikipedia : http://fr.wikipedia.org/wiki/Photosynthèse
+page wikipedia : http://fr.wikipedia.org/wiki/Pi
+page wikipedia : http://fr.wikipedia.org/wiki/Pierre_Bourdieu
+ => Approche - analyse des mécanismes de reproduction des 
+ => Formation - École normale supérieure
+
+Formation-wiki : 1
+
+ => Idées remarquables - Espace social, violence symbolique, 
+ => Influencé par - Louis Althusser
+ => Titres - Directeur d'études à l'
+page wikipedia : http://fr.wikipedia.org/wiki/Pierre_Corneille
+ => Adjectifs dérivés - cornélien
+
+Adjectifs dérivés-associated : 1
+
+ => Langue d’écriture - français
+
+Langue d’écriture-wiki : 4
+
+ => Mouvement - baroque
+
+Mouvement-wiki : 5
+
+ => Naissance - 6 juin
+page wikipedia : http://fr.wikipedia.org/wiki/Pirates_des_Caraïbes
+ => Année de création - 1967
+ => Auteur(s) - Walt Disney Imagineering
+ => Autre(s) support(s) - Cinématographie
+ => Genre(s) - Drame
+ => Inspiration(s) - Mythologie maritime
+ => Langue d’origine - Anglais
+ => Pays d’origine - &#160;
+ => Public visé - Tout public
+ => Support d’origine - Attraction
+ => Thème(s) - Pirates
+
+Thème(s)-associated : 1
+
+ => États - Les mers au 
+page wikipedia : http://fr.wikipedia.org/wiki/Platon
+page wikipedia : http://fr.wikipedia.org/wiki/PlayStation_4
+page wikipedia : http://fr.wikipedia.org/wiki/Plus_belle_la_vie
+ => Chaîne d'origine - France 3
+
+Chaîne d'origine-associated : 2
+
+
+Chaîne d'origine-wiki : 4
+
+ => Création - Hubert Besson
+
+Création-wiki : 2
+
+ => Durée - 25 minutes quotidiennes (hors week-end)
+ => Genre - soap opera
+
+Genre-wiki : 2
+
+ => Nb. - 2760
+ => Pays d'origine - &#160;
+ => Production - Telfrance Série
+page wikipedia : http://fr.wikipedia.org/wiki/Pointures_et_tailles_en_habillem
+page wikipedia : http://fr.wikipedia.org/wiki/Pollution
+page wikipedia : http://fr.wikipedia.org/wiki/Pologne
+ => Capitale - Varsovie
+
+Capitale-associated : 25
+
+
+Capitale-lieu-1 : 31
+
+
+Capitale-aki : 16
+
+ => Code ISO 3166-1 - POL, PL​
+ => Densité - 123&#160;hab./km
+ => Domaine Internet - .pl
+
+Domaine Internet-wiki : 2
+
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 13
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 24
+
+ => Gentilé - Polonais, Polonaise
+ => Hymne national - Mazurek Dąbrowskiego
+ => IDH -  0,821 (très élevé) (
+ => Indicatif téléphonique - +48
+ => Indépendance - De la 
+ => Langues officielles - Polonais
+
+Langues officielles-wiki : 20
+
+ => Monnaie - Złoty
+ => PIB - 21 214 USD
+ => PIB nominal - 516,1&#160;milliards
+ => Plus grande ville - Varsovie
+
+Plus grande ville-associated : 19
+
+
+Plus grande ville-lieu-1 : 25
+
+
+Plus grande ville-aki : 15
+
+ => Population totale - 38&#160;483&#160;957
+ => Président de la Diète - Radosław Sikorski
+ => Président de la République - Bronisław Komorowski
+ => Président du Conseil - Ewa Kopacz
+ => Président du Sénat - Bogdan Borusewicz
+ => Superficie en eau - 2,6&#160;%
+ => Superficie totale - 312&#160;679&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Polyarthrite_rhumatoïde
+page wikipedia : http://fr.wikipedia.org/wiki/Pompéi
+page wikipedia : http://fr.wikipedia.org/wiki/Pont
+page wikipedia : http://fr.wikipedia.org/wiki/Pornographie
+page wikipedia : http://fr.wikipedia.org/wiki/Portugal
+ => Capitale - Lisbonne
+
+Capitale-lieu-1 : 32
+
+
+Capitale-associated : 26
+
+
+Capitale-has_part : 8
+
+
+Capitale-aki : 17
+
+ => Code ISO 3166-1 - PRT, PT​
+ => Densité - 115,3
+ => Devise nationale - Aucune
+ => Domaine Internet - .pt
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 14
+
+ => Gentilé - Portugais, -e
+ => Hymne national - A Portuguesa
+ => IDH -  0,816 (très élevé) (
+ => Indicatif téléphonique - +351
+ => Indépendance du Portugal - 1139
+ => Langues officielles - Portugais
+
+Langues officielles-wiki : 21
+
+ => Monnaie - Euro
+
+Monnaie-wiki : 16
+
+ => PIB -  26&#160;306 
+ => PIB nominal -  21&#160;748 
+ => Plus grandes villes - Lisbonne
+
+Plus grandes villes-lieu-1 : 3
+
+
+Plus grandes villes-associated : 2
+
+
+Plus grandes villes-has_part : 2
+
+
+Plus grandes villes-aki : 2
+
+ => Population totale - 10&#160;590&#160;000
+ => Premier ministre - Pedro Passos Coelho
+ => Président de la République - Aníbal Cavaco Silva
+ => Superficie en eau - 0,5&#160;%
+ => Superficie totale - 92&#160;358
+page wikipedia : http://fr.wikipedia.org/wiki/Première_Guerre_mondiale
+page wikipedia : http://fr.wikipedia.org/wiki/Pression_artérielle
+page wikipedia : http://fr.wikipedia.org/wiki/Pretty_Little_Liars
+ => Acteurs principaux - Lucy Hale
+ => Autres titres - Les Menteuses
+ => Chaîne d'origine - ABC Family
+ => Création - I. Marlene King
+ => Durée - 40 à 43 minutes
+ => Genre - Série 
+ => Musique - Michael Suby 
+ => Nb. - 120 + 8 web-épisodes
+ => Pays d'origine - &#160;
+ => Production - Warner Horizon Television
+ => Site web - http://abcfamily.go.com/shows/pretty-little-liars
+page wikipedia : http://fr.wikipedia.org/wiki/Printemps
+page wikipedia : http://fr.wikipedia.org/wiki/Problèmes_du_prix_du_millénaire
+page wikipedia : http://fr.wikipedia.org/wiki/Processionnaire_du_pin
+ => Classe - Insecta
+ => Embranchement - Arthropoda
+ => Famille - Notodontidae
+ => Genre - Thaumetopoea
+ => Ordre - Lepidoptera
+ => Règne - Animalia
+ => Sous-famille - Thaumetopoeinae
+ => Super-ordre - Endopterygota
+page wikipedia : http://fr.wikipedia.org/wiki/Procrastination
+page wikipedia : http://fr.wikipedia.org/wiki/Produit_intérieur_brut
+page wikipedia : http://fr.wikipedia.org/wiki/Protocole_de_Kyoto
+ => Branche - Droit de l'environnement
+ => Organisation internationale - Organisation des Nations unies
+
+Organisation internationale-wiki : 1
+
+ => Territoire d'application - 184 États signataires
+ => Titre - Protocole de Kyoto à la 
+ => Type - Traité international
+page wikipedia : http://fr.wikipedia.org/wiki/Protéine_C_réactive
+page wikipedia : http://fr.wikipedia.org/wiki/Psoriasis
+page wikipedia : http://fr.wikipedia.org/wiki/Publicité
+page wikipedia : http://fr.wikipedia.org/wiki/Pâques
+page wikipedia : http://fr.wikipedia.org/wiki/Pâris
+page wikipedia : http://fr.wikipedia.org/wiki/Pétrole
+page wikipedia : http://fr.wikipedia.org/wiki/Qatar
+ => Capitale - Doha
+
+Capitale-lieu-1 : 33
+
+
+Capitale-wiki : 13
+
+ => Code ISO 3166-1 - QAT, QA​
+ => Densité - 185&#160;hab./km
+ => Devise nationale - Aucune
+ => Domaine Internet - .qa
+ => Forme de l'État - Monarchie absolue
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 25
+
+ => Gentilé - Qatarien
+ => Hymne national - As Salam al Amiri
+ => Indicatif téléphonique - +974
+ => Indépendance - Royaume-Uni
+
+Indépendance-wiki : 5
+
+ => Langues officielles - Arabe
+
+Langues officielles-wiki : 22
+
+ => Monnaie - Riyal qatarien
+ => PIB - 145 894 $ 
+ => PIB nominal - 98 986 $ 
+ => Plus grande ville - Doha
+
+Plus grande ville-lieu-1 : 26
+
+
+Plus grande ville-wiki : 11
+
+ => Population totale - 2&#160;144&#160;101
+ => Premier ministre - Abdallah ben Nasser ben Khalifa Al Thani
+ => Superficie en eau - Négligeable
+ => Superficie totale - 11&#160;586&#160;
+ => Émir - Tamim ben Hamad Al Thani
+page wikipedia : http://fr.wikipedia.org/wiki/Quentin_Tarantino
+ => Films notables - Reservoir Dogs
+
+Films notables-associated : 27
+
+ => Nom de naissance - Quentin Jerome Tarantino
+ => Profession - réalisateur
+
+Profession-associated : 2
+
+
+Profession-isa : 2
+
+
+Profession-aki : 1
+
+page wikipedia : http://fr.wikipedia.org/wiki/Québec
+page wikipedia : http://fr.wikipedia.org/wiki/Rammstein
+ => Années actives - Depuis 
+ => Genre musical - Neue Deutsche Härte
+ => Labels - Motor Music/
+ => Membres - Till Lindemann
+ => Pays d'origine - &#160;
+ => Site officiel - rammstein.com
+page wikipedia : http://fr.wikipedia.org/wiki/Rapport_sexuel
+page wikipedia : http://fr.wikipedia.org/wiki/Rayonnement_solaire
+page wikipedia : http://fr.wikipedia.org/wiki/Renaissance
+page wikipedia : http://fr.wikipedia.org/wiki/Renaud
+ => Activité principale - Auteur-compositeur-interprète
+ => Activités annexes - Acteur
+
+Activités annexes-wiki : 4
+
+ => Années actives - Depuis 
+ => Genre musical - Chanson française
+ => Instruments - Chant
+ => Labels - Polydor
+ => Nom de naissance - Renaud Pierre Manuel Séchan
+ => Site officiel - www.renaud-lesite.fr
+page wikipedia : http://fr.wikipedia.org/wiki/Rennes
+page wikipedia : http://fr.wikipedia.org/wiki/Rihanna
+ => Activité principale - Chanteuse
+ => Activités annexes - Actrice
+ => Années actives - Depuis 
+ => Genre musical - R&amp;B
+ => Labels - Def Jam
+ => Nom de naissance - Robyn Rihanna Fenty
+
+Nom de naissance-locution : 4
+
+ => Site officiel - rihannanow.com
+page wikipedia : http://fr.wikipedia.org/wiki/Robert_De_Niro
+ => Films notables - voir filmographie
+ => Nom de naissance - Robert Mario De Niro, Jr
+ => Profession - Acteur
+
+Profession-wiki : 23
+
+page wikipedia : http://fr.wikipedia.org/wiki/Robert_Downey_Jr.
+ => Films notables - Chaplin
+
+Films notables-lieu : 26
+
+
+Films notables-holo : 26
+
+
+Films notables-associated : 28
+
+ => Nom de naissance - Robert John Downey Jr.
+ => Profession - Acteur
+page wikipedia : http://fr.wikipedia.org/wiki/Robert_Ménard
+page wikipedia : http://fr.wikipedia.org/wiki/Robin_Wright
+ => Films notables - Forrest Gump
+
+Films notables-associated : 29
+
+
+Films notables-holo : 27
+
+
+Films notables-lieu : 27
+
+ => Nationalité - Américaine
+ => Nom de naissance - Robin Virginia Gayle Wright
+page wikipedia : http://fr.wikipedia.org/wiki/Roger_Federer
+page wikipedia : http://fr.wikipedia.org/wiki/Roman_Polanski
+ => Films notables - Répulsion
+
+Films notables-associated : 30
+
+
+Films notables-wiki : 12
+
+ => Nationalité - &#160;
+ => Nom de naissance - Raymond Thierry Liebling
+ => Profession - Réalisateur
+page wikipedia : http://fr.wikipedia.org/wiki/Romantisme
+page wikipedia : http://fr.wikipedia.org/wiki/Rome
+page wikipedia : http://fr.wikipedia.org/wiki/Roméo_et_Juliette
+page wikipedia : http://fr.wikipedia.org/wiki/Ronaldinho
+page wikipedia : http://fr.wikipedia.org/wiki/Rosa_Luxemburg
+ => Nationalité - Russe
+ => Nom de naissance - Różalia Luksemburg
+page wikipedia : http://fr.wikipedia.org/wiki/Roumanie
+ => Capitale - Bucarest
+
+Capitale-lieu-1 : 34
+
+
+Capitale-associated : 27
+
+
+Capitale-has_part : 9
+
+
+Capitale-aki : 18
+
+ => Code ISO 3166-1 - ROU, RO​
+ => Densité - 89&#160;8&#160;hab./km
+ => Domaine Internet - .ro
+ => Forme de l'État - République semi-présidentielle
+ => Gentilé - Roumains, Roumaines
+ => Hymne national - Deșteaptă-te, române!
+ => IDH - 0,786
+ => Indicatif téléphonique - +40
+ => Indépendance - Fin de la vassalité de la 
+ => Langues officielles - Roumain
+
+Langues officielles-wiki : 23
+
+ => Monnaie - Nouveau 
+ => Plus grande ville - Bucarest
+
+Plus grande ville-lieu-1 : 27
+
+
+Plus grande ville-associated : 20
+
+
+Plus grande ville-has_part : 6
+
+
+Plus grande ville-aki : 16
+
+ => Population totale - 19&#160;942&#160;642
+ => Premier ministre - Victor Ponta
+ => Président - Klaus Iohannis
+ => Président de la Chambre - Valeriu Zgonea
+ => Président du Sénat - Călin Popescu-Tăriceanu
+ => Superficie en eau - 3,0&#160;%
+ => Superficie totale - 238 391&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Royaume-Uni
+ => Capitale - Londres
+
+Capitale-lieu-1 : 35
+
+
+Capitale-associated : 28
+
+ => Code ISO 3166-1 - GBR, GB​
+ => Densité - 261
+ => Dette publique brute -  2&#160;632,96 milliards de 
+ => Devise nationale - Dieu et mon droit
+
+Devise nationale-wiki : 1
+
+ => Domaine Internet - .uk
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 26
+
+ => Gentilé - Britannique
+ => Hymne national - God save the Queen
+ => IDH -  0,892
+ => Indicatif téléphonique - +44
+ => Langues officielles - Anglais
+
+Langues officielles-wiki : 24
+
+ => Monnaie - Livre sterling
+ => PIB -  39&#160;510 
+ => PIB nominal -  45&#160;653 
+ => Plus grande ville - Londres
+
+Plus grande ville-lieu-1 : 28
+
+
+Plus grande ville-associated : 21
+
+ => Population totale - 64 100 000
+ => Premier ministre - David Cameron
+
+Premier ministre-wiki : 3
+
+ => Reine - Élisabeth II
+
+Reine-wiki : 3
+
+ => Superficie en eau - 1,3&#160;%
+ => Superficie totale - 243 610&#160;
+ => Taux de chômage -  6,1% de la pop. active
+page wikipedia : http://fr.wikipedia.org/wiki/Russie
+ => Capitale - Moscou
+
+Capitale-lieu-1 : 36
+
+
+Capitale-associated : 29
+
+
+Capitale-has_part : 10
+
+
+Capitale-domain-1 : 2
+
+
+Capitale-aki : 19
+
+ => Code ISO 3166-1 - RUS, RU​
+ => Densité - 8,4&#160;hab./km
+ => Dette publique brute -  324 milliards de 
+ => Domaine Internet - .ru
+ => Empire russe - 22 octobre
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 15
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 27
+
+ => Gentilé - Russe
+
+Gentilé-associated : 1
+
+ => Grande-principauté de Moscou - 1283
+ => Hymne national - Hymne national de la Russie
+ => IDH -  0,788 (élevé) (
+ => Langues officielles - Russe
+
+Langues officielles-associated : 6
+
+ => Monnaie - Rouble
+ => Organisations internationales - ONU
+
+Organisations internationales-wiki : 5
+
+ => PIB -  24&#160;764 
+ => PIB nominal -  14&#160;317 
+ => Plus grande ville - Moscou
+
+Plus grande ville-lieu-1 : 29
+
+
+Plus grande ville-associated : 22
+
+
+Plus grande ville-has_part : 7
+
+
+Plus grande ville-domain-1 : 2
+
+
+Plus grande ville-aki : 17
+
+ => Population totale - 146&#160;267&#160;288
+ => Président - Vladimir Poutine
+
+Président-associated : 1
+
+ => Président du gouvernement - Dmitri Medvedev
+ => Rus' de Kiev - 862
+ => Superficie en eau - 0,5&#160;%
+ => Superficie totale - 17&#160;125&#160;187&#160;
+ => Taux de chômage -  5,6% de la pop.active
+ => Tsarat de Russie - 16 janvier
+page wikipedia : http://fr.wikipedia.org/wiki/Ryan_Gosling
+ => Films notables - N'oublie Jamais
+ => Nationalité - &#160;
+ => Nom de naissance - Ryan Thomas Gosling
+ => Profession - Acteur
+
+Profession-wiki : 24
+
+page wikipedia : http://fr.wikipedia.org/wiki/Région_française
+page wikipedia : http://fr.wikipedia.org/wiki/République_démocratique_du_Congo
+ => Capitale - Kinshasa
+
+Capitale-lieu-1 : 37
+
+
+Capitale-wiki : 14
+
+ => Code ISO 3166-1 - COD, CD​
+ => Densité - 33&#160;hab./km
+ => Devise nationale - «&#160;Paix, justice, travail&#160;»
+ => Domaine Internet - .cd
+ => Forme de l'État - République
+
+Forme de l'État-associated : 5
+
+
+Forme de l'État-wiki : 16
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 28
+
+ => Gentilé - Congolais, Congolaise
+ => Hymne national - Debout Congolais
+ => IDH - 0,414 (faible) (
+ => Indicatif téléphonique - +243
+ => Indépendance - Royaume de Belgique
+
+Indépendance-wiki : 6
+
+ => Langues officielles - Français
+
+Langues officielles-wiki : 25
+
+ => Monnaie - Franc congolais
+ => PIB nominal - 30,629&#160;milliards
+ => Plus grande ville - Kinshasa
+
+Plus grande ville-lieu-1 : 30
+
+
+Plus grande ville-wiki : 12
+
+ => Population totale - 77&#160;433&#160;744
+ => Premier ministre - Augustin Matata Ponyo
+ => Président de la République - Joseph Kabila
+
+Président de la République-wiki : 2
+
+ => Superficie en eau - 3,3&#160;%
+ => Superficie totale - 2&#160;345&#160;409&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Révolution_française
+ => Lieu - &#160;
+ => Résultat - Fin de l'
+page wikipedia : http://fr.wikipedia.org/wiki/Révolution_industrielle
+page wikipedia : http://fr.wikipedia.org/wiki/SWOT
+page wikipedia : http://fr.wikipedia.org/wiki/Sabine_Azéma
+ => Films notables - La vie est un roman
+ => Nationalité - &#160;
+ => Nom de naissance - Sabine Florence Azéma
+
+Nom de naissance-aki : 4
+
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Sagrada_Família
+page wikipedia : http://fr.wikipedia.org/wiki/Saints_de_glace
+page wikipedia : http://fr.wikipedia.org/wiki/Salma_Hayek
+ => Films notables - Desperado
+
+Films notables-lieu : 28
+
+
+Films notables-associated : 31
+
+
+Films notables-holo : 28
+
+ => Nom de naissance - Salma Valgarma Hayek Jiménez
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Salvador_Dalí
+page wikipedia : http://fr.wikipedia.org/wiki/Sandra_Bullock
+ => Films notables - Demolition Man
+
+Films notables-lieu : 29
+
+
+Films notables-associated : 32
+
+
+Films notables-holo : 29
+
+
+Films notables-wiki : 13
+
+
+Films notables-aki : 14
+
+ => Nom de naissance - Sandra Annette Bullock
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Sandrine_Kiberlain
+ => Films notables - Les Patriotes
+
+Films notables-lieu : 30
+
+
+Films notables-associated : 33
+
+
+Films notables-holo : 30
+
+
+Films notables-wiki : 14
+
+
+Films notables-aki : 15
+
+ => Nationalité - &#160;
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Scarlett_Johansson
+ => Films notables - L'Homme qui murmurait à l'oreille des chevaux
+
+Films notables-lieu : 31
+
+
+Films notables-associated : 34
+
+
+Films notables-holo : 31
+
+
+Films notables-wiki : 15
+
+
+Films notables-aki : 16
+
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/Schizophrénie
+page wikipedia : http://fr.wikipedia.org/wiki/Sclérose_en_plaques
+page wikipedia : http://fr.wikipedia.org/wiki/Sclérose_latérale_amyotrophique
+page wikipedia : http://fr.wikipedia.org/wiki/Scènes_de_ménages
+ => Acteurs principaux - Marion Game
+ => Durée - 35 minutes (de 
+ => Genre - Humoristique
+ => Musique - Gilles Lakoste
+ => Nb. - 2&#160;700&#160;(3 minutes)
+ => Pays d'origine - &#160;
+ => Production - Noon
+ => Site web - http://www.m6.fr/serie-scenes_de_menages/
+page wikipedia : http://fr.wikipedia.org/wiki/Sean_Connery
+ => Films notables - voir section détaillée
+ => Nationalité - &#160;
+ => Nom de naissance - Thomas Sean Connery
+ => Profession - Acteur
+
+Profession-wiki : 25
+
+ => Site internet - SeanConnery.com
+page wikipedia : http://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale
+page wikipedia : http://fr.wikipedia.org/wiki/Selena_Gomez
+ => Activité principale - Actrice
+ => Années actives - Depuis 
+ => Genre musical - Pop
+ => Instruments - Voix
+ => Labels - Interscope Records
+ => Nom de naissance - Selena Marie Gomez
+ => Site officiel - www.selenagomez.com
+page wikipedia : http://fr.wikipedia.org/wiki/Selfie
+page wikipedia : http://fr.wikipedia.org/wiki/Sept_merveilles_du_monde
+page wikipedia : http://fr.wikipedia.org/wiki/Serge_Gainsbourg
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - De 
+ => Genre musical - Chanson française
+ => Instruments - Piano
+
+Instruments-wiki : 2
+
+ => Labels - Philips
+
+Labels-wiki : 3
+
+ => Nom de naissance - Lucien Ginsburg
+ => Surnom - Julien Grix, Gainsbarre, l'homme à tête de chou
+page wikipedia : http://fr.wikipedia.org/wiki/Serge_Lama
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - 1964
+ => Genre musical - Variété française
+ => Nom de naissance - Serge Chauvier
+ => Site officiel - serge-lama.com
+page wikipedia : http://fr.wikipedia.org/wiki/Sex
+page wikipedia : http://fr.wikipedia.org/wiki/Shaka_Ponk
+ => Anciens membres - Bob (batterie)
+ => Années actives - Depuis 
+ => Genre musical - Électro-rock
+ => Labels - Tôt ou tard
+ => Membres - Goz (mascotte)
+ => Pays d'origine - &#160;
+ => Site officiel - Shakaponk.com
+page wikipedia : http://fr.wikipedia.org/wiki/Shakira
+ => Activité principale - Chanteuse
+ => Années actives - 1990
+ => Genre musical - Latino
+ => Instruments - Guitare
+ => Labels - Sony BMG
+ => Nom de naissance - Shakira Isabel Mebarak Ripoll
+
+Nom de naissance-locution : 5
+
+ => Site officiel - shakira.com
+page wikipedia : http://fr.wikipedia.org/wiki/Sherlock_Holmes
+page wikipedia : http://fr.wikipedia.org/wiki/Shoah
+page wikipedia : http://fr.wikipedia.org/wiki/Signe_du_Zodiaque
+page wikipedia : http://fr.wikipedia.org/wiki/Siècle_des_Lumières
+page wikipedia : http://fr.wikipedia.org/wiki/Slumdog_Millionaire
+ => Durée - 120 minutes
+ => Genre - drame
+
+Genre-associated : 1
+
+ => Pays d’origine - &#160;
+ => Réalisation - Danny Boyle
+
+Réalisation-product_of : 2
+
+
+Réalisation-has_auteur : 2
+
+
+Réalisation-wiki : 2
+
+
+Réalisation-aki : 1
+
+ => Scénario - Simon Beaufoy
+ => Sociétés de production - Celador Films
+ => Sortie - 2008
+ => Titre québécois - Le Pouilleux millionnaire
+page wikipedia : http://fr.wikipedia.org/wiki/Sodomie
+page wikipedia : http://fr.wikipedia.org/wiki/Soleil
+page wikipedia : http://fr.wikipedia.org/wiki/Sons_of_Anarchy
+ => Acteurs principaux - Charlie Hunnam
+ => Autres titres - Les 
+ => Création - Kurt Sutter
+ => Durée - De 40 à 80 minutes
+ => Genre - Série 
+ => Pays d'origine - &#160;
+ => Production - John Linson
+ => Site web - fxnetworks.com/soa/
+ => Titre original - Sons of Anarchy
+page wikipedia : http://fr.wikipedia.org/wiki/Sophie_Marceau
+ => Films notables - La Boum
+
+Films notables-associated : 35
+
+
+Films notables-lieu : 32
+
+
+Films notables-holo : 32
+
+
+Films notables-aki : 17
+
+ => Nationalité - &#160;
+ => Nom de naissance - Sophie Danièle Sylvie Maupu
+
+Nom de naissance-aki : 5
+
+ => Profession - Actrice
+page wikipedia : http://fr.wikipedia.org/wiki/South_Park
+ => Chaîne d'origine - Comedy Central
+ => Création - Trey Parker
+ => Durée - 20 minutes environ
+ => Genre - Animation
+ => Musique - Primus
+ => Nb. - 257
+ => Pays d'origine - &#160;
+ => Production - Trey Parker
+ => Site web - southpark.cc.com
+page wikipedia : http://fr.wikipedia.org/wiki/Sp
+page wikipedia : http://fr.wikipedia.org/wiki/Sparte
+page wikipedia : http://fr.wikipedia.org/wiki/Star_Wars
+page wikipedia : http://fr.wikipedia.org/wiki/Statue_de_la_Liberté
+page wikipedia : http://fr.wikipedia.org/wiki/Stephen_Hawking
+ => Champs - Cosmologie
+ => Distinctions - Médaille Eddington
+ => Domicile - Royaume-Uni
+ => Institutions - Chaire de professeur lucasien de mathématiques de l'université de Cambridge
+ => Renommé pour - ses travaux concernant les 
+page wikipedia : http://fr.wikipedia.org/wiki/Steve_Jobs
+ => Nationalité - &#160;
+ => Nom de naissance - Steven Paul Jobs
+ => Pays de résidence - États-Unis
+page wikipedia : http://fr.wikipedia.org/wiki/Steve_McQueen
+ => Films notables - Les Sept Mercenaires
+
+Films notables-lieu : 33
+
+
+Films notables-associated : 36
+
+
+Films notables-holo : 33
+
+ => Nom de naissance - Terence Steven MacQueen
+ => Profession - Acteur
+
+Profession-wiki : 26
+
+ => Surnom - The King of Cool
+page wikipedia : http://fr.wikipedia.org/wiki/Steven_Spielberg
+ => Films notables - Les Dents de la mer
+
+Films notables-associated : 37
+
+
+Films notables-make : 1
+
+
+Films notables-aki : 18
+
+ => Nom de naissance - Steven Allan Spielberg
+ => Profession - Réalisateur
+ => Surnom - «&#160;The Entertainment King&#160;»
+page wikipedia : http://fr.wikipedia.org/wiki/Strasbourg
+ => 12 av. J.-C. - Fondation romaine d'
+ => 1262 - Strasbourg devient indépendante de son évêque
+ => 1681 - Strasbourg est annexé par la France
+ => 1697 - le 
+ => 923 - rattachement au 
+ => III - ville celte 
+ => Statut - République
+ => VIII - Strasbourg passe sous contrôle mérovingien
+page wikipedia : http://fr.wikipedia.org/wiki/Stromae
+ => Activité principale - Auteur-compositeur-interprète
+ => Années actives - Depuis 
+ => Genre musical - Hip-hop
+ => Instruments - Clavier
+ => Labels - Because
+ => Nom de naissance - Paul Van Haver
+
+Nom de naissance-aki : 6
+
+ => Site officiel - stromae.net
+page wikipedia : http://fr.wikipedia.org/wiki/Suisse
+ => Capitale - Berne
+
+Capitale-lieu-1 : 38
+
+
+Capitale-wiki : 15
+
+ => Code ISO 3166-1 - CHE, CH​
+ => Densité - 198,9&#160;hab./km
+ => Devise nationale - «&#160;
+ => Domaine Internet - .ch
+ => Forme de l'État - État fédéral
+
+Forme de l'État-wiki : 17
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 29
+
+ => Gentilé - Suisse, Suissesse
+ => Guerre du Sonderbund - novembre
+ => Hymne national - Cantique suisse
+ => IDH -  0,917
+ => Indicatif téléphonique - +41
+ => Langues officielles - Allemand
+
+Langues officielles-wiki : 26
+
+ => Monnaie - Franc suisse
+ => PIB -  55&#160;237 
+ => PIB nominal -  84&#160;344 
+ => Plus grande ville - Zurich
+
+Plus grande ville-lieu-1 : 31
+
+
+Plus grande ville-wiki : 13
+
+ => Population totale - 8&#160;211&#160;681
+ => Présidente de la Confédération - Simonetta Sommaruga
+ => Superficie en eau - 3,7&#160;%
+ => Superficie totale - 41&#160;285&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Superman
+page wikipedia : http://fr.wikipedia.org/wiki/Surréalisme
+page wikipedia : http://fr.wikipedia.org/wiki/Suède
+ => Capitale - Stockholm
+
+Capitale-lieu-1 : 39
+
+
+Capitale-has_part : 11
+
+
+Capitale-wiki : 16
+
+
+Capitale-associated : 30
+
+ => Code ISO 3166-1 - SWE, SE​
+ => Date - 6 juin
+ => Densité - 22&#160;hab./km
+ => Devise nationale - För Sverige i tiden (Toujours pour la Suède
+ => Domaine Internet - .se
+ => Forme de l'État - Monarchie constitutionnelle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 30
+
+ => Gentilé - Suédois, Suédoise(s)
+ => Hymne national - Du gamla, du fria
+ => IDH -  0,904
+ => Indicatif téléphonique - +46
+ => Indépendance - De l'
+ => Monnaie - Couronne suédoise
+ => PIB - 43 407 $ 
+ => PIB nominal - 58 014 $ 
+ => Plus grande ville - Stockholm
+
+Plus grande ville-lieu-1 : 32
+
+
+Plus grande ville-has_part : 8
+
+
+Plus grande ville-wiki : 14
+
+
+Plus grande ville-associated : 23
+
+ => Population totale - 9&#160;775&#160;572&#160;
+ => Premier ministre - Stefan Löfven
+ => Président de la Diète - Urban Ahlin
+ => Roi - Carl 
+ => Superficie en eau - 8,67&#160;%
+ => Superficie totale - 449&#160;965&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Switched
+ => Acteurs principaux - Katie Leclerc
+ => Chaîne d'origine - ABC Family
+ => Création - Lizzy Weiss
+ => Durée - 42 minutes
+ => Genre - Série dramatique
+ => Pays d'origine - &#160;
+ => Production - Lizzy Weiss
+ => Site web - http://abcfamily.go.com/shows/switched-at-birth
+ => Titre original - Switched at Birth
+page wikipedia : http://fr.wikipedia.org/wiki/Sylvester_Stallone
+ => Nom de naissance - Sylvester Gardenzio Stallone
+ => Profession - Acteur
+
+Profession-wiki : 27
+
+ => Site internet - www.sylvesterstallone.com
+ => Surnom - Sly, L'Étalon italien
+page wikipedia : http://fr.wikipedia.org/wiki/Syphilis
+page wikipedia : http://fr.wikipedia.org/wiki/Système_duodécimal
+page wikipedia : http://fr.wikipedia.org/wiki/Système_solaire
+page wikipedia : http://fr.wikipedia.org/wiki/Sébastopol
+page wikipedia : http://fr.wikipedia.org/wiki/Sénégal
+ => Capitale - Dakar
+
+Capitale-lieu-1 : 40
+
+
+Capitale-wiki : 17
+
+
+Capitale-aki : 20
+
+ => Code ISO 3166-1 - SEN, SN​
+ => Densité - 71,8&#160;hab./km
+ => Devise nationale - Un Peuple, Un But, Une Foi
+ => Domaine Internet - .sn
+ => Forme de l'État - République semi-présidentielle
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 31
+
+ => Gentilé - Sénégalais(e)
+ => Hymne national - le Lion rouge
+ => IDH - 0.470 (bas) (
+ => Indicatif téléphonique - +221
+ => Indépendance - de la 
+ => Langues officielles - Français
+
+Langues officielles-wiki : 27
+
+ => Monnaie - Franc CFA
+ => Plus grande ville - Dakar
+
+Plus grande ville-lieu-1 : 33
+
+
+Plus grande ville-wiki : 15
+
+
+Plus grande ville-aki : 18
+
+ => Population totale - 14&#160;133&#160;280
+ => Premier ministre - Mohamed Dionne
+ => Président - Macky Sall
+ => Superficie en eau - 2,1&#160;%
+ => Superficie totale - 196&#160;722&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Tableau_périodique_des_éléments
+page wikipedia : http://fr.wikipedia.org/wiki/Taj_Mahal
+page wikipedia : http://fr.wikipedia.org/wiki/Tatars
+ => Langues - Tatar
+ => Religions - Islam sunnite
+page wikipedia : http://fr.wikipedia.org/wiki/Tchéky_Karyo
+ => Films notables - L'Ours
+
+Films notables-lieu : 34
+
+
+Films notables-associated : 38
+
+
+Films notables-holo : 34
+
+ => Nom de naissance - Baruh Djaki Karyo
+ => Profession - Acteur
+
+Profession-wiki : 28
+
+page wikipedia : http://fr.wikipedia.org/wiki/Tennis
+ => Clubs - 38 000 (Europe)
+ => Fédération internationale - ITF
+ => Joueurs licenciés - plus de 10 000 000 (Europe)
+ => Joueurs pratiquants - plus de 26 000 000 (Europe)
+ => Sport olympique depuis - 1896
+page wikipedia : http://fr.wikipedia.org/wiki/Tension_électrique
+ => Dimension - M.I
+ => Grandeur conservative - non
+ => Nature - scalaire
+ => Unités SI - volt (V)
+page wikipedia : http://fr.wikipedia.org/wiki/Terre
+page wikipedia : http://fr.wikipedia.org/wiki/The_Beatles
+ => Anciens membres - Pete Best
+ => Années actives - 1960
+ => Genre musical - Pop
+ => Labels - Apple
+
+Labels-wiki : 4
+
+ => Membres - John Lennon
+
+Membres-associated : 1
+
+
+Membres-has_part : 1
+
+ => Pays d'origine - &#160;
+ => Site officiel - thebeatles.com
+ => Surnom - The Fab Four
+page wikipedia : http://fr.wikipedia.org/wiki/The_Big_Bang_Theory
+ => Acteurs principaux - Johnny Galecki
+ => Chaîne d'origine - CBS
+
+Chaîne d'origine-wiki : 5
+
+ => Création - Chuck Lorre
+ => Durée - 22 minutes
+ => Genre - Sitcom
+ => Musique - Big Bang Theory Theme
+ => Nb. - 183 
+ => Pays d'origine - &#160;
+ => Production - Chuck Lorre Productions
+ => Site web - http://www.cbs.com/shows/big_bang_theory/
+page wikipedia : http://fr.wikipedia.org/wiki/Théorème_de_Pythagore
+page wikipedia : http://fr.wikipedia.org/wiki/Théâtre
+page wikipedia : http://fr.wikipedia.org/wiki/Tintin
+page wikipedia : http://fr.wikipedia.org/wiki/Titanic
+page wikipedia : http://fr.wikipedia.org/wiki/Tom_Cruise
+ => Films notables - voir filmographie
+ => Nom de naissance - Thomas Cruise Mapother 
+ => Profession - Acteur
+
+Profession-wiki : 29
+
+ => Site internet - http://www.tomcruise.com
+page wikipedia : http://fr.wikipedia.org/wiki/Tom_Hanks
+ => Films notables - Splash
+
+Films notables-lieu : 35
+
+
+Films notables-holo : 35
+
+
+Films notables-wiki : 16
+
+
+Films notables-associated : 39
+
+ => Nom de naissance - Thomas Jeffrey Hanks
+ => Profession - Acteur
+
+Profession-wiki : 30
+
+page wikipedia : http://fr.wikipedia.org/wiki/Tomate
+ => Classe - Magnoliopsida
+ => Division - Magnoliophyta
+ => Famille - Solanaceae
+ => Genre - Solanum
+ => Ordre - Solanales
+ => Règne - Plantae
+ => Sous-classe - Asteridae
+ => Sous-règne - Tracheobionta
+page wikipedia : http://fr.wikipedia.org/wiki/Tony_Parker
+page wikipedia : http://fr.wikipedia.org/wiki/Toulouse
+page wikipedia : http://fr.wikipedia.org/wiki/Tour_Eiffel
+page wikipedia : http://fr.wikipedia.org/wiki/Transnistrie
+ => Capitale - Tiraspol
+
+Capitale-wiki : 18
+
+ => Code ISO 3166-1 - ​
+ => Densité - 121&#160;hab./km
+ => Domaine Internet - aucun (les domaines 
+ => Forme de l'État - République
+ => Fuseau horaire - UTC
+ => Hymne national - Hymne national de la Transnistrie
+ => Indicatif téléphonique - +373 533
+ => Langues officielles - moldave
+
+Langues officielles-wiki : 28
+
+ => Monnaie - Rouble de Transnistrie
+ => Population totale - 505&#160;153&#160;
+ => Président - Evgueni Chevtchouk
+ => Reconnu par - aucun pays de la communauté internationale
+ => Revendiqué par - &#160;
+ => Superficie totale - 4&#160;163&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Triangle_des_Bermudes
+page wikipedia : http://fr.wikipedia.org/wiki/Trouble_bipolaire
+page wikipedia : http://fr.wikipedia.org/wiki/Trouble_de_la_personnalité_borde
+page wikipedia : http://fr.wikipedia.org/wiki/Tuberculose
+page wikipedia : http://fr.wikipedia.org/wiki/Tunisie
+ => Capitale - Tunis
+
+Capitale-lieu-1 : 41
+
+
+Capitale-associated : 31
+
+
+Capitale-has_part : 12
+
+
+Capitale-carac : 1
+
+
+Capitale-aki : 21
+
+ => Chef du gouvernement - Habib Essid
+ => Code ISO 3166-1 - TUN, TN​
+ => Densité - 65&#160;hab./km
+ => Devise nationale - Hurriya, Karama, 'Adala, Nidham (Liberté, Dignité, Justice, Ordre)
+ => Domaine Internet - .tn
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 18
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 32
+
+ => Gentilé - Tunisien, Tunisienne
+ => Hymne national - Humat Al-Hima
+ => IDH -  0.721
+ => Indicatif téléphonique - +216
+ => Indépendance - de la 
+ => Langues - Arabe
+
+Langues-wiki : 2
+
+ => Monnaie - Dinar tunisien
+ => Organisations internationales - ONU
+
+Organisations internationales-lieu : 1
+
+
+Organisations internationales-wiki : 6
+
+ => PIB - 9&#160;700 
+ => PIB nominal - 44,7 milliards 
+ => Population totale - 10&#160;982&#160;754
+ => Première municipalité - Tunis
+
+Première municipalité-lieu-1 : 1
+
+
+Première municipalité-associated : 1
+
+
+Première municipalité-has_part : 1
+
+
+Première municipalité-carac : 1
+
+
+Première municipalité-aki : 1
+
+ => Président de l'Assemblée des représentants du peuple - Mohamed Ennaceur
+ => Président de la République - Béji Caïd Essebsi
+ => Superficie en eau - 5&#160;%
+ => Superficie totale - 163&#160;610&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Turquie
+ => Capitale - Ankara
+
+Capitale-lieu-1 : 42
+
+
+Capitale-wiki : 19
+
+
+Capitale-aki : 22
+
+ => Code ISO 3166-1 - TUR, TR​
+ => Densité - 98&#160;hab./km
+ => Devise nationale - Yurtta sulh, cihanda sulh
+ => Domaine Internet - .tr
+ => Forme de l'État - République
+
+Forme de l'État-wiki : 19
+
+ => Fuseau horaire - UTC
+
+Fuseau horaire-wiki : 33
+
+ => Gentilé - Turc, turque
+ => Hymne national - Marche de l’indépendance
+ => IDH -  0.812
+ => Indicatif téléphonique - +90
+ => Langues officielles - Turc
+
+Langues officielles-wiki : 29
+
+ => Monnaie - livre turque
+
+Monnaie-wiki : 17
+
+ => PIB - 1&#160;422&#160;milliards
+ => PIB nominal - 820&#160;milliards
+ => Plus grande ville - Istanbul
+
+Plus grande ville-associated : 24
+
+
+Plus grande ville-lieu-1 : 34
+
+
+Plus grande ville-wiki : 16
+
+
+Plus grande ville-aki : 19
+
+ => Population totale - 76&#160;667&#160;864
+ => Premier ministre - Ahmet Davutoğlu
+ => Président de la République - Recep Tayyip Erdoğan
+ => Président du Parlement - Cemil Çiçek
+ => Superficie en eau - 1,3&#160;%
+ => Superficie totale - 783&#160;562&#160;
+page wikipedia : http://fr.wikipedia.org/wiki/Twilight
+page wikipedia : http://fr.wikipedia.org/wiki/Twitter
+ => Action - NYSE
+
+Action-wiki : 2
+
+ => Activité - Internet
+
+Activité-associated : 1
+
+
+Activité-aki : 1
+
+ => Direction - Jack Dorsey
+ => Effectif - 3&#160;900 (2015) 
+ => Personnages clés - Jack Dorsey
+ => Produits - Service de microblog
+ => Site web - twitter.com
+ => Siège social - &#160;
+ => Slogan - Quoi de neuf&#160;? - Découvrez ce qui se passe en ce moment chez les personnes et dans les organismes qui vous tiennent à cœur - Suivez vos passions
+page wikipedia : http://fr.wikipedia.org/wiki/Ukraine
+ => Capitale - Kiev
+
+Capitale-lieu-1 : 43
+
+
+Capitale-associated : 32
+
+
+Capitale-wiki : 20
+
+
+Capitale-aki : 23
+
+ => Code ISO 3166-1 - UKR, UA​
+ => Densité - 75&#160;hab./km
+ => Domaine Internet - .ua
+ => Forme de l'État - République
+ => Gentilé - Ukrainiens
+ => Hymne national - Ще не вмерла України
+ => IDH -  0,734 (élevé
+ => Indicatif téléphonique - +380
+ => Indépendance - de l'
+ => Langue officielle - Ukrainien
+
+Langue officielle-wiki : 1
+
+ => Monnaie - Hryvnia
+ => Plus grande ville - Kiev
+
+Plus grande ville-lieu-1 : 35
+
+
+Plus grande ville-associated : 25
+
+
+Plus grande ville-wiki : 17
+
+
+Plus grande ville-aki : 20
+
+ => Premier ministre - Arseni Iatseniouk
+ => Président - Petro Porochenko
+page wikipedia : http://fr.wikipedia.org/wiki/Ulysse
+page wikipedia : http://fr.wikipedia.org/wiki/Undefined
+page wikipedia : http://fr.wikipedia.org/wiki/Union_des_républiques_socialiste
+page wikipedia : http://fr.wikipedia.org/wiki/Union_européenne
+ => - dont eau - 6,75&#160;%
+ => Densité - 113&#160;hab./km
+ => Domaine  - .eu
+
+Domaine -wiki : 1
+
+ => Fuseaux horaires - Essentiellement UTC + 0 à + 2
+ => Gentilé - Européen, Européenne
+ => Hymne - Ode à la joie
+
+Hymne-wiki : 1
+
+ => Indicatif téléphonique - +3 et +4 en fonction des États membres
+ => Journée de l'Europe - 9 mai
+ => Langues officielles - 24 langues officielles
+ => Monnaie - Euro
+
+Monnaie-wiki : 18
+
+ => PIB - 18&#160;162,204&#160;Md$
+ => PIB/hab. - 33&#160;817&#160;$/hab
+ => Population - 506&#160;913&#160;394&#160;
+ => Présidence tournante - Lettonie
+
+Présidence tournante-wiki : 1
+
+ => Président - Martin Schulz
+ => Secrétaire général - Uwe Corsepius
+ => Secrétariat général - Luxembourg
+
+Secrétariat général-wiki : 1
+
+ => Site officiel - europa.eu
+ => Siège - Résidence Palace
+ => Siège du Parlement - Bât.
+ => Superficie - 4&#160;493&#160;712
+ => États candidats - 5 États candidats
+ => États membres - 28 États membres
+page wikipedia : http://fr.wikipedia.org/wiki/United_States
+page wikipedia : http://fr.wikipedia.org/wiki/Vagin
+page wikipedia : http://fr.wikipedia.org/wiki/Valérie_Benguigui
+ => Films notables - La Vérité si je mens !
+
+Films notables-associated : 40
+
+
+Films notables-lieu : 36
+
+
+Films notables-holo : 36
+
+
+Films notables-wiki : 17
+
+ => Nationalité - &#160;
+ => Profession - Actrice
+&#160;
+    R : 1
+- dont eau
+    R : 1
+12 av. J.-C.
+    R : 1
+1262
+    R : 1
+1681
+    R : 1
+1697
+    R : 1
+29 juillet
+    R : 1
+923
+    R : 1
+Acteurs principaux
+    R : 14
+    aki : 1
+    associated : 2
+Action
+    R : 4
+    wiki : 2
+Actionnaires
+    R : 1
+Activité
+    R : 5
+    aki : 1
+    associated : 1
+    wiki : 2
+Activité principale
+    R : 44
+    aki : 1
+    associated : 1
+    isa : 1
+    wiki : 7
+Activités annexes
+    R : 9
+    aki : 1
+    associated : 1
+    isa : 1
+    wiki : 4
+Adjectifs dérivés
+    R : 4
+    associated : 1
+Anciens membres
+    R : 2
+Année de création
+    R : 1
+Années actives
+    R : 45
+Années d'activité
+    R : 4
+Approche
+    R : 1
+Ascendants
+    R : 1
+Auteur
+    R : 2
+Auteur(s)
+    R : 1
+Autre(s) support(s)
+    R : 1
+Autres appellations
+    R : 1
+Autres titres
+    R : 7
+Branche
+    R : 1
+Capitale
+    R : 49
+    aki : 23
+    associated : 32
+    carac : 1
+    domain-1 : 2
+    has_part : 12
+    instance : 1
+    lieu-1 : 43
+    meaning : 1
+    syn : 1
+    wiki : 20
+Capitale économique
+    R : 1
+    aki : 1
+    lieu-1 : 1
+    wiki : 1
+Capitalisation
+    R : 2
+Capétiens
+    R : 1
+Champion du monde
+    R : 3
+Champs
+    R : 5
+    wiki : 1
+Chancelier fédéral
+    R : 1
+Chancelière fédérale
+    R : 1
+    wiki : 1
+Chaîne d'origine
+    R : 17
+    associated : 2
+    lieu : 1
+    wiki : 5
+Chef de l'État
+    R : 1
+Chef du gouvernement
+    R : 2
+Chiffre d’affaires
+    R : 1
+Clade
+    R : 1
+Classe
+    R : 7
+    wiki : 1
+Clubs
+    R : 2
+Code ISO 3166-1
+    R : 50
+Création
+    R : 22
+    associated : 1
+    wiki : 2
+Création RDA
+    R : 1
+Création RFA
+    R : 1
+Date
+    R : 3
+Date de naissance
+    R : 1
+Dates clés
+    R : 1
+De facto
+    R : 1
+Densité
+    R : 51
+Dette
+    R : 1
+Dette publique brute
+    R : 4
+Devise nationale
+    R : 36
+    wiki : 1
+Diff. originale
+    R : 1
+Dimension
+    R : 1
+Diplôme
+    R : 4
+    wiki : 2
+Direction
+    R : 5
+    aki : 2
+    associated : 1
+    wiki : 1
+Distinctions
+    R : 2
+Division
+    R : 2
+Domaine 
+    R : 1
+    wiki : 1
+Domaine Internet
+    R : 49
+    wiki : 2
+Domicile
+    R : 2
+    wiki : 1
+Durée
+    R : 25
+Déclarée
+    R : 3
+Décès
+    R : 7
+Effectif
+    R : 5
+Embranchement
+    R : 5
+Empereur
+    R : 1
+    wiki : 1
+Empire russe
+    R : 1
+Espèce
+    R : 2
+    wiki : 1
+Famille
+    R : 7
+    wiki : 2
+Filiales
+    R : 3
+Films notables
+    R : 86
+    aki : 18
+    associated : 40
+    holo : 36
+    lieu : 36
+    make : 1
+    wiki : 17
+Fondateurs
+    R : 3
+    aki : 2
+    associated : 2
+    has_part : 1
+Fondation de la nation
+    R : 1
+Formation
+    R : 1
+    wiki : 1
+Forme de l'État
+    R : 50
+    associated : 5
+    isa : 2
+    wiki : 19
+Forme juridique
+    R : 3
+Fuseau horaire
+    R : 43
+    wiki : 33
+Fuseaux horaires
+    R : 1
+Fédération internationale
+    R : 3
+    wiki : 1
+Genre
+    R : 33
+    associated : 1
+    wiki : 2
+Genre musical
+    R : 47
+    wiki : 8
+Genre(s)
+    R : 1
+Gentilé
+    R : 50
+    associated : 1
+    wiki : 2
+Gouverneur général
+    R : 3
+Grande-principauté de Moscou
+    R : 1
+Grandeur conservative
+    R : 1
+Gray's Anatomy
+    R : 1
+Guerre civile chinoise
+    R : 1
+Guerre du Sonderbund
+    R : 1
+Hymne
+    R : 1
+    wiki : 1
+Hymne national
+    R : 50
+    associated : 1
+    wiki : 3
+IDH
+    R : 43
+III
+    R : 1
+Idées remarquables
+    R : 1
+Indicatif téléphonique
+    R : 48
+Indépendance
+    R : 36
+    wiki : 6
+Indépendance du Portugal
+    R : 1
+Influences
+    R : 2
+    wiki : 1
+Influencé par
+    R : 1
+Infra-classe
+    R : 2
+Inspiration(s)
+    R : 1
+Institutions
+    R : 4
+Instruments
+    R : 23
+    wiki : 2
+Joueurs licenciés
+    R : 3
+Joueurs pratiquants
+    R : 3
+Joueurs professionnels
+    R : 1
+Journée de l'Europe
+    R : 1
+Labels
+    R : 37
+    wiki : 4
+Langue
+    R : 1
+Langue d’origine
+    R : 1
+Langue d’écriture
+    R : 17
+    associated : 3
+    carac : 1
+    wiki : 4
+Langue officielle
+    R : 1
+    wiki : 1
+Langues
+    R : 3
+    wiki : 2
+Langues officielles
+    R : 46
+    aki : 2
+    associated : 6
+    familly : 1
+    lieu-1 : 1
+    wiki : 29
+Lieu
+    R : 1
+Lieu de décès
+    R : 1
+    wiki : 1
+Lieu de naissance
+    R : 1
+Maîtres
+    R : 1
+MeSH
+    R : 1
+Membres
+    R : 4
+    associated : 1
+    has_part : 1
+Ministre d’État
+    R : 1
+Monarchie absolue
+    R : 1
+Monnaie
+    R : 52
+    lieu-1 : 1
+    wiki : 18
+Mouvement
+    R : 13
+    wiki : 5
+Musique
+    R : 16
+Naissance
+    R : 8
+Nationalité
+    R : 40
+    wiki : 3
+Nations
+    R : 1
+Nature
+    R : 1
+Nb.
+    R : 18
+Nom de naissance
+    R : 123
+    aki : 6
+    associated : 2
+    equiv : 1
+    locution : 5
+    meaning : 1
+    syn : 1
+Nombre de courses
+    R : 3
+Ordre
+    R : 7
+    wiki : 2
+Organisateur(s)
+    R : 2
+    wiki : 1
+Organisation internationale
+    R : 1
+    wiki : 1
+Organisations internationales
+    R : 6
+    lieu : 1
+    wiki : 6
+PIB
+    R : 26
+PIB en volume
+    R : 1
+PIB nominal
+    R : 33
+PIB/hab.
+    R : 1
+Participants
+    R : 2
+Pays d'origine
+    R : 23
+Pays de résidence
+    R : 5
+    wiki : 2
+Pays d’origine
+    R : 6
+Personnages clés
+    R : 2
+    aki : 1
+    wiki : 1
+Plus grande ville
+    R : 39
+    aki : 20
+    associated : 25
+    domain-1 : 2
+    has_part : 8
+    instance : 1
+    lieu-1 : 35
+    meaning : 1
+    syn : 1
+    wiki : 17
+Plus grandes villes
+    R : 4
+    aki : 2
+    associated : 2
+    has_part : 2
+    lieu-1 : 3
+    wiki : 1
+Plus titré(s)
+    R : 1
+Podiums
+    R : 1
+Pole positions
+    R : 1
+Population
+    R : 2
+Population totale
+    R : 49
+Port-au-Prince
+    R : 1
+    associated : 1
+    has_part : 1
+    lieu-1 : 1
+Premier ministre
+    R : 32
+    wiki : 3
+Premier secrétaire du Parti
+    R : 1
+Première municipalité
+    R : 1
+    aki : 1
+    associated : 1
+    carac : 1
+    has_part : 1
+    lieu-1 : 1
+Prince souverain
+    R : 1
+    wiki : 1
+Production
+    R : 19
+    associated : 1
+    wiki : 2
+Produits
+    R : 4
+    aki : 1
+    associated : 1
+Profession
+    R : 91
+    aki : 1
+    associated : 2
+    isa : 2
+    wiki : 30
+Provinces-Unies
+    R : 1
+Prédicat
+    R : 1
+Présidence tournante
+    R : 1
+    wiki : 1
+Président
+    R : 16
+    associated : 1
+Président de Malte
+    R : 1
+Président de l'ANP
+    R : 1
+Président de l'Assemblée des représentants du peuple
+    R : 1
+Président de l'Assemblée nationale
+    R : 1
+    associated : 1
+    domain-1 : 1
+    wiki : 1
+Président de la CCPPC
+    R : 1
+Président de la Chambre
+    R : 1
+Président de la Diète
+    R : 2
+Président de la Knesset
+    R : 1
+Président de la République
+    R : 11
+    wiki : 2
+Président du Bundesrat
+    R : 1
+Président du Bundestag
+    R : 1
+Président du Comité de défense
+    R : 1
+Président du Conseil
+    R : 2
+Président du Parlement
+    R : 2
+Président du Présidium de l'Assemblée
+    R : 1
+Président du Sénat
+    R : 2
+Président du gouvernement
+    R : 3
+Président fédéral
+    R : 2
+Présidente de la Confédération
+    R : 1
+Présidente de la Nation
+    R : 1
+Présidente de la République
+    R : 3
+Public visé
+    R : 1
+Périodicité
+    R : 2
+Qualité
+    R : 2
+Quartier principal
+    R : 1
+    associated : 1
+    has_part : 1
+    lieu-1 : 1
+    syn : 1
+    wiki : 1
+Reconnu par
+    R : 2
+Reconnue
+    R : 1
+Reine
+    R : 5
+    wiki : 3
+Religion
+    R : 1
+Religions
+    R : 1
+Renommé pour
+    R : 4
+Renommée pour
+    R : 1
+Revendiqué par
+    R : 3
+    associated : 1
+Roi
+    R : 6
+    wiki : 2
+Royaume établi en
+    R : 1
+Rus' de Kiev
+    R : 1
+Règne
+    R : 7
+    wiki : 1
+Réalisation
+    R : 5
+    aki : 1
+    has_actors : 1
+    has_auteur : 2
+    product_of : 2
+    wiki : 2
+Résultat
+    R : 1
+Résultat net
+    R : 2
+Réunification
+    R : 1
+Scénario
+    R : 5
+    has_actors : 1
+Secrétaire général
+    R : 1
+Secrétaire général du PCC
+    R : 1
+Secrétariat général
+    R : 1
+    wiki : 1
+Site internet
+    R : 21
+Site officiel
+    R : 42
+Site web
+    R : 21
+Siège
+    R : 1
+Siège du Parlement
+    R : 1
+Siège social
+    R : 5
+Slogan
+    R : 5
+Société mère
+    R : 1
+Sociétés de production
+    R : 4
+Sociétés sœurs
+    R : 1
+    wiki : 1
+Sortie
+    R : 5
+Sous-classe
+    R : 3
+Sous-embr.
+    R : 3
+Sous-famille
+    R : 3
+    wiki : 1
+Sous-ordre
+    R : 3
+Sous-règne
+    R : 1
+Sport olympique depuis
+    R : 3
+Statut
+    R : 2
+    wiki : 1
+Statut des participants
+    R : 1
+Studio d’animation
+    R : 2
+Studio d’enregistrement
+    R : 1
+Style
+    R : 1
+Style alternatif
+    R : 1
+Style oral
+    R : 1
+Super-ordre
+    R : 1
+Superficie
+    R : 1
+Superficie en eau
+    R : 46
+Superficie totale
+    R : 49
+Support d’origine
+    R : 1
+Surnom
+    R : 35
+    aki : 2
+    associated : 2
+    syn : 1
+Système
+    R : 1
+Séries notables
+    R : 25
+    aki : 1
+    associated : 2
+    holo : 1
+    lieu : 1
+    wiki : 5
+Taux de chômage
+    R : 4
+Terminologie Anatomique
+    R : 1
+Territoire d'application
+    R : 1
+Thème(s)
+    R : 1
+    associated : 1
+Thèmes
+    R : 2
+Titre
+    R : 1
+Titre original
+    R : 10
+Titre québécois
+    R : 3
+Titres
+    R : 1
+Traité de Verdun
+    R : 2
+Tsarat de Russie
+    R : 1
+Type
+    R : 3
+Unification
+    R : 1
+Unification et constitution en État
+    R : 1
+Union des couronnes de
+    R : 1
+Unités SI
+    R : 1
+VIII
+    R : 1
+Vice-président
+    R : 3
+Victoires
+    R : 1
+Ville la plus peuplée
+    R : 2
+    associated : 1
+    lieu-1 : 1
+    wiki : 1
+révolution
+    R : 1
+Élèves
+    R : 1
+Émir
+    R : 1
+Épisodes
+    R : 2
+Épreuves
+    R : 1
+Équipe
+    R : 3
+    wiki : 1
+États
+    R : 1
+États candidats
+    R : 1
+États membres
+    R : 1
+Étudiants en thèse
+    R : 1

@@ -1,0 +1,14 @@
+problème undescore : relation mot vers lui même
+problème undescore : remplacer apr espace
+Locution : Le mot doit apparaitre à l'intérieur, sinon remplacer par synonyme
+Virer parenthèse
+Problèmes de majuscules
+
+
+
+
+
+
+
+
+

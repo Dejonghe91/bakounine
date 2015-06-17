@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bakou2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bakou2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-network" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bakou2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="-lsfml-lsystem" targets="Debug;Release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="BakuSemantic.cpp" />
+		<Unit filename="BakuSemantic.h" />
+		<Unit filename="bakuBaseSemantic.cpp" />
+		<Unit filename="bakuBaseSemantic.h" />
+		<Unit filename="jdm.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="json.cpp" />
+		<Unit filename="json.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="outilNet.cpp" />
+		<Unit filename="outilNet.h" />
+		<Unit filename="outilParsage.cpp" />
+		<Unit filename="outilParsage.h" />
+		<Unit filename="src/bakuBaseSemantic.cpp" />
+		<Unit filename="tout.cpp" />
+		<Unit filename="tout.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

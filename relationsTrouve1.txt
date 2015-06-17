@@ -1,0 +1,171 @@
+Adèle Exarchopoulos -- holo --> Les Enfants de Timpelbach Nouvelle relation
+Adèle Exarchopoulos -- isa --> Actrice Nouvelle relation
+Afrique du Sud -- isa --> République constitutionnelle Nouvelle relation
+Afrique du Sud -- familly --> 11 langues officielles Nouvelle relation
+Afrique du Sud -- lieu-1 --> Rand Nouvelle relation
+Afrique du Sud -- lieu-1 --> Johannesburg JDM
+Alain Resnais -- holo --> Nuit et brouillard Nouvelle relation
+Alain Resnais -- isa --> Réalisateur Nouvelle relation
+Alexandra Lamy -- holo --> Ricky JDM
+Alexandra Lamy -- locution --> Alexandra Paulette Mathilde Lamy Nouvelle relation
+Alexandra Lamy -- isa --> actrice JDM
+Alexandra Lamy -- holo --> Un gars, une fille Nouvelle relation
+alfred Hitchcock -- holo --> Les 39 Marches Nouvelle relation
+alfred Hitchcock -- locution --> Alfred Joseph Hitchcock Nouvelle relation
+alfred Hitchcock -- isa --> réalisateur Nouvelle relation
+alfred Hitchcock -- syn --> Hitch Nouvelle relation
+alfred Hitchcock -- holo --> Alfred Hitchcock présente Nouvelle relation
+Algérie -- lieu-1 --> Alger JDM
+Algérie -- isa --> République Nouvelle relation
+Algérie -- lieu-1 --> Dinar algérien Nouvelle relation
+Algérie -- lieu --> ONU Nouvelle relation
+Algérie -- lieu-1 --> Alger JDM
+Allemagne -- lieu-1 --> Berlin JDM
+Allemagne -- isa --> République JDM
+Allemagne -- familly --> Allemand JDM
+Allemagne -- lieu-1 --> Euro Nouvelle relation
+Allemagne -- lieu-1 --> Berlin JDM
+Amanda Lear -- isa --> chanteuse Nouvelle relation
+Amanda Lear -- isa --> artiste peintre Nouvelle relation
+Amanda Lear -- locution --> Tapp Nouvelle relation
+Amazon.com -- has_part --> Jeff Bezos Nouvelle relation
+Amber Heard -- holo --> All the Boys Love Mandy Lane Nouvelle relation
+Amber Heard -- locution --> Amber Laura Heard Nouvelle relation
+Amber Heard -- isa --> Actrice Nouvelle relation
+André Dussollier -- holo --> Trois hommes et un couffin JDM
+André Dussollier -- isa --> Acteur Nouvelle relation
+Angelina Jolie -- holo --> Lara Croft: Tomb Raider Nouvelle relation
+Angelina Jolie -- locution --> Angelina Jolie Voight JDM
+Angelina Jolie -- isa --> Actrice Nouvelle relation
+Antoine de Caunes -- isa --> Acteur Nouvelle relation
+Apple -- has_part --> Steve Jobs JDM
+Argentine -- lieu-1 --> Buenos Aires JDM
+Argentine -- isa --> République Nouvelle relation
+Argentine -- familly --> Espagnol Nouvelle relation
+Argentine -- lieu-1 --> Peso argentin Nouvelle relation
+Argentine -- lieu-1 --> Buenos Aires JDM
+Arielle Dombasle -- holo --> Pauline à la plage Nouvelle relation
+Arielle Dombasle -- locution --> Arielle Laure Maxime Sonnery Nouvelle relation
+Arielle Dombasle -- isa --> Actrice Nouvelle relation
+Arnold Schwarzenegger -- holo --> Conan le Barbare JDM
+Arnold Schwarzenegger -- locution --> Arnold Alois Schwarzenegger Nouvelle relation
+Arnold Schwarzenegger -- isa --> Acteur Nouvelle relation
+Arnold Schwarzenegger -- syn --> «&#160;Schwarzy&#160;» Nouvelle relation
+Arthur Rimbaud -- carac --> Français Nouvelle relation
+Arthur Rimbaud -- locution --> Jean Nicolas Arthur Rimbaud Nouvelle relation
+Australie -- lieu-1 --> Canberra JDM
+Australie -- isa --> Monarchie parlementaire Nouvelle relation
+Australie -- familly --> Anglais Nouvelle relation
+Australie -- lieu-1 --> Dollar australien Nouvelle relation
+Australie -- lieu-1 --> Sydney JDM
+Autriche -- lieu-1 --> Vienne JDM
+Autriche -- isa --> République Nouvelle relation
+Autriche -- familly --> Allemand Nouvelle relation
+Autriche -- lieu-1 --> Euro Nouvelle relation
+Autriche -- lieu-1 --> Vienne JDM
+Ayrton Senna -- syn --> Magic Senna Nouvelle relation
+Belgique -- lieu-1 --> Bruxelles JDM
+Belgique -- isa --> Monarchie constitutionnelle Nouvelle relation
+Belgique -- familly --> Néerlandais Nouvelle relation
+Belgique -- lieu-1 --> Euro Nouvelle relation
+Belgique -- lieu-1 --> Bruxelles JDM
+Bernard Lavilliers -- isa --> Chanteur Nouvelle relation
+Bernard Lavilliers -- isa --> Acteur Nouvelle relation
+Bernard Lavilliers -- locution --> Bernard Oulion Nouvelle relation
+bernard-Henri Lévy -- carac --> français Nouvelle relation
+beyoncé Knowles -- isa --> Chanteuse Nouvelle relation
+beyoncé Knowles -- locution --> Beyoncé Giselle Knowles Nouvelle relation
+Bill Gates -- locution --> William Henry «&#160;Bill&#160;» Gates III Nouvelle relation
+Bill Murray -- holo --> SOS Fantômes JDM
+Bill Murray -- locution --> William James Murray Nouvelle relation
+Bill Murray -- isa --> Acteur Nouvelle relation
+Bob Marley -- isa --> Auteur-compositeur-interprète Nouvelle relation
+Bob Marley -- locution --> Robert Nesta Marley Nouvelle relation
+Booba -- isa --> Rappeur Nouvelle relation
+Booba -- locution --> Élie Yaffa Nouvelle relation
+Booba -- syn --> B2oba Nouvelle relation
+Boris Vian -- carac --> français Nouvelle relation
+Brad Pitt -- holo --> Cf.  Nouvelle relation
+Brad Pitt -- locution --> William Bradley Pitt Nouvelle relation
+Brad Pitt -- isa --> Acteur Nouvelle relation
+bradley Cooper -- holo --> Very Bad Trip Nouvelle relation
+bradley Cooper -- locution --> Bradley Charles Cooper Nouvelle relation
+bradley Cooper -- isa --> Acteur Nouvelle relation
+bradley Cooper -- holo --> Alias Nouvelle relation
+Braquo -- lieu --> Canal+ Nouvelle relation
+Breaking Bad -- lieu --> AMC Nouvelle relation
+Brigitte Bardot -- holo --> Les Grandes Manœuvres Nouvelle relation
+Brigitte Bardot -- locution --> Brigitte Anne-Marie Bardot Nouvelle relation
+Brigitte Bardot -- isa --> Actrice Nouvelle relation
+Bruce Lee -- holo --> The Big Boss Nouvelle relation
+Bruce Lee -- locution --> Lee Jun-fan, Bruce Lee Nouvelle relation
+Bruce Lee -- isa --> Réalisateur Nouvelle relation
+Bruce Lee -- syn --> le Petit Dragon Lee Nouvelle relation
+bruce Willis -- holo --> Die Hard Nouvelle relation
+bruce Willis -- locution --> Walter Bruce Willis Nouvelle relation
+bruce Willis -- isa --> Acteur Nouvelle relation
+bruce Willis -- syn --> W.B. Willis Nouvelle relation
+bruce Willis -- holo --> Clair de lune Nouvelle relation
+Brésil -- lieu-1 --> Brasilia JDM
+Brésil -- isa --> République Nouvelle relation
+Brésil -- familly --> Portugais Nouvelle relation
+Brésil -- lieu-1 --> Réal Nouvelle relation
+Brésil -- lieu-1 --> São Paulo Nouvelle relation
+Burkina Faso -- lieu-1 --> Ouagadougou JDM
+Burkina Faso -- isa --> Faso Nouvelle relation
+Burkina Faso -- familly --> Français Nouvelle relation
+Burkina Faso -- lieu-1 --> Franc CFA Nouvelle relation
+Burkina Faso -- lieu-1 --> Ouagadougou JDM
+Canada -- lieu-1 --> Ottawa JDM
+Canada -- isa --> Monarchie constitutionnelle Nouvelle relation
+Canada -- familly --> Anglais Nouvelle relation
+Canada -- lieu-1 --> Dollar canadien Nouvelle relation
+Canada -- lieu-1 --> Toronto JDM
+Cap-Vert -- lieu-1 --> Praia JDM
+Cap-Vert -- isa --> République Nouvelle relation
+Cap-Vert -- lieu-1 --> Escudo cap-verdien Nouvelle relation
+Cap-Vert -- lieu-1 --> Praia JDM
+Cate Blanchett -- holo --> Le Seigneur des anneaux JDM
+Cate Blanchett -- locution --> Catherine Élise Blanchett Nouvelle relation
+Cate Blanchett -- isa --> Actrice Nouvelle relation
+Catherine Deneuve -- holo --> Les Parapluies de Cherbourg JDM
+Catherine Deneuve -- locution --> Catherine Fabienne Dorléac Nouvelle relation
+Catherine Deneuve -- isa --> Actrice Nouvelle relation
+Charles Baudelaire -- carac --> français Nouvelle relation
+Charles Baudelaire -- locution --> Charles-Pierre Baudelaire Nouvelle relation
+Charlie Chaplin -- holo --> Filmographie Nouvelle relation
+Charlie Chaplin -- locution --> Charles Spencer Chaplin Nouvelle relation
+Charlie Chaplin -- isa --> Acteur Nouvelle relation
+Charlie Chaplin -- syn --> The Tramp Nouvelle relation
+Charmed -- lieu --> The WB Nouvelle relation
+Che Guevara -- locution --> Ernesto Guevara Nouvelle relation
+Chine -- lieu-1 --> Pékin JDM
+Chine -- isa --> République Nouvelle relation
+Chine -- familly --> Chinois Nouvelle relation
+Chine -- lieu-1 --> yuan JDM
+Chine -- lieu-1 --> Shanghai JDM
+Christian Bale -- holo --> Empire du soleil Nouvelle relation
+Christian Bale -- locution --> Christian Charles Philip Bale Nouvelle relation
+Christian Bale -- isa --> Acteur Nouvelle relation
+Christian Clavier -- holo --> Les Bronzés (série de films) Nouvelle relation
+Christian Clavier -- isa --> Acteur Nouvelle relation
+Christian Clavier -- holo --> Napoléon Nouvelle relation
+Christophe Colomb -- locution --> Cristoforo Colombo ( Nouvelle relation
+Clara Morgane -- locution --> Emmanuelle Aurélie Munos Nouvelle relation
+Claude François -- isa --> Chanteur Nouvelle relation
+Claude François -- locution --> Claude Antoine Marie François Nouvelle relation
+Claude François -- syn --> Cloclo JDM
+Claude Lelouch -- holo --> Un homme et une femme Nouvelle relation
+Claude Lelouch -- isa --> Réalisateur Nouvelle relation
+Claude Nougaro -- isa --> Auteur-compositeur-interprète Nouvelle relation
+Coluche -- locution --> Michel Gérard Joseph Colucci Nouvelle relation
+Corée du Nord -- lieu-1 --> Pyongyang JDM
+Corée du Nord -- isa --> De jure Nouvelle relation
+Corée du Nord -- familly --> Coréen Nouvelle relation
+Corée du Nord -- lieu-1 --> Won Nouvelle relation
+Corée du Nord -- lieu-1 --> Pyongyang JDM
+Croatie -- lieu-1 --> Zagreb JDM
+Croatie -- isa --> République parlementaire Nouvelle relation
+Croatie -- familly --> Croate Nouvelle relation
+Croatie -- lieu-1 --> Kuna Nouvelle relation
+Croatie -- lieu-1 --> Zagreb JDM
