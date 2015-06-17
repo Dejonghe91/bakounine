@@ -5,6 +5,8 @@
 #include "./outilNet.h"
 #include "./outilParsage.h"
 #include "./tout.h"
+#include <curl/curl.h>
+
 ofstream ofs("arbreJson.txt");
 ofstream ofs2("relJson.txt");
 
@@ -109,7 +111,34 @@ void afficherel(){
     }
 }
 
+string qid(string nom){//Renvoi l'id wikidata du mot donné en entrée.
+    //https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Philosophie%20politique&language=fr&format=json
+    string url = "https://www.wikidata.org/w/api.php?action=wbsearchentities&search=";
+    CURL *curl = curl_easy_init();
+    url += curl_easy_escape(curl, nom.c_str(), nom.size());
+    url+="&language=fr&format=json";
+    string page = ouvrirPage(url);
+    Document document;
+    document.Parse(page.c_str());
+    assert(document.IsObject());
+    return document["search"]["id"].GetString();
+}
+
+
 int test(string json){
+    Document document;
+    document.Parse(json.c_str());
+    assert(document.IsObject());
+    cout<<document.IsObject()<<endl;
+    cout<<":-)"<<endl;
+    //cout<<document["entities"]["Q27645"]["labels"]["fr"]["value"].GetString()<<endl;
+    //pause("nom");
+    //const Value& arbre = document["entities"];
+    recurtest(1, document);
+    afficherel();
+}
+
+int testOld(string json){
     Document document;
     document.Parse(json.c_str());
     assert(document.IsObject());

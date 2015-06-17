@@ -15,6 +15,8 @@
 
 using namespace std;
 
+
+
 struct Relation{
     string mot1;
     string mot2;

@@ -23,5 +23,6 @@ void recurtest(int decalage, Value& sousArbre);
 string getNom(int id);
 string getNom(Document d);
 int test(string json);
+string qid(string nom);
 
 #endif

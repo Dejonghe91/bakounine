@@ -6,7 +6,6 @@
 #include "./jdm.cpp"
 #include <curl/curl.h>
 #include "json.h"
-#include "BakuSemantic.h"
 
 using namespace std;
 
@@ -38,7 +37,6 @@ map<string,string> ouvririnfobox(string s){
         while(cleT[it2]=='<'){
             lireChar(&it2,&cleT,'>');
             it2++;
-
             cout<<"cleTemp : "<<cleT<<"/"<<it2<<endl;
         }
         lireChar(&it2,&cleT,'<',&cle);
@@ -293,6 +291,12 @@ void bakouplay(){ //V1
 
 
 void bakoucontribue(){
+    map<string, string> relJDM=relationJDM();
+    map<string, string>::iterator itertrace;
+    for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
+        cout<<itertrace->first<<" - \""<<itertrace->second<<"\""<<endl;
+    }
+    //pause("b");
     map<string, map<string, vector<string> > > relations;
     ifstream ifs("relationsTrouve.txt");
     string ligne;
@@ -306,10 +310,12 @@ void bakoucontribue(){
         rel.clear();
         cible.clear();
         i=0;
-        lireMot(&i, &ligne, &source, " -- " );
-        lireMot(&i, &ligne, &rel, " --> " );
-        lireMot(&i, &ligne, &cible, " | " );
-        relations[source][rel].push_back(cible);
+        if(!lireMot(&ligne, "JDM")){
+            lireMot(&i, &ligne, &source, " -- " );
+            lireMot(&i, &ligne, &rel, " --> " );
+            lireMot(&i, &ligne, &cible, " | " );
+            relations[source][rel].push_back(cible);
+        }
     }
     map<string, map<string, vector<string> > >::iterator it;
     map<string, vector<string> > ::iterator it2;
@@ -317,13 +323,15 @@ void bakoucontribue(){
         cout<<it->first<<endl;
         string urldelete="http://www.jeuxdemots.org/intern_interpretor.php?s=deleteall&p=Bakounine&t=";
         urldelete+=it->first;
-        //ouvrirPageForce(urldelete);
+        ouvrirPageForce(urldelete);
         for(it2 = it->second.begin(); it2 != it->second.end(); it2++){
             cout<<"  "<<it2->first<<endl;
             string urlContrib = "http://www.jeuxdemots.org/intern_interpretor.php?s=makecontrib&p=Bakounine&t=";
             urlContrib += it->first;
             urlContrib += "&r=";
-            urlContrib += it2->first;
+            cout<<"relation : \""<<it2->first<<"\" : \""<<relJDM[it2->first]<<"\""<<endl;
+            //pause("r");
+            urlContrib += relJDM[it2->first];
             urlContrib += "&prop=";
             for(int i=0; i<it2->second.size(); i++){
                 cout<<"    "<<it2->second[i]<<endl;
@@ -332,10 +340,10 @@ void bakoucontribue(){
             }
             urlContrib.resize(urlContrib.size()-1);
             int curlit;
+            urlContrib = transformer(&urlContrib, " ", "_");
             cout<<curl_easy_escape(curl, urlContrib.c_str(), urlContrib.size())<<endl;
             cout<<urlContrib<<endl;
-
-            //ouvrirPageForce(urlContrib);
+            ouvrirPageForce(urlContrib);
         }
     }
 }
@@ -361,23 +369,38 @@ void bakou(string mot){
 
 int main()
 {
-// test wikidata
+/*	string s0 = "rosettacode";
+        string s1 = "raisethysword";
+	cout << "distance between " << s0 << " and " << s1 << " : "
+	     << LevenshteinDistance(s0,s1) << std::endl;
+    pause("levenstein");
+*/
 /*
-    string page= ouvrirPage("http://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
-    cout<<page<<endl;
+    CURL *curl = curl_easy_init();
+    string page= ouvrirPage("http://fr.wikipedia.org/wiki/Cin%C3%A9ma");
+    vector <string> retour = trouverToutLesLiensInterne(&page);
+    int it;
+    for(int i=0; i<retour.size(); i++){
+        cout<<curl_easy_unescape(curl, retour[i].c_str(), retour[i].size(), &it)<<endl;
+    }
+    pause("liens");
+*/
+
+    string page= ouvrirPageHttps("https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Philosophie&language=fr&format=json");
+    //string page= ouvrirPageHttps("https://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
+
+    //string page= ouvrirPage("https://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
+    pause("1");
+    cout<<"page : "<<page<<endl;
+    pause("2");
+    qid(page);
+    pause("id");
     test(page);
     pause("json");
-*/
     //bakoucontribue();
     //bakouplay();
-    BakuSemantic sem;
-    map<string, vector<RelSem> >  b =  sem.getBakuSemanticBase();
-    if(!b.empty())
-        cout << "OK" << endl;
-
-    sem.writeBakuSemanticBase();
-
     return 0;
 
 }
+
 
