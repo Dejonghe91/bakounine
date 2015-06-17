@@ -11,9 +11,9 @@ BakuSemantic::~BakuSemantic()
 }
 
 
-map<string, vector<RelSem> > getBakuSemanticBase() {
+map<string, vector<RelSem> > BakuSemantic::getBakuSemanticBase() {
 
-    if(this->base.empty()) {
+    if(base.empty()) {
 
         ifstream fichier(base_file, ios::in);  // on ouvre le fichier en lecture
 
@@ -62,7 +62,7 @@ map<string, vector<RelSem> > getBakuSemanticBase() {
 }
 
 
-void writeBakuSemanticBase() {
+void BakuSemantic::writeBakuSemanticBase() {
     ofstream fichier(this->base_file, ios::out | ios::trunc);
 
     if(fichier && !base.empty())  {
@@ -83,19 +83,19 @@ void writeBakuSemanticBase() {
 }
 
 
-vector<RelSem> getRel(string terme){
+vector<RelSem> BakuSemantic::getRel(string terme){
     return base[terme];
 }
 
-bool isRelExist(string terme){
+bool BakuSemantic::isRelExist(string terme){
     return true;
 }
 
-bool addRel(string terme, int id, string relname){
+bool BakuSemantic::addRel(string terme, int id, string relname){
     return true;
 }
 
-int Split(vector<string>& vecteur, string chaine, char separateur)
+int BakuSemantic::Split(vector<string>& vecteur, string chaine, char separateur)
 {
 	vecteur.clear();
 
