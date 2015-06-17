@@ -6,6 +6,7 @@
 #include <fstream>
 #include <vector>
 #include <map>
+#include "jdm.h"
 
 
 using namespace std;
@@ -61,6 +62,7 @@ class BakuSemantic
     private:
         map<string, vector<RelSem>> base;
         int Split(vector<string>& vecteur, string chaine, char separateur);
+        int getrelIdWithName(string relname);
 };
 
 #endif // BAKUSEMANTIC_H

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <map>
 #include <string>
-#include "./outilNet.h"
-#include "./outilParsage.h"
-#include "./jdm.cpp"
+#include "outilNet.h"
+#include "outilParsage.h"
+#include "jdm.h"
 #include <curl/curl.h>
 #include "json.h"
 

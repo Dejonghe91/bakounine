@@ -84,15 +84,77 @@ void BakuSemantic::writeBakuSemanticBase() {
 
 
 vector<RelSem> BakuSemantic::getRel(string terme){
-    return base[terme];
+    vector<RelSem> test;
+    if(BakuSemantic::isRelExist(terme))
+        test = base[terme];
+
+    return test;
 }
 
 bool BakuSemantic::isRelExist(string terme){
-    return true;
+    return base.count(terme) > 0;
 }
 
 bool BakuSemantic::addRel(string terme, int id, string relname){
-    return true;
+    if(BakuSemantic::isRelExist(terme)){
+
+        bool find = false;
+        vector<RelSem> val = base[terme];
+        for (long index=0; index<(long)val.size(); ++index) {
+            if(val.at(index).id == id)
+                find = true;
+        }
+
+        if(!find){
+            RelSem r;
+            r.id = id;
+            r.name = relname;
+            base[terme] = vector<RelSem> (1,r);
+            return true;
+        } else {
+            return false;
+        }
+
+    }else{
+        RelSem r;
+        r.id = id;
+        r.name = relname;
+        base[terme] = vector<RelSem> (1,r);
+        return true;
+    }
+}
+
+bool BakuSemantic::addRel(string terme, string relname){
+    if(BakuSemantic::isRelExist(terme)){
+
+        bool find = false;
+        int id;
+        vector<RelSem> val = base[terme];
+        for (long index=0; index<(long)val.size(); ++index) {
+            int test = BakuSemantic::getrelIdWithName(relname);
+            if(val.at(index).id == test){
+                find = true;
+                id = test;
+            }
+        }
+
+        if(!find) {
+            RelSem r;
+            r.id = id;
+            r.name = relname;
+            base[terme] = vector<RelSem> (1,r);
+            return true;
+        } else {
+            return false;
+        }
+
+    }else{
+        RelSem r;
+        r.id = BakuSemantic::getrelIdWithName(relname);
+        r.name = relname;
+        base[terme] = vector<RelSem> (1,r);
+        return true;
+    }
 }
 
 int BakuSemantic::Split(vector<string>& vecteur, string chaine, char separateur)
@@ -111,5 +173,21 @@ int BakuSemantic::Split(vector<string>& vecteur, string chaine, char separateur)
 	vecteur.push_back(chaine);
 
 	return vecteur.size();
+}
+
+
+int BakuSemantic::getrelIdWithName(string name){
+    map<string, string> retour = relationJDM();
+
+    int id = -1;
+
+    map<string, string >::iterator p;
+    for(p = retour.begin(); p != retour.end(); p++) {
+
+        if(p->first == name)
+            id = atoi(p->second.c_str());
+    }
+
+    return id;
 }
 

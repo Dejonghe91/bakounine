@@ -7,8 +7,8 @@ CXXFLAGSR = -O2 -Wall -W -std=c++0x
 INCPATH = -lsfml-network -lsfml-system -lboost_system -lboost_filesystem -lcurl -lboost_iostreams -lboost_locale
 
 
-main : main.o outilParsage.o tout.o outilNet.o json.o BakuSemantic.o
-	$(CXX) $(CXXFLAGSD) main.o outilParsage.o tout.o outilNet.o json.o BakuSemantic.o $(INCPATH) -o Bakounibot
+main : main.o outilParsage.o tout.o jdm.o outilNet.o json.o BakuSemantic.o
+	$(CXX) $(CXXFLAGSD) main.o outilParsage.o tout.o jdm.o outilNet.o json.o BakuSemantic.o $(INCPATH) -o Bakounibot
 
 all : main
 
@@ -22,6 +22,9 @@ outilParsage.o : outilParsage.cpp
 
 tout.o : tout.cpp
 	$(CXX) $(CXXFLAGSD) -c tout.cpp -o tout.o
+
+jdm.o : jdm.cpp
+	$(CXX) $(CXXFLAGSD) -c jdm.cpp -o jdm.o
 
 outilNet.o : outilNet.cpp
 	$(CXX) $(CXXFLAGSD) -c outilNet.cpp -o outilNet.o

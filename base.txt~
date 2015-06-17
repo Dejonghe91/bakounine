@@ -1,0 +1,25 @@
+appartient|9|has_part
+auteur|100|r_has_auteur
+catégorise|3|r_domain   
+composer|9|has_part
+construire|10|r_agent
+créateur|100|r_has_auteur
+est similaire|67|r_similar
+est spécifique|64|r_instance
+exprimer|35|r_meaning
+faire|10|r_agent
+implique|57|r_implication
+impliquer|57|r_implication
+jouer|10|r_agent
+manger|10|r_agent
+manger|102|r_can_eat
+moins que|74|r_smaller_than
+plus que|73|r_bigger_than
+pouvoir|17|r_carac
+produire|53|r_make
+réalisateur|100|r_has_auteur
+signifie|35|r_meaning
+signifier|5|r_syn   
+signifier|35|r_meaning
+vouloir dire|35|r_meaning
+être|6|r_isa

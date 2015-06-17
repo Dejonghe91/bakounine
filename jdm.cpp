@@ -1,15 +1,4 @@
-#include <iostream>
-#include <string>
-
-#include <boost/iostreams/stream.hpp>
-#include <boost/iostreams/categories.hpp>
-#include <boost/iostreams/code_converter.hpp>
-#include <boost/locale.hpp>
-
-
-#include "tout.h"
-
-using namespace std;
+#include "jdm.h"
 
 string latin1(string UTF){
     string copieS;
