@@ -323,6 +323,7 @@ void bakoucontribue(){
         cout<<it->first<<endl;
         string urldelete="http://www.jeuxdemots.org/intern_interpretor.php?s=deleteall&p=Bakounine&t=";
         urldelete+=it->first;
+
         ouvrirPageForce(urldelete);
         for(it2 = it->second.begin(); it2 != it->second.end(); it2++){
             cout<<"  "<<it2->first<<endl;
