@@ -39,6 +39,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="BakuSemantic.cpp" />
+		<Unit filename="BakuSemantic.h" />
 		<Unit filename="bakuBaseSemantic.cpp" />
 		<Unit filename="bakuBaseSemantic.h" />
 		<Unit filename="jdm.cpp">
