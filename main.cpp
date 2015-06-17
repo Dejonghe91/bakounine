@@ -6,6 +6,7 @@
 #include "jdm.h"
 #include <curl/curl.h>
 #include "json.h"
+#include "BakuSemantic.h"
 
 using namespace std;
 
@@ -365,6 +366,23 @@ void bakou(string mot){
 }
 
 
+void bakuSemanticTest(){
+    BakuSemantic sem;
+    sem.getBakuSemanticBase();
+    vector<RelSem> rel = sem.getRel("");
+    if(rel.empty())
+        cout << "OK" << endl;
+
+    rel = sem.getRel("composer");
+    if(!rel.empty())
+        cout << "OK" << endl;
+
+    bool res = sem.addRel("fait partie de", "has_part");
+
+    cout << "res "+ res << endl;
+
+    sem.writeBakuSemanticBase();
+}
 
 
 
@@ -387,6 +405,7 @@ int main()
     pause("liens");
 */
 
+/*
     string page= ouvrirPageHttps("https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Philosophie&language=fr&format=json");
     //string page= ouvrirPageHttps("https://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
 
@@ -400,6 +419,10 @@ int main()
     pause("json");
     //bakoucontribue();
     //bakouplay();
+    */
+
+    bakuSemanticTest();
+
     return 0;
 
 }
