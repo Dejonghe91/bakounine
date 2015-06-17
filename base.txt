@@ -8,6 +8,7 @@ est similaire|67|similar
 est spécifique|64|instance
 exprimer|35|meaning
 faire|10|agent
+fait partie de|9|has_part
 implique|57|implication
 impliquer|57|implication
 jouer|10|agent

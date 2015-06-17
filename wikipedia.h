@@ -1,0 +1,28 @@
+#ifndef WIKIPEDIA_H
+#define WIKIPEDIA_H
+
+#include <iostream>
+#include <fstream>
+#include <map>
+#include <string>
+#include "outilNet.h"
+#include "outilParsage.h"
+#include "jdm.h"
+
+
+using namespace std;
+
+
+/**
+ *  Ouvre une infobox d'une page wikipedia
+ */
+map<string,string> ouvririnfobox(string s);
+
+
+/**
+ * Renvoi une map string string avec comme clef : mot relation et comme valeur le nom de la relation jdm correspondante
+ */
+map<string,string> bakoulearn();
+
+
+#endif
