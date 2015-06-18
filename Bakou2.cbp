@@ -46,6 +46,7 @@
 		<Unit filename="jdm.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="jdm.h" />
 		<Unit filename="json.cpp" />
 		<Unit filename="json.h" />
 		<Unit filename="main.cpp" />
@@ -56,6 +57,8 @@
 		<Unit filename="src/bakuBaseSemantic.cpp" />
 		<Unit filename="tout.cpp" />
 		<Unit filename="tout.h" />
+		<Unit filename="wikipedia.cpp" />
+		<Unit filename="wikipedia.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

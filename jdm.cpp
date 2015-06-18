@@ -77,6 +77,14 @@ vector <string> jdmRel(string mot1, string mot2){
 }
 
 
+
+vector<string> getNeightboors(string mot) {
+
+
+}
+
+
+
 map <string, string> relationJDM(){
 
     map <string, string> retour;

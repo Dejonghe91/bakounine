@@ -16,7 +16,9 @@ string latin1(string UTF);
 
 string jdmExiste(string s);
 
-vector <string> jdmRel(string mot1, string mot2);
+vector<string> jdmRel(string mot1, string mot2);
+
+vector<string> getNeightboors(string mot);
 
 map <string, string> relationJDM();
 

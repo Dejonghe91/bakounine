@@ -93,7 +93,6 @@ map<string, string> bakoulearn()
             lien +=ligne;
             transformer(&lien, ' ','_');
             page = ouvrirPage(lien);
-            //ofs<<"page wikipedia : "<<lien<<endl;  // récupérer stub et virer cette ligne et marquer comme m1
             infos = ouvririnfobox(page);
             for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){
                 if(i->first.size()>2 && i->second.size()>2 && mot!=i->second){
@@ -102,7 +101,6 @@ map<string, string> bakoulearn()
                     MotRelation[i->first]["R"]++;
                     for(int j=0; j<relations.size(); j++){
                         MotRelation[i->first][relations[j]]++;//On incremente la relation  courante pour l'info courante.
-                        //ofs<<endl<<i->first<<"-"<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<endl<<endl;
                     }
                 }
             }
@@ -114,7 +112,6 @@ map<string, string> bakoulearn()
 
     for(iterMR=MotRelation.begin(); iterMR!=MotRelation.end(); iterMR++)
     {
-        //ofs<<iterMR->first<<endl;   //cle infobox
         maxi=0;
         maxs="";
         for(iter=iterMR->second.begin(); iter!=iterMR->second.end(); iter++) {
@@ -122,7 +119,6 @@ map<string, string> bakoulearn()
                 maxi=iter->second;
                 maxs=iter->first;
             }
-            //ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;  // quesaco
         }
         if(maxi>0){
             retour[iterMR->first]=maxs;

@@ -194,13 +194,13 @@ void bakoucontribue(){
     for(it = relations.begin(); it != relations.end(); it++  ){
         cout<<it->first<<endl;
         string urldelete="http://www.jeuxdemots.org/intern_interpretor.php?s=deleteall&p=Bakounine&t=";
-        urldelete+=it->first;
+        urldelete+=curl_easy_escape(curl, it->first.c_str(), it->first.size());
 
         ouvrirPageForce(urldelete);
         for(it2 = it->second.begin(); it2 != it->second.end(); it2++){
             cout<<"  "<<it2->first<<endl;
             string urlContrib = "http://www.jeuxdemots.org/intern_interpretor.php?s=makecontrib&p=Bakounine&t=";
-            urlContrib += it->first;
+            urlContrib += curl_easy_escape(curl, it->first.c_str(), it->first.size());
             urlContrib += "&r=";
             cout<<"relation : \""<<it2->first<<"\" : \""<<relJDM[it2->first]<<"\""<<endl;
             //pause("r");
@@ -208,13 +208,13 @@ void bakoucontribue(){
             urlContrib += "&prop=";
             for(int i=0; i<it2->second.size(); i++){
                 cout<<"    "<<it2->second[i]<<endl;
-                urlContrib +=it2->second[i];
+                urlContrib +=curl_easy_escape(curl, it2->second[i].c_str(), it2->second[i].size());
                 urlContrib +="|";
             }
             urlContrib.resize(urlContrib.size()-1);
             int curlit;
-            urlContrib = transformer(&urlContrib, " ", "_");
-            cout<<curl_easy_escape(curl, urlContrib.c_str(), urlContrib.size())<<endl;
+            //urlContrib = transformer(&urlContrib, "_", " ");
+            //cout<<curl_easy_escape(curl, urlContrib.c_str(), urlContrib.size())<<endl;
             cout<<urlContrib<<endl;
             ouvrirPageForce(urlContrib);
         }
@@ -294,7 +294,7 @@ int main()
 
     //bakuSemanticTest();
 
-    bakoulearn();
+    bakoucontribue();
 
     return 0;
 

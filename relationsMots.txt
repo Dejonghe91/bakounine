@@ -1,7 +1,3 @@
-page wikipedia : http://fr.wikipedia.org/wiki/Bakounine
-page wikipedia : http://fr.wikipedia.org/wiki/Nadar
-page wikipedia : http://fr.wikipedia.org/wiki/1814
-page wikipedia : http://fr.wikipedia.org/wiki/Russie
 Russie|Capitale|Moscou
 Russie|Code ISO 3166-1|RUS, RU​
 Russie|Densité|8,4&#160;hab./km
@@ -28,30 +24,11 @@ Russie|Superficie en eau|0,5&#160;%
 Russie|Superficie totale|17&#160;125&#160;187&#160;
 Russie|Taux de chômage| 5,6% de la pop.active
 Russie|Tsarat de Russie|16 janvier
-page wikipedia : http://fr.wikipedia.org/wiki/1876
-page wikipedia : http://fr.wikipedia.org/wiki/Berne
-page wikipedia : http://fr.wikipedia.org/wiki/Anarchie
-page wikipedia : http://fr.wikipedia.org/wiki/Philosophie_politique
-page wikipedia : http://fr.wikipedia.org/wiki/Sociologie
-page wikipedia : http://fr.wikipedia.org/wiki/Socialisme
-page wikipedia : http://fr.wikipedia.org/wiki/Internationalisme
-page wikipedia : http://fr.wikipedia.org/wiki/État
-page wikipedia : http://fr.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
-page wikipedia : http://fr.wikipedia.org/wiki/Charles_Fourier
 Charles Fourier|Champs|philosophe
 Charles Fourier|Naissance|7 avril
 Charles Fourier|Nationalité|&#160;
 Charles Fourier|Renommé pour|fondateur de l’
-page wikipedia : http://fr.wikipedia.org/wiki/Louis_Blanc
-page wikipedia : http://fr.wikipedia.org/wiki/Étienne_Cabet
 Étienne Cabet|Nationalité|&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/Pierre-Joseph_Proudhon
-page wikipedia : http://fr.wikipedia.org/wiki/Anarcho-syndicalisme
-page wikipedia : http://fr.wikipedia.org/wiki/Illégalisme
-page wikipedia : http://fr.wikipedia.org/wiki/Russe
-page wikipedia : http://fr.wikipedia.org/wiki/1814
-page wikipedia : http://fr.wikipedia.org/wiki/Torjok
-page wikipedia : http://fr.wikipedia.org/wiki/Empire_russe
 Empire russe|14 septembre 1917 (CG)|Proclamation de la 
 Empire russe|15 mars 1917 (CG)|Révolution de Février
 Empire russe|22 octobre 1721 (CG)|Proclamation de l'Empire
@@ -69,9 +46,6 @@ Empire russe|Population|181&#160;537&#160;800&#160;hab.
 Empire russe|Religion|Christianisme orthodoxe
 Empire russe|Statut|Autocratie
 Empire russe|Superficie|~21&#160;800&#160;000&#160;km
-page wikipedia : http://fr.wikipedia.org/wiki/1876
-page wikipedia : http://fr.wikipedia.org/wiki/Berne
-page wikipedia : http://fr.wikipedia.org/wiki/Suisse
 Suisse|Capitale|Berne
 Suisse|Code ISO 3166-1|CHE, CH​
 Suisse|Densité|198,9&#160;hab./km
@@ -93,31 +67,11 @@ Suisse|Population totale|8&#160;211&#160;681
 Suisse|Présidente de la Confédération|Simonetta Sommaruga
 Suisse|Superficie en eau|3,7&#160;%
 Suisse|Superficie totale|41&#160;285&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/Révolutionnaire
-page wikipedia : http://fr.wikipedia.org/wiki/Théoricien
-page wikipedia : http://fr.wikipedia.org/wiki/Anarchisme
-page wikipedia : http://fr.wikipedia.org/wiki/Philosophie
-page wikipedia : http://fr.wikipedia.org/wiki/État
-page wikipedia : http://fr.wikipedia.org/wiki/Socialisme_libertaire
-page wikipedia : http://fr.wikipedia.org/wiki/Tver
-page wikipedia : http://fr.wikipedia.org/wiki/Vissarion_Belinski
-page wikipedia : http://fr.wikipedia.org/wiki/Johann_Gottlieb_Fichte
-page wikipedia : http://fr.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
-page wikipedia : http://fr.wikipedia.org/wiki/1840
-page wikipedia : http://fr.wikipedia.org/wiki/Allemagne
-page wikipedia : http://fr.wikipedia.org/wiki/Karl_Marx
-page wikipedia : http://fr.wikipedia.org/wiki/Dresde
-page wikipedia : http://fr.wikipedia.org/wiki/Charles_Fourier
 Charles Fourier|Champs|philosophe
 Charles Fourier|Naissance|7 avril
 Charles Fourier|Nationalité|&#160;
 Charles Fourier|Renommé pour|fondateur de l’
-page wikipedia : http://fr.wikipedia.org/wiki/Louis_Blanc
-page wikipedia : http://fr.wikipedia.org/wiki/Étienne_Cabet
 Étienne Cabet|Nationalité|&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/Pierre-Joseph_Proudhon
-page wikipedia : http://fr.wikipedia.org/wiki/Pseudonyme
-page wikipedia : http://fr.wikipedia.org/wiki/Suisse
 Suisse|Capitale|Berne
 Suisse|Code ISO 3166-1|CHE, CH​
 Suisse|Densité|198,9&#160;hab./km
@@ -139,11 +93,6 @@ Suisse|Population totale|8&#160;211&#160;681
 Suisse|Présidente de la Confédération|Simonetta Sommaruga
 Suisse|Superficie en eau|3,7&#160;%
 Suisse|Superficie totale|41&#160;285&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/1843
-page wikipedia : http://fr.wikipedia.org/wiki/Zurich
-page wikipedia : http://fr.wikipedia.org/wiki/Nyon
-page wikipedia : http://fr.wikipedia.org/wiki/Berne
-page wikipedia : http://fr.wikipedia.org/wiki/Belgique
 belgique|Capitale|Bruxelles
 belgique|Code ISO 3166-1|BEL, BE​
 belgique|Densité|368&#160;hab./km
@@ -167,23 +116,9 @@ belgique|Premier ministre|Charles Michel
 belgique|Roi|Philippe
 belgique|Superficie en eau|6,2&#160;%
 belgique|Superficie totale|30&#160;528&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/1844
-page wikipedia : http://fr.wikipedia.org/wiki/Bruxelles
-page wikipedia : http://fr.wikipedia.org/wiki/Panslavisme
-page wikipedia : http://fr.wikipedia.org/wiki/Paris
-page wikipedia : http://fr.wikipedia.org/wiki/Karl_Marx
-page wikipedia : http://fr.wikipedia.org/wiki/Friedrich_Engels
-page wikipedia : http://fr.wikipedia.org/wiki/Paris
-page wikipedia : http://fr.wikipedia.org/wiki/Ukase
-page wikipedia : http://fr.wikipedia.org/wiki/Citoyenneté
-page wikipedia : http://fr.wikipedia.org/wiki/Contumace
-page wikipedia : http://fr.wikipedia.org/wiki/Déportation
-page wikipedia : http://fr.wikipedia.org/wiki/Sibérie
-page wikipedia : http://fr.wikipedia.org/wiki/George_Sand
 George Sand|Langue d’écriture|Français
 George Sand|Mouvement|Romantisme
 George Sand|Nom de naissance|Amantine Aurore Lucile Dupin
-page wikipedia : http://fr.wikipedia.org/wiki/Chopin
 chopine|Activité principale|Compositeur
 chopine|Activités annexes|Professeur de piano
 chopine|Collaborations|Camille Pleyel
@@ -195,15 +130,6 @@ chopine|Maîtres|Wojciech Żywny
 chopine|Nom de naissance|En 
 chopine|Style|Musique de la période classique
 chopine|Élèves|Georges Mathias
-page wikipedia : http://fr.wikipedia.org/wiki/Pierre_Joseph_Proudhon
-page wikipedia : http://fr.wikipedia.org/wiki/Philosophie_allemande
-page wikipedia : http://fr.wikipedia.org/wiki/1847
-page wikipedia : http://fr.wikipedia.org/wiki/Bal_Valentino
-page wikipedia : http://fr.wikipedia.org/wiki/Révolution_française_de_1848
-page wikipedia : http://fr.wikipedia.org/wiki/Milan
-page wikipedia : http://fr.wikipedia.org/wiki/Venise
-page wikipedia : http://fr.wikipedia.org/wiki/Berlin
-page wikipedia : http://fr.wikipedia.org/wiki/Pays-Bas
 Pays-Bas|Capitale|Amsterdam
 Pays-Bas|Code ISO 3166-1|NLD, NL​
 Pays-Bas|Densité|407&#160;hab./km
@@ -225,7 +151,6 @@ Pays-Bas|Provinces-Unies|26 juillet
 Pays-Bas|Roi|Willem-Alexander
 Pays-Bas|Superficie en eau|18,41&#160;%
 Pays-Bas|Superficie totale|41 530&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/Danemark
 Danemark|Capitale|Copenhague
 Danemark|Code ISO 3166-1|DNK, DK​
 Danemark|Densité|131,3&#160;hab./km
@@ -248,40 +173,10 @@ Danemark|Reine|Margrethe
 Danemark|Superficie en eau|1,6&#160;%
 Danemark|Superficie totale|43&#160;100&#160;
 Danemark|Unification et constitution en État|vers 
-page wikipedia : http://fr.wikipedia.org/wiki/Printemps_des_peuples
-page wikipedia : http://fr.wikipedia.org/wiki/Réaction_(politique)
-page wikipedia : http://fr.wikipedia.org/wiki/Francfort-sur-le-Main
-page wikipedia : http://fr.wikipedia.org/wiki/Posnanie
-page wikipedia : http://fr.wikipedia.org/wiki/Prague
-page wikipedia : http://fr.wikipedia.org/wiki/Habsbourg
-page wikipedia : http://fr.wikipedia.org/wiki/Bohême
 Bohême|Population|Tchèques
-page wikipedia : http://fr.wikipedia.org/wiki/Cologne
-page wikipedia : http://fr.wikipedia.org/wiki/George_Sand
 George Sand|Langue d’écriture|Français
 George Sand|Mouvement|Romantisme
 George Sand|Nom de naissance|Amantine Aurore Lucile Dupin
-page wikipedia : http://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs
-page wikipedia : http://fr.wikipedia.org/wiki/1849
-page wikipedia : http://fr.wikipedia.org/wiki/2_mai
-page wikipedia : http://fr.wikipedia.org/wiki/1849
-page wikipedia : http://fr.wikipedia.org/wiki/Chemnitz
-page wikipedia : http://fr.wikipedia.org/wiki/1850
-page wikipedia : http://fr.wikipedia.org/wiki/Travaux_forcés
-page wikipedia : http://fr.wikipedia.org/wiki/Olmütz
-page wikipedia : http://fr.wikipedia.org/wiki/1851
-page wikipedia : http://fr.wikipedia.org/wiki/Forteresse_Pierre-et-Paul
-page wikipedia : http://fr.wikipedia.org/wiki/Saint-Pétersbourg
-page wikipedia : http://fr.wikipedia.org/wiki/1854
-page wikipedia : http://fr.wikipedia.org/wiki/Révolution_d'Octobre
-page wikipedia : http://fr.wikipedia.org/wiki/Scorbut
-page wikipedia : http://fr.wikipedia.org/wiki/1855
-page wikipedia : http://fr.wikipedia.org/wiki/1857
-page wikipedia : http://fr.wikipedia.org/wiki/Sibérie
-page wikipedia : http://fr.wikipedia.org/wiki/Tomsk
-page wikipedia : http://fr.wikipedia.org/wiki/1859
-page wikipedia : http://fr.wikipedia.org/wiki/Irkoutsk
-page wikipedia : http://fr.wikipedia.org/wiki/Japon
 japon|Capitale|Tokyo
 japon|Code ISO 3166-1|JPN, JP​
 japon|Densité|349
@@ -304,22 +199,8 @@ japon|Population totale|127&#160;103&#160;388
 japon|Premier ministre|Shinzō Abe
 japon|Superficie en eau|1,7&#160;%
 japon|Superficie totale|377&#160;915&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/San_Francisco
-page wikipedia : http://fr.wikipedia.org/wiki/New_York
-page wikipedia : http://fr.wikipedia.org/wiki/Londres
-page wikipedia : http://fr.wikipedia.org/wiki/1861
-page wikipedia : http://fr.wikipedia.org/wiki/Kolokol
-page wikipedia : http://fr.wikipedia.org/wiki/Louis_Blanc
-page wikipedia : http://fr.wikipedia.org/wiki/Giuseppe_Mazzini
 Giuseppe Mazzini|Nationalité|Italienne
 Giuseppe Mazzini|Pays de résidence|exilé politique alternativement en France et en Suisse
-page wikipedia : http://fr.wikipedia.org/wiki/Karl_Marx
-page wikipedia : http://fr.wikipedia.org/wiki/Friedrich_Engels
-page wikipedia : http://fr.wikipedia.org/wiki/Manifeste_du_parti_communiste
-page wikipedia : http://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs
-page wikipedia : http://fr.wikipedia.org/wiki/Le_Capital
-page wikipedia : http://fr.wikipedia.org/wiki/Stockholm
-page wikipedia : http://fr.wikipedia.org/wiki/Finlande
 Finlande|Capitale|Helsinki
 Finlande|Code ISO 3166-1|FIN, FI​
 Finlande|Densité|17,86&#160;hab./km
@@ -341,16 +222,1924 @@ Finlande|Premier ministre|Juha Sipilä
 Finlande|Président|Sauli Niinistö
 Finlande|Superficie en eau|9,4&#160;%
 Finlande|Superficie totale|338&#160;144&#160;
-page wikipedia : http://fr.wikipedia.org/wiki/Malmö
-page wikipedia : http://fr.wikipedia.org/wiki/Mer_Baltique
-page wikipedia : http://fr.wikipedia.org/wiki/Expédition_des_Mille
-page wikipedia : http://fr.wikipedia.org/wiki/Florence
-page wikipedia : http://fr.wikipedia.org/wiki/Pierre-Joseph_Proudhon
-page wikipedia : http://fr.wikipedia.org/wiki/Élisée_Reclus
 Élisée Reclus|Approche|Géographie sociale
 Élisée Reclus|Formation|Université
 Élisée Reclus|Titres|Professeur agrégé de l'
 Élisée Reclus|Travaux|La Terre, description des phénomènes de la vie du globe
-page wikipedia : http://fr.wikipedia.org/wiki/Anarchisme
-page wikipedia : http://fr.wikipedia.org/wiki/Risorgimento
-page wikipedia : http://fr.wikipedia.org/wiki/Association_internationale_des_travailleurs
+Victor Hugo|Adjectifs dérivés|hugolien
+Victor Hugo|Langue d’écriture|Français
+Victor Hugo|Mouvement|Romantisme
+Victor Hugo|Nom de naissance|Victor Marie Hugo
+Edgar Quinet|Langue d’écriture|Française
+Edgar Quinet|Nom de naissance|Edgar Quinet
+Jules Vallès|Langue d’écriture|français
+Jules Vallès|Mouvement|réalisme
+Jules Vallès|Nom de naissance|Jules Louis Joseph Vallez
+Elisée Reclus|Approche|Géographie sociale
+Elisée Reclus|Formation|Université
+Elisée Reclus|Titres|Professeur agrégé de l'
+Elisée Reclus|Travaux|La Terre, description des phénomènes de la vie du globe
+Second Empire|Capitale|Paris
+Second Empire|Langue|Français
+Second Empire|Monnaie|Franc français
+Second Empire|Religion|Catholicisme
+Second Empire|Statut|Monarchie constitutionnelle
+Second Empire|Texte fondamental|Constitution française de 1852
+Giuseppe Mazzini|Nationalité|Italienne
+Giuseppe Mazzini|Pays de résidence|exilé politique alternativement en France et en Suisse
+Révolution française|Lieu|&#160;
+Révolution française|Résultat|Fin de l'
+Jan Hus|Décès|6 juillet
+Jan Hus|Naissance|entre 
+Philippe Corcuff|Nationalité|&#160;
+William Godwin|Naissance|3 mars
+Gracchus Babeuf|Naissance|23 novembre
+Gracchus Babeuf|Nom de naissance|François Noël Babeuf
+Charles Fourier|Champs|philosophe
+Charles Fourier|Naissance|7 avril
+Charles Fourier|Nationalité|&#160;
+Charles Fourier|Renommé pour|fondateur de l’
+Henry David Thoreau|Langue d’écriture|anglaise
+Henry David Thoreau|Mouvement|Transcendantalisme
+Henry David Thoreau|Nom de naissance|David Henry Thoreau
+Adolph Fischer|Décès|11 novembre
+Adolph Fischer|Naissance|1858
+Adolph Fischer|Nom de naissance|Adolph Fischer
+Élisée Reclus|Approche|Géographie sociale
+Élisée Reclus|Formation|Université
+Élisée Reclus|Titres|Professeur agrégé de l'
+Élisée Reclus|Travaux|La Terre, description des phénomènes de la vie du globe
+Louise Michel|Nationalité|&#160;
+Sébastien Faure|Nationalité|&#160;
+Ravachol|Nom de naissance|François Claudius Koënigstein
+Nicola Sacco|Nationalité|Italo
+Nicola Sacco|Nom de naissance|Fernando Sacco
+Nicola Sacco|Pays de résidence|États-Unis
+Jacques Ellul|Nationalité|&#160;
+Léon Tolstoï|Adjectifs dérivés|Tolstoïen
+Léon Tolstoï|Langue d’écriture|Russe
+Léon Tolstoï|Mouvement|Réalisme
+Léon Tolstoï|Nom de naissance|Lev Nikolaïevitch Tolstoï
+Léo Ferré|Activité principale|Auteur-compositeur-interprète
+Léo Ferré|Années actives|1946
+Léo Ferré|Genre musical|Chanson française
+Léo Ferré|Instruments|Piano
+Léo Ferré|Labels|Le Chant du Monde
+Léo Ferré|Site officiel|leo-ferre.com
+Georges Brassens|Activité principale|Auteur-Compositeur-Interprète
+Georges Brassens|Années actives|1951
+Georges Brassens|Genre musical|Chanson française
+Georges Brassens|Instruments|Guitare
+Georges Brassens|Labels|Philips
+Georges Brassens|Nom de naissance|Georges Charles Brassens
+crasse|Années actives|1977 – 1984
+crasse|Genre musical|Anarcho-punk
+crasse|Labels|Small Wonder Records
+crasse|Membres|Penny Rimbaud
+crasse|Pays d'origine|&#160;
+Dead Kennedys|Anciens membres|East Bay Ray
+Dead Kennedys|Années actives|1978
+Dead Kennedys|Genre musical|Anarcho-punk
+Dead Kennedys|Labels|IRS Records
+Dead Kennedys|Pays d'origine|San Francisco
+Dead Kennedys|Site officiel|DeadKennedys.com
+Bérurier Noir|Années actives|1981
+Bérurier Noir|Genre musical|Punk rock
+Bérurier Noir|Membres|Fanfan
+Bérurier Noir|Pays d'origine|Paris
+Bérurier Noir|Site officiel|beruriernoir.fr
+Octave Mirbeau|Langue d’écriture|Français
+Octave Mirbeau|Mouvement|Impressionnisme
+Octave Mirbeau|Nom de naissance|Octave Henri Marie Mirbeau
+Severine|Nationalité|&#160;
+Severine|Nom de naissance|Caroline Rémy
+Ba Jin|Langue d’écriture|chinois
+Ba Jin|Nom de naissance|Li Yaotang
+Albert Camus|Mouvement|Existentialisme
+Albert Camus|Nom de naissance|Albert Camus
+Stig Dagerman|Langue d’écriture|suédois
+Guy Debord|Mouvement|Internationale situationniste
+Philippe Corcuff|Nationalité|&#160;
+Howard Zinn|Champs|Science politique
+Howard Zinn|Diplôme|Université de New York
+Howard Zinn|Institutions|Université de Boston
+Howard Zinn|Nationalité|&#160;
+Howard Zinn|Renommé pour|Droits civiques
+Richard Dawkins|Champs|Éthologie
+Richard Dawkins|Diplôme|Balliol College
+Richard Dawkins|Distinctions|Zoological Society
+Richard Dawkins|Domicile|Angleterre
+Richard Dawkins|Institutions|Université de Californie à Berkeley
+Richard Dawkins|Renommé pour|La 
+Denis Diderot|Langue d’écriture|français
+Denis Diderot|Mouvement|Lumières
+Denis Diderot|Naissance|5 octobre
+Adèle Exarchopoulos|Films notables|Les Enfants de Timpelbach
+Adèle Exarchopoulos|Nationalité|&#160;
+Adèle Exarchopoulos|Profession|Actrice
+Alain Resnais|Films notables|Nuit et brouillard
+Alain Resnais|Nationalité|&#160;
+Alain Resnais|Profession|Réalisateur
+Albert Camus|Mouvement|Existentialisme
+Alexandra Lamy|Films notables|Ricky
+Alexandra Lamy|Nationalité|&#160;
+Alexandra Lamy|Nom de naissance|Alexandra Paulette Mathilde Lamy
+Alexandra Lamy|Profession|actrice
+Alexandra Lamy|Séries notables|Un gars, une fille
+Alfred Hitchcock|Films notables|Les 39 Marches
+Alfred Hitchcock|Nationalité|&#160;
+Alfred Hitchcock|Nom de naissance|Alfred Joseph Hitchcock
+Alfred Hitchcock|Profession|réalisateur
+Alfred Hitchcock|Surnom|Hitch
+Alfred Hitchcock|Séries notables|Alfred Hitchcock présente
+Amanda Lear|Activité principale|chanteuse
+Amanda Lear|Activités annexes|artiste peintre
+Amanda Lear|Genre musical|Pop
+Amanda Lear|Labels|Ariola Records, Carrere Records, 
+Amanda Lear|Nom de naissance|Tapp
+Amazon.com|Action|NASDAQ
+Amazon.com|Activité|Commerce électronique
+Amazon.com|Capitalisation|141 680 000 000,00
+Amazon.com|Chiffre d’affaires| 74,452 milliards 
+Amazon.com|Création|1994
+Amazon.com|Dates clés|1995
+Amazon.com|Direction|Jeff Bezos
+Amazon.com|Effectif|132&#160;600 (juin 2014)
+Amazon.com|Filiales|Mobipocket.com
+Amazon.com|Fondateurs|Jeff Bezos
+Amazon.com|Forme juridique|Incorporation
+Amazon.com|Résultat net|275 millions 
+Amazon.com|Site web|&#160;
+Amazon.com|Siège social|&#160;
+Amazon.com|Slogan|work hard, have fun, make history
+Amber Heard|Films notables|All the Boys Love Mandy Lane
+Amber Heard|Nom de naissance|Amber Laura Heard
+Amber Heard|Profession|Actrice
+Amber Heard|Site internet|http://amberheardofficial.com/
+André Dussollier|Films notables|Trois hommes et un couffin
+André Dussollier|Nationalité|&#160;
+André Dussollier|Profession|Acteur
+angelina jolie|Films notables|Lara Croft: Tomb Raider
+angelina jolie|Nom de naissance|Angelina Jolie Voight
+angelina jolie|Profession|Actrice
+Antoine de Caunes|Profession|Acteur
+applet|Action|AAPL
+applet|Actionnaires|Arthur D. Levinson
+applet|Activité|Informatique
+applet|Dette|Aucune
+applet|Direction|Tim Cook
+applet|Effectif|92&#160;600 (à la fin de l'année fiscale 2014)
+applet|Filiales|FileMaker Inc.
+applet|Fondateurs|Steve Jobs
+applet|Personnages clés|Tim Cook
+applet|Produits|iPod
+applet|Site web|apple.com
+applet|Siège social|&#160;
+applet|Slogan|Think different
+argentine|Capitale|Buenos Aires
+argentine|Code ISO 3166-1|ARG, AR​
+argentine|Densité|14&#160;hab./km
+argentine|Devise nationale|Dans l’Union et la Liberté.
+argentine|Domaine Internet|.ar
+argentine|Forme de l'État|République
+argentine|Fuseau horaire|UTC
+argentine|Gentilé|Argentin, argentine
+argentine|Hymne national|Himno Nacional Argentino
+argentine|IDH| 0,811
+argentine|Indicatif téléphonique|+54
+argentine|Indépendance|Espagne
+argentine|Langues officielles|Espagnol
+argentine|Monnaie|Peso argentin
+argentine|Plus grande ville|Buenos Aires
+argentine|Population totale|42 669 500&#160;
+argentine|Présidente de la Nation|Cristina Kirchner
+argentine|Superficie en eau|1,1
+argentine|Superficie totale|2 780 400
+argentine|Vice-président|Amado Boudou
+Arnold Schwarzenegger|Films notables|Conan le Barbare
+Arnold Schwarzenegger|Nom de naissance|Arnold Alois Schwarzenegger
+Arnold Schwarzenegger|Profession|Acteur
+Arnold Schwarzenegger|Site internet|schwarzenegger.com
+Arnold Schwarzenegger|Surnom|«&#160;Schwarzy&#160;»
+australien|Capitale|Canberra
+australien|Code ISO 3166-1|AUS, AU​
+australien|Densité|3&#160;hab./km
+australien|Devise nationale|Advance Australia Fair.
+australien|Domaine Internet|.au
+australien|Forme de l'État|Monarchie parlementaire
+australien|Fuseau horaire|UTC
+australien|Gentilé|Australien, Australienne
+australien|Gouverneur général|Peter Cosgrove
+australien|Hymne national|Advance Australia Fair
+australien|IDH| 0,938
+australien|Indicatif téléphonique|+61
+australien|Indépendance|Royaume-Uni
+australien|Langues officielles|Anglais
+australien|Monnaie|Dollar australien
+australien|Plus grande ville|Sydney
+australien|Population totale|23&#160;500&#160;000
+australien|Premier ministre|Tony Abbott
+australien|Reine|Élisabeth II
+australien|Superficie en eau|1&#160;%
+australien|Superficie totale|7&#160;686&#160;850
+autriche|&#160;|1156
+autriche|Capitale|Vienne
+autriche|Chancelier fédéral|Werner Faymann
+autriche|Code ISO 3166-1|AUT, AT​
+autriche|Densité|100,86&#160;hab./km
+autriche|Devise nationale|Aucune
+autriche|Domaine Internet|.at
+autriche|Forme de l'État|République
+autriche|Fuseau horaire|UTC
+autriche|Gentilé|Autrichien, Autrichienne
+autriche|Hymne national|Land der Berge, Land am Strome
+autriche|IDH|0,881
+autriche|Indicatif téléphonique|+43
+autriche|Langues officielles|Allemand
+autriche|Monnaie|Euro
+autriche|PIB| 45&#160;411 
+autriche|PIB nominal| 51&#160;183 
+autriche|Plus grande ville|Vienne
+autriche|Population totale|8&#160;507&#160;786
+autriche|Président fédéral|Heinz Fischer
+autriche|Superficie en eau|1,7&#160;%
+autriche|Superficie totale|83&#160;878,99
+Ayrton Senna|Années d'activité|1984
+Ayrton Senna|Champion du monde|1988
+Ayrton Senna|Lieu de décès|Bologne
+Ayrton Senna|Lieu de naissance|São Paulo
+Ayrton Senna|Nationalité| Brésilien
+Ayrton Senna|Nombre de courses|161
+Ayrton Senna|Surnom|Magic Senna
+Ayrton Senna|Équipe|Toleman
+belgique|Capitale|Bruxelles
+belgique|Code ISO 3166-1|BEL, BE​
+belgique|Densité|368&#160;hab./km
+belgique|Devise nationale|«&#160;
+belgique|Domaine Internet|.be
+belgique|Déclarée|4 octobre
+belgique|Forme de l'État|Monarchie constitutionnelle
+belgique|Fuseau horaire|UTC
+belgique|Gentilé|Belge
+belgique|Hymne national|La Brabançonne
+belgique|IDH| 0,881
+belgique|Indicatif téléphonique|+32
+belgique|Indépendance|des 
+belgique|Langues officielles|Néerlandais
+belgique|Monnaie|Euro
+belgique|PIB|40&#160;760 $ 
+belgique|PIB nominal|47&#160;108 $ 
+belgique|Plus grande ville|Bruxelles
+belgique|Population totale|11&#160;239&#160;755
+belgique|Premier ministre|Charles Michel
+belgique|Roi|Philippe
+belgique|Superficie en eau|6,2&#160;%
+belgique|Superficie totale|30&#160;528&#160;
+Bernard Lavilliers|Activité principale|Chanteur
+Bernard Lavilliers|Activités annexes|Acteur
+Bernard Lavilliers|Années actives|Depuis 1965
+Bernard Lavilliers|Genre musical|Chanson française
+Bernard Lavilliers|Labels|Barclay Records
+Bernard Lavilliers|Nom de naissance|Bernard Oulion
+Bernard Lavilliers|Site officiel|bernardlavilliers.com
+Bernard-Henri Lévy|Langue d’écriture|français
+Bernard-Henri Lévy|Mouvement|Nouveaux philosophes
+Beyoncé Knowles|Activité principale|Chanteuse
+Beyoncé Knowles|Années actives|Depuis 
+Beyoncé Knowles|Genre musical|R&amp;B
+Beyoncé Knowles|Labels|Columbia
+Beyoncé Knowles|Nom de naissance|Beyoncé Giselle Knowles
+Beyoncé Knowles|Site officiel|beyonce.com
+Bill Murray|Films notables|SOS Fantômes
+Bill Murray|Nom de naissance|William James Murray
+Bill Murray|Profession|Acteur
+Bob Marley|Activité principale|Auteur-compositeur-interprète
+Bob Marley|Années actives|1962
+Bob Marley|Genre musical|Dub
+Bob Marley|Instruments|Voix
+Bob Marley|Labels|Studio One
+Bob Marley|Nom de naissance|Robert Nesta Marley
+Bob Marley|Site officiel|bobmarley.com
+Booba|Activité principale|Rappeur
+Booba|Années actives|Depuis 
+Booba|Genre musical|Hip-hop français
+Booba|Labels|Tallac
+Booba|Nom de naissance|Élie Yaffa
+Booba|Site officiel|oklm.com
+Booba|Surnom|B2oba
+Brad Pitt|Films notables|Cf. 
+Brad Pitt|Nom de naissance|William Bradley Pitt
+Brad Pitt|Profession|Acteur
+Braque|Acteurs principaux|Jean-Hugues Anglade
+Braque|Chaîne d'origine|Canal+
+Braque|Création|Olivier Marchal
+Braque|Durée|52 minutes
+Braque|Genre|Policier
+Braque|Musique|Erwann Kermorvant
+Braque|Nb.|24 pour les 3 saisons
+Braque|Pays d'origine|&#160;
+Braque|Production|Hervé Chabalier
+Braque|Site web|http://www.canalplus.fr/c-series/pid3971-c-braquo.html
+Breaking Bad|Acteurs principaux|Bryan Cranston
+Breaking Bad|Chaîne d'origine|AMC
+Breaking Bad|Création|Vince Gilligan
+Breaking Bad|Durée|47-55 minutes
+Breaking Bad|Genre|Drame
+Breaking Bad|Musique|Dave Porter
+Breaking Bad|Nb.|62 
+Breaking Bad|Pays d'origine|&#160;
+Breaking Bad|Production|Mark Johnson
+Breaking Bad|Site web|http://www.amctv.com/shows/breaking-bad
+Brigitte Bardot|Films notables|Les Grandes Manœuvres
+Brigitte Bardot|Nom de naissance|Brigitte Anne-Marie Bardot
+Brigitte Bardot|Profession|Actrice
+Brigitte Bardot|Site internet|www.fondationbrigittebardot.fr
+Bruce Lee|Films notables|The Big Boss
+Bruce Lee|Nom de naissance|Lee Jun-fan, Bruce Lee
+Bruce Lee|Profession|Réalisateur
+Bruce Lee|Site internet|www.brucelee.com
+Bruce Lee|Surnom|le Petit Dragon Lee
+Bruce Willis|Films notables|Die Hard
+Bruce Willis|Nom de naissance|Walter Bruce Willis
+Bruce Willis|Profession|Acteur
+Bruce Willis|Site internet|http://brucewillispl.com/
+Bruce Willis|Surnom|W.B. Willis
+Bruce Willis|Séries notables|Clair de lune
+Brésil|Capitale|Brasilia
+Brésil|Code ISO 3166-1|BRA, BR​
+Brésil|Densité|24&#160;hab./km
+Brésil|Devise nationale|Ordem e Progresso
+Brésil|Domaine Internet|.br
+Brésil|Déclarée|7 septembre 
+Brésil|Forme de l'État|République
+Brésil|Fuseau horaire|UTC
+Brésil|Gentilé|Brésilien, Brésilienne
+Brésil|Hymne national|Hino Nacional Brasileiro
+Brésil|IDH|0,730 (élevé) (
+Brésil|Indicatif téléphonique|+55
+Brésil|Indépendance|Du Portugal
+Brésil|Langues officielles|Portugais
+Brésil|Monnaie|Réal
+Brésil|PIB nominal|2 396 milliards de $
+Brésil|Plus grandes villes|São Paulo
+Brésil|Population totale|201&#160;032&#160;714 (
+Brésil|Présidente de la République|Dilma Rousseff
+Brésil|Reconnue|29 août 
+Brésil|Superficie en eau|0,65&#160;%
+Brésil|Superficie totale|8&#160;514&#160;876 (
+Brésil|Vice-président|Michel Temer
+Burkina Faso|Capitale|Ouagadougou
+Burkina Faso|Chef de l'État|Michel Kafando
+Burkina Faso|Code ISO 3166-1|BFA, BF​
+Burkina Faso|Densité|59&#160;hab./km
+Burkina Faso|Devise nationale|Unité - Progrès - Justice
+Burkina Faso|Domaine Internet|.bf
+Burkina Faso|Forme de l'État|Faso
+Burkina Faso|Fuseau horaire|UTC
+Burkina Faso|Gentilé|Burkinabè (invariable)
+Burkina Faso|Hymne national|Ditanyè
+Burkina Faso|IDH| 0,343
+Burkina Faso|Indicatif téléphonique|+226
+Burkina Faso|Indépendance|de la 
+Burkina Faso|Langues officielles|Français
+Burkina Faso|Monnaie|Franc CFA
+Burkina Faso|Plus grande ville|Ouagadougou
+Burkina Faso|Population totale|18&#160;365&#160;123
+Burkina Faso|Premier ministre|Yacouba Isaac Zida
+Burkina Faso|Superficie en eau|Négligeable
+Burkina Faso|Superficie totale|274 200&#160;
+canada|Capitale|Ottawa
+canada|Code ISO 3166-1|CAN, CA​
+canada|Densité|3,5&#160;hab./km
+canada|Devise nationale|«&#160;
+canada|Domaine Internet|.ca
+canada|Forme de l'État|Monarchie constitutionnelle
+canada|Fuseau horaire|UTC
+canada|Gentilé|Canadien, Canadienne
+canada|Gouverneur général|David Johnston
+canada|Hymne national|O Canada
+canada|IDH| 0,902
+canada|Indépendance|du 
+canada|Langues officielles|Anglais
+canada|Monnaie|Dollar canadien
+canada|PIB|43 253 $ 
+canada|PIB nominal|52 037 $ 
+canada|Plus grande ville|Toronto
+canada|Population totale|35&#160;702&#160;707
+canada|Premier ministre|Stephen Harper
+canada|Reine|Élisabeth 
+canada|Superficie en eau|8,62&#160;%
+canada|Superficie totale|9&#160;984&#160;670&#160;
+Catherine Deneuve|Films notables|Les Parapluies de Cherbourg
+Catherine Deneuve|Nationalité|&#160;
+Catherine Deneuve|Nom de naissance|Catherine Fabienne Dorléac
+Catherine Deneuve|Profession|Actrice
+Charles Baudelaire|Adjectifs dérivés|Baudelairien, baudelairienne
+Charles Baudelaire|Langue d’écriture|français
+Charles Baudelaire|Mouvement|Inclassable&#160;:
+Charles Baudelaire|Nom de naissance|Charles-Pierre Baudelaire
+Charlie Chaplin|Films notables|Filmographie
+Charlie Chaplin|Nom de naissance|Charles Spencer Chaplin
+Charlie Chaplin|Profession|Acteur
+Charlie Chaplin|Site internet|http://charliechaplin.com
+Charlie Chaplin|Surnom|The Tramp
+charmed|Chaîne d'origine|The WB
+charmed|Création|Constance M. Burge
+charmed|Durée|42 minutes environ
+charmed|Genre|Fantastique
+charmed|Musique|Love Spit Love
+charmed|Nb.|178
+charmed|Pays d'origine|&#160;
+charmed|Production|Aaron Spelling
+chat|Classe|Mammalia
+chat|Embranchement|Chordata
+chat|Espèce|Felis silvestris
+chat|Famille|Felidae
+chat|Genre|Felis
+chat|Infra-classe|Eutheria
+chat|Ordre|Carnivora
+chat|Règne|Animalia
+chat|Sous-classe|Theria
+chat|Sous-embr.|Vertebrata
+chat|Sous-famille|Felinae
+chat|Sous-ordre|Feliformia
+Che Guevara|Nationalité|&#160;
+Che Guevara|Nom de naissance|Ernesto Guevara
+cheval|Classe|Mammalia
+cheval|Embranchement|Chordata
+cheval|Famille|Equidae
+cheval|Genre|Equus
+cheval|Infra-classe|Eutheria
+cheval|Ordre|Perissodactyla
+cheval|Règne|Animalia
+cheval|Sous-classe|Theria
+cheval|Sous-embr.|Vertebrata
+chien|Classe|Mammalia
+chien|Embranchement|Chordata
+chien|Espèce|Canis lupus
+chien|Famille|Canidae
+chien|Genre|Canis
+chien|Ordre|Carnivora
+chien|Règne|Animalia
+chien|Sous-ordre|Caniformia
+Chine|Capitale|Pékin
+Chine|Code ISO 3166-1|CHN, CN​
+Chine|Densité|141&#160;hab./km
+Chine|Domaine Internet|.cn
+Chine|Forme de l'État|République
+Chine|Fuseau horaire|UTC
+Chine|Gentilé|Chinois(e)
+Chine|Guerre civile chinoise|Déclarée le 
+Chine|Hymne national|La Marche des Volontaires
+Chine|IDH| 0,719
+Chine|Indicatif téléphonique|+86
+Chine|Indépendance|Antiquité
+Chine|Langues officielles|Chinois
+Chine|Monnaie|yuan
+Chine|PIB|10 695 $ (
+Chine|PIB nominal|7 548 $ (
+Chine|Population totale|1 350 695 000
+Chine|Premier ministre|Li Keqiang
+Chine|Président|Xi Jinping
+Chine|Président de l'ANP|Zhang Dejiang
+Chine|Président de la CCPPC|Yu Zhengsheng
+Chine|Secrétaire général du PCC|Xi Jinping
+Chine|Superficie en eau|2,85&#160;%
+Chine|Superficie totale|9 596 961&#160;
+Chine|Ville la plus peuplée|Shanghai
+Christian Bale|Films notables|Empire du soleil
+Christian Bale|Nom de naissance|Christian Charles Philip Bale
+Christian Bale|Profession|Acteur
+Christian Clavier|Films notables|Les Bronzés (série de films)
+Christian Clavier|Nationalité|&#160;
+Christian Clavier|Profession|Acteur
+Christian Clavier|Séries notables|Napoléon
+Christophe Colomb|Décès|20 mai
+Christophe Colomb|Naissance|Entre le 
+Christophe Colomb|Nationalité|génoise
+Christophe Colomb|Nom de naissance|Cristoforo Colombo (
+Clara Morgane|Nom de naissance|Emmanuelle Aurélie Munos
+Clara Morgane|Pays de résidence|France
+Claude François|Activité principale|Chanteur
+Claude François|Années actives|1962
+Claude François|Genre musical|Variété française
+Claude François|Instruments|Voix, percussions, violon, tumba et batterie
+Claude François|Labels|Fontana
+Claude François|Nom de naissance|Claude Antoine Marie François
+Claude François|Site officiel|http://claudefrancois.fr/
+Claude François|Surnom|Cloclo
+Claude Lelouch|Films notables|Un homme et une femme
+Claude Lelouch|Nationalité|&#160;
+Claude Lelouch|Profession|Réalisateur
+Claude Lelouch|Site internet|lesfilms13.com
+Claude Nougaro|Activité principale|Auteur-compositeur-interprète
+Claude Nougaro|Années actives|De 
+Claude Nougaro|Genre musical|Chanson française
+Claude Nougaro|Labels|Universal Music
+Claude Nougaro|Site officiel|www.nougaro.com
+clitoris|Gray's Anatomy|«&#160;
+clitoris|MeSH|«&#160;
+clitoris|Système|Appareil génital
+clitoris|Terminologie Anatomique|A09.2.02.001
+Corée du Nord|Capitale|Pyongyang
+Corée du Nord|Code ISO 3166-1|PRK, KP​
+Corée du Nord|Densité|203&#160;hab./km
+Corée du Nord|Devise nationale|강성대국
+Corée du Nord|Domaine Internet|.kp
+Corée du Nord|Forme de l'État|De jure
+Corée du Nord|Fuseau horaire|UTC
+Corée du Nord|Gentilé|Nord-Coréen
+Corée du Nord|Hymne national|Chant patriotique
+Corée du Nord|Indicatif téléphonique|+850
+Corée du Nord|Indépendance|du 
+Corée du Nord|Langues officielles|Coréen
+Corée du Nord|Monnaie|Won
+Corée du Nord|Plus grande ville|Pyongyang
+Corée du Nord|Population totale|24&#160;457&#160;492&#160;
+Corée du Nord|Premier ministre|Pak Pong-ju
+Corée du Nord|Président du Comité de défense|Kim Jong-un
+Corée du Nord|Président du Présidium de l'Assemblée|Kim Yong-nam
+Corée du Nord|Revendiqué par|République de Corée
+Corée du Nord|Superficie en eau|0,1&#160;%
+Corée du Nord|Superficie totale|120 540&#160;
+coupe du monde de football|Création|1928
+coupe du monde de football|Organisateur(s)|FIFA
+coupe du monde de football|Participants|32 qualifiés
+coupe du monde de football|Plus titré(s)|&#160;
+coupe du monde de football|Périodicité|4 ans
+cuba|Capitale|La Havane
+cuba|Code ISO 3166-1|CUB, CU​
+cuba|Densité|101,6&#160;hab./km
+cuba|Devise nationale|La patrie ou la mort, nous vaincrons
+cuba|Domaine Internet|.cu
+cuba|Déclarée|10 octobre
+cuba|Forme de l'État|République
+cuba|Fuseau horaire|UTC
+cuba|Gentilé|Cubain, cubaine
+cuba|Hymne national|La Bayamesa
+cuba|IDH| 0,776 (élevé) (
+cuba|Indicatif téléphonique|+53
+cuba|Indépendance|De l'Espagne, puis des 
+cuba|Langues officielles|Espagnol
+cuba|Monnaie|Peso cubain convertible
+cuba|PIB nominal|72,300 milliards de $ (
+cuba|Plus grande ville|La Havane
+cuba|Population totale|11&#160;167&#160;325
+cuba|Premier secrétaire du Parti|Raúl Castro Ruz
+cuba|Président|Raúl Castro Ruz
+cuba|Superficie en eau|Négligeable
+cuba|Superficie totale|110 860
+Céline Dion|Activité principale|Chanteuse
+Céline Dion|Années actives|depuis 
+Céline Dion|Genre musical|Variété française
+Céline Dion|Instruments|Voix, 
+Céline Dion|Labels|Columbia
+Céline Dion|Nom de naissance|Céline Marie Claudette Dion
+Céline Dion|Site officiel|www.celinedion.com
+Daft Punk|Années actives|Depuis 
+Daft Punk|Genre musical|House
+Daft Punk|Labels|EMI
+Daft Punk|Membres|Thomas Bangalter
+Daft Punk|Pays d'origine|&#160;
+Daft Punk|Site officiel|daftpunk.com
+Danemark|Capitale|Copenhague
+Danemark|Code ISO 3166-1|DNK, DK​
+Danemark|Densité|131,3&#160;hab./km
+Danemark|Devise nationale|aucune
+Danemark|Domaine Internet|.dk
+Danemark|Forme de l'État|Monarchie constitutionnelle
+Danemark|Fuseau horaire|UTC
+Danemark|Gentilé|Danois, Danoise
+Danemark|Hymne national|Der er et yndigt land
+Danemark|IDH| 0,901 (très élevé) (
+Danemark|Indicatif téléphonique|+45
+Danemark|Langues officielles|Danois
+Danemark|Monnaie|Couronne (danoise)
+Danemark|PIB|43 080 $ 
+Danemark|PIB nominal|59 129 $ 
+Danemark|Plus grande ville|Copenhague
+Danemark|Population totale|5&#160;668&#160;743
+Danemark|Premier ministre|Helle Thorning-Schmidt
+Danemark|Reine|Margrethe 
+Danemark|Superficie en eau|1,6&#160;%
+Danemark|Superficie totale|43&#160;100&#160;
+Danemark|Unification et constitution en État|vers 
+Daniel Craig|Films notables|Les Sentiers de la perdition
+Daniel Craig|Nom de naissance|Daniel Wroughton Craig
+Daniel Craig|Profession|Acteur
+Dany Boon|Films notables|Joyeux Noël
+Dany Boon|Nom de naissance|Daniel Hamidou
+Dany Boon|Profession|Acteur
+David Guetta|Activité principale|Disc jockey
+David Guetta|Années actives|Depuis 
+David Guetta|Genre musical|Dance
+David Guetta|Labels|EMI Music France
+David Guetta|Nom de naissance|Pierre David Guetta
+David Guetta|Site officiel|davidguetta.com
+desperate housewives|Acteurs principaux|Teri Hatcher
+desperate housewives|Autres titres|Beautés désespérées
+desperate housewives|Chaîne d'origine|ABC
+desperate housewives|Création|Marc Cherry
+desperate housewives|Durée|42 minutes
+desperate housewives|Genre|Comédie dramatique
+desperate housewives|Musique|Danny Elfman
+desperate housewives|Nb.|180
+desperate housewives|Pays d'origine|&#160;
+desperate housewives|Site web|http://abc.go.com/shows/desperate-housewives
+desperate housewives|Titre original|Desperate Housewives
+Dieudonné|Nationalité|&#160;
+Dieudonné|Nom de naissance|Dieudonné M'Bala M'Bala
+Divergente|Durée|139 minutes
+Divergente|Genre|Science-fiction
+Divergente|Pays d’origine|&#160;
+Divergente|Réalisation|Neil Burger
+Divergente|Scénario|Evan Daugherty
+Divergente|Sociétés de production|Red Wagon Entertainment
+Divergente|Sortie|2014
+Divergente|Titre original|Divergent
+Divergente|Titre québécois|Divergence
+Django Unchained|Durée|165 minutes
+Django Unchained|Genre|Western
+Django Unchained|Pays d’origine|&#160;
+Django Unchained|Réalisation|Quentin Tarantino
+Django Unchained|Scénario|Quentin Tarantino
+Django Unchained|Sociétés de production|The Weinstein Company
+Django Unchained|Sortie|2012
+Django Unchained|Titre québécois|Django déchaîné
+Doctor Who|Autres titres|Docteur Who
+Doctor Who|Création|Première série
+Doctor Who|Diff. originale|Première série
+Doctor Who|Durée|Première série
+Doctor Who|Genre|Série de 
+Doctor Who|Musique|Première série
+Doctor Who|Nb.|Première série
+Doctor Who|Production|Première série
+Doctor Who|Site web|http://www.bbc.co.uk/doctorwho/
+Dr House|Acteurs principaux|Hugh Laurie
+Dr House|Chaîne d'origine|Fox
+Dr House|Création|David Shore
+Dr House|Durée|42 minutes
+Dr House|Genre|Série médicale
+Dr House|Musique|Teardrop
+Dr House|Nb.|177 
+Dr House|Pays d'origine|&#160;
+Dr House|Production|Bryan Singer
+Dr House|Site web|http://www.fox.com/
+Dr House|Titre original|House M.D.
+Elvis Presley|Activité principale|Chanteur
+Elvis Presley|Années actives|1953
+Elvis Presley|Genre musical|Rockabilly
+Elvis Presley|Instruments|Guitare, piano, basse
+Elvis Presley|Nom de naissance|Elvis Aaron Presley
+Elvis Presley|Surnom|The King
+Emilia Clarke|Films notables|Terminator Genisys
+Emilia Clarke|Profession|Actrice
+Emilia Clarke|Séries notables|Game of Thrones
+Eminem|Activité principale|Rappeur
+Eminem|Années actives|Depuis 
+Eminem|Genre musical|Midwest rap
+Eminem|Labels|Shady
+Eminem|Nom de naissance|Marshall Bruce Mathers 
+Eminem|Site officiel|eminem.com
+Eminem|Surnom|Slim Shady
+Emma Watson|Films notables|Saga d'Harry Potter
+Emma Watson|Nom de naissance|Emma Charlotte Duerre Watson
+Emma Watson|Profession|Actrice
+Empire ottoman|29 juillet|Conquête de 
+Empire ottoman|Capitale|Söğüt
+Empire ottoman|Langue|Turc ottoman
+Empire ottoman|Monnaie|Akçe
+Empire ottoman|Population|~ 30-
+Empire ottoman|Religion|Islam sunnite
+Empire ottoman|Statut|Sultanat
+espagne|Capitale|Madrid
+espagne|Code ISO 3166-1|ESP, ES​
+espagne|Densité|92,47&#160;hab./km
+espagne|Devise nationale|Plus Ultra
+espagne|Domaine Internet|.es
+espagne|Forme de l'État|Monarchie
+espagne|Fuseau horaire|UTC
+espagne|Gentilé|Espagnol, Espagnole
+espagne|Hymne national|Marcha Real
+espagne|IDH| 0,885 (très élevé) (
+espagne|Indicatif téléphonique|+34
+espagne|Langues officielles|Espagnol
+espagne|Monnaie|Euro
+espagne|PIB| 32&#160;975 
+espagne|PIB nominal| 30&#160;113 
+espagne|Plus grande ville|Madrid
+espagne|Population totale|47&#160;265&#160;321
+espagne|Président du gouvernement|Mariano Rajoy
+espagne|Roi|Felipe VI
+espagne|Superficie en eau|1,04&#160;%
+espagne|Superficie totale|505&#160;911
+espagne|Union des couronnes de|1479
+Eva Green|Films notables|Innocents: The Dreamers
+Eva Green|Profession|Actrice
+Eva Green|Séries notables|Camelot
+Florent Pagny|Activité principale|Chanteur
+Florent Pagny|Années actives|Depuis 
+Florent Pagny|Genre musical|Pop
+Florent Pagny|Instruments|Piano
+Florent Pagny|Site officiel|florentpagny.fr
+football|Clubs|301&#160;000 (
+football|Fédération internationale|FIFA
+football|Joueurs licenciés|38&#160;287&#160;000 (2006)
+football|Joueurs pratiquants|264&#160;552&#160;000 (2006)
+football|Joueurs professionnels|113&#160;000 (2006)
+football|Sport olympique depuis|1908
+france|Capitale|Paris
+france|Capétiens|Mai 987
+france|Code ISO 3166-1|FRA, FR​
+france|Densité|98,8
+france|Dette publique brute| 2&#160;034,9 milliards d'
+france|Devise nationale|Liberté, Égalité, Fraternité
+france|Domaine Internet|.fr
+france|Forme de l'État|République
+france|Fuseau horaire|UTC
+france|Gentilé|Français(e)
+france|Hymne national|«&#160;
+france|IDH| 0,884 (très élevé
+france|Indicatif téléphonique|+33 
+france|Langues officielles|Français
+france|Monarchie absolue|1661
+france|Monnaie|Euro
+france|Organisations internationales|ONU
+france|PIB| 40&#160;375 
+france|PIB en volume| 2&#160;060,11 milliards d'
+france|PIB nominal| 44&#160;538 
+france|Plus grande ville|Paris
+france|Population totale|66&#160;917&#160;994
+france|Premier ministre|Manuel Valls
+france|Président|Gérard Larcher
+france|Président de l'Assemblée nationale|Claude Bartolone
+france|Superficie en eau|0,26%
+france|Superficie totale|671&#160;308
+france|Taux de chômage| 10,3%
+france|Traité de Verdun|Août 843
+Franck Dubosc|Films notables|Camping
+Franck Dubosc|Nationalité|Française
+Franck Dubosc|Profession|Humoriste
+Franck Dubosc|Site internet|franck-dubosc.com
+Franck Dubosc|Séries notables|Peplum
+Friends|Acteurs principaux|Jennifer Aniston
+Friends|Chaîne d'origine|NBC
+Friends|Création|Marta Kauffman
+Friends|Durée|22 minutes
+Friends|Genre|Sitcom
+Friends|Musique|Michael Skloff
+Friends|Nb.|236
+Friends|Pays d'origine|&#160;
+Friends|Production|David Crane
+Gad Elmaleh|Films notables|La Vérité si je mens ! 2
+Gad Elmaleh|Profession|Humoriste
+Game of Thrones|Acteurs principaux|Peter Dinklage
+Game of Thrones|Autres titres|Le Trône de fer
+Game of Thrones|Chaîne d'origine|HBO
+Game of Thrones|Création|David Benioff
+Game of Thrones|Durée|de 51 à 65 minutes
+Game of Thrones|Genre|Fantasy médiévale
+Game of Thrones|Musique|Ramin Djawadi
+Game of Thrones|Nb.|48 
+Game of Thrones|Pays d'origine|&#160;
+Game of Thrones|Production|Mark Huffam
+Game of Thrones|Site web|http://www.hbo.com/game-of-thrones
+garou|Activité principale|Chanteur
+garou|Années actives|1998
+garou|Genre musical|Variété
+garou|Labels|Sony BMG
+garou|Nom de naissance|Pierre Garand
+garou|Site officiel|garouofficiel.com
+google|Action|NASDAQ
+google|Activité|Internet
+google|Capitalisation|393&#160;09 milliards de&#160;$
+google|Direction|Larry Page
+google|Effectif|50&#160;200 (Q4 2014)
+google|Filiales|Sparrow
+google|Fondateurs|Larry Page
+google|Forme juridique|Incorporation
+google|Produits|Recherche Google
+google|Site web|google.com
+google|Siège social|&#160;
+google|Slogan|Don't be evil
+Grigori Raspoutine|Décès|nuit du 
+Grigori Raspoutine|Nationalité|russe
+Grigori Raspoutine|Nom de naissance|Grigori Efimovitch Raspoutine
+Grigori Raspoutine|Pays de résidence|Russie
+Grèce|Capitale|Athènes
+Grèce|Code ISO 3166-1|GRC, GR​
+Grèce|Densité|85,3&#160;hab./km
+Grèce|Devise nationale|Ελευθερία ή θάνατος
+Grèce|Domaine Internet|.gr
+Grèce|Forme de l'État|République
+Grèce|Fuseau horaire|UTC
+Grèce|Gentilé|Grec, Grecque
+Grèce|Hymne national|Ímnos is tin Elevtherían (
+Grèce|IDH| 0,86 (très élevé) (
+Grèce|Indicatif téléphonique|+30
+Grèce|Indépendance|de l’
+Grèce|Langues officielles|Grec
+Grèce|Monnaie|Euro
+Grèce|Plus grande ville|Athènes
+Grèce|Population totale|10&#160;815&#160;197
+Grèce|Premier ministre|Aléxis Tsípras
+Grèce|Président de la République|Prokópis Pavlópoulos
+Grèce|Superficie en eau|0,86&#160;%
+Grèce|Superficie totale|131 957&#160;
+Guillaume Apollinaire|Langue d’écriture|Français
+Guillaume Apollinaire|Mouvement|Précurseur du 
+Guillaume Apollinaire|Nom de naissance|Guglielmo Alberto Wladimiro Alessandro Apollinare de Kostrowitzky
+Guillaume Gallienne|Films notables|Jet Set
+Guillaume Gallienne|Nationalité|&#160;
+Guillaume Gallienne|Profession|Acteur
+Guillaume Gallienne|Séries notables|Les Bonus de Guillaume
+Gustave Eiffel|Champs|Ingénierie
+Gustave Eiffel|Diplôme|École centrale Paris
+Gustave Eiffel|Institutions|Collège Sainte-Barbe
+Gustave Eiffel|Nationalité|Français
+Gustave Eiffel|Renommé pour|Constructions métalliques&#160;: 
+Guy de Maupassant|Langue d’écriture|Français
+Guy de Maupassant|Mouvement|Réalisme
+Guy de Maupassant|Nom de naissance|Henry-René-Albert-Guy de Maupassant
+Harrison Ford|Films notables|Star Wars
+Harrison Ford|Profession|Acteur
+Haïti|Capitale|Port-au-Prince
+Haïti|Code ISO 3166-1|HTI, HT​
+Haïti|Densité|375&#160;hab./km
+Haïti|Devise nationale|liberté, égalité, fraternité
+Haïti|Domaine Internet|.ht
+Haïti|Forme de l'État|République
+Haïti|Fuseau horaire|UTC
+Haïti|Gentilé|Haïtien, Haïtienne
+Haïti|Hymne national|La Dessalinienne
+Haïti|IDH| 0,454 (faible) (
+Haïti|Indicatif téléphonique|+509
+Haïti|Indépendance|de la 
+Haïti|Langues officielles|Créole
+Haïti|Monnaie|Gourde haïtienne
+Haïti|PIB nominal|4,3 (2013)
+Haïti|Population totale|9&#160;996&#160;731
+Haïti|Port-au-Prince|Port-au-Prince
+Haïti|Premier ministre|Evans Paul
+Haïti|Président de la République|Michel Martelly
+Haïti|Superficie en eau|1,9
+Haïti|Superficie totale|27&#160;750&#160;
+Heath Ledger|Films notables|The Patriot, le chemin de la liberté
+Heath Ledger|Nom de naissance|Heathcliff Andrew Ledger
+Heath Ledger|Profession|Acteur
+Homère|Décès|VIII
+Homère|Langue d’écriture|Grec ancien
+Homère|Naissance|VIII
+Homère|Nom de naissance|Ὅμηρος
+Honoré de Balzac|Adjectifs dérivés|balzacien
+Honoré de Balzac|Langue d’écriture|Français
+Honoré de Balzac|Mouvement|réalisme
+How I met your mother|Acteurs principaux|Josh Radnor
+How I met your mother|Autres titres|Comment je l'ai rencontrée
+How I met your mother|Chaîne d'origine|CBS
+How I met your mother|Création|Carter Bays
+How I met your mother|Durée|22 minutes
+How I met your mother|Genre|Sitcom
+How I met your mother|Musique|Générique&#160;: 
+How I met your mother|Nb.|208 (
+How I met your mother|Pays d'origine|&#160;
+How I met your mother|Production|Jamie Rhonheimer
+Hélène de Fougerolles|Nationalité|Française
+Hélène de Fougerolles|Nom de naissance|Hélène Christine Marie Rigoine de Fougerolles
+Hélène de Fougerolles|Profession|Actrice
+inde|Capitale|New Delhi
+inde|Code ISO 3166-1|IND, IN​
+inde|Densité|368&#160;hab./km
+inde|Devise nationale|सत्यमेव जयते
+inde|Domaine Internet|.in
+inde|Forme de l'État|République
+inde|Fuseau horaire|UTC
+inde|Gentilé|Indien, Indienne
+inde|Hymne national|Jana Gana Mana
+inde|IDH| 0,554 (moyen) (
+inde|Indicatif téléphonique|+91
+inde|Indépendance|Du 
+inde|Langues officielles|Hindi
+inde|Monnaie|Roupie indienne
+inde|Organisations internationales|Commonwealth
+inde|PIB|$4 000
+inde|PIB nominal|1 825 milliards de $
+inde|Plus grande ville|Mumbai (Bombay)
+inde|Population totale|1&#160;277&#160;803&#160;914&#160;
+inde|Premier ministre|Narendra Modi
+inde|Président|Pranab Mukherjee
+inde|Superficie en eau|9,5&#160;%
+inde|Superficie totale|3&#160;287&#160;263&#160;
+Indila|Activité principale|Auteure-compositrice-interprète
+Indila|Années actives|Depuis 
+Indila|Genre musical|Groove
+Indila|Labels|Capitol
+Indila|Nom de naissance|Adila Sedraïa
+Indila|Site officiel|indila.com
+Ingrid Chauvin|Profession|Actrice
+Ingrid Chauvin|Séries notables|Lieutenant Marie Balaguère
+Isabelle Adjani|Films notables|L'Histoire d'Adèle H.
+Isabelle Adjani|Nationalité|&#160;
+Isabelle Adjani|Nom de naissance|Isabelle Yasmina Adjani
+Isabelle Adjani|Profession|Actrice
+islande|Capitale|Reykjavik
+islande|Code ISO 3166-1|ISL, IS​
+islande|Densité|3,2&#160;hab./km
+islande|Devise nationale|Með lögum skal land byggja
+islande|Domaine Internet|.is
+islande|Forme de l'État|République parlementaire
+islande|Fuseau horaire|UTC
+islande|Gentilé|Islandais(e)
+islande|Hymne national|Lofsöngur
+islande|IDH| 0,906 (très élevé) (
+islande|Indicatif téléphonique|+354
+islande|Indépendance|du 
+islande|Langues officielles|Islandais
+islande|Monnaie|Couronne islandaise
+islande|PIB|41 001 $ 
+islande|PIB nominal|45 416 $ 
+islande|Plus grande ville|Reykjavik
+islande|Population totale|329&#160;040
+islande|Premier ministre|Sigmundur Davíð Gunnlaugsson
+islande|Président|Ólafur Ragnar Grímsson
+islande|Superficie en eau|2,7&#160;%
+islande|Superficie totale|103&#160;125&#160;
+israel|Capitale|Jérusalem
+israel|Code ISO 3166-1|ISR, IL​
+israel|Densité|401&#160;hab./km
+israel|Devise nationale|Aucune
+israel|Domaine Internet|.il
+israel|Forme de l'État|Démocratie parlementaire
+israel|Gentilé|Israéliens, Israéliennes
+israel|Hymne national|Hatikvah
+israel|IDH| 0,888 (très élevé) (
+israel|Indicatif téléphonique|+972
+israel|Indépendance|Du 
+israel|Langues officielles|hébreu
+israel|Monnaie|Nouveau shekel
+israel|PIB| 33&#160;352 
+israel|PIB nominal| 37&#160;914 
+israel|Plus grande ville|Jérusalem
+israel|Population totale|8&#160;334&#160;000&#160;
+israel|Premier ministre|Benyamin Netanyahou
+israel|Président|Reuven Rivlin
+israel|Président de la Knesset|Yuli-Yoel Edelstein
+israel|Superficie en eau|2&#160;%
+israel|Superficie totale|20&#160;770&#160;
+italien|Capitale|Rome
+italien|Code ISO 3166-1|ITA, IT​
+italien|Densité|202&#160;hab./km
+italien|Domaine Internet|.it
+italien|Forme de l'État|République parlementaire
+italien|Gentilé|Italien, Italienne
+italien|Hymne national|Fratelli d’Italia
+italien|IDH| 0,881 (très élevé) (
+italien|Indicatif téléphonique|+39
+italien|Langues officielles|Italien
+italien|Monnaie|Euro
+italien|PIB| 34&#160;455 
+italien|PIB nominal| 3&#160;551 
+italien|Plus grande ville|Rome
+italien|Population totale|60&#160;783&#160;711
+italien|Président de la République|Sergio Mattarella
+italien|Président du Conseil|Matteo Renzi
+italien|Superficie en eau|3,4
+italien|Superficie totale|301&#160;336&#160;
+Jacques Brel|Activité principale|Auteur-compositeur-interprète
+Jacques Brel|Années actives|1953
+Jacques Brel|Genre musical|Chanson française
+Jacques Brel|Labels|Disques Barclay
+Jacques Brel|Nom de naissance|Jacques Romain Georges Brel
+Jacques Brel|Site officiel|http://www.jacquesbrel.be/
+Jacques Mesrine|Nom de naissance|Jacques René Mesrine
+japon|Capitale|Tokyo
+japon|Code ISO 3166-1|JPN, JP​
+japon|Densité|349
+japon|Devise nationale|Aucune
+japon|Domaine Internet|.jp
+japon|Empereur|Akihito
+japon|Fondation de la nation|11 février 660 av. J.-C.
+japon|Forme de l'État|Monarchie constitutionnelle
+japon|Fuseau horaire|UTC
+japon|Gentilé|Japonais(e)
+japon|Hymne national|Kimi ga yo
+japon|IDH|0.890
+japon|Indicatif téléphonique|+81
+japon|Langues officielles|Japonais
+japon|Monnaie|Yen
+japon|PIB|36 654 $ 
+japon|PIB nominal|38 468 $ 
+japon|Plus grande ville|Tokyo
+japon|Population totale|127&#160;103&#160;388
+japon|Premier ministre|Shinzō Abe
+japon|Superficie en eau|1,7&#160;%
+japon|Superficie totale|377&#160;915&#160;
+Jared Leto|Activité principale|Acteur
+Jared Leto|Années actives|1994
+Jared Leto|Genre musical|Rock alternatif
+Jared Leto|Instruments|Voix
+Jared Leto|Surnom|Bartholomew Cubbins
+Jason Statham|Films notables|Snatch
+Jason Statham|Profession|Acteur
+Jason Statham|Surnom|Jay
+Jean Dujardin|Films notables|Brice de Nice
+Jean Dujardin|Nationalité|&#160;
+Jean Dujardin|Nom de naissance|Jean Edmond Dujardin
+Jean Dujardin|Profession|Acteur
+Jean Dujardin|Séries notables|Un gars, une fille
+Jean Racine|Décès|21 avril
+Jean Racine|Langue d’écriture|français
+Jean Racine|Mouvement|classicisme
+Jean Racine|Naissance|22 décembre
+Jean Reno|Films notables|Le Grand Bleu
+Jean Reno|Nom de naissance|Juan Moreno y Herrera-Jiménez
+Jean Reno|Profession|Acteur
+Jean De La Fontaine|Décès|13 avril
+Jean De La Fontaine|Langue d’écriture|français
+Jean De La Fontaine|Naissance|8 juillet
+Jean-Jacques Goldman|Activité principale|Auteur-compositeur-interprète
+Jean-Jacques Goldman|Années actives|depuis 
+Jean-Jacques Goldman|Genre musical|Variété
+Jean-Jacques Goldman|Instruments|Chant
+Jean-Jacques Goldman|Labels|WEA
+Jean-Jacques Goldman|Surnom|O. Menor, Sam Brewski, Sweet Memories, First Prayer
+Jenifer|Activité principale|Chanteuse
+Jenifer|Années actives|Depuis 
+Jenifer|Genre musical|Variété
+Jenifer|Labels|Universal
+Jenifer|Nom de naissance|Jenifer Bartoli
+Jenifer|Site officiel|jeniferofficiel.com
+Jennifer Aniston|Films notables|The Good Girl
+Jennifer Aniston|Nom de naissance|Jennifer Joanna Aniston
+Jennifer Aniston|Profession|Actrice
+Jennifer Aniston|Surnom|Jen
+Jennifer Aniston|Séries notables|Friends
+Jennifer Lawrence|Films notables|Winter's Bone
+Jennifer Lawrence|Nom de naissance|Jennifer Shrader Lawrence
+Jennifer Lawrence|Profession|Actrice
+Jennifer Lawrence|Surnom|Jen ou J-Law
+Jennifer Lopez|Activité principale|Actrice
+Jennifer Lopez|Années actives|Depuis 
+Jennifer Lopez|Genre musical|Dance
+Jennifer Lopez|Labels|Epic
+Jennifer Lopez|Site officiel|jenniferlopez.com
+Jennifer Lopez|Surnom|J-LO
+jeux olympiques|Création|Athènes 1896
+jeux olympiques|Nations|205 pays représentés
+jeux olympiques|Organisateur(s)|Comité international olympique
+jeux olympiques|Participants|environ 13&#160;000
+jeux olympiques|Périodicité|quatre ans entre deux éditions de jeux d'été, quatre ans entre deux éditions de jeux d'hiver, deux ans entre jeux d'été et jeux d'hiver
+jeux olympiques|Statut des participants|amateurs et professionnels (homme ou femme)
+jeux olympiques|Épreuves|environ 400
+Joaquin Phoenix|Films notables|Gladiator
+Joaquin Phoenix|Profession|Acteur
+John Lennon|Activité principale|Auteur-compositeur-interprète
+John Lennon|Années actives|1957
+John Lennon|Genre musical|Rock
+John Lennon|Instruments|Guitare
+John Lennon|Labels|Apple
+John Lennon|Nom de naissance|John Winston Lennon
+John Lennon|Site officiel|www.johnlennon.com
+johnny hallyday|Activité principale|chanteur
+johnny hallyday|Activités annexes|acteur
+johnny hallyday|Années actives|Depuis 
+johnny hallyday|Genre musical|Rock
+johnny hallyday|Instruments|Guitare
+johnny hallyday|Labels|Vogue
+johnny hallyday|Nom de naissance|Jean-Philippe Smet
+johnny hallyday|Site officiel|johnnyhallyday.com
+Jules Verne|Langue d’écriture|Français
+Jules Verne|Nom de naissance|Jules Gabriel Verne
+Julia Roberts|Films notables|Pretty Woman
+Julia Roberts|Nom de naissance|Julia Fiona Roberts
+Julia Roberts|Profession|Actrice
+Julia Roberts|Surnom|Jules
+Julie Gayet|Films notables|Delphine 1, Yvan 0
+Julie Gayet|Profession|Actrice
+Justin Bieber|Activité principale|auteur-compositeur-interprète
+Justin Bieber|Activités annexes|acteur
+Justin Bieber|Années actives|2008 - présent
+Justin Bieber|Genre musical|Pop
+Justin Bieber|Influences|Michael Jackson
+Justin Bieber|Instruments|voix
+Justin Bieber|Labels|Island Records
+Justin Bieber|Nom de naissance|Justin Drew Bieber
+Justin Bieber|Site officiel|www.justinbiebermusic.com
+Justin Timberlake|Activité principale|Auteur-compositeur-interprète
+Justin Timberlake|Années actives|Depuis 
+Justin Timberlake|Genre musical|Pop
+Justin Timberlake|Instruments|Voix
+Justin Timberlake|Labels|Jive
+Justin Timberlake|Site officiel|justintimberlake.com
+Kad Merad|Films notables|Mais qui a tué Pamela Rose ?
+Kad Merad|Nom de naissance|Kadour Merad
+Kad Merad|Profession|Acteur
+Katharine Hepburn|Films notables|L'Impossible Monsieur Bébé
+Katharine Hepburn|Nom de naissance|Katharine Houghton Hepburn
+Katharine Hepburn|Profession|Actrice
+Katharine Hepburn|Surnom|First Lady of Cinema
+Katy Perry|Activité principale|Chanteuse
+Katy Perry|Années actives|Depuis 
+Katy Perry|Genre musical|Pop
+Katy Perry|Instruments|Guitare
+Katy Perry|Labels|Red Hill
+Katy Perry|Nom de naissance|Katheryn Elizabeth Hudson
+Katy Perry|Site officiel|katyperry.com
+Keanu Reeves|Films notables|Point Break
+Keanu Reeves|Nom de naissance|Keanu Charles Reeves
+Keanu Reeves|Profession|Acteur
+Keira Knightley|Films notables|Joue-la comme Beckham
+Keira Knightley|Nom de naissance|Keira Christina Knightley
+Keira Knightley|Profession|Actrice
+Keira Knightley|Site internet|Site de l'actrice
+Kev Adams|Films notables|Les Profs
+Kev Adams|Nom de naissance|Kevin Smadja
+Kev Adams|Profession|Humoriste
+Kev Adams|Site internet|http://kevadams-officiel.fr/
+Kev Adams|Séries notables|Soda
+Kevin Spacey|Films notables|Usual Suspects
+Kevin Spacey|Nom de naissance|Kevin Spacey Fowler
+Kevin Spacey|Profession|Acteur
+Kevin Spacey|Séries notables|House of Cards
+Kosovo|Capitale|Pristina
+Kosovo|Code ISO 3166-1|XK​
+Kosovo|Densité|167&#160;hab./km
+Kosovo|Forme de l'État|République
+Kosovo|Fuseau horaire|UTC
+Kosovo|Gentilé|Kosovar, Kosovare
+Kosovo|Hymne national|Europe
+Kosovo|Indépendance|de la 
+Kosovo|Langues officielles|albanais
+Kosovo|Monnaie|Euro
+Kosovo|PIB nominal|6,959&#160;milliards
+Kosovo|Plus grande ville|Pristina
+Kosovo|Population totale|1&#160;820&#160;631&#160;
+Kosovo|Premier ministre|Isa Mustafa
+Kosovo|Président du Parlement|Kadri Veseli
+Kosovo|Présidente de la République|Atifete Jahjaga
+Kosovo|Reconnu par|111 États
+Kosovo|Revendiqué par|Serbie
+Kosovo|Superficie totale|10 908&#160;
+Kristen Bell|Films notables|Sans Sarah, rien ne va !
+Kristen Bell|Nom de naissance|Kristen Anne Bell
+Kristen Bell|Profession|Actrice
+Kristen Bell|Surnom|K-Bell
+Kristen Bell|Séries notables|Veronica Mars
+Kurt Cobain|Activité principale|Musicien
+Kurt Cobain|Genre musical|Grunge
+Kurt Cobain|Nom de naissance|Kurt Donald Cobain
+Kylie Minogue|Activité principale|Chanteuse
+Kylie Minogue|Années actives|1979
+Kylie Minogue|Genre musical|Pop
+Kylie Minogue|Site officiel|kylie.com
+La Leçon de piano|Durée|121 min
+La Leçon de piano|Pays d’origine|Nouvelle-Zélande
+La Leçon de piano|Réalisation|Jane Campion
+La Leçon de piano|Scénario|Jane Campion
+La Leçon de piano|Sortie|1993
+La Leçon de piano|Titre original|The Piano
+la petite maison dans la prairie|Chaîne d'origine|NBC
+la petite maison dans la prairie|Création|Michael Landon
+la petite maison dans la prairie|Durée|160 × 45 minutes
+la petite maison dans la prairie|Genre|Série familiale
+la petite maison dans la prairie|Musique|David Rose
+la petite maison dans la prairie|Nb.|205 et 4 téléfilms
+la petite maison dans la prairie|Pays d'origine|&#160;
+la petite maison dans la prairie|Production|Michael Landon
+la petite maison dans la prairie|Titre original|Little House on the Prairie
+Lady Gaga|Activité principale|Auteur-compositrice-interprète
+Lady Gaga|Années actives|Depuis 
+Lady Gaga|Genre musical|Pop
+Lady Gaga|Instruments|Voix
+Lady Gaga|Labels|Def Jam
+Lady Gaga|Nom de naissance|Stefani Joanne Angelina Germanotta
+Lady Gaga|Site officiel|ladygaga.com
+Lady Gaga|Surnom|Mother Monster
+Lambert Wilson|Films notables|La Femme publique
+Lambert Wilson|Nationalité|&#160;
+Lambert Wilson|Profession|Acteur
+Le Juge Fayard dit Le Shériff|Durée|112 minutes
+Le Juge Fayard dit Le Shériff|Genre|Drame
+Le Juge Fayard dit Le Shériff|Pays d’origine|&#160;
+Le Juge Fayard dit Le Shériff|Réalisation|Yves Boisset
+Le Juge Fayard dit Le Shériff|Scénario|Yves Boisset
+Le Juge Fayard dit Le Shériff|Sociétés de production|Production Companies
+Le Juge Fayard dit Le Shériff|Sortie|1977
+Leonardo DiCaprio|Films notables|voir filmographie
+Leonardo DiCaprio|Nom de naissance|Leonardo Wilhelm DiCaprio
+Leonardo DiCaprio|Profession|Acteur
+Leonardo DiCaprio|Site internet|leonardodicaprio.com
+Leonardo DiCaprio|Surnom|Leo
+les Enfoirés|Activité principale|artistes et bénévoles
+les Enfoirés|Années actives|Depuis 
+les Enfoirés|Genre musical|Variété française
+les Enfoirés|Site officiel|http://www.enfoires.fr
+les Enfoirés|Surnom|Les Enfoirés du cœur
+Les frères Scott|Acteurs principaux|Chad Michael Murray
+Les frères Scott|Chaîne d'origine|The WB
+Les frères Scott|Création|Mark Schwahn
+Les frères Scott|Durée|40 minutes environ
+Les frères Scott|Genre|Série dramatique pour adolescents
+Les frères Scott|Musique|Mark Morgan
+Les frères Scott|Nb.|187
+Les frères Scott|Pays d'origine|&#160;
+Les frères Scott|Production|Brian Robbins
+Les frères Scott|Site web|http://www.cwtv.com/shows/one-tree-hill
+Les frères Scott|Titre original|One Tree Hill
+Les Simpson|Chaîne d'origine|Fox Broadcasting Company
+Les Simpson|Création|Matt Groening
+Les Simpson|Durée|21 minutes environ
+Les Simpson|Genre|Série d'animation
+Les Simpson|Musique|Danny Elfman
+Les Simpson|Nb.|577
+Les Simpson|Pays d'origine|&#160;
+Les Simpson|Production|Matt Groening
+Les Simpson|Site web|http://www.thesimpsons.com
+Les Simpson|Titre original|The Simpsons
+Liam Hemsworth|Films notables|La Dernière Chanson
+Liam Hemsworth|Profession|Acteur
+Liam Hemsworth|Surnom|LiHem
+Liam Hemsworth|Séries notables|Les Voisins
+Liam Neeson|Films notables|Mission
+Liam Neeson|Profession|Acteur
+lion|Classe|Mammalia
+lion|Embranchement|Chordata
+lion|Famille|Felidae
+lion|Genre|Panthera
+lion|Ordre|Carnivora
+lion|Règne|Animalia
+lion|Sous-embr.|Vertebrata
+lion|Sous-famille|Pantherinae
+lion|Sous-ordre|Feliformia
+Louis Aragon|Langue d’écriture|Français
+Louis Aragon|Mouvement|Dadaïsme
+Louis Pasteur|Champs|Chimie
+Louis Pasteur|Diplôme|École normale supérieure
+Louis Pasteur|Institutions|Université de Strasbourg
+Louis Pasteur|Renommé pour|Vaccin contre la rage
+Louis Pasteur|Étudiants en thèse|Charles Friedel
+Louis de Funès|Films notables|La Traversée de Paris
+Louis de Funès|Nationalité|&#160;
+Louis de Funès|Nom de naissance|Louis Germain David de Funès de Galarza
+Louis de Funès|Profession|Acteur
+Ludwig Van Beethoven|Activité principale|Compositeur
+Ludwig Van Beethoven|Années d'activité|1778
+Ludwig Van Beethoven|Ascendants|Johann van Beethoven
+Ludwig Van Beethoven|Maîtres|C. G. Neefe
+Ludwig Van Beethoven|Naissance|17 décembre
+Ludwig Van Beethoven|Style|Classique
+Ludwig Van Beethoven|Élèves|C. Czerny
+Luis Mariano|Activité principale|Chanteur
+Luis Mariano|Activités annexes|Acteur
+Luis Mariano|Années actives|1943 - 1969
+Luis Mariano|Genre musical|opérette
+Luis Mariano|Nom de naissance|Mariano Eusebio González y García
+Luis Mariano|Site officiel|luismariano.com
+Léa Seydoux|Films notables|La Belle Personne
+Léa Seydoux|Nationalité|&#160;
+Léa Seydoux|Nom de naissance|Léa Hélène Seydoux Fornier de Clausonne
+Léa Seydoux|Profession|Actrice
+Madagascar|Capitale|Antananarivo
+Madagascar|Code ISO 3166-1|MDG, MG​
+Madagascar|Densité|36,25&#160;hab./km
+Madagascar|Devise nationale|Fitiavana, Tanindrazana, Fandrosoana
+Madagascar|Domaine Internet|.mg
+Madagascar|Forme de l'État|République
+Madagascar|Fuseau horaire|UTC
+Madagascar|Gentilé|Malgache
+Madagascar|Hymne national|Ry Tanindrazanay malala ô
+Madagascar|IDH|0.498 (faible) (
+Madagascar|Indicatif téléphonique|+261
+Madagascar|Indépendance|De la 
+Madagascar|Langues officielles|malgache
+Madagascar|Monnaie|Ariary
+Madagascar|PIB| 1&#160;414 
+Madagascar|PIB nominal| 10,61 milliards de 
+Madagascar|Plus grande ville|Antananarivo
+Madagascar|Population totale|22&#160;924&#160;851&#160;
+Madagascar|Premier ministre|Général 
+Madagascar|Président de la République|Hery Rajaonarimampianina
+Madagascar|Superficie en eau|0,95
+Madagascar|Superficie totale|587&#160;040&#160;
+Madonna|Activité principale|Auteur-compositrice-interprète
+Madonna|Activités annexes|Actrice
+Madonna|Années actives|Depuis 
+Madonna|Genre musical|Dance-pop
+Madonna|Instruments|Voix
+Madonna|Labels|Sire
+Madonna|Nom de naissance|Madonna Louise Ciccone
+Madonna|Site officiel|www.madonna.com
+Madonna|Surnom|The Queen of Pop
+Malaisie|Capitale|Kuala Lumpur
+Malaisie|Code ISO 3166-1|MYS, MY​
+Malaisie|Densité|86&#160;hab./km
+Malaisie|Devise nationale|Bersekutu Bertambah Mutu
+Malaisie|Domaine Internet|.my
+Malaisie|Forme de l'État|Monarchie constitutionnelle
+Malaisie|Fuseau horaire|UTC
+Malaisie|Gentilé|Malaisien,
+Malaisie|Hymne national|Negara Ku
+Malaisie|Indicatif téléphonique|+60
+Malaisie|Indépendance|Royaume-Uni
+Malaisie|Langues officielles|Malais
+Malaisie|Monnaie|Ringgit
+Malaisie|Plus grande ville|Kuala Lumpur
+Malaisie|Population totale|30 417 000&#160;
+Malaisie|Premier ministre|Najib Tun Razak
+Malaisie|Roi|Abdul Halim Muadzam Shah
+Malaisie|Royaume établi en|31 août
+Malaisie|Superficie en eau|0,3&#160;%
+Malaisie|Superficie totale|329 750&#160;
+Maldives|Capitale|Malé
+Maldives|Code ISO 3166-1|MDV, MV​
+Maldives|Densité|1&#160;667&#160;hab./km
+Maldives|Devise nationale|Gavmii mi ekuverikan matii tibegen kuriime salaam
+Maldives|Domaine Internet|.mv
+Maldives|Forme de l'État|République
+Maldives|Fuseau horaire|UTC
+Maldives|Gentilé|Maldivien(ne)
+Maldives|Hymne national|Gavmii mi ekuverikan matii tibegen kuriime salaam
+Maldives|IDH|0,771 (moyen) (
+Maldives|Indicatif téléphonique|+960
+Maldives|Indépendance|du 
+Maldives|Langues officielles|Maldivien
+Maldives|Monnaie|Rufiyaa
+Maldives|PIB|1&#160;588&#160;millions de 
+Maldives|PIB nominal|1&#160;049&#160;millions de 
+Maldives|Plus grande ville|Malé
+Maldives|Population totale|394&#160;999
+Maldives|Président|Abdulla Yameen Abdul Gayoom
+Maldives|Superficie en eau|0&#160;%
+Maldives|Superficie totale|227,45&#160;
+malte|Capitale|La Valette
+malte|Code ISO 3166-1|MLT, MT​
+malte|Date|21 septembre 1964
+malte|Densité|1&#160;413&#160;hab./km
+malte|Domaine Internet|.mt
+malte|Forme de l'État|République
+malte|Fuseau horaire|UTC
+malte|Gentilé|Maltais, Maltaise
+malte|Hymne national|L-Innu Malti
+malte|IDH| 0,902 (élevé) (
+malte|Indicatif téléphonique|+356
+malte|Indépendance|Du 
+malte|Langues officielles|Maltais
+malte|Monnaie|Euro
+malte|Population totale|446&#160;547
+malte|Premier ministre|Joseph Muscat
+malte|Président de Malte|Marie-Louise Coleiro Preca
+malte|Superficie en eau|Négligeable (Chadwick Lakes)
+malte|Superficie totale|316&#160;
+malte|Ville la plus peuplée|Birkirkara
+Marie Curie|Champs|Physique nucléaire
+Marie Curie|Diplôme|Faculté des sciences de Paris
+Marie Curie|Domicile|Paris
+Marie Curie|Institutions|École municipale de physique et de chimie industrielles de la ville de Paris
+Marie Curie|Renommée pour|Travaux sur la 
+Marilyn Monroe|Films notables|Niagara
+Marilyn Monroe|Nom de naissance|Norma Jeane Mortenson
+Marilyn Monroe|Profession|Actrice
+Marilyn Monroe|Site internet|marilynmonroe.com
+Mark Wahlberg|Films notables|Boogie Nights
+Mark Wahlberg|Nom de naissance|Mark Robert Michael Wahlberg
+Mark Wahlberg|Profession|Acteur
+Mark Wahlberg|Site internet|Site officiel
+Mark Wahlberg|Surnom|Marky Mark
+maroc|Capitale|Rabat
+maroc|Capitale économique|Casablanca
+maroc|Chef du gouvernement|Abdel-Ilah Benkiran
+maroc|Code ISO 3166-1|MAR, MA​
+maroc|Date|- 2 mars 1956 (pour le 
+maroc|Densité|70&#160;92 (44&#160;55
+maroc|Domaine Internet|.ma
+maroc|Forme de l'État|Monarchie constitutionnelle
+maroc|Fuseau horaire|UTC
+maroc|Gentilé|Marocains, Marocaines
+maroc|Hymne national|النشيد الوطني المغربي
+maroc|IDH| 0,617
+maroc|Indicatif téléphonique|+212
+maroc|Indépendance|De la 
+maroc|Langues officielles|Arabe
+maroc|Monnaie|Dirham marocain
+maroc|Organisations internationales|ONU
+maroc|Population totale|33&#160;848&#160;242
+maroc|Roi|Mohammed VI
+maroc|Superficie en eau|1,059&#160;%
+maroc|Superficie totale|446&#160;550 (710 850
+Mary Kate et Ashley Olsen|Nom de naissance|Mary-Kate Olsen
+Mary Kate et Ashley Olsen|Profession|Actrices
+Mary Kate et Ashley Olsen|Site internet|www.mary-kateandashley.com
+Mary Kate et Ashley Olsen|Séries notables|La Fête à la maison
+Matt Damon|Films notables|Will Hunting
+Matt Damon|Nom de naissance|Matthew Paige Damon
+Matt Damon|Profession|Acteur
+Matt Damon|Séries notables|30 Rock
+Matthew McConaughey|Films notables|Génération rebelle
+Matthew McConaughey|Nom de naissance|Matthew David McConaughey
+Matthew McConaughey|Profession|Acteur
+Matthew McConaughey|Séries notables|True Detective
+mentaliste|Acteurs principaux|Simon Baker
+mentaliste|Autres titres|Le Mentaliste
+mentaliste|Chaîne d'origine|CBS
+mentaliste|Création|Bruno Heller
+mentaliste|Durée|42 minutes
+mentaliste|Genre|Série 
+mentaliste|Nb.|151 
+mentaliste|Pays d'origine|&#160;
+mentaliste|Production|Warner Bros. Television
+mentaliste|Site web|http://www.cbs.com/shows/the_mentalist/
+mentaliste|Titre original|The Mentalist
+Meryl Streep|Films notables|Voyage au bout de l'enfer
+Meryl Streep|Nom de naissance|Mary Louise Streep
+Meryl Streep|Profession|Actrice
+Meryl Streep|Séries notables|Holocauste
+Mexique|Capitale|Mexico
+Mexique|Code ISO 3166-1|MEX, MX​
+Mexique|Densité|61&#160;hab./km
+Mexique|Devise nationale|Aucune
+Mexique|Domaine Internet|.mx
+Mexique|Forme de l'État|République constitutionnelle
+Mexique|Fuseau horaire|UTC
+Mexique|Gentilé|Mexicain(e)
+Mexique|Hymne national|Himno Nacional Mexicano
+Mexique|IDH| 0,775
+Mexique|Indicatif téléphonique|+52 pour un fixe et +521 pour un portable
+Mexique|Indépendance|de l'
+Mexique|Langues officielles|Espagnol
+Mexique|Monnaie|Peso mexicain
+Mexique|Plus grande ville|Mexico
+Mexique|Population totale|119&#160;713&#160;203
+Mexique|Président|Enrique Peña Nieto
+Mexique|Superficie en eau|2,5&#160;%
+Mexique|Superficie totale|1&#160;964&#160;375&#160;
+Michael Jackson|Activité principale|Chanteur
+Michael Jackson|Années actives|1963
+Michael Jackson|Genre musical|Disco
+Michael Jackson|Influences|Sammy Davis, Jr.
+Michael Jackson|Instruments|Piano, percussions, guitare, batterie
+Michael Jackson|Labels|Steeltown 
+Michael Jackson|Nom de naissance|Michael Joseph Jackson
+Michael Jackson|Site officiel|michaeljackson.com
+Michael Jackson|Surnom|The king of pop
+Michael Schumacher|Années d'activité|1991
+Michael Schumacher|Champion du monde|7 (record)&#160;: 
+Michael Schumacher|Nationalité| Allemand
+Michael Schumacher|Nombre de courses|307
+Michael Schumacher|Podiums|155 (record)
+Michael Schumacher|Pole positions|68 (record)
+Michael Schumacher|Qualité|Pilote automobile
+Michael Schumacher|Site web|michael-schumacher.de
+Michael Schumacher|Surnom|Schumi
+Michael Schumacher|Victoires|91 (record)
+Michael Schumacher|Équipe|Jordan Grand Prix
+Michael Youn|Films notables|La Beuze
+Michael Youn|Nom de naissance|Michaël Benayoun
+Michael Youn|Profession|acteur
+Michael Youn|Site internet|www.michaelyoun.com
+Michel Leeb|Nationalité|&#160;
+Michel Legrand|Films notables|Les Parapluies de Cherbourg
+Michel Legrand|Nationalité|&#160;
+Michel Legrand|Profession|Compositeur
+Michel Legrand|Site internet|www.michellegrandofficial.com
+Michel Legrand|Surnom|Big Mike
+Mick Jagger|Activité principale|chanteur
+Mick Jagger|Activités annexes|acteur
+Mick Jagger|Années actives|1962
+Mick Jagger|Genre musical|Blues
+Mick Jagger|Instruments|Guitare
+Mick Jagger|Labels|Virgin
+Mick Jagger|Nom de naissance|Michael Philip Jagger
+Mick Jagger|Site officiel|www.mickjagger.com
+Mila Kunis|Films notables|Max Payne
+Mila Kunis|Nom de naissance|Milena Markovna Kunis
+Mila Kunis|Profession|Actrice
+Mila Kunis|Séries notables|That '70s Show
+Miley Cyrus|Activité principale|Actrice
+Miley Cyrus|Années actives|Depuis 
+Miley Cyrus|Genre musical|Pop
+Miley Cyrus|Instruments|Voix
+Miley Cyrus|Labels|RCA Records
+Miley Cyrus|Nom de naissance|Destiny Hope Cyrus
+Miley Cyrus|Site officiel|www.mileycyrus.com
+Mimie Mathy|Nom de naissance|Michèle Mathy
+Mimie Mathy|Profession|Actrice
+Mimie Mathy|Séries notables|Joséphine, ange gardien
+Mohandas Karamchand Gandhi|Nationalité|Indien
+Moldavie|Capitale|Chișinău
+Moldavie|Code ISO 3166-1|MDA, MD​
+Moldavie|Densité|127&#160;hab./km
+Moldavie|Domaine Internet|.md
+Moldavie|Forme de l'État|République
+Moldavie|Fuseau horaire|UTC
+Moldavie|Gentilé|Moldaves
+Moldavie|Hymne national|Limba noastră
+Moldavie|IDH|0,663 (moyen) (
+Moldavie|Indicatif téléphonique|+373
+Moldavie|Indépendance|de l'
+Moldavie|Langues officielles|Roumain
+Moldavie|Monnaie|Leu moldave
+Moldavie|Plus grande ville|Chișinău
+Moldavie|Population totale|3&#160;656&#160;843
+Moldavie|Premier ministre|Chiril Gaburici
+Moldavie|Président|Nicolae Timofti
+Moldavie|Superficie en eau|1,4
+Moldavie|Superficie totale|33 843&#160;
+Molière|Décès|17 février
+Molière|Langue d’écriture|français
+Molière|Naissance|Baptisé le 
+Molière|Nom de naissance|Jean-Baptiste Poquelin
+monaco|Code ISO 3166-1|MCO, MC​
+monaco|De facto|8 janvier
+monaco|Densité|18&#160;292&#160;hab./km
+monaco|Devise nationale|Deo Juvante
+monaco|Domaine Internet|.mc
+monaco|Forme de l'État|Monarchie constitutionnelle
+monaco|Gentilé|Monégasque
+monaco|Hymne national|Hymne monégasque
+monaco|Indicatif téléphonique|+377
+monaco|Indépendance|&#160;
+monaco|Langues officielles|Français
+monaco|Ministre d’État|Michel Roger
+monaco|Monnaie|Euro
+monaco|Population totale|36&#160;950
+monaco|Prince souverain|Albert II
+monaco|Quartier principal|Monte-Carlo
+monaco|Superficie en eau|Négligeable
+monaco|Superficie totale|2,02&#160;
+Montesquieu|Décès|10 février
+Montesquieu|Langue d’écriture|Français
+Montesquieu|Mouvement|Lumières
+Montesquieu|Naissance|18 janvier
+Montesquieu|Nom de naissance|Charles de Secondat
+Nabilla Benattia|Nationalité|Française
+Nabilla Benattia|Nom de naissance|Nabilla Leona Grange-Benattia
+Nabilla Benattia|Pays de résidence|Genève
+Napoléon III|Prédicat|Sa Majesté impériale
+Napoléon III|Style alternatif|Sire
+Napoléon III|Style oral|Votre Majesté impériale
+Naruto|Auteur|Masashi Kishimoto
+Naruto|Genre|Nekketsu
+Naruto|Studio d’animation|Studio Pierrot
+Naruto|Studio d’enregistrement|TV Tokyo Music
+Naruto|Thèmes|Ninjas, démons, drame, combats
+Naruto|Type|Shōnen
+Naruto|Épisodes|400+
+Natalie Portman|Films notables|Léon
+Natalie Portman|Nom de naissance|Natalie Hershlag
+Natalie Portman|Profession|Actrice
+Nicolas Hulot|Films notables|Pour un garçon
+Nicolas Hulot|Nom de naissance|Nicholas Caradoc Hoult
+Nicolas Hulot|Profession|Acteur
+Nicolas Hulot|Séries notables|Skins
+Nicolas Cage|Films notables|Arizona Junior
+Nicolas Cage|Nom de naissance|Nicolas Kim Coppola
+Nicolas Cage|Profession|Acteur
+Niki Lauda|Années d'activité|1971-1979
+Niki Lauda|Champion du monde|1975
+Niki Lauda|Date de naissance|22 février
+Niki Lauda|Nationalité|Autrichien
+Niki Lauda|Nombre de courses|171
+Niki Lauda|Qualité|Pilote automobile
+Niki Lauda|Surnom|L'ordinateur
+Niki Lauda|Équipe|March
+Nouvelle-Zélande|Capitale|Wellington
+Nouvelle-Zélande|Code ISO 3166-1|NZL, NZ​
+Nouvelle-Zélande|Densité|16,6&#160;hab./km
+Nouvelle-Zélande|Devise nationale|«&#160;God Defend New Zealand&#160;»
+Nouvelle-Zélande|Domaine Internet|.nz
+Nouvelle-Zélande|Forme de l'État|Monarchie parlementaire
+Nouvelle-Zélande|Fuseau horaire|UTC
+Nouvelle-Zélande|Gentilé|Néozélandais(e)
+Nouvelle-Zélande|Gouverneur général|Jeremiah Mateparae
+Nouvelle-Zélande|Hymne national|God Defend New Zealand
+Nouvelle-Zélande|IDH| 0,907
+Nouvelle-Zélande|Indicatif téléphonique|+64
+Nouvelle-Zélande|Indépendance|Royaume-Uni
+Nouvelle-Zélande|Langues officielles|Anglais
+Nouvelle-Zélande|Monnaie|Dollar néo-zélandais
+Nouvelle-Zélande|PIB nominal|171&#160;256&#160;millions $
+Nouvelle-Zélande|Plus grande ville|Auckland
+Nouvelle-Zélande|Population totale|4&#160;470&#160;800
+Nouvelle-Zélande|Premier ministre|John Key
+Nouvelle-Zélande|Reine|Élisabeth II
+Nouvelle-Zélande|Superficie en eau|1,6&#160;%
+Nouvelle-Zélande|Superficie totale|268&#160;680&#160;
+numericable|Activité|Opérateur de télécommunications
+numericable|Direction|Éric Dénoyer
+numericable|Effectif|2&#160;000 salariés
+numericable|Forme juridique|SAS
+numericable|Produits|Télévision par câble
+numericable|Résultat net| 65 millions d'euros (2013)
+numericable|Site web|numericable.fr
+numericable|Siège social|&#160;
+numericable|Slogan|Prenez le pouvoir&#160;!
+numericable|Société mère|Groupe Numericable-SFR
+numericable|Sociétés sœurs|SFR
+One Piece|Auteur|Eiichirō Oda
+One Piece|Genre|Nekketsu
+One Piece|Studio d’animation|Toei Animation
+One Piece|Thèmes|Action
+One Piece|Type|Shōnen
+One Piece|Épisodes|694
+Pascal Obispo|Activité principale|Auteur-compositeur-interprète
+Pascal Obispo|Années actives|Depuis 
+Pascal Obispo|Genre musical|Pop
+Pascal Obispo|Site officiel|pascalobispo.com
+Pascal Obispo|Surnom|Captain Samouraï Flower, Vitoo
+Patrick Bruel|Activité principale|Chanteur
+Patrick Bruel|Années actives|1978
+Patrick Bruel|Genre musical|Variété française
+Patrick Bruel|Nom de naissance|Patrick Maurice Benguigui
+Patrick Bruel|Site officiel|patrickbruel.com
+Paul Verlaine|Langue d’écriture|français
+Paul Verlaine|Mouvement|Symbolisme
+Paul Verlaine|Nom de naissance|Paul Marie Verlaine
+Paul Eluard|Langue d’écriture|Français
+Paul Eluard|Mouvement|Dadaïsme
+Paul Eluard|Nom de naissance|Eugène Émile Paul Grindel
+Pays-Bas|Capitale|Amsterdam
+Pays-Bas|Code ISO 3166-1|NLD, NL​
+Pays-Bas|Densité|407&#160;hab./km
+Pays-Bas|Devise nationale|Je maintiendrai
+Pays-Bas|Domaine Internet|.nl
+Pays-Bas|Forme de l'État|Monarchie constitutionnelle
+Pays-Bas|Gentilé|Néerlandais(e)
+Pays-Bas|Hymne national|Wilhelmus van Nassouwe
+Pays-Bas|IDH| 0,921
+Pays-Bas|Indicatif téléphonique|+31
+Pays-Bas|Langues officielles|Néerlandais
+Pays-Bas|Monnaie|Euro
+Pays-Bas|PIB|46&#160;440 $
+Pays-Bas|PIB nominal|50&#160;816 $
+Pays-Bas|Plus grande ville|Amsterdam
+Pays-Bas|Population totale|16&#160;902&#160;103
+Pays-Bas|Premier ministre|Mark Rutte
+Pays-Bas|Provinces-Unies|26 juillet
+Pays-Bas|Roi|Willem-Alexander
+Pays-Bas|Superficie en eau|18,41&#160;%
+Pays-Bas|Superficie totale|41 530&#160;
+Pharrell Williams|Activité principale|Producteur
+Pharrell Williams|Années actives|Depuis 
+Pharrell Williams|Genre musical|Hip-hop
+Pharrell Williams|Instruments|Voix
+Pharrell Williams|Labels|Star Trak
+Pharrell Williams|Site officiel|pharrellwilliams.com
+Philippe Bouvard|Nom de naissance|Philippe Pierre Louis Bouvard
+Pierre Bourdieu|Approche|analyse des mécanismes de reproduction des 
+Pierre Bourdieu|Formation|École normale supérieure
+Pierre Bourdieu|Idées remarquables|Espace social, violence symbolique, 
+Pierre Bourdieu|Influencé par|Louis Althusser
+Pierre Bourdieu|Titres|Directeur d'études à l'
+Pierre Corneille|Adjectifs dérivés|cornélien
+Pierre Corneille|Langue d’écriture|français
+Pierre Corneille|Mouvement|baroque
+Pierre Corneille|Naissance|6 juin
+Pirates des Caraïbes|Année de création|1967
+Pirates des Caraïbes|Auteur(s)|Walt Disney Imagineering
+Pirates des Caraïbes|Autre(s) support(s)|Cinématographie
+Pirates des Caraïbes|Genre(s)|Drame
+Pirates des Caraïbes|Inspiration(s)|Mythologie maritime
+Pirates des Caraïbes|Langue d’origine|Anglais
+Pirates des Caraïbes|Pays d’origine|&#160;
+Pirates des Caraïbes|Public visé|Tout public
+Pirates des Caraïbes|Support d’origine|Attraction
+Pirates des Caraïbes|Thème(s)|Pirates
+Pirates des Caraïbes|États|Les mers au 
+Plus belle la vie|Chaîne d'origine|France 3
+Plus belle la vie|Création|Hubert Besson
+Plus belle la vie|Durée|25 minutes quotidiennes (hors week-end)
+Plus belle la vie|Genre|soap opera
+Plus belle la vie|Nb.|2760
+Plus belle la vie|Pays d'origine|&#160;
+Plus belle la vie|Production|Telfrance Série
+pologne|Capitale|Varsovie
+pologne|Code ISO 3166-1|POL, PL​
+pologne|Densité|123&#160;hab./km
+pologne|Domaine Internet|.pl
+pologne|Forme de l'État|République
+pologne|Fuseau horaire|UTC
+pologne|Gentilé|Polonais, Polonaise
+pologne|Hymne national|Mazurek Dąbrowskiego
+pologne|IDH| 0,821 (très élevé) (
+pologne|Indicatif téléphonique|+48
+pologne|Indépendance|De la 
+pologne|Langues officielles|Polonais
+pologne|Monnaie|Złoty
+pologne|PIB|21 214 USD
+pologne|PIB nominal|516,1&#160;milliards
+pologne|Plus grande ville|Varsovie
+pologne|Population totale|38&#160;483&#160;957
+pologne|Président de la Diète|Radosław Sikorski
+pologne|Président de la République|Bronisław Komorowski
+pologne|Président du Conseil|Ewa Kopacz
+pologne|Président du Sénat|Bogdan Borusewicz
+pologne|Superficie en eau|2,6&#160;%
+pologne|Superficie totale|312&#160;679&#160;
+portugala|Capitale|Lisbonne
+portugala|Code ISO 3166-1|PRT, PT​
+portugala|Densité|115,3
+portugala|Devise nationale|Aucune
+portugala|Domaine Internet|.pt
+portugala|Forme de l'État|République
+portugala|Gentilé|Portugais, -e
+portugala|Hymne national|A Portuguesa
+portugala|IDH| 0,816 (très élevé) (
+portugala|Indicatif téléphonique|+351
+portugala|Indépendance du Portugal|1139
+portugala|Langues officielles|Portugais
+portugala|Monnaie|Euro
+portugala|PIB| 26&#160;306 
+portugala|PIB nominal| 21&#160;748 
+portugala|Plus grandes villes|Lisbonne
+portugala|Population totale|10&#160;590&#160;000
+portugala|Premier ministre|Pedro Passos Coelho
+portugala|Président de la République|Aníbal Cavaco Silva
+portugala|Superficie en eau|0,5&#160;%
+portugala|Superficie totale|92&#160;358
+Pretty Little Liars|Acteurs principaux|Lucy Hale
+Pretty Little Liars|Autres titres|Les Menteuses
+Pretty Little Liars|Chaîne d'origine|ABC Family
+Pretty Little Liars|Création|I. Marlene King
+Pretty Little Liars|Durée|40 à 43 minutes
+Pretty Little Liars|Genre|Série 
+Pretty Little Liars|Musique|Michael Suby 
+Pretty Little Liars|Nb.|120 + 8 web-épisodes
+Pretty Little Liars|Pays d'origine|&#160;
+Pretty Little Liars|Production|Warner Horizon Television
+Pretty Little Liars|Site web|http://abcfamily.go.com/shows/pretty-little-liars
+processionnaire du pin|Classe|Insecta
+processionnaire du pin|Embranchement|Arthropoda
+processionnaire du pin|Famille|Notodontidae
+processionnaire du pin|Genre|Thaumetopoea
+processionnaire du pin|Ordre|Lepidoptera
+processionnaire du pin|Règne|Animalia
+processionnaire du pin|Sous-famille|Thaumetopoeinae
+processionnaire du pin|Super-ordre|Endopterygota
+protocole de Kyoto|Branche|Droit de l'environnement
+protocole de Kyoto|Organisation internationale|Organisation des Nations unies
+protocole de Kyoto|Territoire d'application|184 États signataires
+protocole de Kyoto|Titre|Protocole de Kyoto à la 
+protocole de Kyoto|Type|Traité international
+Qatar|Capitale|Doha
+Qatar|Code ISO 3166-1|QAT, QA​
+Qatar|Densité|185&#160;hab./km
+Qatar|Devise nationale|Aucune
+Qatar|Domaine Internet|.qa
+Qatar|Forme de l'État|Monarchie absolue
+Qatar|Fuseau horaire|UTC
+Qatar|Gentilé|Qatarien
+Qatar|Hymne national|As Salam al Amiri
+Qatar|Indicatif téléphonique|+974
+Qatar|Indépendance|Royaume-Uni
+Qatar|Langues officielles|Arabe
+Qatar|Monnaie|Riyal qatarien
+Qatar|PIB|145 894 $ 
+Qatar|PIB nominal|98 986 $ 
+Qatar|Plus grande ville|Doha
+Qatar|Population totale|2&#160;144&#160;101
+Qatar|Premier ministre|Abdallah ben Nasser ben Khalifa Al Thani
+Qatar|Superficie en eau|Négligeable
+Qatar|Superficie totale|11&#160;586&#160;
+Qatar|Émir|Tamim ben Hamad Al Thani
+Quentin Tarantino|Films notables|Reservoir Dogs
+Quentin Tarantino|Nom de naissance|Quentin Jerome Tarantino
+Quentin Tarantino|Profession|réalisateur
+Rammstein|Années actives|Depuis 
+Rammstein|Genre musical|Neue Deutsche Härte
+Rammstein|Labels|Motor Music/
+Rammstein|Membres|Till Lindemann
+Rammstein|Pays d'origine|&#160;
+Rammstein|Site officiel|rammstein.com
+renaud|Activité principale|Auteur-compositeur-interprète
+renaud|Activités annexes|Acteur
+renaud|Années actives|Depuis 
+renaud|Genre musical|Chanson française
+renaud|Instruments|Chant
+renaud|Labels|Polydor
+renaud|Nom de naissance|Renaud Pierre Manuel Séchan
+renaud|Site officiel|www.renaud-lesite.fr
+Rihanna|Activité principale|Chanteuse
+Rihanna|Activités annexes|Actrice
+Rihanna|Années actives|Depuis 
+Rihanna|Genre musical|R&amp;B
+Rihanna|Labels|Def Jam
+Rihanna|Nom de naissance|Robyn Rihanna Fenty
+Rihanna|Site officiel|rihannanow.com
+Robert De Niro|Films notables|voir filmographie
+Robert De Niro|Nom de naissance|Robert Mario De Niro, Jr
+Robert De Niro|Profession|Acteur
+Robin Wright|Films notables|Forrest Gump
+Robin Wright|Nationalité|Américaine
+Robin Wright|Nom de naissance|Robin Virginia Gayle Wright
+Roman Polanski|Films notables|Répulsion
+Roman Polanski|Nationalité|&#160;
+Roman Polanski|Nom de naissance|Raymond Thierry Liebling
+Roman Polanski|Profession|Réalisateur
+Rosa Luxemburg|Nationalité|Russe
+Rosa Luxemburg|Nom de naissance|Różalia Luksemburg
+Roumanie|Capitale|Bucarest
+Roumanie|Code ISO 3166-1|ROU, RO​
+Roumanie|Densité|89&#160;8&#160;hab./km
+Roumanie|Domaine Internet|.ro
+Roumanie|Forme de l'État|République semi-présidentielle
+Roumanie|Gentilé|Roumains, Roumaines
+Roumanie|Hymne national|Deșteaptă-te, române!
+Roumanie|IDH|0,786
+Roumanie|Indicatif téléphonique|+40
+Roumanie|Indépendance|Fin de la vassalité de la 
+Roumanie|Langues officielles|Roumain
+Roumanie|Monnaie|Nouveau 
+Roumanie|Plus grande ville|Bucarest
+Roumanie|Population totale|19&#160;942&#160;642
+Roumanie|Premier ministre|Victor Ponta
+Roumanie|Président|Klaus Iohannis
+Roumanie|Président de la Chambre|Valeriu Zgonea
+Roumanie|Président du Sénat|Călin Popescu-Tăriceanu
+Roumanie|Superficie en eau|3,0&#160;%
+Roumanie|Superficie totale|238 391&#160;
+Royaume-Uni|Capitale|Londres
+Royaume-Uni|Code ISO 3166-1|GBR, GB​
+Royaume-Uni|Densité|261
+Royaume-Uni|Dette publique brute| 2&#160;632,96 milliards de 
+Royaume-Uni|Devise nationale|Dieu et mon droit
+Royaume-Uni|Domaine Internet|.uk
+Royaume-Uni|Forme de l'État|Monarchie constitutionnelle
+Royaume-Uni|Fuseau horaire|UTC
+Royaume-Uni|Gentilé|Britannique
+Royaume-Uni|Hymne national|God save the Queen
+Royaume-Uni|IDH| 0,892
+Royaume-Uni|Indicatif téléphonique|+44
+Royaume-Uni|Langues officielles|Anglais
+Royaume-Uni|Monnaie|Livre sterling
+Royaume-Uni|PIB| 39&#160;510 
+Royaume-Uni|PIB nominal| 45&#160;653 
+Royaume-Uni|Plus grande ville|Londres
+Royaume-Uni|Population totale|64 100 000
+Royaume-Uni|Premier ministre|David Cameron
+Royaume-Uni|Reine|Élisabeth II
+Royaume-Uni|Superficie en eau|1,3&#160;%
+Royaume-Uni|Superficie totale|243 610&#160;
+Royaume-Uni|Taux de chômage| 6,1% de la pop. active
+Russie|Capitale|Moscou
+Russie|Code ISO 3166-1|RUS, RU​
+Russie|Densité|8,4&#160;hab./km
+Russie|Dette publique brute| 324 milliards de 
+Russie|Domaine Internet|.ru
+Russie|Empire russe|22 octobre
+Russie|Forme de l'État|République
+Russie|Fuseau horaire|UTC
+Russie|Gentilé|Russe
+Russie|Grande-principauté de Moscou|1283
+Russie|Hymne national|Hymne national de la Russie
+Russie|IDH| 0,788 (élevé) (
+Russie|Langues officielles|Russe
+Russie|Monnaie|Rouble
+Russie|Organisations internationales|ONU
+Russie|PIB| 24&#160;764 
+Russie|PIB nominal| 14&#160;317 
+Russie|Plus grande ville|Moscou
+Russie|Population totale|146&#160;267&#160;288
+Russie|Président|Vladimir Poutine
+Russie|Président du gouvernement|Dmitri Medvedev
+Russie|Rus' de Kiev|862
+Russie|Superficie en eau|0,5&#160;%
+Russie|Superficie totale|17&#160;125&#160;187&#160;
+Russie|Taux de chômage| 5,6% de la pop.active
+Russie|Tsarat de Russie|16 janvier
+Ryan Gosling|Films notables|N'oublie Jamais
+Ryan Gosling|Nationalité|&#160;
+Ryan Gosling|Nom de naissance|Ryan Thomas Gosling
+Ryan Gosling|Profession|Acteur
+République démocratique du Congo|Capitale|Kinshasa
+République démocratique du Congo|Code ISO 3166-1|COD, CD​
+République démocratique du Congo|Densité|33&#160;hab./km
+République démocratique du Congo|Devise nationale|«&#160;Paix, justice, travail&#160;»
+République démocratique du Congo|Domaine Internet|.cd
+République démocratique du Congo|Forme de l'État|République
+République démocratique du Congo|Fuseau horaire|UTC
+République démocratique du Congo|Gentilé|Congolais, Congolaise
+République démocratique du Congo|Hymne national|Debout Congolais
+République démocratique du Congo|IDH|0,414 (faible) (
+République démocratique du Congo|Indicatif téléphonique|+243
+République démocratique du Congo|Indépendance|Royaume de Belgique
+République démocratique du Congo|Langues officielles|Français
+République démocratique du Congo|Monnaie|Franc congolais
+République démocratique du Congo|PIB nominal|30,629&#160;milliards
+République démocratique du Congo|Plus grande ville|Kinshasa
+République démocratique du Congo|Population totale|77&#160;433&#160;744
+République démocratique du Congo|Premier ministre|Augustin Matata Ponyo
+République démocratique du Congo|Président de la République|Joseph Kabila
+République démocratique du Congo|Superficie en eau|3,3&#160;%
+République démocratique du Congo|Superficie totale|2&#160;345&#160;409&#160;
+Révolution française|Lieu|&#160;
+Révolution française|Résultat|Fin de l'
+Sabine Azéma|Films notables|La vie est un roman
+Sabine Azéma|Nationalité|&#160;
+Sabine Azéma|Nom de naissance|Sabine Florence Azéma
+Sabine Azéma|Profession|Actrice
+Salma Hayek|Films notables|Desperado
+Salma Hayek|Nom de naissance|Salma Valgarma Hayek Jiménez
+Salma Hayek|Profession|Actrice
+Sandra Bullock|Films notables|Demolition Man
+Sandra Bullock|Nom de naissance|Sandra Annette Bullock
+Sandra Bullock|Profession|Actrice
