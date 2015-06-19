@@ -523,33 +523,28 @@ string ouvrirPage(string addresse) { //ATTENTION : NECESSITE UNE ADRESSE CONTERN
 
 
 
-string data; //will hold the url's contents
-
-
-size_t writeCallback(char* buf, size_t size, size_t nmemb, void* up)
-{ //callback must have this declaration
-    //buf is a pointer to the data that curl has for us
-    //size*nmemb is the size of the buffer
-
-    for (int c = 0; c<size*nmemb; c++)
-    {
-        data.push_back(buf[c]);
-    }
-    return size*nmemb; //tell curl how many bytes we handled
+static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
+{
+    ((std::string*)userp)->append((char*)contents, size * nmemb);
+    return size * nmemb;
 }
 
 string ouvrirPageHttps(string addresse) {
-    CURL* curl;
+    CURL *curl;
+    CURLcode res;
+    std::string retour;
     curl = curl_easy_init();
-
     curl_easy_setopt(curl, CURLOPT_URL, addresse.c_str());
-    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, &writeCallback);
-    //curl_easy_setopt(curl, CURLOPT_VERBOSE, 1L);
-
-    curl_easy_perform(curl);
+    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1);
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+    curl_easy_setopt(curl, CURLOPT_WRITEDATA, &retour);
+    res = curl_easy_perform(curl);
     curl_easy_cleanup(curl);
-    return data;
-
+    std::cout <<"adresse : "<< addresse << std::endl;
+    std::cout <<"page : "<< retour << std::endl;
+    std::cout <<"res : "<< res << std::endl;
+    //pause("https");
+    return retour;
 }
 
 void ecrireDansFichier(string chemin, string texte, string nomFichier) {
