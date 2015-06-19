@@ -43,6 +43,8 @@
 		<Unit filename="BakuSemantic.h" />
 		<Unit filename="bakuBaseSemantic.cpp" />
 		<Unit filename="bakuBaseSemantic.h" />
+		<Unit filename="bakuSemanticLearn.cpp" />
+		<Unit filename="bakuSemanticLearn.h" />
 		<Unit filename="jdm.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

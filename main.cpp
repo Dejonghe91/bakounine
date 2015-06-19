@@ -8,6 +8,7 @@
 #include "json.h"
 #include "BakuSemantic.h"
 #include "wikipedia.h"
+#include "bakuSemanticLearn.h"
 
 using namespace std;
 
@@ -222,21 +223,6 @@ void bakoucontribue(){
 }
 
 
-
-
-void bakou(string mot){
-
-//1 : Trouver des termes candidats.
-//1.1 : Trouver tout les mots en rapport avec le mot source dans les 10 langues majeurs de wp grace aux liens hypertexte.
-//1.2 :
-
-//2 : Filtre statistique exogène
-
-//3 :
-
-}
-
-
 void bakuSemanticTest(){
     BakuSemantic sem;
     sem.getBakuSemanticBase();
@@ -255,6 +241,38 @@ void bakuSemanticTest(){
     sem.writeBakuSemanticBase();
 }
 
+
+void bakuSemanticLearnTest() {
+
+    ifstream fichier("relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string word;
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            word = "";
+            if(lireMot(&i, &ligne, "|")){
+                lireMot(&i, &ligne, &word, "|");
+                cout << "mot récupéré = " + word << endl;
+                mrs.push_back(word);
+            }
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemanticLearn(mrs);
+    }
+}
 
 
 int main()
@@ -292,9 +310,8 @@ int main()
     //bakouplay();
     */
 
-    //bakuSemanticTest();
-
-    bakoucontribue();
+    //for(int i=0; i< 10; i++)
+        bakuSemanticLearnTest();
 
     return 0;
 

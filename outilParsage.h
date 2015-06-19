@@ -67,7 +67,7 @@ bool lireMot(int * i, string * ligne, string motRecherche); //parcours la ligne 
 bool lireMot(int * i, string * ligne, string * retour, string motRecherche); //parcours la ligne jusqu'au mot recherché. Recopie le résultat dans retour.
 bool lireMot(int * i, string * ligne, string motRecherche, int depacementMax); //parcours la ligne jusqu'au mot recherché si il se trouve avant déplacement max, sinon remet i à son niveau d'entrée.
 
-string  lireMot(int * i, string * ligne, vector <string> motRecherche); //retourne le mot trouvé.
+string lireMot(int * i, string * ligne, vector <string> motRecherche); //retourne le mot trouvé.
 string lireDeuxMots(int * i, string * ligne, vector <string> motRecherche, int tailleMax); //renvoi la ligne entre les deux mots crées. TailleMax indique la distance Max entre les deux mots. 0 pour infini
 string lireDeuxMots(int * i, string * ligne, vector <string> motRecherche); //Renvoi une phrase contenant les deux mots, bouge i.
 string lireDeuxMots( string * ligne, vector <string> motRecherche); //renvoi une ligne complète contenant les deux mots, ne découpe pas en fonction des points...

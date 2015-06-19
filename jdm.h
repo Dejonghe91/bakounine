@@ -12,13 +12,22 @@
 
 using namespace std;
 
+struct relfind {
+    string rel;
+    string cible;
+    int w;
+    bool sens;      // 0 pour les relation entrantes et 1 pour les relations sortantes
+};
+
 string latin1(string UTF);
 
 string jdmExiste(string s);
 
 vector<string> jdmRel(string mot1, string mot2);
 
-vector<string> getNeightboors(string mot);
+vector<relfind> getNeightboors(string mot);
+
+vector<relfind> getNeightboors(string mot, vector<string> relToFind);
 
 map <string, string> relationJDM();
 

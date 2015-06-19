@@ -159,59 +159,6 @@ void ecrireLiens(string nomFichier, int min) {
     }
 }
 
-/*
-void ecrireBonsLiens(string nomFichier) {
-    int it;
-    ofstream traceMots (nomFichier.c_str());
-    string motTemp;
-    for(int i=0; i<(int)lienDejaVisites.size(); i++) {
-        it=0;
-        if(lienDejaVisites[i].compteur/diviseurIDF(lienDejaVisites[i].lien)>=(sqrt(lienDejaVisites.size())/4) && !lireMot(&it, &(lienDejaVisites[i].lien), "Wiki") && lienDejaVisites[i].lien.size()>2) {
-            it=0;
-            if(!lireChar(&it, &(lienDejaVisites[i].lien), ':') && maz(&it)) {
-                traceMots<<lienDejaVisites[i].lien<<" ( "<<lienDejaVisites[i].compteur<<" ) "<<endl;
-            } else {
-                if(! lireMot( &(lienDejaVisites[i].lien), "Aide")){
-
-                    it=0;
-                    lireChar(&it, &(lienDejaVisites[i].lien), ':');
-                    it++;
-                    recopieFin(&it,&(lienDejaVisites[i].lien), &motTemp );
-                    traceMots<<motTemp<<" ( "<<lienDejaVisites[i].compteur<<" ) "<<endl;
-                    motTemp.clear();
-                }
-            }
-        }
-    }
-}
-
-
-vector <string> bonsLiens() {
-    vector <string> retour;
-    int it;
-    //ofstream traceMots (nomFichier.c_str());
-    string motTemp;
-    for(int i=0; i<(int)lienDejaVisites.size(); i++) {
-        it=0;
-        if(lienDejaVisites[i].compteur>=(sqrt(lienDejaVisites.size())/4) && !lireMot(&it, &(lienDejaVisites[i].lien), "Wiki") && lienDejaVisites[i].lien.size()>2) {
-            it=0;
-            if(!lireChar(&it, &(lienDejaVisites[i].lien), ':') && maz(&it)) {
-                //traceMots<<lienDejaVisites[i].lien<<" ( "<<lienDejaVisites[i].compteur<<" ) "<<endl;
-                retour.push_back(lienDejaVisites[i].lien);
-            } else {
-                it=0;
-                lireChar(&it, &(lienDejaVisites[i].lien), ':');
-                it++;
-                recopieFin(&it,&(lienDejaVisites[i].lien), &motTemp );
-                //traceMots<<motTemp<<" ( "<<lienDejaVisites[i].compteur<<" ) "<<endl;
-                retour.push_back(motTemp);
-                motTemp.clear();
-            }
-        }
-    }
-    return retour;
-}
-*/
 
 void decoupeLien(string lien, string * domaine, string * page) {
 
@@ -325,11 +272,11 @@ string ouvrirPage(string domaine, string page,  vector <vector <string> > var ) 
     std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
               << "Response received from "<<domaine << std::endl
               << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
-    //<< "Returned message : " << Page.getBody() << std::endl << std::endl;
+
     cookie = Page.getField("Set-Cookie");
     referer = domaine+page;
     string reponse = Page.getBody();
-    if(Page.getStatus()!=200) {
+    if(Page.getStatus()!=200 || Page.getStatus()!=204) {
         cout<<"réponse reçut après erreur : "<<reponse<<endl;
     }
     if(Page.getStatus()==301) {
@@ -369,11 +316,7 @@ string ouvrirPage(string domaine, string page, string param) {
         cout<<"cookie envoyé : "<<cookie<<endl;
         Request.setField("cookie", cookie);
     }
-/*
-    if(referer.size()>0){
-        Request.setField("referer", referer);
-    }
-*/
+
     std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
     std::cout << "page à ouvrir : "<<page<<endl;
     std::cout << "parametres : "<<param<<endl;
@@ -384,11 +327,10 @@ string ouvrirPage(string domaine, string page, string param) {
     std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
               << "Response received from "<<domaine << std::endl
               << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
-    //std::cout<< "Returned message : " << Page.getBody() << std::endl << std::endl;
     cookie = Page.getField("Set-Cookie");
     referer = domaine+page;
     string reponse = Page.getBody();
-    if(Page.getStatus()!=200) {
+    if(Page.getStatus()!=200 || Page.getStatus()!=204) {
         cout<<"réponse reçut après erreur : "<<reponse<<endl;
     }
     if(Page.getStatus()==301) {
@@ -446,13 +388,13 @@ string ouvrirPage(string domaine, string page) {
     std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
               << "Response received from "<<domaine << std::endl
               << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
-    //std::cout<< "Returned message : " << Page.getBody() << std::endl << std::endl;
+
     cookie = Page.getField("Set-Cookie");
     std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
     referer = domaine+page;
     codeRetour = Page.getStatus();
     string reponse = Page.getBody();
-    if(Page.getStatus()!=200) {
+    if(Page.getStatus()!=200 || Page.getStatus()!=204) {
         //pause("erreur suspecté");
         //cout<<"réponse reçut après erreur : "<<reponse<<endl;
         ofstream ofspage("pageerreur.html");
@@ -1009,27 +951,6 @@ string htmlToText(string * texteHTML) {
         }
     }
     return retour;
-
-
-    /*
-    pipe(inPipe1);
-    pid_t pid1;
-    pid1=fork();
-    if (pid1) {
-        // Processus Pere
-        close(inPipe1[1]);
-        char * sTemp = (char *) malloc(1000*sizeof(char));
-        read(inPipe1[0], sTemp, 1000);
-
-    } else {
-        //processus fils
-        dup2(inPipe2[1],1);
-        //execl("killall","-9","html2text",NULL);
-        execl("html2text",,"--mode","gtp","--chinese-rules",NULL);
-
-    }
-    */
-
 
 }
 

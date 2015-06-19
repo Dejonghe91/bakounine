@@ -1,5 +1,9 @@
 #include "jdm.h"
 
+
+const int seuil = 49;
+
+
 string latin1(string UTF){
     string copieS;
     copieS+=UTF;
@@ -77,13 +81,153 @@ vector <string> jdmRel(string mot1, string mot2){
 }
 
 
+vector<relfind> getNeightboors(string mot) {
 
-vector<string> getNeightboors(string mot) {
+    vector<relfind> retour;
+
+    string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
+    string stub = "&gotermrel=";
+    string finAdresse = "&output=onlyxml";
+    string word = jdmExiste(mot);   //mot orthographié jdm
+
+    if(word != "") {
+        string page = ouvrirPage(adresse+stub+latin1(word)+finAdresse);
+        string ligne;
+        string rel;
+        string voisin;
+        string poids;
+        int i=0;
+        int j=0;
+        int w = 0;
+
+        bool entrant = false;
+        bool sortant = false;
+
+        while(lireMot(&i, &page, &ligne, "<")) {
+            j=0;
+            if(lireMot(&ligne, "entrant>"))
+                entrant = !entrant;
+
+            if(lireMot(&ligne, "sortant>"))
+                sortant = !sortant;
 
 
+            if(lireMot(&j, &ligne, "type=\"")){
+
+                lireMot(&j, &ligne, &rel, "\"");
+                lireMot(&j, &ligne, "poids=\"");
+                lireMot(&j, &ligne, &poids, "\"");
+                w = atoi(poids.c_str());
+                lireMot(&j, &ligne, ">");
+                lireMot(&j, &ligne, &voisin, "<");
+
+
+                // on ajoute à la structure
+                if(entrant && w > seuil) {
+                    if (rel == "r_hypo" || rel == "r_syn" || rel == "r_syn_strict"){
+                        relfind r;
+                        r.w = w;
+                        r.rel = rel;
+                        r.cible = voisin;
+                        r.sens = !entrant;
+                        retour.push_back(r);
+                    }
+                }
+                else if (sortant && w > seuil) {
+                    if (rel == "r_isa" || rel == "r_syn" || rel == "r_syn_strict"){
+                        relfind r;
+                        r.w = w;
+                        r.rel = rel;
+                        r.sens = sortant;
+                        r.cible = voisin;
+                        retour.push_back(r);
+                    }
+                }
+
+                // on rinit les variables
+                rel = "";
+                voisin = "";
+                poids= "";
+                w = 0;
+
+            } // fin de la récupération d'une relation
+
+            ligne = "";
+        } // fin du parcours des lignes
+
+    }
+
+    return retour;
 }
 
 
+vector<relfind> getNeightboors(string mot, vector<string> relToFind){
+vector<relfind> retour;
+
+    string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
+    string stub = "&gotermrel=";
+    string finAdresse = "&output=onlyxml";
+    string word = jdmExiste(mot);   //mot orthographié jdm
+
+    if(word != "") {
+        string page = ouvrirPage(adresse+stub+latin1(word)+finAdresse);
+        string ligne;
+        string rel;
+        string voisin;
+        string poids;
+        int i=0;
+        int j=0;
+        int w = 0;
+
+        bool entrant = false;
+        bool sortant = false;
+
+        while(lireMot(&i, &page, &ligne, "<")) {
+            j=0;
+            if(lireMot(&ligne, "entrant>"))
+                entrant = !entrant;
+
+            if(lireMot(&ligne, "sortant>"))
+                sortant = !sortant;
+
+
+            if(lireMot(&j, &ligne, "type=\"")){
+
+                lireMot(&j, &ligne, &rel, "\"");
+                lireMot(&j, &ligne, "poids=\"");
+                lireMot(&j, &ligne, &poids, "\"");
+                w = atoi(poids.c_str());
+                lireMot(&j, &ligne, ">");
+                lireMot(&j, &ligne, &voisin, "<");
+
+
+                vector<string>::iterator find_it;
+                find_it = find (relToFind.begin(), relToFind.end(), rel);
+                if (find_it != relToFind.end() && w > seuil)
+                {
+                    // on ajoute à la structure
+                    relfind r;
+                    r.w = w;
+                    r.rel = rel;
+                    r.cible = voisin;
+                    r.sens = !entrant;
+                    retour.push_back(r);
+                }
+
+                // on rinit les variables
+                rel = "";
+                voisin = "";
+                poids= "";
+                w = 0;
+
+            } // fin de la récupération d'une relation
+
+            ligne = "";
+        } // fin du parcours des lignes
+    }
+
+    return retour;
+}
 
 map <string, string> relationJDM(){
 

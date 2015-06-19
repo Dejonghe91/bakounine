@@ -1,5 +1,5 @@
 appartient|9|has_part
-auteur|100|r_has_auteur
+auteur|100|has_auteur
 catégorise|3|domain   
 composer|9|has_part
 construire|10|agent
@@ -8,10 +8,10 @@ est similaire|67|similar
 est spécifique|64|instance
 exprimer|35|meaning
 faire|10|agent
-fait partie de|9|has_part
 implique|57|implication
 impliquer|57|implication
 jouer|10|agent
+lieu|15|lieu
 manger|10|agent
 manger|102|can_eat
 moins que|74|smaller_than

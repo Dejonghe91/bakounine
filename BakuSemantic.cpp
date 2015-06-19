@@ -48,7 +48,7 @@ map<string, vector<RelSem> > BakuSemantic::getBakuSemanticBase() {
                     cout << "terme :"+  VecStr[0] +", "<< "id : " + VecStr[1] + " -> " << r.name << endl;
                 }
             }
-
+            fichier.close();  // on referme le fichier
             return base;
         }
         else {
@@ -123,6 +123,8 @@ bool BakuSemantic::addRel(string terme, int id, string relname){
         return true;
     }
 }
+
+
 
 bool BakuSemantic::addRel(string terme, string relname){
     if(BakuSemantic::isRelExist(terme)){

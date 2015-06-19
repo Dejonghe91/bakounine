@@ -880,7 +880,6 @@ void initPoncutation(){
     ponctuation["/"]="slash";
     ponctuation["\\"]="antiSlash";
     ponctuation["±"] = "plusOuMoins";
-
 }
 
 
