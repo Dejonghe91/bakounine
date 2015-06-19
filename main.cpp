@@ -11,6 +11,7 @@
 
 using namespace std;
 
+/*
 map<string,string> ouvririnfobox(string s){
     cout<<"ouvrirInfoBox"<<endl;
     map<string,string> retour;
@@ -59,11 +60,11 @@ map<string,string> ouvririnfobox(string s){
     cout<<" FIN ouvrirInfoBox"<<endl;
     return retour;
 }
+*/
 
 
 
-
-
+/*
 map<string, string> bakoulearn(){
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
@@ -138,7 +139,7 @@ map<string, string> bakoulearn(){
     }
     return retour;
 }
-
+*/
 /*
 map <string, string> getDuo(map <string, vector <string> > liste){
     string cible;
