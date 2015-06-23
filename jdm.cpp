@@ -1,7 +1,7 @@
 #include "jdm.h"
 
 
-const int seuil = 49;
+const int seuil = 24;
 
 
 string latin1(string UTF){
@@ -89,6 +89,9 @@ vector <string> jdmRel(string mot1, string mot2){
     //string = decouperPage(&c,"div","relations",&it);
 }
 
+void afficheRelfind(relfind r){
+    cout << "cible: " << r.cible << ", nom : " << r.rel << ", sens : " << r.sens << ", poids:" << r.w << endl;
+}
 
 vector<relfind> getNeightboors(string mot) {
 
@@ -130,20 +133,23 @@ vector<relfind> getNeightboors(string mot) {
                 lireMot(&j, &ligne, ">");
                 lireMot(&j, &ligne, &voisin, "<");
 
-
                 // on ajoute à la structure
                 if(entrant && w > seuil) {
+
                     if (rel == "r_hypo" || rel == "r_syn" || rel == "r_syn_strict"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;
                         r.cible = voisin;
                         r.sens = !entrant;
+                        if(rel == "r_instance"){
+                            afficheRelfind(r);
+                        }
                         retour.push_back(r);
                     }
                 }
                 else if (sortant && w > seuil) {
-                    if (rel == "r_isa" || rel == "r_syn" || rel == "r_syn_strict"){
+                    if (rel == "r_isa"  || rel == "r_instance" || rel == "r_syn" || rel == "r_syn_strict"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;
