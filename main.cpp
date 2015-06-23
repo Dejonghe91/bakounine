@@ -544,49 +544,15 @@ void bakuSemanticLearnTest() {
 
 int main()
 {
-/*	string s0 = "rosettacode";
-        string s1 = "raisethysword";
-	cout << "distance between " << s0 << " and " << s1 << " : "
-	     << LevenshteinDistance(s0,s1) << std::endl;
-    pause("levenstein");
-*/
-/*
-    CURL *curl = curl_easy_init();
-    string page= ouvrirPage("http://fr.wikipedia.org/wiki/Cin%C3%A9ma");
-    vector <string> retour = trouverToutLesLiensInterne(&page);
-    int it;
-    for(int i=0; i<retour.size(); i++){
-        cout<<curl_easy_unescape(curl, retour[i].c_str(), retour[i].size(), &it)<<endl;
-    }
-    pause("liens");
-*/
 
-/*
-    string page= ouvrirPageHttps("https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Philosophie&language=fr&format=json");
-    //string page= ouvrirPageHttps("https://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
+    // bakouplayWD();
+    // bakoulearnWD();
+    // bakoulearnFichier("relationsMotsWD.txt");
+    // bakoucontribue();
+    // URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
 
-    //string page= ouvrirPage("https://www.wikidata.org/wiki/Special:EntityData/Q40116.json");
-    pause("1");
-    cout<<"page : "<<page<<endl;
-    pause("2");
-    qid(page);
-    pause("id");
-    test(page);
-    pause("json");
-    //bakoucontribue();
-    //bakouplay();
-    */
+    bakuSemanticLearnTest();
 
-    //for(int i=0; i< 10; i++)
-    //majuscule("moscou");
-    bakouplayWD();
- //   getRelWD("Q27645");
-   // pause("fin ici");
-    //bakoulearnWD();
-    //bakoulearnFichier("relationsMotsWD.txt");
-
-//   bakoucontribue();
-//URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
     return 0;
 
 }

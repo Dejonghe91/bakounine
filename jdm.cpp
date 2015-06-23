@@ -15,12 +15,12 @@ string latin1(string UTF){
 
 //http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
 string jdmExiste(string s){ //false si on appelle la fonction la première fois, true si on l'a appelé en minuscule et qu'on la rappele en majuscule.
-    cout<<" existe ?"<<s<<endl;
+    //cout<<" existe ?"<<s<<endl;
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
-    cout<<url<<endl;
+    //cout<<url<<endl;
     url = transformer(&url," ","%20");
-    cout<<"url : "<<url<<endl;
+    //cout<<"url : "<<url<<endl;
     //pause("url");
     string result=ouvrirPage(url);
     /*
@@ -31,7 +31,7 @@ string jdmExiste(string s){ //false si on appelle la fonction la première fois,
         //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
     } else {
     */
-        cout<<result<<endl;
+        //cout<<result<<endl;
         //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
         int i=0;
         string candidat;
@@ -58,7 +58,7 @@ vector <string> jdmRel(string mot1, string mot2){
     adresse+=latin1(mot1);
     adresse+="&term_2=";
     adresse+=latin1(mot2);
-    cout<<"adresse : "<<adresse<<endl;
+    //cout<<"adresse : "<<adresse<<endl;
     //pause("adresse");
     string page = ouvrirPage(adresse);
     string relTexte = decouperPage(&page,"div","relations");
@@ -78,8 +78,8 @@ vector <string> jdmRel(string mot1, string mot2){
             retour.push_back(rel);
         }
         //cout<<score<<endl;
-        cout<<atoi(score.c_str())<<endl;
-        cout<<rel<<endl;
+        //cout<<atoi(score.c_str())<<endl;
+        //cout<<rel<<endl;
         //pause("score");
         score.clear();
         rel.clear();

@@ -48,27 +48,27 @@ void savePage(string nom, string * contenu){ //nom doit être une adresse de sit
             nomDossier+='/';
             it++;
         }
-        cout<<"save page : "<<nom<<endl;
+        //cout<<"save page : "<<nom<<endl;
         system("pwd");
-        cout<<REPSAVE<<endl;
-        cout<<nom2<<endl;
+        //cout<<REPSAVE<<endl;
+        //cout<<nom2<<endl;
         string fichier = REPSAVE;
         fichier += nom2;
-        cout<<fichier<<endl;
+        //cout<<fichier<<endl;
         if(!is_readable(fichier) ){
-            cout<<"ecriture!"<<endl;
+            //cout<<"ecriture!"<<endl;
             ofstream ofs(fichier.c_str());
-            cout<<"Open? "<<ofs.is_open()<<endl;
+            //cout<<"Open? "<<ofs.is_open()<<endl;
             ofs<<*contenu<<endl;
         } else {
-            cout<<"le fichier existe déjà"<<endl;
+            //cout<<"le fichier existe déjà"<<endl;
         }
         //pause("save page!");
     }
 }
 
 string loadPage(string nom){
-    cout<<"load page : "<<nom<<endl;
+    //cout<<"load page : "<<nom<<endl;
 
     int it=0;
     string nom2; //nom sans http ou https
@@ -80,8 +80,8 @@ string loadPage(string nom){
     string retour;
     string fichier = REPSAVE;
     fichier += nom2;
-    cout<<fichier<<endl;
-    cout<<is_readable(fichier)<<endl;
+    //cout<<fichier<<endl;
+    //cout<<is_readable(fichier)<<endl;
     if(is_readable(fichier) ){
         copierContenuFichier(fichier, &retour);
     } else {
@@ -169,7 +169,7 @@ void decoupeLien(string lien, string * domaine, string * page) {
         //domaine->clear();
     } else {
 
-        cout<<"découpage du lien : "<<lien<<endl;
+        //cout<<"découpage du lien : "<<lien<<endl;
         domaine->clear();
         page->clear();
         if(lien[0]=='/') {
@@ -190,7 +190,7 @@ void decoupeLien(string lien, string * domaine, string * page) {
 
 
 string ouvrirPageManuel(string domaine, string page, string cookieC, string param, string refererC){
-    cout<<"OUVRIR PAGE : domaine et pas et string param et string refererC)"<<endl;
+    //cout<<"OUVRIR PAGE : domaine et pas et string param et string refererC)"<<endl;
     sf::Http Http;
     Http.setHost(domaine);
     sf::Http::Request Request;
@@ -201,20 +201,20 @@ string ouvrirPageManuel(string domaine, string page, string cookieC, string para
     //TEST!!!
     if(cookieC.size()<2){
         cookieC=cookie;
-        cout<<"cookie changé!"<<endl;
+        //cout<<"cookie changé!"<<endl;
     }
     Request.setField("cookie", cookieC);
     Request.setField("referer", refererC);
-    std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    std::cout << "page à ouvrir : "<<page<<endl;
-    std::cout << "parametres : "<<param<<endl;
-    std::cout << "Cookie : "<<cookieC<<endl;
-    std::cout << "Referer : "<<refererC<<endl;
+    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
+    //std::cout << "page à ouvrir : "<<page<<endl;
+    //std::cout << "parametres : "<<param<<endl;
+    //std::cout << "Cookie : "<<cookieC<<endl;
+    //std::cout << "Referer : "<<refererC<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    cout<<"parametres : "<<param<<endl;
-    std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
-              << "Response received from "<<domaine << std::endl
-              << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
+    //cout<<"parametres : "<<param<<endl;
+    //std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
+    //          << "Response received from "<<domaine << std::endl
+    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
     //std::cout<< "Returned message : " << Page.getBody() << std::endl << std::endl;
     //    cookie = Page.getField("Set-Cookie");
     //    referer = domaine+page;
@@ -246,7 +246,7 @@ string ouvrirPageManuel(string domaine, string page, string cookieC, string para
 }
 
 string ouvrirPage(string domaine, string page,  vector <vector <string> > var ) {
-    cout<<"OUVRIR PAGE : domaine et pas et vector param)"<<endl;
+    //cout<<"OUVRIR PAGE : domaine et pas et vector param)"<<endl;
     sf::Http Http;
     page+='?';
     string parametre;
@@ -263,21 +263,21 @@ string ouvrirPage(string domaine, string page,  vector <vector <string> > var ) 
     Request.setMethod(sf::Http::Request::Post);
     Request.setUri(page);
     Request.setBody(parametre);
-    cout<<"param : "<<parametre<<endl;
+    //cout<<"param : "<<parametre<<endl;
     //pause("verifions tout ca...");
     Request.setHttpVersion(1, 0);
-    std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    std::cout << "page à ouvrir : "<<page<<endl;
+    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
+    //std::cout << "page à ouvrir : "<<page<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
-              << "Response received from "<<domaine << std::endl
-              << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
+    //std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
+    //          << "Response received from "<<domaine << std::endl
+    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
 
     cookie = Page.getField("Set-Cookie");
     referer = domaine+page;
     string reponse = Page.getBody();
     if(Page.getStatus()!=200 || Page.getStatus()!=204) {
-        cout<<"réponse reçut après erreur : "<<reponse<<endl;
+        //cout<<"réponse reçut après erreur : "<<reponse<<endl;
     }
     if(Page.getStatus()==301) {
         cout<<"ERREUR 301 : "<<endl<<reponse<<endl;
@@ -301,7 +301,7 @@ string ouvrirPage(string domaine, string page,  vector <vector <string> > var ) 
 
 
 string ouvrirPage(string domaine, string page, string param) {
-    cout<<"OUVRIR PAGE : domaine et pas et string param)"<<endl;
+    //cout<<"OUVRIR PAGE : domaine et pas et string param)"<<endl;
     sf::Http Http;
     Http.setHost(domaine);
 //    Http.setPort(8080);
@@ -313,20 +313,20 @@ string ouvrirPage(string domaine, string page, string param) {
     Request.setHttpVersion(1, 0);
     //TEST!!!
     if(cookie.size()>0){
-        cout<<"cookie envoyé : "<<cookie<<endl;
+        //cout<<"cookie envoyé : "<<cookie<<endl;
         Request.setField("cookie", cookie);
     }
 
-    std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    std::cout << "page à ouvrir : "<<page<<endl;
-    std::cout << "parametres : "<<param<<endl;
-    std::cout << "Cookie : "<<cookie<<endl;
-    std::cout << "Referer : "<<referer<<endl;
+    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
+    //std::cout << "page à ouvrir : "<<page<<endl;
+    //std::cout << "parametres : "<<param<<endl;
+    //std::cout << "Cookie : "<<cookie<<endl;
+    //std::cout << "Referer : "<<referer<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    cout<<"parametres : "<<param<<endl;
-    std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
-              << "Response received from "<<domaine << std::endl
-              << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
+    //cout<<"parametres : "<<param<<endl;
+    //std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
+    //          << "Response received from "<<domaine << std::endl
+    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
     cookie = Page.getField("Set-Cookie");
     referer = domaine+page;
     string reponse = Page.getBody();
@@ -356,8 +356,8 @@ string ouvrirPage(string domaine, string page, string param) {
 
 
 string ouvrirPage(string domaine, string page) {
-    cout<<"OUVRIR PAGE : domaine et pas (pas d'arguments)"<<endl;
-    cout<<domaine<<", "<<page<<endl;
+    //cout<<"OUVRIR PAGE : domaine et pas (pas d'arguments)"<<endl;
+    //cout<<domaine<<", "<<page<<endl;
     //pause("ouverture d'une page");
     sf::Http Http;
     Http.setHost(domaine);
@@ -376,21 +376,21 @@ string ouvrirPage(string domaine, string page) {
 
 
     if(cookie.size()>0){
-        cout<<"cookie envoyé : "<<cookie<<endl;
+       // cout<<"cookie envoyé : "<<cookie<<endl;
         Request.setField("cookie", cookie);
     } else {
-        cout<<"pas de cookies!"<<endl;
+        //cout<<"pas de cookies!"<<endl;
     }
 
-    std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    std::cout << "page à ouvrir : "<<page<<endl;
+    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
+    //std::cout << "page à ouvrir : "<<page<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
-              << "Response received from "<<domaine << std::endl
-              << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
+    //std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
+    //          << "Response received from "<<domaine << std::endl
+    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
 
     cookie = Page.getField("Set-Cookie");
-    std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
+    //std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
     referer = domaine+page;
     codeRetour = Page.getStatus();
     string reponse = Page.getBody();
@@ -402,9 +402,9 @@ string ouvrirPage(string domaine, string page) {
         //pause("/erreur");
     }
     if(Page.getStatus()==301) {
-        cout<<"ERREUR 301 : "<<endl<<reponse<<endl;
+        //cout<<"ERREUR 301 : "<<endl<<reponse<<endl;
         string nouveauLien = Page.getField("Location");
-        cout<<"Location : "<<nouveauLien<<endl;
+        //cout<<"Location : "<<nouveauLien<<endl;
         if(nouveauLien.size()>2) {
             reponse = ouvrirPage(nouveauLien);
         }
@@ -436,7 +436,7 @@ string ouvrirPageForce(string addresse){
 string ouvrirPageHttps(string adresse) { //ATTENTION : NECESSITE UNE ADRESSE CONTERNANT LE DOMAINE
     string resultat = loadPage(adresse);
     if(resultat==""){
-        cout<<"pas trouvé"<<endl;
+        //cout<<"pas trouvé"<<endl;
         resultat = ouvrirPageHttpsForce(adresse);
         if(MODESAUVEGARDE && codeRetour==200){
             savePage(adresse, &resultat);
@@ -447,7 +447,7 @@ string ouvrirPageHttps(string adresse) { //ATTENTION : NECESSITE UNE ADRESSE CON
             cout<<codeRetour<<endl;
         }
     } else  {
-        cout<<"lecture d'une page sauvegardée"<<endl;
+        //cout<<"lecture d'une page sauvegardée"<<endl;
         lastPageVisite=adresse;
         codeRetour=200;
     }
@@ -509,12 +509,12 @@ string ouvrirPageHttpsForce(string addresse) {
     curl_easy_cleanup(curl);
 
 
-    std::cout <<"adresse : "<< addresse << std::endl;
+    //std::cout <<"adresse : "<< addresse << std::endl;
     //std::cout <<"page : "<< retour << std::endl;
     ofstream ofspage("pageerreur.html");
     ofspage<<retour<<endl;
-    std::cout <<"res : "<< res << std::endl;
-    std::cout <<"codeRetour : "<< codeRetour << std::endl;
+    //std::cout <<"res : "<< res << std::endl;
+    //std::cout <<"codeRetour : "<< codeRetour << std::endl;
 
 
 
@@ -576,10 +576,10 @@ string trouverLien( string * contenu, int depart, string nomDuLien ) { //renvoi 
 }
 
 string trouverLien( string * contenu, int *it, string nomDuLien ) { //renvoi l'addresse du lien que pointe le mot nomDuLien
-    cout<<"trouverLien!(string *, int *, string)"<<endl;
-    cout<<contenu->size()<<endl;
-    cout<<*it<<endl;
-    cout<<nomDuLien<<endl;
+   // cout<<"trouverLien!(string *, int *, string)"<<endl;
+   // cout<<contenu->size()<<endl;
+   // cout<<*it<<endl;
+   // cout<<nomDuLien<<endl;
     string lienTemp;
     //bool trouve= false;
     vector <string> recherche;
@@ -709,7 +709,7 @@ string decouperPage(string * page, string balise, string nom, int * it) {
                 //cout<<"trouve balise fermante"<<endl;
                 compteur--;
             } else {
-                cout<<"trouve balise ouvrante!!"<<endl;
+               // cout<<"trouve balise ouvrante!!"<<endl;
                  //bp();
                 compteur++;
             }
