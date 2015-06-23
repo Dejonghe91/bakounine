@@ -64,15 +64,24 @@ vector <string> jdmRel(string mot1, string mot2){
     string relTexte = decouperPage(&page,"div","relations");
     int it=0;
     string rel;
+    string score;
     while(lireMot(&it, &relTexte, "<br>")){
 
         it++;
         lireMot(&it, &relTexte, " -- "); //mot1;
         it++;
         lireMot(&it, &relTexte, "_");
-        lireMot(&it, &relTexte, &rel , " ");
-        retour.push_back(rel);
+        lireMot(&it, &relTexte, &rel , " : ");
+        lireMot(&it, &relTexte, &score , " -->");
+
+        if(atoi(score.c_str())>20){
+            retour.push_back(rel);
+        }
+        //cout<<score<<endl;
+        cout<<atoi(score.c_str())<<endl;
         cout<<rel<<endl;
+        //pause("score");
+        score.clear();
         rel.clear();
         //pause("relation");
     }

@@ -73,7 +73,7 @@ void afficheA(int decalage, Value::ConstMemberIterator itr, Value& sousArbre){
 
 }
 
-
+/*
 void recurRel(Value& sousArbre){
     for (Value::ConstMemberIterator itr = sousArbre.MemberBegin(); itr != sousArbre.MemberEnd(); ++itr){
         //cout<<espace(decalage)<<itr->name.GetString()<<kTypeNames[itr->value.GetType()]<<endl;
@@ -108,6 +108,7 @@ void RetourneRel(Value::ConstMemberIterator itr, Value& sousArbre){
         }
     }
 }
+*/
 
 void recurtest(int decalage, Value& sousArbre){
     for (Value::ConstMemberIterator itr = sousArbre.MemberBegin(); itr != sousArbre.MemberEnd(); ++itr){
@@ -131,6 +132,26 @@ void fils(Value& sousArbre){
 }
 
 
+string getNomRel(string id){
+    cout<<id<<endl;
+    string page="https://www.wikidata.org/wiki/Special:EntityData/";
+    page+=id;
+    page+=".json";
+    /*string sid="Q";
+    sid+=to_string(id);*/
+    string json = ouvrirPageHttps(page);
+    Document document;
+    document.Parse(json.c_str());
+    assert(document.IsObject());
+    string sid = document["entities"].MemberBegin()->name.GetString();
+    if(document["entities"][sid.c_str()]["labels"].HasMember("fr")){
+        return document["entities"][sid.c_str()]["labels"]["fr"]["value"].GetString();
+    } else {
+        return "erreur";
+    }
+
+}
+
 string getNom(int id){
     cout<<id<<endl;
     string page="https://www.wikidata.org/wiki/Special:EntityData/Q";
@@ -146,7 +167,7 @@ string getNom(int id){
     if(document["entities"][sid.c_str()]["labels"].HasMember("fr")){
         return document["entities"][sid.c_str()]["labels"]["fr"]["value"].GetString();
     } else {
-        return "erreur";
+        return "BakouErreur";
     }
 }
 
@@ -154,12 +175,49 @@ string getNom(int id){
 void afficherel(){
     map<string, vector<string> >::iterator iterTrace;
     for(iterTrace=rel.begin(); iterTrace!=rel.end(); iterTrace++){
-        cout<<iterTrace->first<<endl;
-        for(int i=0; i<iterTrace->second.size(); i++){
-            cout<<"  "<<iterTrace->second[i]<<endl;
+        if(iterTrace->first[0]=='P'){
+            cout<<getNomRel(iterTrace->first)<<endl;
+            for(int i=0; i<iterTrace->second.size(); i++){
+                cout<<"  "<<iterTrace->second[i]<<endl;
+            }
         }
     }
 }
+
+
+
+
+void RetourneRel2(Value::ConstMemberIterator itr, Value& sousArbre){
+    if(itr->name.GetString()[0]=='P'){
+        ccourant=itr->name.GetString();
+        for (SizeType i = 0; i < sousArbre[itr->name.GetString()].Size(); i++){
+            if ( sousArbre[itr->name.GetString()][i].HasMember("mainsnak")){
+            if ( sousArbre[itr->name.GetString()][i]["mainsnak"].HasMember("datavalue")){
+            if ( sousArbre[itr->name.GetString()][i]["mainsnak"]["datavalue"].HasMember("value")){
+            if(sousArbre[itr->name.GetString()][i]["mainsnak"]["datavalue"]["value"].IsObject()){
+            if ( sousArbre[itr->name.GetString()][i]["mainsnak"]["datavalue"]["value"].HasMember("numeric-id")){
+                vcourant.push_back(getNom(sousArbre[itr->name.GetString()][i]["mainsnak"]["datavalue"]["value"]["numeric-id"].GetInt()));
+            }}}}}
+        }
+        if(vcourant.size()>0){
+            rel[ccourant]=vcourant;
+            vcourant.clear();
+        }
+    }
+}
+
+
+
+void recurRel2(Value& sousArbre){
+    for (Value::ConstMemberIterator itr = sousArbre.MemberBegin(); itr != sousArbre.MemberEnd(); ++itr){
+        //cout<<espace(decalage)<<itr->name.GetString()<<kTypeNames[itr->value.GetType()]<<endl;
+        RetourneRel2(itr, sousArbre);
+        //printf("Type of member %s is %s\n", itr->name.GetString(), kTypeNames[itr->value.GetType()]);
+    }
+}
+
+
+
 
 map<string, vector<string> > getRelWD(string id){
     rel.clear();
@@ -171,7 +229,13 @@ map<string, vector<string> > getRelWD(string id){
     Document document;
     document.Parse(page.c_str());
     assert(document.IsObject());
-    recurRel( document);
+    if(document.HasMember("entities")){
+    if(document["entities"].HasMember(id.c_str())){
+    if(document["entities"][id.c_str()].HasMember("claims")){
+        recurRel2( document["entities"][id.c_str()]["claims"]);
+    }}}
+    //afficherel();
+    //pause("rel");
     return rel;
 }
 

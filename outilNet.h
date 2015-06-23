@@ -46,6 +46,8 @@ string ouvrirPage(string domaine, string page); //Ouvre la page page du domaine 
 string ouvrirPage(string domaine, string page,  vector <vector <string> > var ); //Ouvre la page page dans le domaine domaine avec les variables en entrée (PAS TESTE!!!)
 string ouvrirPage(string domaine, string page, string param); //Ouvre la page avec param en post
 string ouvrirPageHttps(string addresse);
+string ouvrirPageHttpsForce(string addresse);
+
 void ecrireDansFichier(string texte, string nomFichier); //Ecrit le texte texte dans un fichier nommé nomFichier. /!\ Ecrase le contenu du fichier si celui ci existe!
 void ecrireDansFichier(string chemin, string texte, string nomFichier); //Ecrit le texte texte dans un fichier nommé nomFichier. /!\ Ecrase le contenu du fichier si celui ci existe!
 
@@ -74,5 +76,7 @@ string sansEspace(string s); //Renvoi la chaine avec des %20 à la place des esp
 string htmlToXML(string * texte);
 
 string ouvrirPageManuel(string domaine, string page, string cookieC, string param, string refererC);
+
+
 
 #endif

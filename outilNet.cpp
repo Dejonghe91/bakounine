@@ -432,12 +432,35 @@ string ouvrirPageForce(string addresse){
     return resultat;
 }
 
+
+string ouvrirPageHttps(string adresse) { //ATTENTION : NECESSITE UNE ADRESSE CONTERNANT LE DOMAINE
+    string resultat = loadPage(adresse);
+    if(resultat==""){
+        cout<<"pas trouvé"<<endl;
+        resultat = ouvrirPageHttpsForce(adresse);
+        if(MODESAUVEGARDE && codeRetour==200){
+            savePage(adresse, &resultat);
+            lastPageVisite=adresse;
+        }
+        if(codeRetour!=200){
+            cout<<adresse<<endl;
+            cout<<codeRetour<<endl;
+        }
+    } else  {
+        cout<<"lecture d'une page sauvegardée"<<endl;
+        lastPageVisite=adresse;
+        codeRetour=200;
+    }
+    return resultat;
+}
+
+
 string ouvrirPage(string addresse) { //ATTENTION : NECESSITE UNE ADRESSE CONTERNANT LE DOMAINE
-    cout<<"ouvrir page : "<<addresse<<endl;
+    //cout<<"ouvrir page : "<<addresse<<endl;
     string domaine;
     string page;
     string resultat = loadPage(addresse);
-    cout<<"résultat : "<<endl<<resultat<<endl;
+    //cout<<"résultat : "<<endl<<resultat<<endl;
     //pause("o p 1");
     if(resultat==""){
         //pause("o p 2");
@@ -471,20 +494,30 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
     return size * nmemb;
 }
 
-string ouvrirPageHttps(string addresse) {
+string ouvrirPageHttpsForce(string addresse) {
     CURL *curl;
     CURLcode res;
     std::string retour;
+    //long cr=1;
     curl = curl_easy_init();
     curl_easy_setopt(curl, CURLOPT_URL, addresse.c_str());
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1);
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, &retour);
     res = curl_easy_perform(curl);
+    curl_easy_getinfo (curl, CURLINFO_RESPONSE_CODE, &codeRetour);
     curl_easy_cleanup(curl);
+
+
     std::cout <<"adresse : "<< addresse << std::endl;
-    std::cout <<"page : "<< retour << std::endl;
+    //std::cout <<"page : "<< retour << std::endl;
+    ofstream ofspage("pageerreur.html");
+    ofspage<<retour<<endl;
     std::cout <<"res : "<< res << std::endl;
+    std::cout <<"codeRetour : "<< codeRetour << std::endl;
+
+
+
     //pause("https");
     return retour;
 }

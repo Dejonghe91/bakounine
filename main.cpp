@@ -168,9 +168,10 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
         i=0;
         relCourante.clear();
         motCourant.clear();
-        lireMot(&i, &ligne, &relCourante, " - ");
-        lireMot(&i, &ligne, &motCourant, " : ");
-        MotRelation[relCourante][motCourant]++;
+        if(lireMot(&i, &ligne, &relCourante, " - ")){
+            lireMot(&i, &ligne, &motCourant, " : ");
+            MotRelation[relCourante][motCourant]++;
+        }
     }
     map<string, int>::iterator iter;
     map<string, string>::iterator iterTrace;
@@ -189,21 +190,22 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
             }
             ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;
         }
-        if(maxi>1 && maxi*5>total){
-            retour[iterMR->first]=maxs;
-        }
+        //if(maxi>1 && (maxi+1)>=total){
+        retour[iterMR->first]=maxs;
+        //}
     }
     cout<<"------------Mot->relation-----------"<<endl;
     for(iterTrace=retour.begin(); iterTrace!=retour.end(); iterTrace++){
         cout<<iterTrace->first<<" : "<<iterTrace->second<<endl;
     }
+    pause("ben...");
     return retour;
 }
 
 map<string, string> bakoulearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("relationsMots.txt");
+    ofstream ofs ("relationsMotsWD.txt");
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
@@ -235,6 +237,7 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
             jdme=jdmExiste(mot);
         }
         if(jdme!=""){  //Si le mot est présent dans JDM
+            ofs<<jdme<<" : "<<endl;
             cout<<"mot existant"<<endl;
             id = qid(mot);
             if(id!=""){
@@ -247,7 +250,7 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
                                 MotRelation[i->first]["R"]++;
                                 for(int j=0; j<relations.size(); j++){
                                     MotRelation[i->first][relations[j]]++;//On incremente la relation  courante pour l'info courante.
-                                    ofs<<i->first<<" - "<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<endl;
+                                    ofs<<getNomRel(i->first)<<" - "<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<" ( "<<i->second[i2]<<" ) "<<endl;
                                 }
                             }
                         }
@@ -326,40 +329,37 @@ void bakouplayWD(){ //V1
         }
         if(jdme!=""){  //Si le mot est présent dans JDM
             cout<<"mot existant"<<endl;
-/*            lien = "http://fr.wikipedia.org/wiki/";
-            lien +=ligne;
-            transformer(&lien, ' ','_');
-            page = ouvrirPage(lien);
-            //cout<<"page wikipedia : "<<lien<<endl;
-            infos = ouvririnfobox(page);
-            */
-
             string id = qid(mot);
             if(id!=""){
                 map<string, vector<string> > relationsT = getRelWD(id);
                 for(map<string, vector <string> >::iterator i=relationsT.begin(); i!=relationsT.end(); i++){
-                    if(i->first.size()>2 ){
+                    if(i->first.size()>1 ){
                         for(int i2=0; i2<i->second.size(); i2++){
-                            if(i->second[i2].size()>2 && mot!=i->second[i2]){
+                            string mot2 = i->second[i2];
+                            if(i->second[i2].size()>2 && mot!=i->second[i2] && !lireMot(&mot2, ":")){
                 //for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){
                     //if(i->first.size()>2 && i->second.size()>2 && mot!=i->second  ){
                         //cout<<" => "<<i->first<<" - "<<i->second<<endl;
                         //if(relation[i->first].size()>1){
+                                string nomRelC = getNomRel(i->first);
                                 cible = jdmExiste(i->second[i2]);
                                 source =  jdmExiste(mot);
-                                if(relation[i->first]=="locution"){
-                                    relation[i->first]="syn";
+                                if(relation[ nomRelC]=="locution"){
+                                    relation[nomRelC]="syn";
                                 }
                                 if(cible!=""){
-                                    ofs<<source<<" -- "<<relation[i->first]<<" --> "<<cible;
-                                    if(existeRel(mot, i->second[i2], relation[i->first])){
+                                    ofs<<majuscule(source)<<" -- "<<relation[nomRelC]<<" --> "<<majuscule(cible);
+                                    if(existeRel(mot, i->second[i2], relation[nomRelC])){
                                         ofs<<" | JDM"<<endl;
                                     } else {
                                         ofs<<" | Nouvelle relation"<<endl;
                                     }
                                 } else {
-                                    ofs<<mot<<" -- "<<relation[i->first]<<" --> "<<transformer(&(i->second[i2]), "_", " ")<<" | nouveau mot"<<endl;
+                                    ofs<<majuscule(mot)<<" -- "<<relation[nomRelC]<<" --> "<<majuscule(transformer(&(i->second[i2]), "_", " "))<<" | nouveau mot"<<endl;
                                 }
+                            }
+                            if(lireMot(&mot2, ":")){
+                                //A faire : les catégories...
                             }
                             //<<endl;
                         }
@@ -578,10 +578,15 @@ int main()
     */
 
     //for(int i=0; i< 10; i++)
-        bakuSemanticLearnTest();
+    //majuscule("moscou");
+    bakouplayWD();
+ //   getRelWD("Q27645");
+   // pause("fin ici");
+    //bakoulearnWD();
+    //bakoulearnFichier("relationsMotsWD.txt");
 
 //   bakoucontribue();
-
+//URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
     return 0;
 
 }

@@ -28,5 +28,7 @@ string getNom(Document d);
 int test(string json);
 string qid(string nom);
 void fils(Value& sousArbre);
+string getNomRel(string id); //permet d'obtenir le nom d'une relation en fonction de son ID.
+
 
 #endif

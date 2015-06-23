@@ -312,7 +312,7 @@ bool lireMot(int * i, string * ligne, string motRecherche){
             (*i)++;
         }
         for(it =0; it<(int)motRecherche.size() && egal(motRecherche[it],(*ligne)[*i]) && *i<(int)ligne->size(); it++){
-            trace<<"."<<(*ligne)[*i];
+            trace<<*i<<"."<<(*ligne)[*i]<<endl;
             (*i)++;
         }
         trace<<endl;
@@ -483,10 +483,10 @@ bool egal(string a, string b){//gestion des majuscules...
 bool egal(char a, char b){//gestion des majuscules...
     if (a==b){
         return true;
-    } else if(64<a && a<91 && 97<b && b<123 && a+32==b){
+    /*} else if(64<a && a<91 && 97<b && b<123 && a+32==b){
         return true;
     } else if(64<b && b<91 && 97<a && a<123 && b+32==a){
-        return true;
+        return true; */
     } else {
         return false;
     }
