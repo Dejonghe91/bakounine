@@ -20,9 +20,13 @@ void recurtest(int decalage, Value& sousArbre);
 string espace(int n);
 void afficheA(int decalage, Value::ConstMemberIterator itr, Value& sousArbre);
 void recurtest(int decalage, Value& sousArbre);
+void RetourneRel(Value::ConstMemberIterator itr, Value& sousArbre);
+void recurRel(Value& sousArbre);
+map<string, vector<string> > getRelWD(string id);
 string getNom(int id);
 string getNom(Document d);
 int test(string json);
 string qid(string nom);
+void fils(Value& sousArbre);
 
 #endif
