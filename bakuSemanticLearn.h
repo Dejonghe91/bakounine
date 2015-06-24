@@ -16,6 +16,6 @@ using namespace  std;
 
 void bakouSemanticLearn(vector<string> words);
 
-void addWord(BakuSemantic baseSem, string mot, vector<RelSem> rels);
+void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels);
 
 #endif

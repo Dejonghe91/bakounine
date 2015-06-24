@@ -30,9 +30,16 @@ void bakouSemanticLearn(vector<string> words){
                     // voisin = tlist
                     if(voisin.rel == "r_syn" || voisin.rel == "r_syn_strict") {
                         vector<RelSem> rels = baseSem.getRel(voisin.cible);
-                        addWord(baseSem, mr, rels);
+                        addWord(&baseSem, mr, rels);
+
+                        if(voisin.sens){
+                                fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+                        }else{
+                             fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+                        }
+                        fichier << "--------------------------------------------" << endl;
                     }
-                    else if (voisin.rel == "r_isa" || voisin.rel == "r_hypo" || voisin.rel == "r_instance") {
+                    else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0)) {
                         vector<string> filtre;
                         filtre.push_back("r_isa");
                         filtre.push_back("r_hypo");
@@ -50,16 +57,27 @@ void bakouSemanticLearn(vector<string> words){
                                     relfind vtlist_tlist = matchVoisins.at(k);
                                     relfind vtlist_mr = voisins.at(l);
 
-                                    if( (vtlist_tlist.rel == "r_instance" ||
-                                        (vtlist_tlist.rel == "r_isa" && vtlist_tlist.sens == 1) ||
-                                        (vtlist_tlist.rel == "r_hypo" && vtlist_tlist.sens == 0))
+                                    if( ( (vtlist_tlist.rel == "r_instance" && vtlist_tlist.sens == 1)||
+                                        (vtlist_tlist.rel == "r_isa" && vtlist_tlist.sens == 0) ||
+                                        (vtlist_tlist.rel == "r_hypo" && vtlist_tlist.sens == 1))
                                         &&
-                                        (vtlist_mr.rel == "r_instance" ||
-                                        (vtlist_mr.rel == "r_isa" && vtlist_mr.sens == 1) ||
-                                        (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 0)) ) {
+                                        ( (vtlist_mr.rel == "r_instance" && vtlist_mr.sens == 1)||
+                                        (vtlist_mr.rel == "r_isa" && vtlist_mr.sens == 0) ||
+                                        (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 1)) ) {
 
                                         vector<RelSem> rels = baseSem.getRel(jdmExiste(voisin.cible));
-                                        addWord(baseSem, mr, rels);
+                                        addWord(&baseSem, mr, rels);
+
+
+                                        if(voisin.sens){
+                                            fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+                                        }else{
+                                            fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+                                        }
+                                        fichier << vtlist_tlist.rel << " (" << vtlist_tlist.w << "/" << vtlist_tlist.sens << ")            " << vtlist_mr.rel << " (" << vtlist_mr.w << "/" << vtlist_mr.sens << ") " << endl;
+                                        fichier << "               " << vtlist_mr.cible << endl;
+                                        fichier << "--------------------------------------------" << endl;
+
                                     }
                                 }
                             }
@@ -69,19 +87,18 @@ void bakouSemanticLearn(vector<string> words){
             }
         }
     }
+    fichier.close();
 }
 
 
-void addWord(BakuSemantic baseSem, string mot, vector<RelSem> rels){
+void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels){
     cout << "Ajout dans la base sémantique avec les relations suivantes : " << endl;
     // pour cout c'est ici avec les plus ou moins dans fichier
     for(long i=0; i<(long)rels.size(); ++i) {
         cout << "\t " +mot +" -> "+ rels.at(i).name << endl;
-        baseSem.addRel(mot, rels.at(i).name);
+        baseSem->addRel(mot, rels.at(i).name);
     }
-    baseSem.writeBakuSemanticBase();
+    baseSem->writeBakuSemanticBase();
+    baseSem->getBakuSemanticBase();
 }
-
-
-
 

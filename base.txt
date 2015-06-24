@@ -1,26 +1,35 @@
-catégorise|3|r_domain   
-signifier|5|r_syn   
-être|6|r_isa
-composer|9|r_has_part
 appartient|9|r_has_part
-faire|10|r_agent
-construire|10|r_agent
-manger|10|r_agent
-jouer|10|r_agent
-pouvoir|17|r_carac
-signifier|35|r_meaning
-signifie|35|r_meaning
-vouloir dire|35|r_meaning
-exprimer|35|r_meaning
-produire|53|r_make
-impliquer|57|r_implication
-implique|57|r_implication
-est spécifique|64|r_instance
-est similaire|67|r_similar
-plus que|73|r_bigger_than
-moins que|74|r_smaller_than
-manger|102|r_can_eat
 auteur|100|r_has_auteur
+capitale|-1|r_lieu
+catégorise|3|r_domain   
+composer|9|r_has_part
+construire|10|r_agent
+continent|-1|r_lieu
 créateur|100|r_has_auteur
-réalisateur|100|r_has_auteur
+est similaire|67|r_similar
+est spécifique|64|r_instance
+exprimer|35|r_meaning
+faire|10|r_agent
+groupe ethnique|-1|r_lieu
+implique|57|r_implication
+impliquer|57|r_implication
+instrument|-1|r_lieu
+jouer|10|r_agent
 lieu|15|r_lieu
+manger|10|r_agent
+manger|102|r_can_eat
+moins que|74|r_smaller_than
+pays|-1|r_lieu
+pays d'origine|-1|r_lieu
+plus que|73|r_bigger_than
+point culminant|-1|r_lieu
+pouvoir|17|r_carac
+producteur délégué|-1|r_has_auteur
+produire|53|r_make
+réalisateur|100|r_has_auteur
+signifie|35|r_meaning
+signifier|5|r_syn   
+signifier|35|r_meaning
+sport|-1|r_lieu
+vouloir dire|35|r_meaning
+être|6|r_isa
