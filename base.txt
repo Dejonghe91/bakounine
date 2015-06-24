@@ -3,6 +3,8 @@ auteur|100|r_has_auteur
 capitale|-1|r_lieu
 catégorise|3|r_domain   
 composer|9|r_has_part
+partie|9|r_has_part
+possède|9|r_has_part
 construire|10|r_agent
 continent|-1|r_lieu
 créateur|100|r_has_auteur

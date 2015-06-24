@@ -119,7 +119,7 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
             }
         }
     }
-    bakoulearnFichier("relationsMots.txt");
+    bakoulearnFichier("relationsMotsWD2.txt");
 }
 
 
