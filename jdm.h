@@ -31,4 +31,7 @@ vector<relfind> getNeightboors(string mot, vector<string> relToFind);
 
 map <string, string> relationJDM();
 
+bool jdmEquivalent(string s); //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
+
+
 #endif

@@ -14,13 +14,13 @@ string latin1(string UTF){
 
 
 //http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
-string jdmExiste(string s){ //false si on appelle la fonction la première fois, true si on l'a appelé en minuscule et qu'on la rappele en majuscule.
+string jdmExiste(string s){
     cout<<" existe ?"<<s<<endl;
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     cout<<url<<endl;
     url = transformer(&url," ","%20");
-    cout<<"url : "<<url<<endl;
+    //cout<<"url : "<<url<<endl;
     //pause("url");
     string result=ouvrirPage(url);
     /*
@@ -45,6 +45,25 @@ string jdmExiste(string s){ //false si on appelle la fonction la première fois,
     //}
 }
 
+
+
+bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
+    //cout<<" existe ?"<<s<<endl;
+    string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
+    url+=s;
+    //cout<<url<<endl;
+    url = transformer(&url," ","%20");
+    //cout<<"url : "<<url<<endl;
+    //pause("url");
+    string result=ouvrirPage(url);
+    //cout<<result<<endl;
+    //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
+    string r = "\"";
+    r+=s;
+    r+="\"";
+    return lireMot(&result, r);
+
+}
 
 
 vector <string> jdmRel(string mot1, string mot2){

@@ -68,7 +68,7 @@ void savePage(string nom, string * contenu){ //nom doit être une adresse de sit
 }
 
 string loadPage(string nom){
-    cout<<"load page : "<<nom<<endl;
+    //cout<<"load page : "<<nom<<endl;
 
     int it=0;
     string nom2; //nom sans http ou https
@@ -80,8 +80,8 @@ string loadPage(string nom){
     string retour;
     string fichier = REPSAVE;
     fichier += nom2;
-    cout<<fichier<<endl;
-    cout<<is_readable(fichier)<<endl;
+    //cout<<fichier<<endl;
+    //cout<<is_readable(fichier)<<endl;
     if(is_readable(fichier) ){
         copierContenuFichier(fichier, &retour);
     } else {
@@ -356,8 +356,8 @@ string ouvrirPage(string domaine, string page, string param) {
 
 
 string ouvrirPage(string domaine, string page) {
-    cout<<"OUVRIR PAGE : domaine et pas (pas d'arguments)"<<endl;
-    cout<<domaine<<", "<<page<<endl;
+    //cout<<"OUVRIR PAGE : domaine et pas (pas d'arguments)"<<endl;
+    //cout<<domaine<<", "<<page<<endl;
     //pause("ouverture d'une page");
     sf::Http Http;
     Http.setHost(domaine);
@@ -382,15 +382,16 @@ string ouvrirPage(string domaine, string page) {
         cout<<"pas de cookies!"<<endl;
     }
 
-    std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    std::cout << "page à ouvrir : "<<page<<endl;
+    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
+    //std::cout << "page à ouvrir : "<<page<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
+    /*
     std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
               << "Response received from "<<domaine << std::endl
               << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
-
+    */
     cookie = Page.getField("Set-Cookie");
-    std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
+    //std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
     referer = domaine+page;
     codeRetour = Page.getStatus();
     string reponse = Page.getBody();
@@ -474,8 +475,8 @@ string ouvrirPage(string addresse) { //ATTENTION : NECESSITE UNE ADRESSE CONTERN
         }
         if(codeRetour!=200){
             //pause("o p 4");
-            cout<<addresse<<endl;
-            cout<<codeRetour<<endl;
+            //cout<<addresse<<endl;
+            //cout<<codeRetour<<endl;
             //pause("probleme code retour!");
         }
     } else  {

@@ -72,4 +72,12 @@ struct score{
 size_t LevenshteinDistance(const std::string &s1, const std::string &s2);
 
 
+bool isMajuscule(string s); //renvoie vrai si la première lettre est une majuscule.
+
+string majuscule(string s); //renvoie la string avec sa première lettre en majuscule.
+
+string minuscule(string s); //renvoie la string avec sa première lettre en minuscule.
+
+string invMajuscule(string s); //renvoie la string avec sa première lettre en majuscule si elle est minuscule ou en minuscule si elle est majuscule.
+
 #endif

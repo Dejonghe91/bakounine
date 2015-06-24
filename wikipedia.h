@@ -25,7 +25,7 @@ map<string,string> ouvririnfobox(string s);
  */
 map<string,string> bakoulearn();
 
-string majuscule(string s); //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
+string majusculeW(string s); //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
 
 
 #endif

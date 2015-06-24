@@ -111,6 +111,44 @@
     }
 
 
+bool isMajuscule(string s){ //renvoie vrai si la première lettre est une majuscule.
+    return !((int)s[0]>96 || ((int)s[0]<0 && (int)s[1]>-99));
+}
+
+string majuscule(string s){ //renvoie la string avec sa première lettre en majuscule.
+    if((int)s[0]>96){
+        s[0]-=32;
+    }
+    if((int)s[0]<0){
+        if((int)s[1]>-99){ //MAJUSCULE ACCENTUEE
+            s[1]-=32;
+        }
+    }
+    return s;
+}
+
+string invMajuscule(string s){ //renvoie la string avec sa première lettre en majuscule si elle est minuscule ou en minuscule si elle est majuscule.
+    if(isMajuscule(s)){
+        return minuscule(s);
+    } else {
+        return majuscule(s);
+    }
+}
+
+
+string minuscule(string s){ //renvoie la string avec sa première lettre en minuscule.
+
+    if((int)s[0]<96 && (int)s[0]>0){
+        s[0]+=32;
+    }
+    if((int)s[0]<0){
+        if((int)s[1]<-99){ //MAJUSCULE ACCENTUEE
+            s[1]+=32;
+        }
+    }
+    return s;
+}
+
 /*
 void vider(vector <int> * v){
     for(int i=0; i<(int)v->size(); i++){

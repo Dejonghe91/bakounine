@@ -49,47 +49,65 @@ map<string,string> ouvririnfobox(string s){
     return retour;
 }
 
-string majuscule(string s){ //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
+string majusculeW(string s){ //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
+
+    if(jdmEquivalent(s) and not jdmEquivalent(invMajuscule(s) ) ){
+        return s;
+    }
+    if((!jdmEquivalent(s)) and  jdmEquivalent(invMajuscule(s) ) ){
+        return invMajuscule(s);
+    }
     cout<<"S1 : "<<s<<endl;
     cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
     bool maj=0;
+    if(!isMajuscule(s)){
+        s=majuscule(s);
+    }
+/*
     if((int)s[0]>96){
         s[0]-=32;
         cout<<"S15 : "<<s<<endl;
     }
     if((int)s[0]<0){
-        if((int)s[1]>-113){ //MAJUSCULE ACCENTUEE
+        maj=1;
+        if((int)s[1]>-99){ //MAJUSCULE ACCENTUEE
             s[1]-=32;
-            maj=1;
+
             cout<<"S16 : "<<s<<endl;
             cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
         }
     }
+*/
     string s2= transformer(&s," ","_");
     CURL *curl = curl_easy_init();
     //s2= curl_easy_escape(curl, s2.c_str(), s2.size());
     string adresse =  "fr.wikipedia.org/wiki/";
-
     adresse+=s2;
     string page = ouvrirPageHttps(adresse);
 
+    s=minuscule(s);
+/*
     if(!maj)
         s[0]+=32;
     else
         s[1]+=32;
-
+*/
     cout<<"S2 : "<<s<<endl;
     cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
     vector <string> recherche;
+    recherche.push_back(" ");
     recherche.push_back(" ");
     recherche.push_back(" ");
     recherche.push_back(">");
     recherche[0]+=s;
     recherche[1]+=s;
     recherche[2]+=s;
+    recherche[3]+=s;
     recherche[0]+=" ";
     recherche[1]+=",";
-    recherche[2]+="<";
+    recherche[2]+="&";
+    recherche[3]+="<";
+
     //cout<<"recherche : '"<<recherche<<"'"<<endl;
     bool trouve=false;
     for(int i=0; i<recherche.size(); i++){
@@ -99,10 +117,7 @@ string majuscule(string s){ //renvoie le mot avec une minuscule ou une majuscule
     if( codeRetour!=200 || !trouve){ //Si on ne le trouve pas en minscule A INSERER :
         cout<<"pas trouvé"<<endl;
         cout<<codeRetour<<endl;
-        if(!maj)
-            s[0]-=32;
-        else
-            s[1]-=32;
+        s=majuscule(s);
         //On lui rend sa majuscule
         cout<<"S3 : "<<s<<endl;
     } else {
