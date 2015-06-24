@@ -1,7 +1,7 @@
 #include "jdm.h"
 
 
-const int seuil = 49;
+const int seuil = 24;
 
 
 string latin1(string UTF){
@@ -15,10 +15,10 @@ string latin1(string UTF){
 
 //http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
 string jdmExiste(string s){
-    cout<<" existe ?"<<s<<endl;
+    //cout<<" existe ?"<<s<<endl;
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
-    cout<<url<<endl;
+    //cout<<url<<endl;
     url = transformer(&url," ","%20");
     //cout<<"url : "<<url<<endl;
     //pause("url");
@@ -31,7 +31,7 @@ string jdmExiste(string s){
         //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
     } else {
     */
-        cout<<result<<endl;
+        //cout<<result<<endl;
         //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
         int i=0;
         string candidat;
@@ -77,7 +77,7 @@ vector <string> jdmRel(string mot1, string mot2){
     adresse+=latin1(mot1);
     adresse+="&term_2=";
     adresse+=latin1(mot2);
-    cout<<"adresse : "<<adresse<<endl;
+    //cout<<"adresse : "<<adresse<<endl;
     //pause("adresse");
     string page = ouvrirPage(adresse);
     string relTexte = decouperPage(&page,"div","relations");
@@ -97,8 +97,8 @@ vector <string> jdmRel(string mot1, string mot2){
             retour.push_back(rel);
         }
         //cout<<score<<endl;
-        cout<<atoi(score.c_str())<<endl;
-        cout<<rel<<endl;
+        //cout<<atoi(score.c_str())<<endl;
+        //cout<<rel<<endl;
         //pause("score");
         score.clear();
         rel.clear();
@@ -108,6 +108,9 @@ vector <string> jdmRel(string mot1, string mot2){
     //string = decouperPage(&c,"div","relations",&it);
 }
 
+void afficheRelfind(relfind r){
+    cout << "cible: " << r.cible << ", nom : " << r.rel << ", sens : " << r.sens << ", poids:" << r.w << endl;
+}
 
 vector<relfind> getNeightboors(string mot) {
 
@@ -149,20 +152,23 @@ vector<relfind> getNeightboors(string mot) {
                 lireMot(&j, &ligne, ">");
                 lireMot(&j, &ligne, &voisin, "<");
 
-
                 // on ajoute à la structure
                 if(entrant && w > seuil) {
+
                     if (rel == "r_hypo" || rel == "r_syn" || rel == "r_syn_strict"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;
                         r.cible = voisin;
                         r.sens = !entrant;
+                        if(rel == "r_instance"){
+                            afficheRelfind(r);
+                        }
                         retour.push_back(r);
                     }
                 }
                 else if (sortant && w > seuil) {
-                    if (rel == "r_isa" || rel == "r_syn" || rel == "r_syn_strict"){
+                    if (rel == "r_isa"  || rel == "r_instance" || rel == "r_syn" || rel == "r_syn_strict"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;

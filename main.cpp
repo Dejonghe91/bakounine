@@ -548,8 +548,7 @@ void bakuSemanticLearnTest() {
 
 
 int main()
-{
-    //for(int i=0; i< 10; i++)
+{    //for(int i=0; i< 10; i++)
     /*
     cout<<majusculeW("Nadar")<<endl;
     cout<<majusculeW("russie")<<endl;
@@ -563,6 +562,15 @@ int main()
 
     //   bakoucontribue();
     //URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
+
+    // bakouplayWD();
+    // bakoulearnWD();
+    // bakoulearnFichier("relationsMotsWD.txt");
+    // bakoucontribue();
+    // URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
+
+    //bakuSemanticLearnTest();
+
     return 0;
 
 }
