@@ -48,7 +48,7 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
 
             ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;
         }
-        if(maxi>5 && (maxi*20)>=total){
+        if(maxi>1 /*&& (maxi*25)>=total */){
             cout<<iterMR->first<<" : "<<maxs<<" : "<<maxi<<"/"<<total<<endl;
             retour[iterMR->first]=maxs;
         }
@@ -64,13 +64,13 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
 map<string, string> bakoulearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("relationsMotsWD2.txt");
+    ofstream ofs ("relationsMotsWDMedic.txt");
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
     map<string, int>::iterator iter;
     map<string, string>::iterator iterTrace;
-    ifstream ifs ("liensavisiter.txt");
+    ifstream ifs ("medecine.txt");
     string ligne; //un mot du top100
     string mot; //Version JDM du mot
     string lien; //Le lien correspondant
@@ -89,7 +89,8 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
         }
         cpt++;
         cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
-        mot=ligne;
+        mot=transformer(&ligne,"_", " ");
+
         string jdme = jdmExiste(mot);
         if(jdme==""){
             mot[0]+=32;
@@ -119,7 +120,7 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
             }
         }
     }
-    bakoulearnFichier("relationsMotsWD2.txt");
+    bakoulearnFichier("relationsMotsWDMedic.txt");
 }
 
 
@@ -455,8 +456,20 @@ int main()
     //getRelWD("Q27645");
     // pause("fin ici");
     //bakoulearnWD();
-    //bakoulearnFichier("relationsMotsWD2.txt");
-
+    if(jdmExiste("cause")!=""){
+        cout<<"trouve"<<endl;
+    } else {
+        cout<<"pas trouve"<<endl;
+    }
+    pause("ppp");
+    bakoulearnFichier("relationsMotsWDMedic.txt");
+/*
+    string page= ouvrirPageHttps("https://fr.wikipedia.org/wiki/Liste_de_maladies_infectieuses");
+    vector<string> liens = trouverToutLesLiensInterne(&page);
+    for(int i=0; i<liens.size(); i++){
+        cout<<liens[i]<<endl;
+    }
+    */
     //   bakoucontribue();
     //URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
 

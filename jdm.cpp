@@ -13,6 +13,38 @@ string latin1(string UTF){
 }
 
 
+int  poidJDM(string s){
+    string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
+    string stub = "&gotermrel=";
+    string finAdresse = "&output=onlyxml";
+    string page = ouvrirPage(adresse+stub+s+finAdresse);
+    int i =0;
+    string spoids;
+    lireMot(&i, &page, "<mot poids=\"");
+    lireMot(&i, &page, &spoids, "\"");
+    return atoi(spoids.c_str());
+
+}
+
+string jdmExiste2(string s){
+    string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
+    url+=s;
+    url = transformer(&url," ","%20");
+    string result=ouvrirPage(url);
+    int i=0;
+    string candidat;
+    lireMot(&i, &result, "[\"");
+    while(lireMot(&i, &result, &candidat, "\"")){
+        if(candidat==s && poidJDM(s)>100){
+            return s;
+        } else if ( (LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4) &&
+                  (poidJDM(candidat)>100+100*LevenshteinDistance(s, candidat) || poidJDM(latin1(candidat))>100+100*LevenshteinDistance(s, latin1(candidat)))){
+            return candidat;
+        }
+        candidat.clear();
+        lireMot(&i, &result, "\"");
+    }
+}
 //http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
 string jdmExiste(string s){
     //cout<<" existe ?"<<s<<endl;
@@ -196,8 +228,7 @@ vector<relfind> getNeightboors(string mot) {
 
 
 vector<relfind> getNeightboors(string mot, vector<string> relToFind){
-vector<relfind> retour;
-
+    vector<relfind> retour;
     string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
     string stub = "&gotermrel=";
     string finAdresse = "&output=onlyxml";
