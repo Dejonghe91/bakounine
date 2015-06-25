@@ -4,53 +4,89 @@
 void bakouSemanticLearn(vector<string> words){
 
     BakuSemantic baseSem;
-    ofstream fichier("test.txt", ios::out | ios::trunc);
+    ofstream fichier("test.txt", ios::out | ios::app);
     map<string, vector<RelSem>> base = baseSem.getBakuSemanticBase();
-    cout << "Chargement de la base sémantic ...";
 
     if(base.empty()){
         base = baseSem.getBakuSemanticBase();
     }
-    cout << "Chargée !" << endl;
 
     // parcours de tous les termes de la liste words
     for (long i=0; i<(long)words.size(); ++i)
     {
-        string mr =  jdmExiste(words.at(i));
+        cout << "Pour le mot : " << words.at(i) << endl;
+        string mr = jdmExiste(words.at(i));
+        string mr2 = "";
+
+        if(mr == "") {
+            vector<string> locution;
+            string mot="";
+            int dep=0;
+            while(lireMot(&dep, &words.at(i),&mot," ")){
+                locution.push_back(mot);
+                mot = "";
+            }
+
+            if(locution.size() > 1){
+                mr = jdmExiste(locution[0]);
+                cout << "mot non trouvé : " << words.at(i) << ", remplaçant = " << locution[0] << endl;
+                mr2 = words.at(i);
+            }
+        }
+        else{
+            mr2 = mr;
+        }
+
+
+        cout << "Traitement de : " << mr << endl;
+
         if(mr != "" && !baseSem.isRelExist(mr)) {
-            cout << "le mot ["+ mr + "] n'existe pas dans la base, on récupère les voisins dans jeux de mots" << endl;
             vector<relfind> voisins = getNeightboors(mr);
 
             for (long j=0; j<(long)voisins.size(); ++j)
             {
                 relfind voisin = voisins.at(j);
 
-                if( baseSem.isRelExist(voisin.cible) )
+                if(baseSem.isRelExist(voisin.cible) )
                 {
-
-                    if(mr.find(voisin.cible) != std::string::npos ){
-                        fichier << "!!!!!!!!!! cas 1    !!!!!!!!!!!!!!! avec mr = "<< mr << " et tlist = " << voisin.cible << endl;
-                    }
-
-                    if(voisin.cible.find(mr) != std::string::npos ){
-                        fichier << "!!!!!!!!!! cas 2    !!!!!!!!!!!!!!! avec mr = "<< mr << " et tlist = " << voisin.cible << endl;
-                    }
-
                     // voisin = tlist
-                    if(voisin.rel == "r_syn" || voisin.rel == "r_syn_strict")
+                    if(voisin.rel == "r_syn" || voisin.rel == "r_locution" || voisin.rel == "r_syn_strict")
                     {
+                        cout << "Voisin trouvé pour syn ou locution : " << voisin.cible << endl;
                         vector<RelSem> rels = baseSem.getRel(voisin.cible);
-                        addWord(&baseSem, mr, rels);
+                        int pmt = voisin.w;
+                        for(int k=0; k<rels.size(); k++){
+                            int prt = rels[k].weight;
+                            if(pmt*prt > 50){
+                                RelSem r;
+                                r.id = rels[k].id;
+                                r.name = rels[k].name;
+                                r.weight = pmt/2;
+                                addWord(&baseSem, mr, r);
 
-                        if(voisin.sens){
-                                fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
-                        }else{
-                             fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+
+                                if(voisin.sens){
+                                    fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+                                }else{
+                                    fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+                                }
+                                fichier << "pmt =" << pmt << ", prt = "<< prt << ", pmt*prt = " << pmt*prt << ", et pmt/2 = " << pmt/2 << endl;
+                                fichier << "--------------------------------------------" << endl;
+                            }
                         }
-                        fichier << "--------------------------------------------" << endl;
                     }
+                   /* else if(voisin.rel == "r_locution")
+                    {
+
+                        // cas de la locution
+
+
+
+
+                    }*/
                     else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0))
                     {
+                        cout << "Voisin trouvé pour hypo ou isa : " << voisin.cible << endl;
                         if ( (voisin.rel == "r_isa" && voisin.sens == 1) && (mr.find(voisin.cible) != std::string::npos))
                         {
                             vector<RelSem> rels = baseSem.getRel(voisin.cible);
@@ -115,7 +151,6 @@ void bakouSemanticLearn(vector<string> words){
                                             fichier << vtlist_tlist.rel << " (" << vtlist_tlist.w << "/" << vtlist_tlist.sens << ")            " << vtlist_mr.rel << " (" << vtlist_mr.w << "/" << vtlist_mr.sens << ") " << endl;
                                             fichier << "               " << vtlist_mr.cible << endl;
                                             fichier << "--------------------------------------------" << endl;
-
                                         }
                                     }
                                 }
@@ -125,6 +160,7 @@ void bakouSemanticLearn(vector<string> words){
                 }
             }
         }
+        cout << "---------------------------------------" << endl;
     }
     fichier.close();
 }
@@ -134,9 +170,20 @@ void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels){
     cout << "Ajout dans la base sémantique avec les relations suivantes : " << endl;
     // pour cout c'est ici avec les plus ou moins dans fichier
     for(long i=0; i<(long)rels.size(); ++i) {
-        cout << "\t " +mot +" -> "+ rels.at(i).name << endl;
-        baseSem->addRel(mot, rels.at(i).name);
+        cout << "\t " +mot +" -> "+ rels.at(i).name << ", "<< rels.at(i).weight << endl;
+        baseSem->addRel(mot, rels.at(i));
     }
+    baseSem->writeBakuSemanticBase();
+    baseSem->getBakuSemanticBase();
+}
+
+
+void addWord(BakuSemantic *baseSem, string mot, RelSem rel){
+    cout << "Ajout dans la base sémantique avec les relations suivantes : " << endl;
+    // pour cout c'est ici avec les plus ou moins dans fichier
+    cout << "\t " +mot +" -> "+ rel.name << ", "<< rel.weight << endl;
+    baseSem->addRel(mot, rel);
+
     baseSem->writeBakuSemanticBase();
     baseSem->getBakuSemanticBase();
 }

@@ -24,10 +24,12 @@ map<string, vector<RelSem> > BakuSemantic::getBakuSemanticBase() {
             while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
             {
                 int nb = Split(VecStr, ligne, '|');
-                if(nb == 3){
+
+                if(nb == 4){
                     RelSem r;
                     r.id = atoi(VecStr[1].c_str());
                     r.name = VecStr[2];
+                    r.weight = stof(VecStr[3].c_str());
                     if(!base[VecStr[0]].empty()){
                         vector<RelSem> vect = base[VecStr[0]];
                         bool f = false;
@@ -45,7 +47,6 @@ map<string, vector<RelSem> > BakuSemantic::getBakuSemanticBase() {
                         vector<RelSem> vect(1,r);
                         base[VecStr[0]] = vect;
                     }
-                    cout << "terme :"+  VecStr[0] +", "<< "id : " + VecStr[1] + " -> " << r.name << endl;
                 }
             }
             fichier.close();  // on referme le fichier
@@ -70,7 +71,7 @@ void BakuSemantic::writeBakuSemanticBase() {
         for(p = base.begin(); p != base.end(); p++) {
             vector<RelSem> val = p->second;
             for (long index=0; index<(long)val.size(); ++index) {
-                fichier << p->first << "|" << val.at(index).id << "|" << val.at(index).name << endl;
+                fichier << p->first << "|" << val.at(index).id << "|" << val.at(index).name << "|" << val.at(index).weight <<  endl;
             }
         }
 
@@ -95,6 +96,7 @@ bool BakuSemantic::isRelExist(string terme){
     return base.count(terme) > 0;
 }
 
+//a modifier
 bool BakuSemantic::addRel(string terme, int id, string relname){
     if(BakuSemantic::isRelExist(terme)){
 
@@ -109,6 +111,7 @@ bool BakuSemantic::addRel(string terme, int id, string relname){
             RelSem r;
             r.id = id;
             r.name = relname;
+            r.weight = 1;
             base[terme] = vector<RelSem> (1,r);
             return true;
         } else {
@@ -124,11 +127,9 @@ bool BakuSemantic::addRel(string terme, int id, string relname){
     }
 }
 
-
-
+// a modifier
 bool BakuSemantic::addRel(string terme, string relname){
     if(BakuSemantic::isRelExist(terme)){
-
         bool find = false;
         int id;
         vector<RelSem> val = base[terme];
@@ -144,6 +145,7 @@ bool BakuSemantic::addRel(string terme, string relname){
             RelSem r;
             r.id = id;
             r.name = relname;
+            r.weight = 1;
             base[terme] = vector<RelSem> (1,r);
             return true;
         } else {
@@ -155,6 +157,35 @@ bool BakuSemantic::addRel(string terme, string relname){
         r.id = BakuSemantic::getrelIdWithName(relname);
         r.name = relname;
         base[terme] = vector<RelSem> (1,r);
+        return true;
+    }
+}
+
+bool BakuSemantic::addRel(string terme, RelSem rel){
+    if(!base[terme].empty()){
+        bool find = false;
+        vector<RelSem> val = base[terme];
+        for (long index=0; index<(long)val.size(); ++index) {
+            if(val.at(index).id == rel.id){
+                find = true;
+            }
+        }
+
+        if(!find) {
+            RelSem r;
+            r.id = rel.id;
+            r.name = rel.name;
+            r.weight = rel.weight;
+            base[terme] = vector<RelSem> (1,r);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    else{
+        vector<RelSem> rels;
+        rels.push_back(rel);
+        base[terme] = rels;
         return true;
     }
 }
@@ -179,17 +210,15 @@ int BakuSemantic::Split(vector<string>& vecteur, string chaine, char separateur)
 
 
 int BakuSemantic::getrelIdWithName(string name){
-    map<string, string> retour = relationJDM();
+    map<string, string> retour = relationJDMTrue();
 
-    int id = -1;
-
-    map<string, string >::iterator p;
-    for(p = retour.begin(); p != retour.end(); p++) {
-
-        if(p->first == name)
-            id = atoi(p->second.c_str());
+    map<string,string>::iterator it;
+    it = retour.find(name);
+    if (it != retour.end()){
+        return atoi(it->second.c_str());
     }
-
-    return id;
+    else{
+        return -1;
+    }
 }
 

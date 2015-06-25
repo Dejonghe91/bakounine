@@ -17,6 +17,7 @@ using namespace std;
  */
 struct RelSem{
     int id;
+    float weight;
     string name;
 };
 
@@ -49,20 +50,27 @@ class BakuSemantic
         bool isRelExist(string terme);
 
         /**
-         * Permet d'associer une relation sur un terme
+         * Permet d'associer une relation sur un terme en fournissant son id et son nom
          */
         bool addRel(string terme, int id, string relname);
 
         /**
-         * Permet d'associer une relation sur un terme
+         * Permet d'associer une relation sur un terme en fournissant son nom
          */
         bool addRel(string terme, string relname);
+
+        /**
+         * Permet d'associer une relation sur un terme
+         */
+        bool addRel(string terme, RelSem rel);
+
+        int getrelIdWithName(string relname);
 
     protected:
     private:
         map<string, vector<RelSem>> base;
         int Split(vector<string>& vecteur, string chaine, char separateur);
-        int getrelIdWithName(string relname);
+        //int getrelIdWithName(string relname);
 };
 
 #endif // BAKUSEMANTIC_H

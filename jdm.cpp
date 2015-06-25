@@ -155,7 +155,7 @@ vector<relfind> getNeightboors(string mot) {
                 // on ajoute à la structure
                 if(entrant && w > seuil) {
 
-                    if (rel == "r_hypo" || rel == "r_syn" || rel == "r_syn_strict"){
+                    if (rel == "r_hypo" || rel == "r_syn" || rel == "r_syn_strict" || rel == "r_locution"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;
@@ -168,7 +168,7 @@ vector<relfind> getNeightboors(string mot) {
                     }
                 }
                 else if (sortant && w > seuil) {
-                    if (rel == "r_isa"  || rel == "r_instance" || rel == "r_syn" || rel == "r_syn_strict"){
+                    if (rel == "r_isa"  || rel == "r_instance" || rel == "r_syn" || rel == "r_syn_strict" || rel=="r_locution"){
                         relfind r;
                         r.w = w;
                         r.rel = rel;
@@ -373,3 +373,120 @@ map <string, string> relationJDM(){
 
     return retour;
 }
+
+
+
+map <string, string> relationJDMTrue(){
+
+    map <string, string> retour;
+    retour["r_associated"]="0";
+    retour["r_raff_sem"]="1";
+    retour["r_raff_morpho"]="2";
+    retour["r_domain"]="3";
+    retour["r_pos"]="4";
+    retour["r_syn"]="5";
+    retour["r_isa"]="6";
+    retour["r_anto"]="7";
+    retour["r_hypo"]="8";
+    retour["r_has_part"]="9";
+    retour["r_holo"]="10";
+    retour["r_locution"]="11";
+    retour["r_flpot"]="12";
+    retour["r_agent"]="13";
+    retour["r_patient"]="14";
+    retour["r_lieu"]="15";
+    retour["r_instr"]="16";
+    retour["r_carac"]="17";
+    retour["r_data"]="18";
+    retour["r_lemma"]="19";
+    retour["r_magn"]="20";
+    retour["r_antimagn"]="21";
+    retour["r_familly"]="22";
+    retour["r_carac-1"]="23";
+    retour["r_agent-1"]="24";
+    retour["r_instr-1"]="25";
+    retour["r_patient-1"]="26";
+    retour["r_domain-1"]="27";
+    retour["r_lieu-1"]="28";
+    retour["r_chunk_pred"]="29";
+    retour["r_lieu_action"]="30";
+    retour["r_action_lieu"]="31";
+    retour["r_sentiment"]="32";
+    retour["r_error"]="33";
+    retour["r_maner"]="34";
+    retour["r_meaning"]="35";
+    retour["r_infopot"]="36";
+    retour["r_telic_role"]="37";
+    retour["r_agentif_role"]="38";
+    retour["r_verbe-action"]="39";
+    retour["r_action-verbe"]="40";
+    retour["r_conseq"]="41";
+    retour["r_causatif"]="42";
+    retour["r_adj-verbe"]="43";
+    retour["r_verbe-adj"]="44";
+    retour["r_chunk_sujet"]="45";
+    retour["r_chunk_objet"]="46";
+    retour["r_chunk_loc"]="47";
+    retour["r_chunk_instr"]="48";
+    retour["r_time"]="49";
+    retour["r_object>mater"]="50";
+    retour["r_mater>object"]="51";
+    retour["r_successeur-time"]="52";
+    retour["r_make"]="53";
+    retour["r_product_of"]="54";
+    retour["r_against"]="55";
+    retour["r_against-1"]="56";
+    retour["r_implication"]="57";
+    retour["r_quantificateur"]="58";
+    retour["r_masc"]="59";
+    retour["r_fem"]="60";
+    retour["r_equiv"]="61";
+    retour["r_maner-1"]="62";
+    retour["r_agentive_implication"]="63";
+    retour["r_instance"]="64";
+    retour["r_verb_real"]="65";
+    retour["r_chunk_head"]="66";
+    retour["r_similar"]="67";
+    retour["r_set>item"]="68";
+    retour["r_item>set"]="69";
+    retour["r_processus>agent"]="70";
+    retour["r_variante"]="71";
+    retour["r_syn_strict"]="72";
+    retour["r_bigger_than"]="73";
+    retour["r_smaller_than"]="74";
+    retour["r_accomp"]="75";
+    retour["r_der_morpho"]="99";
+    retour["r_has_auteur"]="100";
+    retour["r_has_personnage"]="101";
+    retour["r_can_eat"]="102";
+    retour["r_has_actors"]="103";
+    retour["r_deplac_mode"]="104";
+    retour["r_has_interpret"]="105";
+    retour["r_color"]="106";
+    retour["r_cible"]="107";
+    retour["r_symptomes"]="108";
+    retour["r_predecesseur-time"]="109";
+    retour["r_diagnostique"]="110";
+    retour["r_predecesseur-space"]="111";
+    retour["r_successeur-space"]="112";
+    retour["r_social_tie"]="113";
+    retour["r_tributary"]="114";
+    retour["r_sentiment-1"]="115";
+    retour["r_beneficiaire"]="150";
+    retour["r_descend_de"]="151";
+    retour["r_aki"]="666";
+    retour["r_wiki"]="777";
+    retour["r_anotation_exception"]="997";
+    retour["r_anotation"]="998";
+    retour["r_inhib"]="999";
+    retour["r_prev"]="1000";
+    retour["r_succ"]="1001";
+    retour["r_termgroup"]="1002";
+    retour["r_learning_model"]="2001";
+
+    return retour;
+}
+
+
+
+

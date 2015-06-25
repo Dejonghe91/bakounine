@@ -340,7 +340,15 @@ void bakuSemanticTest(){
     if(!rel.empty())
         cout << "OK" << endl;
 
-    bool res = sem.addRel("fait partie de", "has_part");
+    int r = sem.getrelIdWithName("r_instance");
+    cout << "relName = r_instance, id : " << r << endl;
+    r = sem.getrelIdWithName("r_isa");
+    cout << "relName = r_isa, id : " << r << endl;
+    r = sem.getrelIdWithName("r_syn");
+    cout << "relName = r_syn, id : " << r << endl;
+
+
+    bool res = sem.addRel("fait partie de", "r_has_part");
 
     cout << "res "+ res << endl;
 
@@ -364,7 +372,6 @@ void bakuSemanticLearnTest() {
             word = "";
             if(lireMot(&i, &ligne, "|")){
                 lireMot(&i, &ligne, &word, "|");
-                cout << "mot récupéré = " + word << endl;
                 mrs.push_back(word);
             }
         }
@@ -397,7 +404,6 @@ void bakuSemanticLearnTestWD() {
             word = "";
             if(lireMot(&ligne, "-")){
                 lireMot(&i, &ligne, &word, " -");
-                cout << "mot récupéré = " + word << endl;
                 mrs.push_back(word);
             }
         }
@@ -413,6 +419,30 @@ void bakuSemanticLearnTestWD() {
     }
 }
 
+void bakuSemanticLearnMed(){
+
+    ifstream fichier("mot_lionel.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            mrs.push_back(ligne);
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemanticLearn(mrs);
+    }
+
+}
 
 int main()
 {    //for(int i=0; i< 10; i++)
@@ -438,7 +468,10 @@ int main()
 
     //bakuSemanticLearnTest();
 
-    bakuSemanticLearnTestWD();
+    //bakuSemanticLearnTestWD();
+    //bakuSemanticLearnTest();
+    //bakuSemanticLearnTestWD();
+    bakuSemanticLearnMed();
 
     return 0;
 
