@@ -35,10 +35,11 @@ string jdmExiste2(string s){
     string candidat;
     lireMot(&i, &result, "[\"");
     while(lireMot(&i, &result, &candidat, "\"")){
-        if(candidat==s && poidJDM(s)>100){
+        cout<<candidat<<" : "<<LevenshteinDistance(latin1(s), candidat)<<endl;
+        if((candidat==s || candidat==latin1(s) )&& poidJDM(s)>100){
             return s;
         } else if ( (LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4) &&
-                  (poidJDM(candidat)>100+100*LevenshteinDistance(s, candidat) || poidJDM(latin1(candidat))>100+100*LevenshteinDistance(s, latin1(candidat)))){
+                  (poidJDM(candidat)>100+100*pow(LevenshteinDistance(s, candidat),2) || poidJDM(candidat)>100+100*pow(LevenshteinDistance(latin1(s), candidat),2))){
             return candidat;
         }
         candidat.clear();

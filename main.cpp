@@ -456,8 +456,9 @@ int main()
     //getRelWD("Q27645");
     // pause("fin ici");
     //bakoulearnWD();
-    if(jdmExiste("cause")!=""){
-        cout<<"trouve"<<endl;
+    string motRetour = jdmExiste2("médecine");
+    if(motRetour!=""){
+        cout<<"trouve : "<<motRetour<<endl;
     } else {
         cout<<"pas trouve"<<endl;
     }
