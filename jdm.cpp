@@ -30,23 +30,26 @@ string jdmExiste(string s){
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     url = transformer(&url," ","%20");
+    cout<<url<<endl;
     string result=ouvrirPage(url);
+    cout<<result<<endl;
     int i=0;
     string candidat;
     lireMot(&i, &result, "[\"");
+    string maxs="";
+    int maxi=10;
     while(lireMot(&i, &result, &candidat, "\"")){
-        cout<<candidat<<" : "<<LevenshteinDistance(latin1(s), candidat)<<endl;
+        cout<<candidat<<" : "<<LevenshteinDistance(latin1(s), candidat)<<" : "<<poidJDM(s)<<endl;
         if((candidat==s || candidat==latin1(s) )&& poidJDM(s)>50){
             return s;
-        } else if ( (LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4) &&
-            (poidJDM(candidat)>100+100*pow(LevenshteinDistance(s, candidat),2) || poidJDM(candidat)>100+100*pow(LevenshteinDistance(latin1(s), candidat),2))){
-            return candidat;
+        } else if( maxi<(poidJDM(candidat)/pow(LevenshteinDistance(s, candidat),3)) ){
+            maxi=poidJDM(candidat)/pow(LevenshteinDistance(s, candidat),3);
+            maxs=s;
         }
         candidat.clear();
         lireMot(&i, &result, "\"");
     }
-
-    return "";
+    return maxs;
 }
 
 /*

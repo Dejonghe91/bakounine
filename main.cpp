@@ -46,10 +46,10 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
                 maxs=iter->first;
             }
             total += iter->second;
-
             ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;
         }
-        if(maxi>1 && (maxi*25)>=total ){
+        if(maxi>1 && (maxi*20)>=total ){
+
             cout<<iterMR->first<<" : "<<maxs<<" : "<<maxi<<"/"<<total<<endl;
             fichier << iterMR->first << "|" << maxs << "|" << maxi/total<<endl;
             retour[iterMR->first]=maxs;
@@ -448,7 +448,36 @@ void bakuSemanticLearnMed(){
 }
 
 int main()
-{
+{    //for(int i=0; i< 10; i++)
+    /*
+    cout<<majusculeW("Nadar")<<endl;
+    cout<<majusculeW("russie")<<endl;
+    cout<<majusculeW("test")<<endl;
+    */
+    string s = jdmExiste("Bakounine");
+    cout<<s<<endl;
+    pause("nawak");
+    //bakouplayWD();
+    //getRelWD("Q27645");
+    // pause("fin ici");
+    //bakoulearnWD();
+    string motRetour = jdmExiste("médecine");
+    if(motRetour!=""){
+        cout<<"trouve : "<<motRetour<<endl;
+    } else {
+        cout<<"pas trouve"<<endl;
+    }
+    pause("ppp");
+    bakoulearnFichier("relationsMotsWDMedic.txt");
+/*
+    string page= ouvrirPageHttps("https://fr.wikipedia.org/wiki/Liste_de_maladies_infectieuses");
+    vector<string> liens = trouverToutLesLiensInterne(&page);
+    for(int i=0; i<liens.size(); i++){
+        cout<<liens[i]<<endl;
+    }
+    */
+    //   bakoucontribue();
+    //URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
 
     bakoulearnWD();
 
