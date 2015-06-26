@@ -16,6 +16,7 @@ using namespace std;
 map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
     ifstream ifs(s);
     ofstream ofs("motR.txt");
+    ofstream fichier("motStat.txt");
     string ligne;
     map<string, string> retour;
     map<string, map<string, int> > MotRelation;
@@ -48,7 +49,9 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
             ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;
         }
         if(maxi>1 && (maxi*20)>=total ){
+
             cout<<iterMR->first<<" : "<<maxs<<" : "<<maxi<<"/"<<total<<endl;
+            fichier << iterMR->first << "|" << maxs << "|" << maxi/total<<endl;
             retour[iterMR->first]=maxs;
         }
     }
@@ -63,13 +66,13 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
 map<string, string> bakoulearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("relationsMotsWDMedic.txt");
+    ofstream ofs ("relationsMotsWD2.txt");
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
     map<string, int>::iterator iter;
     map<string, string>::iterator iterTrace;
-    ifstream ifs ("medecine.txt");
+    ifstream ifs ("liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //Version JDM du mot
     string lien; //Le lien correspondant
@@ -119,7 +122,7 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
             }
         }
     }
-    bakoulearnFichier("relationsMotsWDMedic.txt");
+    bakoulearnFichier("relationsMotsWD2.txt");
 }
 
 
@@ -476,18 +479,7 @@ int main()
     //   bakoucontribue();
     //URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
 
-    // bakouplayWD();
     bakoulearnWD();
-    // bakoulearnFichier("relationsMotsWD.txt");
-    // bakoucontribue();
-    // URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
-
-    //bakuSemanticLearnTest();
-
-    //bakuSemanticLearnTestWD();
-    //bakuSemanticLearnTest();
-    //bakuSemanticLearnTestWD();
-    bakuSemanticLearnMed();
 
     return 0;
 
