@@ -39,12 +39,14 @@ string jdmExiste(string s){
         if((candidat==s || candidat==latin1(s) )&& poidJDM(s)>100){
             return s;
         } else if ( (LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4) &&
-                  (poidJDM(candidat)>100+100*pow(LevenshteinDistance(s, candidat),2) || poidJDM(candidat)>100+100*pow(LevenshteinDistance(latin1(s), candidat),2))){
+            (poidJDM(candidat)>100+100*pow(LevenshteinDistance(s, candidat),2) || poidJDM(candidat)>100+100*pow(LevenshteinDistance(latin1(s), candidat),2))){
             return candidat;
         }
         candidat.clear();
         lireMot(&i, &result, "\"");
     }
+
+    return "";
 }
 
 /*
