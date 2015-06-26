@@ -40,7 +40,7 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
         int maxi=2;
         int total=0;
         string maxs="";
-        for(iter=iterMR->second.begin(); iter!=iterMR->second.end(); iter++){
+        for(iter=iterMR->second.begin(); iter!=iterMR->second.end(); iter++) {
             if(iter->first!="R" && iter->first!="wiki" && iter->first!="associated" && iter->first!="aki" && iter->second>maxi){
                 maxi=iter->second;
                 maxs=iter->first;
@@ -56,7 +56,7 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
         }
     }
     cout<<"------------Mot->relation-----------"<<endl;
-    for(iterTrace=retour.begin(); iterTrace!=retour.end(); iterTrace++){
+    for(iterTrace=retour.begin(); iterTrace!=retour.end(); iterTrace++) {
         cout<<iterTrace->first<<" : "<<iterTrace->second<<endl;
     }
     pause("ben...");
