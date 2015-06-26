@@ -36,7 +36,7 @@ string jdmExiste(string s){
     lireMot(&i, &result, "[\"");
     while(lireMot(&i, &result, &candidat, "\"")){
         cout<<candidat<<" : "<<LevenshteinDistance(latin1(s), candidat)<<endl;
-        if((candidat==s || candidat==latin1(s) )&& poidJDM(s)>100){
+        if((candidat==s || candidat==latin1(s) )&& poidJDM(s)>50){
             return s;
         } else if ( (LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4) &&
             (poidJDM(candidat)>100+100*pow(LevenshteinDistance(s, candidat),2) || poidJDM(candidat)>100+100*pow(LevenshteinDistance(latin1(s), candidat),2))){
