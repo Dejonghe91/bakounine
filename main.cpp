@@ -456,7 +456,7 @@ int main()
     //getRelWD("Q27645");
     // pause("fin ici");
     //bakoulearnWD();
-    string motRetour = jdmExiste2("médecine");
+    string motRetour = jdmExiste("médecine");
     if(motRetour!=""){
         cout<<"trouve : "<<motRetour<<endl;
     } else {
@@ -475,7 +475,7 @@ int main()
     //URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json
 
     // bakouplayWD();
-    // bakoulearnWD();
+    bakoulearnWD();
     // bakoulearnFichier("relationsMotsWD.txt");
     // bakoucontribue();
     // URL à problème : https://www.wikidata.org/w/api.php?action=wbsearchentities&search=coupe%20du%20monde%20de%20football&language=fr&format=json

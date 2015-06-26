@@ -26,7 +26,7 @@ int  poidJDM(string s){
 
 }
 
-string jdmExiste2(string s){
+string jdmExiste(string s){
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     url = transformer(&url," ","%20");
@@ -46,6 +46,8 @@ string jdmExiste2(string s){
         lireMot(&i, &result, "\"");
     }
 }
+
+/*
 //http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
 string jdmExiste(string s){
     //cout<<" existe ?"<<s<<endl;
@@ -56,14 +58,6 @@ string jdmExiste(string s){
     //cout<<"url : "<<url<<endl;
     //pause("url");
     string result=ouvrirPage(url);
-    /*
-    if(lireMot(&result,s) || lireMot(&result,latin1(s))){
-        cout<<"le mot existe dans JDM!!!"<<endl;
-        //pause("existe!");
-        return s;
-        //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
-    } else {
-    */
         //cout<<result<<endl;
         //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
         int i=0;
@@ -77,7 +71,7 @@ string jdmExiste(string s){
         }
     //}
 }
-
+*/
 
 
 bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
