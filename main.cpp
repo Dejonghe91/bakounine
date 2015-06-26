@@ -45,10 +45,9 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
                 maxs=iter->first;
             }
             total += iter->second;
-
             ofs<<"    "<<iter->first<<" : "<<iter->second<<endl;
         }
-        if(maxi>1 /*&& (maxi*25)>=total */){
+        if(maxi>1 && (maxi*20)>=total ){
             cout<<iterMR->first<<" : "<<maxs<<" : "<<maxi<<"/"<<total<<endl;
             retour[iterMR->first]=maxs;
         }
@@ -452,6 +451,9 @@ int main()
     cout<<majusculeW("russie")<<endl;
     cout<<majusculeW("test")<<endl;
     */
+    string s = jdmExiste("Bakounine");
+    cout<<s<<endl;
+    pause("nawak");
     //bakouplayWD();
     //getRelWD("Q27645");
     // pause("fin ici");
