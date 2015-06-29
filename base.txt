@@ -2,12 +2,15 @@ appartient|9|r_has_part|1
 auteur|100|r_has_auteur|1
 capitale|15|r_lieu|1
 capitale économique|15|r_lieu|1
-catégorise|3|r_domain|1
 catégorie|3|r_domain|1
+catégorise|3|r_domain|1
+cause|42|r_causatif|1
 composer|9|r_has_part|1
 construire|10|r_agent|1
+conséquence|41|r_conseq|1
 continent|15|r_lieu|1
 créateur|100|r_has_auteur|1
+effets|41|r_conseq|1
 est similaire|67|r_similar|1
 est spécifique|64|r_instance|1
 faire|10|r_agent|1
@@ -34,6 +37,3 @@ signifier|5|r_syn|1
 société mère|15|r_lieu|1
 sport|15|r_lieu|1
 être|6|r_isa|1
-cause|42|r_causatif|1
-conséquence|41|r_conseq|1
-effets|41|r_conseq|1

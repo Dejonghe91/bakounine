@@ -1,6 +1,135 @@
 #include "bakuSemanticLearn.h"
 
 
+/**
+ *
+ */
+void getMots(string *mr, string *mr2){
+    string mrTest = jdmExiste(*mr);
+    *mr2 = *mr;
+    if(mrTest == "") {
+        vector<string> locution;
+        string mot="";
+        int dep=0;
+        while(lireMot(&dep, mr, &mot," ")) {
+            locution.push_back(mot);
+            mot = "";
+        }
+        if(locution.size() >= 1){
+            cout << "mot non trouvé : " << *mr << ", remplaçant = " << locution[0] << endl;
+            *mr = jdmExiste(locution[0]);
+        }
+    }
+    else{
+        mr2 = &mrTest;
+        mr = &mrTest;
+    }
+}
+
+
+void casSynAndLocution(BakuSemantic baseSem, string mr, string mr2, relfind voisin, ofstream *fichier){
+    cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
+    vector<RelSem> rels = baseSem.getRel(voisin.cible);
+    int pmt = voisin.w;
+    for(int k=0; k<rels.size(); k++)
+    {
+        int prt = rels[k].weight;
+        cout << "pmt =" << pmt << ", prt = "<< prt << ", pmt*prt = " << pmt*prt << ", et prt/2 = " << (float)prt/(float)2 << endl;
+        if(pmt*prt > 24){
+            RelSem r;
+            r.id = rels[k].id;
+            r.name = rels[k].name;
+            r.weight = (float)prt/(float)2;
+
+            if(mr != mr2){
+                addWord(&baseSem, mr, r);
+                addWord(&baseSem, mr2, r);
+            }else{
+                addWord(&baseSem, mr, r);
+            }
+
+            if(voisin.sens){
+                *fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+            }else{
+                *fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+            }
+            *fichier << "pmt =" << pmt << ", prt = "<< prt << ", pmt*prt = " << pmt*prt << ", et prt/2 = " << (float)prt/(float)2 << endl;
+            *fichier << "--------------------------------------------" << endl;
+        }
+    }
+}
+
+
+void casIsaANdHypo(BakuSemantic baseSem, string mr, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
+    cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
+
+
+    string m = mr.size()>voisin.cible.size() ? mr : voisin.cible;
+    bool test = false;
+
+    if(m == mr)
+        test = mr.find(voisin.cible) != std::string::npos;
+    else
+        test = voisin.cible.find(mr) != std::string::npos;
+
+    if(test){
+        vector<RelSem> rels = baseSem.getRel(voisin.cible);
+        addWord(&baseSem, mr, rels);
+
+        if(voisin.sens){
+            *fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+        }else{
+            *fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+        }
+        *fichier << "--------------------------------------------" << endl;
+    }
+    // OK
+    else
+    {
+        vector<string> filtre;
+        filtre.push_back("r_isa");
+        filtre.push_back("r_hypo");
+        filtre.push_back("r_instance");
+        string tlist = voisin.cible;
+
+        vector<relfind> matchVoisins = getNeightboors(voisin.cible, filtre);
+
+        for(long k=0; k<(long)matchVoisins.size(); ++k) { // parcours des voisins de tlist
+            for(long l=0; l<(long) voisins.size(); ++l){ // parcours des voisins
+
+                if(matchVoisins.at(k).cible == voisins.at(l).cible) {
+                    relfind vtlist_tlist = matchVoisins.at(k);
+                    relfind vtlist_mr = voisins.at(l);
+
+                    if( ( (vtlist_tlist.rel == "r_instance" && vtlist_tlist.sens == 1)||
+                        (vtlist_tlist.rel == "r_isa" && vtlist_tlist.sens == 0) ||
+                        (vtlist_tlist.rel == "r_hypo" && vtlist_tlist.sens == 1))
+                        &&
+                        ( (vtlist_mr.rel == "r_instance" && vtlist_mr.sens == 1)||
+                        (vtlist_mr.rel == "r_isa" && vtlist_mr.sens == 0) ||
+                        (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 1)) ) {
+
+                        vector<RelSem> rels = baseSem.getRel(jdmExiste(voisin.cible));
+                        addWord(&baseSem, mr, rels);
+
+
+                        if(voisin.sens){
+                            *fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
+                        }else{
+                            *fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
+                        }
+                        *fichier << vtlist_tlist.rel << " (" << vtlist_tlist.w << "/" << vtlist_tlist.sens << ")            " << vtlist_mr.rel << " (" << vtlist_mr.w << "/" << vtlist_mr.sens << ") " << endl;
+                        *fichier << "               " << vtlist_mr.cible << endl;
+                        *fichier << "--------------------------------------------" << endl;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
 void bakouSemanticLearn(vector<string> words){
 
     BakuSemantic baseSem;
@@ -14,148 +143,34 @@ void bakouSemanticLearn(vector<string> words){
     // parcours de tous les termes de la liste words
     for (long i=0; i<(long)words.size(); ++i)
     {
-        cout << "Pour le mot : " << words.at(i) << endl;
-        string mr = jdmExiste(words.at(i));
+        string mr = words.at(i);
         string mr2 = "";
 
-        if(mr == "") {
-            vector<string> locution;
-            string mot="";
-            int dep=0;
-            while(lireMot(&dep, &words.at(i),&mot," ")){
-                locution.push_back(mot);
-                mot = "";
-            }
-
-            if(locution.size() > 1){
-                mr = jdmExiste(locution[0]);
-                cout << "mot non trouvé : " << words.at(i) << ", remplaçant = " << locution[0] << endl;
-                mr2 = words.at(i);
-            }
-        }
-        else{
-            mr2 = mr;
-        }
-
+        getMots(&mr, &mr2);
 
         cout << "Traitement de : " << mr << endl;
 
+        // si le mot n'est pas présent dans la base de connaissances
         if(mr != "" && !baseSem.isRelExist(mr)) {
+
             vector<relfind> voisins = getNeightboors(mr);
 
+            // on regarde si un voisins de ce mot dans jeuxDeMot est présent dans la base de connaissances
+            // par les relation syn, locution, isa et hypo
             for (long j=0; j<(long)voisins.size(); ++j)
             {
-                relfind voisin = voisins.at(j);
+                relfind voisin = voisins.at(j); // voisin = tlist
 
                 if(baseSem.isRelExist(voisin.cible) )
                 {
-                    // voisin = tlist
-                    if(voisin.rel == "r_syn" || voisin.rel == "r_locution" || voisin.rel == "r_syn_strict")
+
+                    if(voisin.rel == "r_syn" || voisin.rel == "r_syn_strict" || voisin.rel == "r_locution" )
                     {
-                        cout << "Voisin trouvé pour syn ou locution : " << voisin.cible << endl;
-                        vector<RelSem> rels = baseSem.getRel(voisin.cible);
-                        int pmt = voisin.w;
-                        for(int k=0; k<rels.size(); k++){
-                            int prt = rels[k].weight;
-                            if(pmt*prt > 50){
-                                RelSem r;
-                                r.id = rels[k].id;
-                                r.name = rels[k].name;
-                                r.weight = pmt/2;
-                                addWord(&baseSem, mr, r);
-
-
-                                if(voisin.sens){
-                                    fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
-                                }else{
-                                    fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
-                                }
-                                fichier << "pmt =" << pmt << ", prt = "<< prt << ", pmt*prt = " << pmt*prt << ", et pmt/2 = " << pmt/2 << endl;
-                                fichier << "--------------------------------------------" << endl;
-                            }
-                        }
+                        casSynAndLocution(baseSem, mr, mr2, voisin, &fichier);
                     }
-                   /* else if(voisin.rel == "r_locution")
-                    {
-
-                        // cas de la locution
-
-
-
-
-                    }*/
                     else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0))
                     {
-                        cout << "Voisin trouvé pour hypo ou isa : " << voisin.cible << endl;
-                        if ( (voisin.rel == "r_isa" && voisin.sens == 1) && (mr.find(voisin.cible) != std::string::npos))
-                        {
-                            vector<RelSem> rels = baseSem.getRel(voisin.cible);
-                            addWord(&baseSem, mr, rels);
-
-                            if(voisin.sens){
-                                fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
-                            }else{
-                                fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
-                            }
-                            fichier << "--------------------------------------------" << endl;
-                        }
-                        else if((voisin.rel == "r_hypo" && voisin.sens == 0) && (voisin.cible.find(mr) != std::string::npos))
-                        {
-                            vector<RelSem> rels = baseSem.getRel(voisin.cible);
-                            addWord(&baseSem, mr, rels);
-
-                            if(voisin.sens){
-                                fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
-                            }else{
-                                fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
-                            }
-                            fichier << "--------------------------------------------" << endl;
-                        }
-                        else
-                        {
-
-                            vector<string> filtre;
-                            filtre.push_back("r_isa");
-                            filtre.push_back("r_hypo");
-                            filtre.push_back("r_instance");
-
-                            string tlist = voisin.cible;
-
-                            vector<relfind> matchVoisins = getNeightboors(voisin.cible, filtre);
-
-
-                            for(long k=0; k<(long)matchVoisins.size(); ++k) { // parcours des voisins de tlist
-                                for(long l=0; l<(long) voisins.size(); ++l){ // parcours des voisins
-
-                                    if(matchVoisins.at(k).cible == voisins.at(l).cible) {
-                                        relfind vtlist_tlist = matchVoisins.at(k);
-                                        relfind vtlist_mr = voisins.at(l);
-
-                                        if( ( (vtlist_tlist.rel == "r_instance" && vtlist_tlist.sens == 1)||
-                                            (vtlist_tlist.rel == "r_isa" && vtlist_tlist.sens == 0) ||
-                                            (vtlist_tlist.rel == "r_hypo" && vtlist_tlist.sens == 1))
-                                            &&
-                                            ( (vtlist_mr.rel == "r_instance" && vtlist_mr.sens == 1)||
-                                            (vtlist_mr.rel == "r_isa" && vtlist_mr.sens == 0) ||
-                                            (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 1)) ) {
-
-                                            vector<RelSem> rels = baseSem.getRel(jdmExiste(voisin.cible));
-                                            addWord(&baseSem, mr, rels);
-
-
-                                            if(voisin.sens){
-                                                fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
-                                            }else{
-                                                fichier << voisin.cible << " -- " << voisin.rel << " (" << voisin.w << ") --> " << mr << endl;
-                                            }
-                                            fichier << vtlist_tlist.rel << " (" << vtlist_tlist.w << "/" << vtlist_tlist.sens << ")            " << vtlist_mr.rel << " (" << vtlist_mr.w << "/" << vtlist_mr.sens << ") " << endl;
-                                            fichier << "               " << vtlist_mr.cible << endl;
-                                            fichier << "--------------------------------------------" << endl;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        casIsaANdHypo(baseSem, mr, voisins , voisin, &fichier);
                     }
                 }
             }
