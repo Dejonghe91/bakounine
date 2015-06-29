@@ -203,3 +203,93 @@ void addWord(BakuSemantic *baseSem, string mot, RelSem rel){
     baseSem->getBakuSemanticBase();
 }
 
+
+
+void bakuSemanticLearnTest() {
+
+    ifstream fichier("relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string word;
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            word = "";
+            if(lireMot(&i, &ligne, "|")){
+                lireMot(&i, &ligne, &word, "|");
+                mrs.push_back(word);
+            }
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemanticLearn(mrs);
+    }
+}
+
+
+void bakuSemanticLearnTestWD() {
+
+    ifstream fichier("relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string word;
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            word = "";
+            if(lireMot(&ligne, "-")){
+                lireMot(&i, &ligne, &word, " -");
+                mrs.push_back(word);
+            }
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemanticLearn(mrs);
+    }
+}
+
+void bakuSemanticLearnTestMed(){
+
+    ifstream fichier("mot_lionel.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            mrs.push_back(ligne);
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemanticLearn(mrs);
+    }
+
+}
+

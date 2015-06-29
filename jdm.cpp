@@ -12,6 +12,15 @@ string latin1(string UTF){
     return sLatin;
 }
 
+bool existeRel(string mot1, string mot2, string rel){
+    vector <string> lRel= jdmRel(mot1, mot2);
+    for(int i=0; i<lRel.size(); i++){
+        if(rel==lRel[i]){
+            return true;
+        }
+    }
+    return false;
+}
 
 int  poidJDM(string s){
     string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";

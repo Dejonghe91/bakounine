@@ -73,4 +73,7 @@ class BakuSemantic
         //int getrelIdWithName(string relname);
 };
 
+
+void bakuSemanticTest();
+
 #endif // BAKUSEMANTIC_H

@@ -20,4 +20,10 @@ void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels);
 
 void addWord(BakuSemantic *baseSem, string mot, RelSem rel);
 
+void bakuSemanticLearnTestMed();
+
+void bakuSemanticLearnTestWD();
+
+void bakuSemanticLearnTest();
+
 #endif

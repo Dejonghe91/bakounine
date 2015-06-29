@@ -49,84 +49,6 @@ map<string,string> ouvririnfobox(string s){
     return retour;
 }
 
-string majusculeW(string s){ //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
-
-    if(jdmEquivalent(s) and not jdmEquivalent(invMajuscule(s) ) ){
-        return s;
-    }
-    if((!jdmEquivalent(s)) and  jdmEquivalent(invMajuscule(s) ) ){
-        return invMajuscule(s);
-    }
-    cout<<"S1 : "<<s<<endl;
-    cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
-    bool maj=0;
-    if(!isMajuscule(s)){
-        s=majuscule(s);
-    }
-/*
-    if((int)s[0]>96){
-        s[0]-=32;
-        cout<<"S15 : "<<s<<endl;
-    }
-    if((int)s[0]<0){
-        maj=1;
-        if((int)s[1]>-99){ //MAJUSCULE ACCENTUEE
-            s[1]-=32;
-
-            cout<<"S16 : "<<s<<endl;
-            cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
-        }
-    }
-*/
-    string s2= transformer(&s," ","_");
-    CURL *curl = curl_easy_init();
-    //s2= curl_easy_escape(curl, s2.c_str(), s2.size());
-    string adresse =  "fr.wikipedia.org/wiki/";
-    adresse+=s2;
-    string page = ouvrirPageHttps(adresse);
-
-    s=minuscule(s);
-/*
-    if(!maj)
-        s[0]+=32;
-    else
-        s[1]+=32;
-*/
-    cout<<"S2 : "<<s<<endl;
-    cout<<"int : "<<(int)s[0]<<(int)s[1]<<endl;
-    vector <string> recherche;
-    recherche.push_back(" ");
-    recherche.push_back(" ");
-    recherche.push_back(" ");
-    recherche.push_back(">");
-    recherche[0]+=s;
-    recherche[1]+=s;
-    recherche[2]+=s;
-    recherche[3]+=s;
-    recherche[0]+=" ";
-    recherche[1]+=",";
-    recherche[2]+="&";
-    recherche[3]+="<";
-
-    //cout<<"recherche : '"<<recherche<<"'"<<endl;
-    bool trouve=false;
-    for(int i=0; i<recherche.size(); i++){
-        cout<<i<<" : "<<recherche[i]<<" : "<<lireMot(&page, recherche[i])<<endl;
-        trouve+=lireMot(&page, recherche[i]);
-    }
-    if( codeRetour!=200 || !trouve){ //Si on ne le trouve pas en minscule A INSERER :
-        cout<<"pas trouvé"<<endl;
-        cout<<codeRetour<<endl;
-        s=majuscule(s);
-        //On lui rend sa majuscule
-        cout<<"S3 : "<<s<<endl;
-    } else {
-        cout<<"trouvé"<<endl;
-    }
-    cout<<s<<endl;
-    //pause("majuscule?");
-    return s;
-}
 
 //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
 //1 : ouvrir 100 pages wikipedia
@@ -208,4 +130,65 @@ map<string, string> bakoulearn()
         cout<<iterTrace->first<<" : "<<iterTrace->second<<endl;
     }
     return retour;
+}
+
+void bakouplay(){ //V1
+    string cible;
+    string source;
+    ofstream ofs ("relationsTrouve.txt");
+    map<string, string> relation = bakoulearn();
+    cout<<"ce que l'on a appris : "<<endl;
+    ifstream ifs ("liensavisiter.txt");
+    string ligne; //un mot du top100
+    string mot; //un mot du top100 version JDM
+    string lien; //Le lien correspondant
+    string page; //une page du top100
+    map<string,string> infos;  // Le contenu de l'infobox d'une page...
+    vector <string> relations; //Les relations de JDM pour le mot donné.
+    int cpt=0;
+    while(getline(ifs, ligne) && cpt<4600){
+        if((int)ligne[ligne.size()-1]==13){
+            ligne.resize(ligne.size()-1);
+        }
+        cpt++;
+        cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
+        mot=ligne;
+        string jdme = jdmExiste(mot);
+        if(jdme==""){
+            mot[0]+=32;
+            jdme=jdmExiste(mot);
+        }
+        if(jdme!=""){  //Si le mot est présent dans JDM
+            cout<<"mot existant"<<endl;
+            lien = "http://fr.wikipedia.org/wiki/";
+            lien +=ligne;
+            transformer(&lien, ' ','_');
+            page = ouvrirPage(lien);
+            //cout<<"page wikipedia : "<<lien<<endl;
+            infos = ouvririnfobox(page);
+            for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){
+                if(i->first.size()>2 && i->second.size()>2 && mot!=i->second  ){
+                    //cout<<" => "<<i->first<<" - "<<i->second<<endl;
+                    if(relation[i->first].size()>1){
+                        cible = jdmExiste(i->second);
+                        source =  jdmExiste(mot);
+                        if(relation[i->first]=="locution"){
+                            relation[i->first]="syn";
+                        }
+                        if(cible!=""){
+                            ofs<<source<<" -- "<<relation[i->first]<<" --> "<<cible;
+                            if(existeRel(mot, i->second, relation[i->first])){
+                                ofs<<" | JDM"<<endl;
+                            } else {
+                                ofs<<" | Nouvelle relation"<<endl;
+                            }
+                        } else {
+                            ofs<<mot<<" -- "<<relation[i->first]<<" --> "<<transformer(&(i->second), "_", " ")<<" | nouveau mot"<<endl;
+                        }
+                        //<<endl;
+                    }
+                }
+            }
+        }
+    }
 }

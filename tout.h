@@ -5,9 +5,9 @@
 #include <vector>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "jdm.h"
 #include <time.h>
-
+#include <curl/curl.h>
 #include "./outilParsage.h"
 
 #define HOME "/home/dworkin/travail"
@@ -24,9 +24,10 @@ struct Relation{
     int date;
 };
 
+
 ostream & operator<<(ostream& os, const  Relation & r1);
 
-
+string majusculeW(string s);
 //namespace perso{
     //void pause();
     string repertoireCourant();

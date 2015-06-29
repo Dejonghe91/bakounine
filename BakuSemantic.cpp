@@ -222,3 +222,30 @@ int BakuSemantic::getrelIdWithName(string name){
     }
 }
 
+
+void bakuSemanticTest(){
+    BakuSemantic sem;
+    sem.getBakuSemanticBase();
+    vector<RelSem> rel = sem.getRel("");
+    if(rel.empty())
+        cout << "OK" << endl;
+
+    rel = sem.getRel("composer");
+    if(!rel.empty())
+        cout << "OK" << endl;
+
+    int r = sem.getrelIdWithName("r_instance");
+    cout << "relName = r_instance, id : " << r << endl;
+    r = sem.getrelIdWithName("r_isa");
+    cout << "relName = r_isa, id : " << r << endl;
+    r = sem.getrelIdWithName("r_syn");
+    cout << "relName = r_syn, id : " << r << endl;
+
+
+    bool res = sem.addRel("fait partie de", "r_has_part");
+
+    cout << "res "+ res << endl;
+
+    sem.writeBakuSemanticBase();
+}
+

@@ -35,5 +35,6 @@ map <string, string> relationJDMTrue();
 
 bool jdmEquivalent(string s); //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
 
+bool existeRel(string mot1, string mot2, string rel);
 
 #endif
