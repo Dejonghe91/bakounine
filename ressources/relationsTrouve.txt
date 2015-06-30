@@ -1,0 +1,937 @@
+Russie -- lieu-1 --> Moscou | JDM
+Russie -- isa --> République | Nouvelle relation
+Russie -- lieu-1 --> Russe | Nouvelle relation
+Russie -- lieu-1 --> Rouble | Nouvelle relation
+Russie -- lieu --> ONU | Nouvelle relation
+Russie -- lieu-1 --> Moscou | JDM
+Empire_russe -- lieu-1 --> Saint-Pétersbourg | Nouvelle relation
+Empire_russe -- lieu-1 --> Rouble | Nouvelle relation
+Suisse -- lieu-1 --> Berne | JDM
+Suisse -- isa --> État fédéral | Nouvelle relation
+Suisse -- lieu-1 --> Allemand | Nouvelle relation
+Suisse -- lieu-1 --> Franc suisse | Nouvelle relation
+Suisse -- lieu-1 --> Zurich | JDM
+Allemagne -- lieu-1 --> Berlin | JDM
+Allemagne -- isa --> République | JDM
+Allemagne -- lieu-1 --> Allemand | Nouvelle relation
+Allemagne -- lieu-1 --> Euro | Nouvelle relation
+Allemagne -- lieu-1 --> Berlin | JDM
+Suisse -- lieu-1 --> Berne | JDM
+Suisse -- isa --> État fédéral | Nouvelle relation
+Suisse -- lieu-1 --> Allemand | Nouvelle relation
+Suisse -- lieu-1 --> Franc suisse | Nouvelle relation
+Suisse -- lieu-1 --> Zurich | JDM
+Belgique -- lieu-1 --> Bruxelles | JDM
+Belgique -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Belgique -- lieu-1 --> Néerlandais | Nouvelle relation
+Belgique -- lieu-1 --> Euro | Nouvelle relation
+Belgique -- lieu-1 --> Bruxelles | JDM
+George_Sand -- carac --> Français | Nouvelle relation
+George_Sand -- syn --> Amantine Aurore Lucile Dupin | Nouvelle relation
+Chopin -- isa --> Compositeur | Nouvelle relation
+Chopin -- isa --> Professeur de piano | Nouvelle relation
+Chopin -- syn --> En  | Nouvelle relation
+Pays-Bas -- lieu-1 --> Amsterdam | JDM
+Pays-Bas -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Pays-Bas -- lieu-1 --> Néerlandais | Nouvelle relation
+Pays-Bas -- lieu-1 --> Euro | Nouvelle relation
+Pays-Bas -- lieu-1 --> Amsterdam | JDM
+Danemark -- lieu-1 --> Copenhague | JDM
+Danemark -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Danemark -- lieu-1 --> Danois | Nouvelle relation
+Danemark -- lieu-1 --> couronne danoise | Nouvelle relation
+Danemark -- lieu-1 --> Copenhague | JDM
+George_Sand -- carac --> Français | Nouvelle relation
+George_Sand -- syn --> Amantine Aurore Lucile Dupin | Nouvelle relation
+Japon -- lieu-1 --> Tokyo | JDM
+Japon -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Japon -- lieu-1 --> Japonais | Nouvelle relation
+Japon -- lieu-1 --> Yen | Nouvelle relation
+Japon -- lieu-1 --> Tokyo | JDM
+Finlande -- lieu-1 --> Helsinki | JDM
+Finlande -- isa --> République | Nouvelle relation
+Finlande -- lieu-1 --> Finnois | Nouvelle relation
+Finlande -- lieu-1 --> Euro | Nouvelle relation
+Finlande -- lieu-1 --> Helsinki | JDM
+Victor_Hugo -- carac --> Français | Nouvelle relation
+Victor_Hugo -- syn --> Victor Marie Hugo | Nouvelle relation
+Edgar_Quinet -- carac --> Française | Nouvelle relation
+Edgar_Quinet -- syn --> Edgar Quinet | Nouvelle relation
+Jules_Vallès -- carac --> français | Nouvelle relation
+Jules_Vallès -- syn --> Jules Louis Joseph Vallez | nouveau mot
+Second_Empire -- lieu-1 --> Paris | Nouvelle relation
+Second_Empire -- lieu-1 --> Franc français | Nouvelle relation
+Gracchus_Babeuf -- syn --> François Noël Babeuf | Nouvelle relation
+Henry_David_Thoreau -- carac --> anglaise | Nouvelle relation
+Henry_David_Thoreau -- syn --> David Henry Thoreau | Nouvelle relation
+Adolph_Fischer -- syn --> Adolph Fischer | Nouvelle relation
+Ravachol -- syn --> François Claudius Koënigstein | Nouvelle relation
+Nicola_Sacco -- syn --> Fernando Sacco | Nouvelle relation
+Léon_Tolstoï -- carac --> Russe | Nouvelle relation
+Léon_Tolstoï -- syn --> Lev Nikolaïevitch Tolstoï | Nouvelle relation
+Léo_Ferré -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Georges_Brassens -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Georges_Brassens -- syn --> Georges Charles Brassens | nouveau mot
+Crass -- has_part --> Penny Rimbaud | nouveau mot
+Bérurier_Noir -- has_part --> Fanfan | Nouvelle relation
+Octave_Mirbeau -- carac --> Français | Nouvelle relation
+Octave_Mirbeau -- syn --> Octave Henri Marie Mirbeau | nouveau mot
+Séverine -- syn --> Caroline Rémy | Nouvelle relation
+Ba_Jin -- carac --> chinois | Nouvelle relation
+Ba_Jin -- syn --> Li Yaotang | Nouvelle relation
+Albert_Camus -- syn --> Albert Camus | Nouvelle relation
+Stig_Dagerman -- carac --> suédois | Nouvelle relation
+Denis_Diderot -- carac --> français | Nouvelle relation
+Adèle Exarchopoulos -- holo --> Les Enfants de Timpelbach | nouveau mot
+Adèle Exarchopoulos -- isa --> actrice | Nouvelle relation
+Afrique du Sud -- isa --> République constitutionnelle | Nouvelle relation
+Afrique du Sud -- lieu-1 --> 11 langues officielles | nouveau mot
+Afrique du Sud -- lieu-1 --> Rand | Nouvelle relation
+Afrique du Sud -- lieu-1 --> Johannesburg | JDM
+Alain Resnais -- holo --> Nuit et brouillard | Nouvelle relation
+Alain Resnais -- isa --> Réalisateur | Nouvelle relation
+Alexandra Lamy -- holo --> Ricky | JDM
+Alexandra Lamy -- syn --> Alexandra Paulette Mathilde Lamy | Nouvelle relation
+Alexandra Lamy -- isa --> actrice | JDM
+Alexandra Lamy -- holo --> Un gars, une fille | Nouvelle relation
+alfred Hitchcock -- holo --> Les 39 Marches | Nouvelle relation
+alfred Hitchcock -- syn --> Alfred Joseph Hitchcock | Nouvelle relation
+alfred Hitchcock -- isa --> réalisateur | Nouvelle relation
+alfred Hitchcock -- syn --> Hitch | Nouvelle relation
+alfred Hitchcock -- holo --> Alfred Hitchcock présente | nouveau mot
+Algérie -- lieu-1 --> Alger | JDM
+Algérie -- isa --> République | Nouvelle relation
+Algérie -- lieu-1 --> Dinar algérien | Nouvelle relation
+Algérie -- lieu --> ONU | Nouvelle relation
+Algérie -- lieu-1 --> Alger | JDM
+Allemagne -- lieu-1 --> Berlin | JDM
+Allemagne -- isa --> République | JDM
+Allemagne -- lieu-1 --> Allemand | Nouvelle relation
+Allemagne -- lieu-1 --> Euro | Nouvelle relation
+Allemagne -- lieu-1 --> Berlin | JDM
+Amanda Lear -- isa --> chanteuse | Nouvelle relation
+Amanda Lear -- isa --> artiste peintre | Nouvelle relation
+Amanda Lear -- syn --> Tapp | Nouvelle relation
+Amazon.com -- has_part --> Jeff Bezos | nouveau mot
+Amber Heard -- holo --> All the Boys Love Mandy Lane | nouveau mot
+Amber Heard -- syn --> Amber Laura Heard | Nouvelle relation
+Amber Heard -- isa --> actrice | Nouvelle relation
+André Dussollier -- holo --> Trois hommes et un couffin | JDM
+André Dussollier -- isa --> Acteur | Nouvelle relation
+Angelina Jolie -- holo --> Lara Croft : Tomb Raider | Nouvelle relation
+Angelina Jolie -- syn --> Angelina Jolie Voight | nouveau mot
+Angelina Jolie -- isa --> actrice | Nouvelle relation
+Antoine de Caunes -- isa --> Acteur | Nouvelle relation
+Apple -- has_part --> Steve Jobs | nouveau mot
+Argentine -- lieu-1 --> Buenos Aires | JDM
+Argentine -- isa --> République | Nouvelle relation
+Argentine -- lieu-1 --> Espagnol | Nouvelle relation
+Argentine -- lieu-1 --> pas argentin | Nouvelle relation
+Argentine -- lieu-1 --> Buenos Aires | JDM
+Arielle Dombasle -- holo --> Pauline à la plage | nouveau mot
+Arielle Dombasle -- syn --> Arielle Laure Maxime Sonnery | nouveau mot
+Arielle Dombasle -- isa --> actrice | Nouvelle relation
+Arnold Schwarzenegger -- holo --> Conan le Barbare | JDM
+Arnold Schwarzenegger -- syn --> Arnold Alois Schwarzenegger | nouveau mot
+Arnold Schwarzenegger -- isa --> Acteur | Nouvelle relation
+Arnold Schwarzenegger -- syn --> «&#160;Schwarzy&#160;» | nouveau mot
+Arthur Rimbaud -- carac --> Français | Nouvelle relation
+Arthur Rimbaud -- syn --> Jean Nicolas Arthur Rimbaud | Nouvelle relation
+Australie -- lieu-1 --> Canberra | JDM
+Australie -- isa --> Monarchie parlementaire | Nouvelle relation
+Australie -- lieu-1 --> Anglais | Nouvelle relation
+Australie -- lieu-1 --> Dollar australien | Nouvelle relation
+Australie -- lieu-1 --> Sydney | JDM
+Autriche -- lieu-1 --> Vienne | JDM
+Autriche -- isa --> République | Nouvelle relation
+Autriche -- lieu-1 --> Allemand | Nouvelle relation
+Autriche -- lieu-1 --> Euro | Nouvelle relation
+Autriche -- lieu-1 --> Vienne | JDM
+Ayrton Senna -- syn --> Magic Senna | nouveau mot
+Belgique -- lieu-1 --> Bruxelles | JDM
+Belgique -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Belgique -- lieu-1 --> Néerlandais | Nouvelle relation
+Belgique -- lieu-1 --> Euro | Nouvelle relation
+Belgique -- lieu-1 --> Bruxelles | JDM
+Bernard Lavilliers -- isa --> Chanteur | Nouvelle relation
+Bernard Lavilliers -- isa --> Acteur | Nouvelle relation
+Bernard Lavilliers -- syn --> Bernard Oulion | Nouvelle relation
+bernard-Henri Lévy -- carac --> français | Nouvelle relation
+beyoncé Knowles -- isa --> Chanteuse | Nouvelle relation
+beyoncé Knowles -- syn --> Beyoncé Giselle Knowles | Nouvelle relation
+Bill Gates -- syn --> William Henry «&#160;Bill&#160;» Gates III | nouveau mot
+Bill Murray -- holo --> SOS Fantômes | JDM
+Bill Murray -- syn --> William James Murray | nouveau mot
+Bill Murray -- isa --> Acteur | Nouvelle relation
+Bob Marley -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Bob Marley -- syn --> Robert Nesta Marley | Nouvelle relation
+Booba -- isa --> Rappeur | Nouvelle relation
+Booba -- syn --> Élie Yaffa | Nouvelle relation
+Booba -- syn --> baobab | Nouvelle relation
+Boris Vian -- carac --> français | Nouvelle relation
+Brad Pitt -- holo --> cf. | Nouvelle relation
+Brad Pitt -- syn --> William Bradley Pitt | nouveau mot
+Brad Pitt -- isa --> Acteur | Nouvelle relation
+bradley Cooper -- holo --> Very Bad Trip | nouveau mot
+bradley Cooper -- syn --> Bradley Charles Cooper | nouveau mot
+bradley Cooper -- isa --> Acteur | Nouvelle relation
+bradley Cooper -- holo --> Alias | Nouvelle relation
+Braquo -- lieu --> canal | Nouvelle relation
+Breaking Bad -- lieu --> OMC | Nouvelle relation
+Brigitte Bardot -- holo --> Les Grandes Manœuvres | nouveau mot
+Brigitte Bardot -- syn --> Brigitte Anne-Marie Bardot | nouveau mot
+Brigitte Bardot -- isa --> actrice | Nouvelle relation
+Bruce Lee -- holo --> The Big Boss | nouveau mot
+Bruce Lee -- syn --> Lee Jun-fan, Bruce Lee | nouveau mot
+Bruce Lee -- isa --> Réalisateur | Nouvelle relation
+Bruce Lee -- syn --> le Petit Dragon Lee | nouveau mot
+bruce Willis -- holo --> Die Hard | Nouvelle relation
+bruce Willis -- syn --> Walter Bruce Willis | nouveau mot
+bruce Willis -- isa --> Acteur | Nouvelle relation
+bruce Willis -- syn --> W.B. Willis | nouveau mot
+bruce Willis -- holo --> Clair de lune | Nouvelle relation
+Brésil -- lieu-1 --> Brasilia | JDM
+Brésil -- isa --> République | Nouvelle relation
+Brésil -- lieu-1 --> Portugais | Nouvelle relation
+Brésil -- lieu-1 --> Réal | Nouvelle relation
+Brésil -- lieu-1 --> São Paulo | Nouvelle relation
+Burkina Faso -- lieu-1 --> Ouagadougou | JDM
+Burkina Faso -- isa --> Faso | Nouvelle relation
+Burkina Faso -- lieu-1 --> Français | Nouvelle relation
+Burkina Faso -- lieu-1 --> Franc CFA | Nouvelle relation
+Burkina Faso -- lieu-1 --> Ouagadougou | JDM
+Canada -- lieu-1 --> Ottawa | JDM
+Canada -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Canada -- lieu-1 --> Anglais | Nouvelle relation
+Canada -- lieu-1 --> Dollar canadien | Nouvelle relation
+Canada -- lieu-1 --> Toronto | JDM
+Cap-Vert -- lieu-1 --> Praia | JDM
+Cap-Vert -- isa --> République | Nouvelle relation
+Cap-Vert -- lieu-1 --> Escudo cap-verdien | nouveau mot
+Cap-Vert -- lieu-1 --> Praia | JDM
+Cate Blanchett -- holo --> Le Seigneur des anneaux | JDM
+Cate Blanchett -- syn --> Catherine Élise Blanchett | Nouvelle relation
+Cate Blanchett -- isa --> actrice | Nouvelle relation
+Catherine Deneuve -- holo --> Les Parapluies de Cherbourg | JDM
+Catherine Deneuve -- syn --> Catherine Fabienne Dorléac | Nouvelle relation
+Catherine Deneuve -- isa --> actrice | Nouvelle relation
+Charles Baudelaire -- carac --> français | Nouvelle relation
+Charles Baudelaire -- syn --> Charles-Pierre Baudelaire | Nouvelle relation
+Charlie Chaplin -- holo --> Filmographie | Nouvelle relation
+Charlie Chaplin -- syn --> Charles Spencer Chaplin | Nouvelle relation
+Charlie Chaplin -- isa --> Acteur | Nouvelle relation
+Charlie Chaplin -- syn --> The Tramp | nouveau mot
+Charmed -- lieu --> The WB | nouveau mot
+Che Guevara -- syn --> Ernesto Guevara | Nouvelle relation
+Chine -- lieu-1 --> Pékin | JDM
+Chine -- isa --> République | Nouvelle relation
+Chine -- lieu-1 --> Chinois | Nouvelle relation
+Chine -- lieu-1 --> yuan | JDM
+Chine -- lieu-1 --> Shanghai | JDM
+Christian Bale -- holo --> Empire du soleil | nouveau mot
+Christian Bale -- syn --> Christian Charles Philip Bale | nouveau mot
+Christian Bale -- isa --> Acteur | Nouvelle relation
+Christian Clavier -- holo --> Les Bronzés (série de films) | nouveau mot
+Christian Clavier -- isa --> Acteur | Nouvelle relation
+Christian Clavier -- holo --> Napoléon | Nouvelle relation
+Christophe Colomb -- syn --> Cristoforo Colombo ( | Nouvelle relation
+Clara Morgane -- syn --> Emmanuelle Aurélie Munos | Nouvelle relation
+Claude François -- isa --> Chanteur | Nouvelle relation
+Claude François -- syn --> Claude Antoine Marie François | nouveau mot
+Claude François -- syn --> Cloclo | JDM
+Claude Lelouch -- holo --> Un homme et une femme | Nouvelle relation
+Claude Lelouch -- isa --> Réalisateur | Nouvelle relation
+Claude Nougaro -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Coluche -- syn --> Michel Gérard Joseph Colucci | nouveau mot
+Corée du Nord -- lieu-1 --> Pyongyang | JDM
+Corée du Nord -- isa --> De jure | Nouvelle relation
+Corée du Nord -- lieu-1 --> Coréen | Nouvelle relation
+Corée du Nord -- lieu-1 --> Won | Nouvelle relation
+Corée du Nord -- lieu-1 --> Pyongyang | JDM
+Croatie -- lieu-1 --> Zagreb | JDM
+Croatie -- isa --> République parlementaire | Nouvelle relation
+Croatie -- lieu-1 --> Croate | Nouvelle relation
+Croatie -- lieu-1 --> Kuna | Nouvelle relation
+Croatie -- lieu-1 --> Zagreb | JDM
+Cuba -- lieu-1 --> La Havane | Nouvelle relation
+Cuba -- isa --> République | Nouvelle relation
+Cuba -- lieu-1 --> Espagnol | Nouvelle relation
+Cuba -- lieu-1 --> Peso cubain convertible | nouveau mot
+Cuba -- lieu-1 --> La Havane | Nouvelle relation
+Céline Dion -- isa --> Chanteuse | Nouvelle relation
+Céline Dion -- syn --> Céline Marie Claudette Dion | Nouvelle relation
+daft Punk -- has_part --> Thomas Bangalter | Nouvelle relation
+Danemark -- lieu-1 --> Copenhague | JDM
+Danemark -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Danemark -- lieu-1 --> Danois | Nouvelle relation
+Danemark -- lieu-1 --> couronne danoise | Nouvelle relation
+Danemark -- lieu-1 --> Copenhague | JDM
+Daniel Craig -- holo --> Les Sentiers de la perdition | JDM
+Daniel Craig -- syn --> Daniel Wroughton Craig | nouveau mot
+Daniel Craig -- isa --> Acteur | Nouvelle relation
+Dany Boon -- holo --> Joyeux Noël | Nouvelle relation
+Dany Boon -- syn --> Daniel Hamidou | Nouvelle relation
+Dany Boon -- isa --> Acteur | Nouvelle relation
+David Guetta -- isa --> Disc jockey | Nouvelle relation
+David Guetta -- syn --> Pierre David Guetta | nouveau mot
+desperate Housewives -- lieu --> ABC | Nouvelle relation
+Dieudonné -- syn --> Dieudonné M'Bala M'Bala | Nouvelle relation
+Divergente -- has_auteur --> Neil Burger | JDM
+Divergente -- has_actors --> Evan Daugherty | nouveau mot
+Django Unchained -- has_auteur --> Quentin Tarantino | Nouvelle relation
+Django Unchained -- has_actors --> Quentin Tarantino | JDM
+Dr House -- lieu --> Fox | Nouvelle relation
+Elvis Presley -- isa --> Chanteur | Nouvelle relation
+Elvis Presley -- syn --> Elvis Aaron Presley | Nouvelle relation
+Elvis Presley -- syn --> The King | Nouvelle relation
+Emilia Clarke -- holo --> Terminator Genisys | nouveau mot
+Emilia Clarke -- isa --> actrice | Nouvelle relation
+Emilia Clarke -- holo --> Game of Thrones | Nouvelle relation
+Eminem -- isa --> Rappeur | Nouvelle relation
+Eminem -- syn --> Marshall Bruce Mathers  | Nouvelle relation
+Eminem -- syn --> Slim Shady | Nouvelle relation
+Emma Watson -- holo --> Saga d'Harry Potter | nouveau mot
+Emma Watson -- syn --> Emma Charlotte Duerre Watson | Nouvelle relation
+Emma Watson -- isa --> actrice | Nouvelle relation
+Empire ottoman -- lieu-1 --> Söğüt | nouveau mot
+Empire ottoman -- lieu-1 --> cake | Nouvelle relation
+Espagne -- lieu-1 --> Madrid | JDM
+Espagne -- isa --> Monarchie | Nouvelle relation
+Espagne -- lieu-1 --> Espagnol | Nouvelle relation
+Espagne -- lieu-1 --> Euro | Nouvelle relation
+Espagne -- lieu-1 --> Madrid | JDM
+Eva Green -- holo --> Innocents: The Dreamers | nouveau mot
+Eva Green -- isa --> actrice | Nouvelle relation
+Eva Green -- holo --> Camelot | Nouvelle relation
+Florent Pagny -- isa --> Chanteur | Nouvelle relation
+France -- lieu-1 --> Paris | JDM
+France -- isa --> République | JDM
+France -- lieu-1 --> Français | JDM
+France -- lieu-1 --> Euro | Nouvelle relation
+France -- lieu --> ONU | Nouvelle relation
+France -- lieu-1 --> Paris | JDM
+France -- domain-1 --> Claude Bartolone | JDM
+Franck Dubosc -- holo --> Camping | JDM
+Franck Dubosc -- isa --> Humoriste | Nouvelle relation
+Franck Dubosc -- holo --> Peplum | Nouvelle relation
+Friends -- lieu --> NBC | Nouvelle relation
+Gad Elmaleh -- holo --> La Vérité si je mens ! 2 | nouveau mot
+Gad Elmaleh -- isa --> Humoriste | Nouvelle relation
+Game of Thrones -- lieu --> HBO | JDM
+Garou -- isa --> Chanteur | Nouvelle relation
+Garou -- syn --> Pierre Garand | Nouvelle relation
+Google -- has_part --> Larry Page | Nouvelle relation
+Grigori Raspoutine -- syn --> Grigori Efimovitch Raspoutine | Nouvelle relation
+Grèce -- lieu-1 --> Athènes | JDM
+Grèce -- isa --> République | Nouvelle relation
+Grèce -- lieu-1 --> Grec | Nouvelle relation
+Grèce -- lieu-1 --> Euro | Nouvelle relation
+Grèce -- lieu-1 --> Athènes | JDM
+Guillaume Apollinaire -- carac --> Français | Nouvelle relation
+Guillaume Apollinaire -- syn --> Guglielmo Alberto Wladimiro Alessandro Apollinare de Kostrowitzky | nouveau mot
+Guillaume Gallienne -- holo --> Jet Set | Nouvelle relation
+Guillaume Gallienne -- isa --> Acteur | Nouvelle relation
+Guillaume Gallienne -- holo --> Les Bonus de Guillaume | nouveau mot
+Guy de Maupassant -- carac --> Français | Nouvelle relation
+Guy de Maupassant -- syn --> Henry-René-Albert-Guy de Maupassant | nouveau mot
+Harrison Ford -- holo --> Star Wars | JDM
+Harrison Ford -- isa --> Acteur | Nouvelle relation
+hayao Miyazaki -- holo --> Nausicaä de la vallée du vent | nouveau mot
+hayao Miyazaki -- syn --> 宮崎駿 | nouveau mot
+hayao Miyazaki -- isa --> Réalisateur | Nouvelle relation
+Haïti -- lieu-1 --> Port-au-Prince | JDM
+Haïti -- isa --> République | Nouvelle relation
+Haïti -- lieu-1 --> Créole | Nouvelle relation
+Haïti -- lieu-1 --> Gourde haïtienne | nouveau mot
+Haïti -- has_part --> Port-au-Prince | JDM
+Heath Ledger -- holo --> The Patriot, le chemin de la liberté | nouveau mot
+Heath Ledger -- syn --> Heathcliff Andrew Ledger | Nouvelle relation
+Heath Ledger -- isa --> Acteur | Nouvelle relation
+Homère -- carac --> Grec ancien | Nouvelle relation
+Homère -- syn --> Ὅμηρος | nouveau mot
+Honoré de Balzac -- carac --> Français | Nouvelle relation
+How I Met Your Mother -- lieu --> CBS | Nouvelle relation
+Hélène de Fougerolles -- syn --> Hélène Christine Marie Rigoine de Fougerolles | nouveau mot
+Hélène de Fougerolles -- isa --> actrice | Nouvelle relation
+Inde -- lieu-1 --> New Delhi | JDM
+Inde -- isa --> République | Nouvelle relation
+Inde -- lieu-1 --> Hindi | Nouvelle relation
+Inde -- lieu-1 --> Roupie indienne | Nouvelle relation
+Inde -- lieu --> Commonwealth | nouveau mot
+Inde -- lieu-1 --> Mumbai (Bombay) | nouveau mot
+Indila -- isa --> auteure-compositrice-interpr�te | Nouvelle relation
+Indila -- syn --> Adila Sedraïa | Nouvelle relation
+Ingrid Chauvin -- isa --> actrice | Nouvelle relation
+Ingrid Chauvin -- holo --> Lieutenant Marie Balaguère | Nouvelle relation
+Isabelle Adjani -- holo --> L'Histoire d'Adèle H. | JDM
+Isabelle Adjani -- syn --> Isabelle Yasmina Adjani | nouveau mot
+Isabelle Adjani -- isa --> actrice | Nouvelle relation
+Islande -- lieu-1 --> Reykjavik | JDM
+Islande -- isa --> République parlementaire | Nouvelle relation
+Islande -- lieu-1 --> Islandais | Nouvelle relation
+Islande -- lieu-1 --> Couronne islandaise | Nouvelle relation
+Islande -- lieu-1 --> Reykjavik | JDM
+Israël -- lieu-1 --> Jérusalem | JDM
+Israël -- isa --> Démocratie parlementaire | Nouvelle relation
+Israël -- lieu-1 --> hébreu | Nouvelle relation
+Israël -- lieu-1 --> Nouveau shekel | nouveau mot
+Israël -- lieu-1 --> Jérusalem | JDM
+Italie -- lieu-1 --> Rome | JDM
+Italie -- isa --> République parlementaire | Nouvelle relation
+Italie -- lieu-1 --> Italien | Nouvelle relation
+Italie -- lieu-1 --> Euro | Nouvelle relation
+Italie -- lieu-1 --> Rome | JDM
+Jacques Brel -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Jacques Brel -- syn --> Jacques Romain Georges Brel | nouveau mot
+Jacques Mesrine -- syn --> Jacques René Mesrine | Nouvelle relation
+Japon -- lieu-1 --> Tokyo | JDM
+Japon -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Japon -- lieu-1 --> Japonais | Nouvelle relation
+Japon -- lieu-1 --> Yen | Nouvelle relation
+Japon -- lieu-1 --> Tokyo | JDM
+Jared Leto -- isa --> Acteur | Nouvelle relation
+Jared Leto -- syn --> Bartholomew Cubbins | Nouvelle relation
+Jason Statham -- holo --> Snatch | JDM
+Jason Statham -- isa --> Acteur | Nouvelle relation
+Jason Statham -- syn --> Jay | Nouvelle relation
+Jean Dujardin -- holo --> Brice de Nice | JDM
+Jean Dujardin -- syn --> Jean Edmond Dujardin | nouveau mot
+Jean Dujardin -- isa --> Acteur | Nouvelle relation
+Jean Dujardin -- holo --> Un gars, une fille | Nouvelle relation
+Jean Racine -- carac --> français | Nouvelle relation
+Jean Reno -- holo --> Le Grand Bleu | JDM
+Jean Reno -- syn --> Juan Moreno y Herrera-Jiménez | nouveau mot
+Jean Reno -- isa --> Acteur | Nouvelle relation
+Jean de La Fontaine -- carac --> français | Nouvelle relation
+jean-Jacques Goldman -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+jean-Jacques Goldman -- syn --> O. Menor, Sam Brewski, Sweet Memories, First Prayer | nouveau mot
+Jenifer -- isa --> Chanteuse | Nouvelle relation
+Jenifer -- syn --> Jenifer Bartoli | nouveau mot
+Jennifer Aniston -- holo --> The Good Girl | nouveau mot
+Jennifer Aniston -- syn --> Jennifer Joanna Aniston | Nouvelle relation
+Jennifer Aniston -- isa --> actrice | Nouvelle relation
+Jennifer Aniston -- syn --> Jen | Nouvelle relation
+Jennifer Aniston -- holo --> Friends | Nouvelle relation
+Jennifer Lawrence -- holo --> Winter's Bone | JDM
+Jennifer Lawrence -- syn --> Jennifer Shrader Lawrence | nouveau mot
+Jennifer Lawrence -- isa --> actrice | Nouvelle relation
+Jennifer Lawrence -- syn --> Jen ou J-Law | nouveau mot
+Jennifer Lopez -- isa --> actrice | Nouvelle relation
+Jennifer Lopez -- syn --> Jolo | Nouvelle relation
+jennifer Love Hewitt -- holo --> Sister Act, acte 2 | nouveau mot
+jennifer Love Hewitt -- isa --> actrice | Nouvelle relation
+jennifer Love Hewitt -- holo --> La Vie à cinq | nouveau mot
+joaquin Phoenix -- holo --> Gladiator | Nouvelle relation
+joaquin Phoenix -- isa --> Acteur | Nouvelle relation
+John Lennon -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+John Lennon -- syn --> John Winston Lennon | Nouvelle relation
+johnny Depp -- holo --> Edward aux mains d'argent | nouveau mot
+johnny Depp -- syn --> John Christopher Depp II | nouveau mot
+johnny Depp -- isa --> Acteur | Nouvelle relation
+johnny Depp -- holo --> 21 Jump Street | nouveau mot
+Johnny Hallyday -- isa --> chanteur | JDM
+Johnny Hallyday -- isa --> acteur | JDM
+Johnny Hallyday -- syn --> Jean-Philippe Smet | nouveau mot
+Jules Verne -- carac --> Français | Nouvelle relation
+Jules Verne -- syn --> Jules Gabriel Verne | nouveau mot
+Julia Roberts -- holo --> Pretty Woman | nouveau mot
+Julia Roberts -- syn --> Julia Fiona Roberts | nouveau mot
+Julia Roberts -- isa --> actrice | Nouvelle relation
+Julia Roberts -- syn --> Jules | Nouvelle relation
+julie Gayet -- holo --> Delphine 1, Yvan 0 | nouveau mot
+julie Gayet -- isa --> actrice | Nouvelle relation
+Justin Bieber -- isa --> auteur-compositeur-interprète | Nouvelle relation
+Justin Bieber -- isa --> acteur | Nouvelle relation
+Justin Bieber -- syn --> Justin Drew Bieber | nouveau mot
+justin Timberlake -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Kad Merad -- holo --> Mais qui a tu� Pamela Rose | Nouvelle relation
+Kad Merad -- syn --> Kadour Merad | Nouvelle relation
+Kad Merad -- isa --> Acteur | Nouvelle relation
+Katharine Hepburn -- holo --> L'Impossible Monsieur Bébé | JDM
+Katharine Hepburn -- syn --> Katharine Houghton Hepburn | nouveau mot
+Katharine Hepburn -- isa --> actrice | Nouvelle relation
+Katharine Hepburn -- syn --> First Lady of Cinema | nouveau mot
+Katy Perry -- isa --> Chanteuse | Nouvelle relation
+Katy Perry -- syn --> Katheryn Elizabeth Hudson | nouveau mot
+Keanu Reeves -- holo --> Point Break | JDM
+Keanu Reeves -- syn --> Keanu Charles Reeves | Nouvelle relation
+Keanu Reeves -- isa --> Acteur | Nouvelle relation
+keira Knightley -- holo --> Joue-la comme Beckham | nouveau mot
+keira Knightley -- syn --> Keira Christina Knightley | nouveau mot
+keira Knightley -- isa --> actrice | Nouvelle relation
+kev Adams -- holo --> Les Profs | nouveau mot
+kev Adams -- syn --> Kevin Smadja | nouveau mot
+kev Adams -- isa --> Humoriste | Nouvelle relation
+kev Adams -- holo --> Soda | Nouvelle relation
+kevin Spacey -- holo --> Usual Suspects | Nouvelle relation
+kevin Spacey -- syn --> Kevin Spacey Fowler | nouveau mot
+kevin Spacey -- isa --> Acteur | Nouvelle relation
+kevin Spacey -- holo --> House of Cards | nouveau mot
+Kosovo -- lieu-1 --> Pristina | Nouvelle relation
+Kosovo -- isa --> République | Nouvelle relation
+Kosovo -- lieu-1 --> albanais | Nouvelle relation
+Kosovo -- lieu-1 --> Euro | Nouvelle relation
+Kosovo -- lieu-1 --> Pristina | Nouvelle relation
+Kristen Bell -- holo --> Sans Sarah, rien ne va ! | nouveau mot
+Kristen Bell -- syn --> Kristen Anne Bell | Nouvelle relation
+Kristen Bell -- isa --> actrice | Nouvelle relation
+Kristen Bell -- syn --> K-Bell | nouveau mot
+Kristen Bell -- holo --> Veronica Mars | JDM
+Kurt Cobain -- isa --> Musicien | Nouvelle relation
+Kurt Cobain -- syn --> Kurt Donald Cobain | Nouvelle relation
+Kylie Minogue -- isa --> Chanteuse | Nouvelle relation
+La Leçon de piano -- has_auteur --> Jane Campion | nouveau mot
+La Leçon de piano -- has_actors --> Jane Campion | nouveau mot
+La Petite Maison dans la prairie -- lieu --> NBC | Nouvelle relation
+Lady Gaga -- isa --> auteur-compositrice-interpr�te | Nouvelle relation
+Lady Gaga -- syn --> Stefani Joanne Angelina Germanotta | Nouvelle relation
+Lady Gaga -- syn --> Mother Monster | nouveau mot
+Lambert Wilson -- holo --> La Femme publique | Nouvelle relation
+Lambert Wilson -- isa --> Acteur | Nouvelle relation
+le Juge Fayard dit Le Shériff -- has_auteur --> Yves Boisset | Nouvelle relation
+le Juge Fayard dit Le Shériff -- has_actors --> Yves Boisset | Nouvelle relation
+Leonardo DiCaprio -- holo --> voir filmographie | nouveau mot
+Leonardo DiCaprio -- syn --> Leonardo Wilhelm DiCaprio | nouveau mot
+Leonardo DiCaprio -- isa --> Acteur | Nouvelle relation
+Leonardo DiCaprio -- syn --> Leo | Nouvelle relation
+Les Enfoirés -- isa --> artistes et bénévoles | nouveau mot
+Les Enfoirés -- syn --> Les Enfoirés du cœur | nouveau mot
+Les Frères Scott -- lieu --> The WB | nouveau mot
+Les Simpson -- lieu --> Fox Broadcasting Company | nouveau mot
+Liam Hemsworth -- holo --> La Dernière Chanson | nouveau mot
+Liam Hemsworth -- isa --> Acteur | Nouvelle relation
+Liam Hemsworth -- syn --> LiHem | nouveau mot
+Liam Hemsworth -- holo --> Les Voisins | Nouvelle relation
+Liam Neeson -- holo --> Mission | JDM
+Liam Neeson -- isa --> Acteur | Nouvelle relation
+Louis Aragon -- carac --> Français | Nouvelle relation
+Louis de Funès -- holo --> La Traversée de Paris | JDM
+Louis de Funès -- syn --> Louis Germain David de Funès de Galarza | nouveau mot
+Louis de Funès -- isa --> Acteur | Nouvelle relation
+Ludwig van Beethoven -- isa --> Compositeur | Nouvelle relation
+Luis Mariano -- isa --> Chanteur | Nouvelle relation
+Luis Mariano -- isa --> Acteur | Nouvelle relation
+Luis Mariano -- syn --> Mariano Eusebio González y García | nouveau mot
+Léa Seydoux -- holo --> La Belle Personne | JDM
+Léa Seydoux -- syn --> Léa Hélène Seydoux Fornier de Clausonne | Nouvelle relation
+Léa Seydoux -- isa --> actrice | Nouvelle relation
+Madagascar -- lieu-1 --> Antananarivo | JDM
+Madagascar -- isa --> République | Nouvelle relation
+Madagascar -- lieu-1 --> malgache | Nouvelle relation
+Madagascar -- lieu-1 --> ariary | Nouvelle relation
+Madagascar -- lieu-1 --> Antananarivo | JDM
+Madonna -- isa --> auteur-compositrice-interpr�te | Nouvelle relation
+Madonna -- isa --> actrice | Nouvelle relation
+Madonna -- syn --> Madonna Louise Ciccone | Nouvelle relation
+Madonna -- syn --> The Queen of Pop | nouveau mot
+Malaisie -- lieu-1 --> Kuala Lumpur | JDM
+Malaisie -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Malaisie -- lieu-1 --> Malais | Nouvelle relation
+Malaisie -- lieu-1 --> Ringgit | Nouvelle relation
+Malaisie -- lieu-1 --> Kuala Lumpur | JDM
+Maldives -- lieu-1 --> Malé | JDM
+Maldives -- isa --> République | Nouvelle relation
+Maldives -- lieu-1 --> Maldivien | Nouvelle relation
+Maldives -- lieu-1 --> Rufiyaa | nouveau mot
+Maldives -- lieu-1 --> Malé | JDM
+Malte -- lieu-1 --> La Valette | JDM
+Malte -- isa --> République | Nouvelle relation
+Malte -- lieu-1 --> Maltais | Nouvelle relation
+Malte -- lieu-1 --> Euro | Nouvelle relation
+Malte -- lieu-1 --> Birkirkara | Nouvelle relation
+Marilyn Monroe -- holo --> Niagara | JDM
+Marilyn Monroe -- syn --> Norma Jeane Mortenson | Nouvelle relation
+Marilyn Monroe -- isa --> actrice | Nouvelle relation
+mark Wahlberg -- holo --> Boogie Nights | nouveau mot
+mark Wahlberg -- syn --> Mark Robert Michael Wahlberg | nouveau mot
+mark Wahlberg -- isa --> Acteur | Nouvelle relation
+mark Wahlberg -- syn --> Marky Mark | nouveau mot
+Maroc -- lieu-1 --> Rabat | JDM
+Maroc -- lieu-1 --> Casablanca | JDM
+Maroc -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Maroc -- lieu-1 --> Arabe | Nouvelle relation
+Maroc -- lieu-1 --> Dirham marocain | nouveau mot
+Maroc -- lieu --> ONU | Nouvelle relation
+Mary-Kate et Ashley Olsen -- syn --> Mary-Kate Olsen | nouveau mot
+Mary-Kate et Ashley Olsen -- isa --> actrices | Nouvelle relation
+Mary-Kate et Ashley Olsen -- holo --> La Fête à la maison | Nouvelle relation
+Matt Damon -- holo --> Will Hunting | nouveau mot
+Matt Damon -- syn --> Matthew Paige Damon | nouveau mot
+Matt Damon -- isa --> Acteur | Nouvelle relation
+Matt Damon -- holo --> 30 Rock | nouveau mot
+matthew McConaughey -- holo --> Génération rebelle | nouveau mot
+matthew McConaughey -- syn --> Matthew David McConaughey | nouveau mot
+matthew McConaughey -- isa --> Acteur | Nouvelle relation
+matthew McConaughey -- holo --> True Detective | nouveau mot
+Mentalist -- lieu --> CBS | Nouvelle relation
+Meryl Streep -- holo --> Voyage au bout de l'enfer | nouveau mot
+Meryl Streep -- syn --> Mary Louise Streep | Nouvelle relation
+Meryl Streep -- isa --> actrice | Nouvelle relation
+Meryl Streep -- holo --> Holocauste | Nouvelle relation
+Mexique -- lieu-1 --> Mexico | JDM
+Mexique -- isa --> République constitutionnelle | Nouvelle relation
+Mexique -- lieu-1 --> Espagnol | Nouvelle relation
+Mexique -- lieu-1 --> Peso mexicain | Nouvelle relation
+Mexique -- lieu-1 --> Mexico | JDM
+Michael Jackson -- isa --> Chanteur | Nouvelle relation
+Michael Jackson -- syn --> Michael Joseph Jackson | nouveau mot
+Michael Jackson -- syn --> The king of pop | Nouvelle relation
+Michael Schumacher -- syn --> Schumi | Nouvelle relation
+Michaël Youn -- holo --> La Beuze | nouveau mot
+Michaël Youn -- syn --> Michaël Benayoun | nouveau mot
+Michaël Youn -- isa --> acteur | Nouvelle relation
+Michel Legrand -- holo --> Les Parapluies de Cherbourg | Nouvelle relation
+Michel Legrand -- isa --> Compositeur | Nouvelle relation
+Michel Legrand -- syn --> Big Mike | nouveau mot
+mick Jagger -- isa --> chanteur | Nouvelle relation
+mick Jagger -- isa --> acteur | Nouvelle relation
+mick Jagger -- syn --> Michael Philip Jagger | Nouvelle relation
+Mila Kunis -- holo --> Max Payne | nouveau mot
+Mila Kunis -- syn --> Milena Markovna Kunis | Nouvelle relation
+Mila Kunis -- isa --> actrice | Nouvelle relation
+Mila Kunis -- holo --> That '70s Show | Nouvelle relation
+Miley Cyrus -- isa --> actrice | Nouvelle relation
+Miley Cyrus -- syn --> Destiny Hope Cyrus | Nouvelle relation
+Mimie Mathy -- syn --> Michèle Mathy | Nouvelle relation
+Mimie Mathy -- isa --> actrice | Nouvelle relation
+Mimie Mathy -- holo --> Joséphine, ange gardien | Nouvelle relation
+Moldavie -- lieu-1 --> Chișinău | nouveau mot
+Moldavie -- isa --> République | Nouvelle relation
+Moldavie -- lieu-1 --> Roumain | Nouvelle relation
+Moldavie -- lieu-1 --> Leu moldave | nouveau mot
+Moldavie -- lieu-1 --> Chișinău | nouveau mot
+Molière -- carac --> français | JDM
+Molière -- syn --> Jean-Baptiste Poquelin | JDM
+Monaco -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Monaco -- lieu-1 --> Français | Nouvelle relation
+Monaco -- lieu-1 --> Euro | Nouvelle relation
+Monaco -- has_part --> Monte-Carlo | JDM
+Montesquieu -- carac --> Français | Nouvelle relation
+Montesquieu -- syn --> Charles de Secondat | nouveau mot
+Nabilla Benattia -- syn --> Nabilla Leona Grange-Benattia | nouveau mot
+Natalie Portman -- holo --> Léon | JDM
+Natalie Portman -- syn --> Natalie Hershlag | nouveau mot
+Natalie Portman -- isa --> actrice | Nouvelle relation
+Nicholas Hoult -- holo --> Pour un garçon | nouveau mot
+Nicholas Hoult -- syn --> Nicholas Caradoc Hoult | nouveau mot
+Nicholas Hoult -- isa --> Acteur | Nouvelle relation
+Nicholas Hoult -- holo --> Skins | Nouvelle relation
+Nicolas Cage -- holo --> Arizona Junior | JDM
+Nicolas Cage -- syn --> Nicolas Kim Coppola | nouveau mot
+Nicolas Cage -- isa --> Acteur | Nouvelle relation
+Niki Lauda -- syn --> L'ordinateur | Nouvelle relation
+Nouvelle-Zélande -- lieu-1 --> Wellington | Nouvelle relation
+Nouvelle-Zélande -- isa --> Monarchie parlementaire | Nouvelle relation
+Nouvelle-Zélande -- lieu-1 --> Anglais | Nouvelle relation
+Nouvelle-Zélande -- lieu-1 --> Dollar néo-zélandais | nouveau mot
+Nouvelle-Zélande -- lieu-1 --> Auckland | JDM
+Pascal Obispo -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Pascal Obispo -- syn --> Captain Samouraï Flower, Vitoo | nouveau mot
+patrick Bruel -- isa --> Chanteur | Nouvelle relation
+patrick Bruel -- syn --> Patrick Maurice Benguigui | nouveau mot
+Paul Verlaine -- carac --> français | Nouvelle relation
+Paul Verlaine -- syn --> Paul Marie Verlaine | Nouvelle relation
+Paul Éluard -- carac --> Français | Nouvelle relation
+Paul Éluard -- syn --> Eugène Émile Paul Grindel | Nouvelle relation
+Pays-Bas -- lieu-1 --> Amsterdam | JDM
+Pays-Bas -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Pays-Bas -- lieu-1 --> Néerlandais | Nouvelle relation
+Pays-Bas -- lieu-1 --> Euro | Nouvelle relation
+Pays-Bas -- lieu-1 --> Amsterdam | JDM
+Pharrell Williams -- isa --> Producteur | Nouvelle relation
+Philippe Bouvard -- syn --> Philippe Pierre Louis Bouvard | Nouvelle relation
+Pierre Corneille -- carac --> français | Nouvelle relation
+Plus belle la vie -- lieu --> France 3 | Nouvelle relation
+Pologne -- lieu-1 --> Varsovie | JDM
+Pologne -- isa --> République | Nouvelle relation
+Pologne -- lieu-1 --> Polonais | Nouvelle relation
+Pologne -- lieu-1 --> Złoty | nouveau mot
+Pologne -- lieu-1 --> Varsovie | JDM
+Portugal -- lieu-1 --> Lisbonne | JDM
+Portugal -- isa --> République | Nouvelle relation
+Portugal -- lieu-1 --> Portugais | Nouvelle relation
+Portugal -- lieu-1 --> Euro | Nouvelle relation
+Portugal -- lieu-1 --> Lisbonne | JDM
+Pretty Little Liars -- lieu --> ABC Family | nouveau mot
+Qatar -- lieu-1 --> Doha | JDM
+Qatar -- isa --> Monarchie absolue | Nouvelle relation
+Qatar -- lieu-1 --> Arabe | Nouvelle relation
+Qatar -- lieu-1 --> Riyal qatarien | nouveau mot
+Qatar -- lieu-1 --> Doha | JDM
+Quentin Tarantino -- holo --> Reservoir Dogs | Nouvelle relation
+Quentin Tarantino -- syn --> Quentin Jerome Tarantino | nouveau mot
+Quentin Tarantino -- isa --> réalisateur | JDM
+Rammstein -- has_part --> Till Lindemann | nouveau mot
+Renaud -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Renaud -- isa --> Acteur | Nouvelle relation
+Renaud -- syn --> Renaud Pierre Manuel Séchan | nouveau mot
+Rihanna -- isa --> Chanteuse | Nouvelle relation
+Rihanna -- isa --> actrice | Nouvelle relation
+Rihanna -- syn --> Robyn Rihanna Fenty | nouveau mot
+Robert De Niro -- holo --> voir filmographie | nouveau mot
+Robert De Niro -- syn --> Robert Mario De Niro, Jr | nouveau mot
+Robert De Niro -- isa --> Acteur | Nouvelle relation
+Robert Downey Jr. -- holo --> Chaplin | JDM
+Robert Downey Jr. -- syn --> Robert John Downey Jr | Nouvelle relation
+Robert Downey Jr. -- isa --> Acteur | Nouvelle relation
+Robin Wright -- holo --> Forrest Gump | JDM
+Robin Wright -- syn --> Robin Virginia Gayle Wright | nouveau mot
+Roman Polanski -- holo --> Répulsion | Nouvelle relation
+Roman Polanski -- syn --> Raymond Thierry Liebling | Nouvelle relation
+Roman Polanski -- isa --> Réalisateur | Nouvelle relation
+Rosa Luxemburg -- syn --> Różalia Luksemburg | nouveau mot
+Roumanie -- lieu-1 --> Bucarest | JDM
+Roumanie -- isa --> République semi-présidentielle | nouveau mot
+Roumanie -- lieu-1 --> Roumain | Nouvelle relation
+Roumanie -- lieu-1 --> Nouveau  | Nouvelle relation
+Roumanie -- lieu-1 --> Bucarest | JDM
+Royaume-Uni -- lieu-1 --> Londres | JDM
+Royaume-Uni -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Anglais | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Livre sterling | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Londres | JDM
+Russie -- lieu-1 --> Moscou | JDM
+Russie -- isa --> République | Nouvelle relation
+Russie -- lieu-1 --> Russe | Nouvelle relation
+Russie -- lieu-1 --> Rouble | Nouvelle relation
+Russie -- lieu --> ONU | Nouvelle relation
+Russie -- lieu-1 --> Moscou | JDM
+Ryan Gosling -- holo --> N'oublie Jamais | nouveau mot
+Ryan Gosling -- syn --> Ryan Thomas Gosling | nouveau mot
+Ryan Gosling -- isa --> Acteur | Nouvelle relation
+République démocratique du Congo -- lieu-1 --> Kinshasa | JDM
+République démocratique du Congo -- isa --> République | Nouvelle relation
+République démocratique du Congo -- lieu-1 --> Français | Nouvelle relation
+République démocratique du Congo -- lieu-1 --> Franc congolais | nouveau mot
+République démocratique du Congo -- lieu-1 --> Kinshasa | JDM
+Sabine Azéma -- holo --> La vie est un roman | nouveau mot
+Sabine Azéma -- syn --> Sabine Florence Azéma | nouveau mot
+Sabine Azéma -- isa --> actrice | Nouvelle relation
+Salma Hayek -- holo --> Desperado | JDM
+Salma Hayek -- syn --> Salma Valgarma Hayek Jiménez | nouveau mot
+Salma Hayek -- isa --> actrice | Nouvelle relation
+Sandra Bullock -- holo --> Demolition Man | JDM
+Sandra Bullock -- syn --> Sandra Annette Bullock | Nouvelle relation
+Sandra Bullock -- isa --> actrice | Nouvelle relation
+Sandrine Kiberlain -- holo --> Les Patriotes | JDM
+Sandrine Kiberlain -- isa --> actrice | Nouvelle relation
+Scarlett Johansson -- holo --> L'Homme qui murmurait à l'oreille des chevaux | nouveau mot
+Scarlett Johansson -- isa --> actrice | Nouvelle relation
+Sean Connery -- holo --> voir section détaillée | nouveau mot
+Sean Connery -- syn --> Thomas Sean Connery | nouveau mot
+Sean Connery -- isa --> Acteur | Nouvelle relation
+Selena Gomez -- isa --> actrice | Nouvelle relation
+Selena Gomez -- syn --> Selena Marie Gomez | Nouvelle relation
+Serge Gainsbourg -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Serge Gainsbourg -- syn --> Lucien Ginsburg | Nouvelle relation
+Serge Gainsbourg -- syn --> Julien Grix, Gainsbarre, l'homme à tête de chou | nouveau mot
+Serge Lama -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Serge Lama -- syn --> Serge Chauvier | Nouvelle relation
+Shaka Ponk -- has_part --> Goz (mascotte) | nouveau mot
+Shakira -- isa --> Chanteuse | Nouvelle relation
+Shakira -- syn --> Shakira Isabel Mebarak Ripoll | nouveau mot
+Slumdog Millionaire -- has_auteur --> Danny Boyle | JDM
+Slumdog Millionaire -- has_actors --> Simon Beaufoy | nouveau mot
+Sophie Marceau -- holo --> La Boum | JDM
+Sophie Marceau -- syn --> Sophie Danièle Sylvie Maupu | nouveau mot
+Sophie Marceau -- isa --> actrice | Nouvelle relation
+South Park -- lieu --> Comedy Central | nouveau mot
+steve Jobs -- syn --> Steven Paul Jobs | Nouvelle relation
+Steve McQueen -- holo --> Les Sept Mercenaires | JDM
+Steve McQueen -- syn --> Terence Steven MacQueen | Nouvelle relation
+Steve McQueen -- isa --> Acteur | Nouvelle relation
+Steve McQueen -- syn --> The King of Cool | nouveau mot
+Steven Spielberg -- holo --> Les Dents de la mer | Nouvelle relation
+Steven Spielberg -- syn --> Steven Allan Spielberg | Nouvelle relation
+Steven Spielberg -- isa --> Réalisateur | Nouvelle relation
+Steven Spielberg -- syn --> «&#160;The Entertainment King&#160;» | nouveau mot
+Stromae -- isa --> auteur-compositeur-interpr�te | Nouvelle relation
+Stromae -- syn --> Paul Van Haver | Nouvelle relation
+Suisse -- lieu-1 --> Berne | JDM
+Suisse -- isa --> État fédéral | Nouvelle relation
+Suisse -- lieu-1 --> Allemand | Nouvelle relation
+Suisse -- lieu-1 --> Franc suisse | Nouvelle relation
+Suisse -- lieu-1 --> Zurich | JDM
+Suède -- lieu-1 --> Stockholm | JDM
+Suède -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Suède -- lieu-1 --> Couronne suédoise | Nouvelle relation
+Suède -- lieu-1 --> Stockholm | JDM
+Switched -- lieu --> ABC Family | nouveau mot
+Sylvester Stallone -- syn --> Sylvester Gardenzio Stallone | nouveau mot
+Sylvester Stallone -- isa --> Acteur | Nouvelle relation
+Sylvester Stallone -- syn --> Sly, L'Étalon italien | nouveau mot
+Sénégal -- lieu-1 --> Dakar | JDM
+Sénégal -- isa --> République semi-présidentielle | nouveau mot
+Sénégal -- lieu-1 --> Français | Nouvelle relation
+Sénégal -- lieu-1 --> Franc CFA | Nouvelle relation
+Sénégal -- lieu-1 --> Dakar | JDM
+Tchéky Karyo -- holo --> L'Ours | JDM
+Tchéky Karyo -- syn --> Baruh Djaki Karyo | nouveau mot
+Tchéky Karyo -- isa --> Acteur | Nouvelle relation
+The Beatles -- has_part --> John Lennon | JDM
+The Beatles -- syn --> The Fab Four | nouveau mot
+The Big Bang Theory -- lieu --> CBS | Nouvelle relation
+Tom Cruise -- holo --> voir filmographie | nouveau mot
+Tom Cruise -- syn --> Thomas Cruise Mapother  | nouveau mot
+Tom Cruise -- isa --> Acteur | Nouvelle relation
+Tom Hanks -- holo --> Splash | JDM
+Tom Hanks -- syn --> Thomas Jeffrey Hanks | nouveau mot
+Tom Hanks -- isa --> Acteur | Nouvelle relation
+Transnistrie -- lieu-1 --> Tiraspol | Nouvelle relation
+Transnistrie -- isa --> République | Nouvelle relation
+Transnistrie -- lieu-1 --> moldave | Nouvelle relation
+Transnistrie -- lieu-1 --> Rouble de Transnistrie | nouveau mot
+Tunisie -- lieu-1 --> Tunis | JDM
+Tunisie -- isa --> République | Nouvelle relation
+Tunisie -- lieu-1 --> Dinar tunisien | Nouvelle relation
+Tunisie -- lieu --> ONU | JDM
+Tunisie -- carac --> Tunis | JDM
+Turquie -- lieu-1 --> Ankara | JDM
+Turquie -- isa --> République | Nouvelle relation
+Turquie -- lieu-1 --> Turc | Nouvelle relation
+Turquie -- lieu-1 --> livre turque | Nouvelle relation
+Turquie -- lieu-1 --> Istanbul | JDM
+Ukraine -- lieu-1 --> Kiev | JDM
+Ukraine -- isa --> République | Nouvelle relation
+Ukraine -- lieu-1 --> Hryvnia | nouveau mot
+Ukraine -- lieu-1 --> Kiev | JDM
+Union européenne -- lieu-1 --> 24 langues officielles | nouveau mot
+Union européenne -- lieu-1 --> Euro | Nouvelle relation
+Valérie Benguigui -- holo --> La Vérité si je mens ! | JDM
+Valérie Benguigui -- isa --> actrice | Nouvelle relation
+Vanessa Paradis -- isa --> Chanteuse | Nouvelle relation
+Vanessa Paradis -- syn --> Vanessa Chantal Paradis | nouveau mot
+Victor Hugo -- carac --> Français | Nouvelle relation
+Victor Hugo -- syn --> Victor Marie Hugo | Nouvelle relation
+Vincent Cassel -- holo --> La Haine | Nouvelle relation
+Vincent Cassel -- syn --> Vincent Crochon | Nouvelle relation
+Vincent Cassel -- isa --> Acteur | Nouvelle relation
+Viêt Nam -- lieu-1 --> Hanoï | JDM
+Viêt Nam -- isa --> République | Nouvelle relation
+Viêt Nam -- lieu-1 --> Vietnamien | Nouvelle relation
+Viêt Nam -- lieu-1 --> Đồng | nouveau mot
+Viêt Nam -- lieu-1 --> Hô-Chi-Minh-Ville | JDM
+Voltaire -- carac --> Français | Nouvelle relation
+Voltaire -- syn --> François-Marie Arouet | Nouvelle relation
+Walt Disney -- syn --> Walter Elias Disney | Nouvelle relation
+Walt Disney -- isa --> animateur | Nouvelle relation
+Walt Disney -- syn --> Walt | Nouvelle relation
+whitney Houston -- isa --> Chanteuse | Nouvelle relation
+whitney Houston -- syn --> Whitney Elizabeth Houston | nouveau mot
+whitney Houston -- syn --> The Voice | nouveau mot
+Will Smith -- holo --> Independence Day | JDM
+Will Smith -- syn --> Willard Christopher Smith | Nouvelle relation
+Will Smith -- isa --> Acteur | Nouvelle relation
+Will Smith -- syn --> Fresh Prince, Will | nouveau mot
+Will Smith -- holo --> Le Prince de Bel-Air | Nouvelle relation
+William Shakespeare -- carac --> Anglais | Nouvelle relation
+wolfgang Amadeus Mozart -- isa --> Compositeur | Nouvelle relation
+wolfgang Amadeus Mozart -- syn --> Joannes Chrysostomus Wolfgangus Theophilus Mozart | nouveau mot
+Yahoo! -- has_part --> David Filo | nouveau mot
+YouTube -- has_part --> Steve Chen | nouveau mot
+Édith Piaf -- isa --> Chanteuse | Nouvelle relation
+Édith Piaf -- syn --> Édith Giovanna Gassion | nouveau mot
+Édith Piaf -- syn --> La Môme Piaf | nouveau mot
+Égypte -- lieu-1 --> Le Caire | JDM
+Égypte -- isa --> République | Nouvelle relation
+Égypte -- lieu-1 --> Arabe | Nouvelle relation
+Égypte -- lieu-1 --> Livre égyptienne | Nouvelle relation
+Égypte -- lieu-1 --> Le Caire | JDM
+Émile Zola -- carac --> Français | Nouvelle relation
+Équipe de France de football -- syn --> Les Bleus | Nouvelle relation
+États-Unis -- lieu-1 --> Washington | JDM
+États-Unis -- isa --> République constitutionnelle | Nouvelle relation
+États-Unis -- lieu-1 --> Anglais | Nouvelle relation
+États-Unis -- lieu-1 --> Dollar américain | Nouvelle relation
+États-Unis -- lieu-1 --> New York | JDM
+Égypte_ancienne -- lieu-1 --> Capitales de l'Égypte antique | nouveau mot
+Grèce -- lieu-1 --> Athènes | JDM
+Grèce -- isa --> République | Nouvelle relation
+Grèce -- lieu-1 --> Grec | Nouvelle relation
+Grèce -- lieu-1 --> Euro | Nouvelle relation
+Grèce -- lieu-1 --> Athènes | JDM
+Iran -- lieu-1 --> Téhéran | JDM
+Iran -- isa --> République islamique | Nouvelle relation
+Iran -- lieu-1 --> persan | Nouvelle relation
+Iran -- lieu-1 --> Rial | Nouvelle relation
+Iran -- lieu-1 --> Téhéran | JDM
+France -- lieu-1 --> Paris | JDM
+France -- isa --> République | JDM
+France -- lieu-1 --> Français | JDM
+France -- lieu-1 --> Euro | Nouvelle relation
+France -- lieu --> ONU | Nouvelle relation
+France -- lieu-1 --> Paris | JDM
+France -- domain-1 --> Claude Bartolone | JDM
+France -- lieu-1 --> Paris | JDM
+France -- isa --> République | JDM
+France -- lieu-1 --> Français | JDM
+France -- lieu-1 --> Euro | Nouvelle relation
+France -- lieu --> ONU | Nouvelle relation
+France -- lieu-1 --> Paris | JDM
+France -- domain-1 --> Claude Bartolone | JDM
+Royaume-Uni -- lieu-1 --> Londres | JDM
+Royaume-Uni -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Anglais | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Livre sterling | Nouvelle relation
+Royaume-Uni -- lieu-1 --> Londres | JDM
+Montesquieu -- carac --> Français | Nouvelle relation
+Montesquieu -- syn --> Charles de Secondat | nouveau mot
+Union_européenne -- lieu-1 --> 24 langues officielles | nouveau mot
+Union_européenne -- lieu-1 --> Euro | Nouvelle relation
+Suisse -- lieu-1 --> Berne | JDM
+Suisse -- isa --> État fédéral | Nouvelle relation
+Suisse -- lieu-1 --> Allemand | Nouvelle relation
+Suisse -- lieu-1 --> Franc suisse | Nouvelle relation
+Suisse -- lieu-1 --> Zurich | JDM
+Parlement_européen -- has_part --> 751 députés | nouveau mot
+Thucydide -- carac --> grec ancien | Nouvelle relation
+Thucydide -- syn --> Θουκυδίδης (Thoukudídês) | nouveau mot
+Hérodote -- carac --> Grec ancien | Nouvelle relation
+Hérodote -- syn --> Ἡρόδοτος | nouveau mot
+Aristophane -- carac --> grec ancien | Nouvelle relation
+Theodor_W._Adorno -- syn --> Theodor Ludwig Wellington Adorno | nouveau mot
+Theodor_W._Adorno -- syn --> Theodor Ludwig Wellington Adorno | nouveau mot
+Maroc -- lieu-1 --> Rabat | JDM
+Maroc -- lieu-1 --> Casablanca | JDM
+Maroc -- isa --> Monarchie constitutionnelle | Nouvelle relation
+Maroc -- lieu-1 --> Arabe | Nouvelle relation
+Maroc -- lieu-1 --> Dirham marocain | nouveau mot
+Maroc -- lieu --> ONU | Nouvelle relation
+Espagne -- lieu-1 --> Madrid | JDM
+Espagne -- isa --> Monarchie | Nouvelle relation
+Espagne -- lieu-1 --> Espagnol | Nouvelle relation
+Espagne -- lieu-1 --> Euro | Nouvelle relation
+Espagne -- lieu-1 --> Madrid | JDM
+Denis_Diderot -- carac --> français | Nouvelle relation
+Abbasside -- lieu-1 --> successivement | Nouvelle relation
+Ibn_Khaldoun -- syn --> Abou Zeid Abd ur-Rahman Bin Mohamad Bin Khaldoun al-Hadrami | nouveau mot
+Érasme -- carac --> latin | Nouvelle relation
+Pétrarque -- carac --> latine | Nouvelle relation
+Pétrarque -- syn --> Francesco Petrarca | Nouvelle relation
+Denis_Diderot -- carac --> français | Nouvelle relation
+Voltaire -- carac --> Français | Nouvelle relation
+Voltaire -- syn --> François-Marie Arouet | Nouvelle relation
+Denis_Diderot -- carac --> français | Nouvelle relation
+Autriche -- lieu-1 --> Vienne | JDM
+Autriche -- isa --> République | Nouvelle relation
+Autriche -- lieu-1 --> Allemand | Nouvelle relation
+Autriche -- lieu-1 --> Euro | Nouvelle relation
+Autriche -- lieu-1 --> Vienne | JDM
+Pologne -- lieu-1 --> Varsovie | JDM
+Pologne -- isa --> République | Nouvelle relation
+Pologne -- lieu-1 --> Polonais | Nouvelle relation
+Pologne -- lieu-1 --> Złoty | nouveau mot
+Pologne -- lieu-1 --> Varsovie | JDM
+Albert_Camus -- syn --> Albert Camus | Nouvelle relation
+Inde -- lieu-1 --> New Delhi | JDM
+Inde -- isa --> République | Nouvelle relation
+Inde -- lieu-1 --> Hindi | Nouvelle relation
+Inde -- lieu-1 --> Roupie indienne | Nouvelle relation
+Inde -- lieu --> Commonwealth | nouveau mot
+Inde -- lieu-1 --> Mumbai (Bombay) | nouveau mot
+Dynastie_Song -- lieu-1 --> Bianjing | Nouvelle relation
+Dynastie_Song -- lieu-1 --> Jiaozi, Huizi,  | nouveau mot
+Dynastie_Ming -- lieu-1 --> Nankin | Nouvelle relation
+Dynastie_Tang -- lieu-1 --> Chang'an | Nouvelle relation
+dynastie_Han -- lieu-1 --> Chang'an | Nouvelle relation
+dynastie_Han -- lieu-1 --> Wuzhu | Nouvelle relation

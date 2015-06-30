@@ -1,0 +1,39 @@
+appartient|9|r_has_part|1
+auteur|100|r_has_auteur|1
+capitale|15|r_lieu|1
+capitale économique|15|r_lieu|1
+catégorie|3|r_domain|1
+catégorise|3|r_domain|1
+cause|42|r_causatif|1
+composer|9|r_has_part|1
+construire|10|r_agent|1
+conséquence|41|r_conseq|1
+continent|15|r_lieu|1
+créateur|100|r_has_auteur|1
+effets|41|r_conseq|1
+est similaire|67|r_similar|1
+est spécifique|64|r_instance|1
+faire|10|r_agent|1
+groupe ethnique|15|r_lieu|1
+implique|57|r_implication|1
+impliquer|57|r_implication|1
+instrument|15|r_lieu|1
+jouer|10|r_agent|1
+lieu|15|r_lieu|1
+manger|10|r_agent|1
+manger|102|r_can_eat|1
+moins que|74|r_smaller_than|1
+partie|9|r_has_part|1
+pays|15|r_lieu|1
+pays d'origine|15|r_lieu|1
+plus que|73|r_bigger_than|1
+possède|9|r_has_part|1
+pouvoir|17|r_carac|1
+produire|53|r_make|1
+reine|15|r_lieu|1
+réalisateur|100|r_has_auteur|1
+scénario|100|r_has_auteur|1
+signifier|5|r_syn|1
+société mère|15|r_lieu|1
+sport|15|r_lieu|1
+être|6|r_isa|1

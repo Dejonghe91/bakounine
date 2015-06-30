@@ -1,0 +1,250 @@
+affection médicale
+    R : 2
+appartient à la juridiction
+    R : 1
+architecte
+    R : 1
+assemblée délibérante
+    R : 12
+banque centrale
+    R : 1
+blasonnement
+    R : 12
+capitale
+    R : 11
+    associated : 6
+    has_part : 3
+    lieu-1 : 8
+capitale de
+    R : 4
+    associated : 2
+    domain : 2
+    holo : 2
+    lieu : 3
+    syn : 2
+catégorie
+    R : 75
+catégorie de personnalité
+    R : 23
+catégorie pour les films tournés à cet endroit
+    R : 17
+catégorie pour les personnes enterrées à cet endroit
+    R : 12
+catégorie pour les personnes mortes à cet endroit
+    R : 24
+catégorie pour les personnes nées à cet endroit
+    R : 24
+cause de décès
+    R : 5
+chef d'État
+    R : 51
+    associated : 1
+    locution : 3
+composé de
+    R : 1
+compte de réseau social sur
+    R : 4
+conduite à
+    R : 1
+conjoint
+    R : 4
+continent
+    R : 16
+    associated : 3
+    holo : 3
+    lieu : 5
+dialecte
+    R : 4
+distinction
+    R : 8
+domaine d'activité
+    R : 1
+domaine internet
+    R : 8
+drapeau (description)
+    R : 13
+décrit par
+    R : 29
+employeur
+    R : 6
+enclavé dans
+    R : 2
+enfant
+    R : 10
+exécutif
+    R : 4
+fonction
+    R : 4
+fonction occupée par le chef d'État
+    R : 1
+fondateur
+    R : 2
+fuseau horaire
+    R : 43
+genre artistique
+    R : 1
+groupe ethnique
+    R : 2
+hymne
+    R : 9
+influence
+    R : 4
+influencé par
+    R : 8
+institution de normalisation
+    R : 1
+instrument
+    R : 1
+    associated : 1
+jour férié
+    R : 10
+jumelage
+    R : 236
+    lieu-1 : 2
+langue maternelle
+    R : 4
+langue officielle
+    R : 20
+    associated : 3
+    conseq : 1
+    familly : 2
+    lieu-1 : 1
+langue parlée
+    R : 4
+lieu d'enterrement
+    R : 16
+lieu de décès
+    R : 19
+lieu de naissance
+    R : 19
+lieu de travail
+    R : 9
+limitrophe de
+    R : 290
+    antimagn : 1
+    lieu-1 : 2
+liste de biens patrimoniaux
+    R : 7
+liste des œuvres
+    R : 7
+localisation géographique
+    R : 5
+localisation territoriale
+    R : 36
+    associated : 6
+    holo : 1
+    lieu : 4
+    lieu-1 : 2
+    locution : 5
+membre de
+    R : 162
+monnaie
+    R : 12
+mouvement
+    R : 7
+mère
+    R : 3
+nature de l'élément
+    R : 173
+    associated : 29
+    domain : 10
+    isa : 30
+    lieu-1 : 2
+    meaning : 2
+nom de famille
+    R : 1
+    associated : 1
+nommé en référence à
+    R : 15
+    has_part : 1
+    lieu-1 : 1
+    syn : 1
+opérateur
+    R : 1
+partenaire
+    R : 14
+    associated : 1
+partie de
+    R : 32
+    associated : 3
+    holo : 2
+    lieu : 1
+pays
+    R : 36
+    associated : 19
+    domain : 2
+    holo : 5
+    lieu : 20
+    locution : 2
+    syn : 2
+pays de nationalité
+    R : 22
+plus haute juridiction
+    R : 9
+point culminant
+    R : 9
+    lieu-1 : 2
+portail
+    R : 19
+poste occupé par le chef de l'exécutif
+    R : 4
+principal texte régulateur
+    R : 4
+    locution : 1
+profession
+    R : 72
+    associated : 18
+    isa : 14
+propriété associée
+    R : 2
+précédé par
+    R : 21
+    associated : 1
+    instance : 1
+    locution : 2
+prénom
+    R : 23
+    associated : 10
+père
+    R : 4
+relation diplomatique
+    R : 146
+religion
+    R : 4
+régime politique
+    R : 16
+réputé identique à
+    R : 2
+saint patron
+    R : 3
+    locution : 1
+scolarité
+    R : 8
+sexe ou genre
+    R : 19
+situé sur ou près de l'étendue d'eau
+    R : 5
+    associated : 1
+sous-classe de
+    R : 17
+style de vie
+    R : 2
+subdivisions (division administrative)
+    R : 340
+    associated : 3
+    has_part : 6
+    lieu-1 : 70
+    locution : 4
+suivi par
+    R : 17
+système d'écriture
+    R : 1
+séparé de
+    R : 1
+    causatif : 1
+texte fondateur
+    R : 4
+événement clé
+    R : 13
+œuvre
+    R : 4
