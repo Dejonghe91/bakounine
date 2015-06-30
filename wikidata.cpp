@@ -7,7 +7,7 @@ void bakouplayWD(){ //V1
     ofstream ofs ("./ressources/relationsTrouveWD.txt");
     map<string, string> relation = bakoulearnFichier("relationsMotsWD.txt");
     cout<<"ce que l'on a appris : "<<endl;
-    ifstream ifs ("liensavisiter.txt");
+    ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //un mot du top100 version JDM
     string lien; //Le lien correspondant

@@ -74,7 +74,9 @@ void bakoucontribue(){
 
 int main()
 {
-    bakoulearnWD();
+    BakuSemantic baseSem;
+    baseSem.getBakuSemanticBase();
+    baseSem.addStatRels();
 
     return 0;
 }

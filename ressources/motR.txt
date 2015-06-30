@@ -1,250 +1,653 @@
+PDG
+    R : 3
+    associated : 1
+a remplacé
+    R : 9
+    locution : 2
 affection médicale
-    R : 2
+    R : 22
+alimentation du lac
+    R : 10
+allégeance
+    R : 1
 appartient à la juridiction
     R : 1
 architecte
+    R : 3
+arme
+    R : 3
+aspect de
     R : 1
+    domain : 1
+    meaning : 1
 assemblée délibérante
+    R : 50
+auteur
     R : 12
+    associated : 2
+    causatif : 1
+    processus>agent : 1
+    product_of : 1
 banque centrale
+    R : 5
+banque émettrice
+    R : 1
+basé sur
+    R : 3
+beau-père
+    R : 2
+belle-mère
     R : 1
 blasonnement
-    R : 12
+    R : 58
+branche
+    R : 3
 capitale
-    R : 11
-    associated : 6
-    has_part : 3
-    lieu-1 : 8
+    R : 59
+    associated : 34
+    has_part : 14
+    instance : 1
+    lieu-1 : 45
+    meaning : 1
+    syn : 1
 capitale de
-    R : 4
-    associated : 2
+    R : 29
+    associated : 13
     domain : 2
-    holo : 2
-    lieu : 3
+    holo : 9
+    lieu : 13
     syn : 2
 catégorie
-    R : 75
+    R : 402
+    locution : 1
 catégorie de personnalité
-    R : 23
+    R : 104
+catégorie du bassin hydrogaphique
+    R : 1
 catégorie pour les films tournés à cet endroit
-    R : 17
+    R : 88
 catégorie pour les personnes enterrées à cet endroit
-    R : 12
+    R : 40
 catégorie pour les personnes mortes à cet endroit
-    R : 24
+    R : 103
 catégorie pour les personnes nées à cet endroit
-    R : 24
+    R : 103
 cause de décès
+    R : 46
+    associated : 3
+cause immédiate
+    R : 3
+cause profonde
     R : 5
 chef d'État
-    R : 51
-    associated : 1
-    locution : 3
-composé de
-    R : 1
-compte de réseau social sur
-    R : 4
-conduite à
-    R : 1
-conjoint
-    R : 4
-continent
-    R : 16
+    R : 219
     associated : 3
-    holo : 3
-    lieu : 5
-dialecte
-    R : 4
-distinction
-    R : 8
-domaine d'activité
-    R : 1
-domaine internet
-    R : 8
-drapeau (description)
-    R : 13
-décrit par
-    R : 29
-employeur
-    R : 6
-enclavé dans
-    R : 2
-enfant
+    locution : 6
+circonstances du décès
     R : 10
+    associated : 3
+collaborateur
+    R : 4
+    associated : 1
+collection
+    R : 1
+commanditaire
+    R : 1
+compositeur
+    R : 3
+composé de
+    R : 78
+    associated : 1
+    lieu-1 : 1
+compte de réseau social sur
+    R : 52
+    product_of : 1
+concepteur
+    R : 1
+conduite à
+    R : 8
+conflit
+    R : 19
+    associated : 3
+conjoint
+    R : 121
+    associated : 9
+contient la localité
+    R : 7
+continent
+    R : 73
+    associated : 24
+    causatif : 2
+    domain : 1
+    holo : 7
+    isa : 3
+    lieu : 24
+    magn : 1
+    meaning : 1
+contraire
+    R : 4
+corps parent
+    R : 1
+    associated : 1
+couleur des cheveux
+    R : 2
+couleur des yeux
+    R : 1
+créateur
+    R : 11
+    associated : 1
+    has_auteur : 1
+description du sceau
+    R : 1
+devise
+    R : 2
+dialecte
+    R : 11
+diffuseur original
+    R : 8
+diocèse
+    R : 1
+diplôme
+    R : 5
+directeur de la photographie
+    R : 7
+directeur de thèse
+    R : 1
+discographie
+    R : 16
+distinction
+    R : 297
+distributeur
+    R : 1
+distribution
+    R : 140
+    associated : 2
+    has_actors : 12
+    lieu-1 : 11
+domaine d'activité
+    R : 6
+domaine internet
+    R : 63
+doubleur
+    R : 10
+drapeau (description)
+    R : 64
+    locution : 2
+découvreur ou inventeur
+    R : 1
+décrit l'univers de fiction
+    R : 2
+décrit par
+    R : 139
+dédicacé à
+    R : 1
+dépeint
+    R : 13
+    associated : 2
+    has_part : 1
+    isa : 1
+développeur
+    R : 8
+    associated : 2
+employeur
+    R : 35
+    associated : 1
+enclavé dans
+    R : 3
+enfant
+    R : 147
+    equiv : 1
+erreur
+    R : 1
 exécutif
+    R : 14
+fabricant
+    R : 4
+facteur contributif
+    R : 4
+famille nobiliaire
+    R : 10
+filiales
+    R : 15
+filmographie
     R : 4
 fonction
-    R : 4
+    R : 101
+    associated : 10
+    isa : 9
 fonction occupée par le chef d'État
-    R : 1
-fondateur
-    R : 2
-fuseau horaire
-    R : 43
-genre artistique
-    R : 1
-groupe ethnique
-    R : 2
-hymne
-    R : 9
-influence
-    R : 4
-influencé par
-    R : 8
-institution de normalisation
-    R : 1
-instrument
-    R : 1
-    associated : 1
-jour férié
-    R : 10
-jumelage
-    R : 236
-    lieu-1 : 2
-langue maternelle
-    R : 4
-langue officielle
-    R : 20
-    associated : 3
-    conseq : 1
-    familly : 2
-    lieu-1 : 1
-langue parlée
-    R : 4
-lieu d'enterrement
-    R : 16
-lieu de décès
-    R : 19
-lieu de naissance
-    R : 19
-lieu de travail
-    R : 9
-limitrophe de
-    R : 290
-    antimagn : 1
-    lieu-1 : 2
-liste de biens patrimoniaux
-    R : 7
-liste des œuvres
-    R : 7
-localisation géographique
-    R : 5
-localisation territoriale
-    R : 36
-    associated : 6
-    holo : 1
-    lieu : 4
-    lieu-1 : 2
-    locution : 5
-membre de
-    R : 162
-monnaie
-    R : 12
-mouvement
-    R : 7
-mère
-    R : 3
-nature de l'élément
-    R : 173
-    associated : 29
-    domain : 10
-    isa : 30
-    lieu-1 : 2
-    meaning : 2
-nom de famille
-    R : 1
-    associated : 1
-nommé en référence à
-    R : 15
-    has_part : 1
-    lieu-1 : 1
-    syn : 1
-opérateur
-    R : 1
-partenaire
     R : 14
-    associated : 1
-partie de
-    R : 32
-    associated : 3
-    holo : 2
-    lieu : 1
-pays
-    R : 36
-    associated : 19
-    domain : 2
-    holo : 5
-    lieu : 20
     locution : 2
-    syn : 2
-pays de nationalité
-    R : 22
-plus haute juridiction
-    R : 9
-point culminant
-    R : 9
-    lieu-1 : 2
-portail
-    R : 19
-poste occupé par le chef de l'exécutif
-    R : 4
-principal texte régulateur
-    R : 4
-    locution : 1
-profession
+fondateur
+    R : 13
+    associated : 2
+foyer ancestral
+    R : 1
+fuseau horaire
+    R : 182
+fête
+    R : 2
+genre artistique
     R : 72
+    associated : 9
+    domain : 1
+    isa : 2
+    meaning : 1
+grade militaire
+    R : 6
+    associated : 1
+    isa : 1
+groupe ethnique
+    R : 15
+    associated : 1
+historique des expositions
+    R : 3
+hymne
+    R : 49
+    locution : 1
+idéologie politique
+    R : 8
+    associated : 1
+illustrateur
+    R : 1
+inculpé pour
+    R : 1
+industrie
+    R : 3
+influence
+    R : 6
+influencé par
+    R : 18
+inspiré de
+    R : 5
+institution de normalisation
+    R : 4
+instrument
+    R : 20
+    associated : 4
+    lieu-1 : 1
+interprète
+    R : 5
+    associated : 1
+    has_actors : 1
+    lieu-1 : 1
+jour de l'année
+    R : 2
+jour férié
+    R : 197
+jumelage
+    R : 1047
+    lieu-1 : 2
+label discographique
+    R : 11
+langue de l'œuvre
+    R : 1
+    associated : 1
+langue maternelle
+    R : 56
+    associated : 8
+    carac : 2
+langue officielle
+    R : 89
     associated : 18
-    isa : 14
+    causatif : 1
+    conseq : 1
+    familly : 8
+    has_part : 1
+    lieu-1 : 7
+langue originale
+    R : 22
+    associated : 1
+langue parlée
+    R : 33
+    carac : 2
+latéralisation
+    R : 2
+librettiste
+    R : 1
+licence
+    R : 2
+lieu
+    R : 2
+lieu d'enterrement
+    R : 77
+    associated : 2
+lieu d'origine (Suisse)
+    R : 1
+lieu de décès
+    R : 131
+    associated : 2
+    lieu : 3
+lieu de fabrication
+    R : 1
+lieu de fondation
+    R : 1
+lieu de naissance
+    R : 224
+    associated : 2
+    lieu : 1
+lieu de publication
+    R : 1
+lieu de travail
+    R : 46
+    associated : 2
+lieu du récit
+    R : 10
+    associated : 2
+    lieu : 1
+lieu du tournage
+    R : 2
+limitrophe de
+    R : 808
+    antimagn : 1
+    associated : 5
+    domain : 1
+    lieu-1 : 4
+    meaning : 1
+    syn : 1
+liste de
+    R : 1
+liste de biens patrimoniaux
+    R : 29
+liste des épisodes
+    R : 8
+liste des œuvres
+    R : 10
+localisation des archives
+    R : 5
+localisation géographique
+    R : 13
+localisation territoriale
+    R : 212
+    associated : 19
+    domain : 1
+    holo : 11
+    lieu : 23
+    lieu-1 : 2
+    locution : 13
+    magn : 1
+    meaning : 1
+    syn : 1
+matériau
+    R : 10
+    associated : 1
+    isa : 1
+membre de
+    R : 633
+    associated : 1
+    holo : 2
+membre de l'équipe de sport
+    R : 18
+monnaie
+    R : 65
+monteur
+    R : 1
+moteur
+    R : 1
+mouvement
+    R : 31
+    associated : 9
+mère
+    R : 45
+    associated : 1
+nature de l'élément
+    R : 898
+    aki : 2
+    associated : 246
+    carac : 1
+    domain : 47
+    has_part : 1
+    holo : 2
+    isa : 241
+    lieu-1 : 2
+    meaning : 14
+nom de famille
+    R : 33
+    associated : 23
+    holo : 1
+    lieu : 1
+    syn : 4
+nominé pour
+    R : 25
+nommé en référence à
+    R : 67
+    associated : 4
+    has_part : 2
+    lieu-1 : 2
+    syn : 3
+opérateur
+    R : 2
+organisateur
+    R : 2
+organisme de normalisation
+    R : 2
+orientation sexuelle
+    R : 4
+origine mécanique de l'énergie
+    R : 2
+parent
+    R : 1
+parolier
+    R : 1
+parrain/marraine
+    R : 2
+partenaire
+    R : 49
+    associated : 3
+parti politique
+    R : 39
+participant
+    R : 2
+    associated : 1
+participant à
+    R : 11
+partie de
+    R : 102
+    associated : 5
+    causatif : 1
+    holo : 5
+    lieu : 4
+pays
+    R : 140
+    associated : 64
+    domain : 14
+    holo : 30
+    lieu : 73
+    lieu-1 : 1
+    locution : 5
+    magn : 1
+    meaning : 1
+    syn : 3
+pays d'origine
+    R : 19
+pays de nationalité
+    R : 250
+    associated : 16
+    domain : 8
+    lieu : 2
+pays riverain d'une étendue d'eau
+    R : 11
+personnages
+    R : 20
+    antimagn : 2
+    associated : 5
+place de cotation
+    R : 2
+plat traditionnellement associé
+    R : 3
+plus haute juridiction
+    R : 33
+point culminant
+    R : 42
+    lieu-1 : 10
+point de phase
+    R : 4
+point le plus bas
+    R : 1
+portail
+    R : 92
+poste occupé par le chef de l'exécutif
+    R : 23
+principal texte régulateur
+    R : 8
+    locution : 2
+producteur
+    R : 8
+produit naturel du taxon
+    R : 1
+profession
+    R : 921
+    associated : 181
+    carac : 1
+    domain : 14
+    isa : 137
+    meaning : 1
+propriétaire
+    R : 9
+    associated : 1
 propriété associée
     R : 2
+protonyme
+    R : 1
 précédé par
-    R : 21
-    associated : 1
-    instance : 1
-    locution : 2
+    R : 45
+    associated : 3
+    instance : 2
+    locution : 3
 prénom
-    R : 23
-    associated : 10
+    R : 234
+    associated : 149
 père
-    R : 4
+    R : 59
+    equiv : 1
+rang taxinomique
+    R : 5
 relation diplomatique
-    R : 146
+    R : 523
+    associated : 1
 religion
-    R : 4
+    R : 49
+    associated : 5
+remplacé par
+    R : 1
+représentant du parti
+    R : 3
+réalisateur
+    R : 28
+    has_actors : 1
 régime politique
-    R : 16
+    R : 63
+    associated : 1
 réputé identique à
+    R : 15
+    lieu : 1
+    lieu-1 : 1
+    syn : 4
+résidence
+    R : 17
+résidence officielle
     R : 2
 saint patron
-    R : 3
-    locution : 1
+    R : 21
+    locution : 2
 scolarité
-    R : 8
+    R : 108
+    lieu : 1
+scénariste
+    R : 6
+    has_actors : 1
+se jette dans
+    R : 1
 sexe ou genre
-    R : 19
+    R : 227
+signes cliniques
+    R : 15
+    associated : 2
+    syn : 1
 situé sur ou près de l'étendue d'eau
+    R : 19
+    associated : 3
+siège social
+    R : 4
+société de production
+    R : 15
+société faîtière
+    R : 1
+source
+    R : 1
+sous-classe de
+    R : 94
+    associated : 2
+statut de conservation UICN
+    R : 1
+statut patrimonial
+    R : 6
+style architectural
+    R : 2
+style de vie
+    R : 13
+subdivisions (division administrative)
+    R : 1228
+    associated : 22
+    has_part : 44
+    lieu-1 : 284
+    locution : 9
+suivi par
+    R : 36
+sujet de l'œuvre
+    R : 8
+sur le corps astronomique
+    R : 2
+    causatif : 1
+    holo : 1
+    lieu : 1
+système d'exploitation
+    R : 3
+système d'écriture
+    R : 5
+séparé de
+    R : 4
+    causatif : 1
+série
+    R : 2
+taxon supérieur
+    R : 6
+territoire revendiqué par
+    R : 4
+    associated : 1
+    locution : 1
+tessiture
+    R : 11
+texte fondateur
+    R : 8
+thème musical
+    R : 1
+tiré de l'univers de fiction
+    R : 2
+traducteur
+    R : 2
+tué par
+    R : 4
+    associated : 1
+type d'orbite
+    R : 1
+usage
+    R : 10
+éditeur
+    R : 2
+édition
+    R : 5
+élève de
     R : 5
     associated : 1
-sous-classe de
-    R : 17
-style de vie
-    R : 2
-subdivisions (division administrative)
-    R : 340
-    associated : 3
-    has_part : 6
-    lieu-1 : 70
-    locution : 4
-suivi par
-    R : 17
-système d'écriture
+émissaire du lac
+    R : 3
+étape de canonisation
     R : 1
-séparé de
-    R : 1
-    causatif : 1
-texte fondateur
-    R : 4
 événement clé
-    R : 13
+    R : 100
 œuvre
-    R : 4
+    R : 106
+    associated : 16
+    holo : 4
+    lieu : 4

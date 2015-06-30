@@ -13,6 +13,8 @@ créateur|100|r_has_auteur|1
 effets|41|r_conseq|1
 est similaire|67|r_similar|1
 est spécifique|64|r_instance|1
+facteur|42|r_causatif|0.5
+facteur contributif|42|r_causatif|0.5
 faire|10|r_agent|1
 groupe ethnique|15|r_lieu|1
 implique|57|r_implication|1
@@ -32,6 +34,7 @@ pouvoir|17|r_carac|1
 produire|53|r_make|1
 reine|15|r_lieu|1
 réalisateur|100|r_has_auteur|1
+régime politique|17|r_carac|0.5
 scénario|100|r_has_auteur|1
 signifier|5|r_syn|1
 société mère|15|r_lieu|1

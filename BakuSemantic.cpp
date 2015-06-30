@@ -223,6 +223,28 @@ int BakuSemantic::getrelIdWithName(string name){
 }
 
 
+void BakuSemantic::addStatRels(){
+    ifstream file(stat_file);
+    string line = "";
+    vector<string> res;
+    while(getline(file, line)) {
+
+        int nb = Split(res, line, '|');
+
+        if(nb==3) {
+
+            float seuil = stof(res[2].c_str());
+            if(seuil <= 1 && seuil > 0.1){
+                cout << "ajout du terme : " << res[0] << ", relation : " << res[1] << ", seuil : " << seuil << ", dans la base."<< endl;
+                addRel(res[0],res[1]);
+            }
+        }
+    }
+}
+
+
+
+///////////  FONCTIONS DE TESTS  ////////////
 void bakuSemanticTest(){
     BakuSemantic sem;
     sem.getBakuSemanticBase();

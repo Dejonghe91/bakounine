@@ -25,6 +25,7 @@ class BakuSemantic
 {
     public:
         const string base_file = "./ressources/base.txt";
+        const string stat_file = "./ressources/motStat.txt";
 
         BakuSemantic();
         virtual ~BakuSemantic();
@@ -64,7 +65,15 @@ class BakuSemantic
          */
         bool addRel(string terme, RelSem rel);
 
+        /**
+         *  Permet de récupérer l'ID jdm d'une relation
+         */
         int getrelIdWithName(string relname);
+
+        /**
+         *  Permet d'ajouter les termes obtenues de manières statistique à la base de connaissance
+         */
+        void addStatRels();
 
     protected:
     private:
