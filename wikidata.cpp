@@ -4,8 +4,8 @@
 void bakouplayWD(){ //V1
     string cible;
     string source;
-    ofstream ofs ("relationsTrouveWD.txt");
-    map<string, string> relation = bakoulearnFichier("relationsMotsWD2.txt");
+    ofstream ofs ("./ressources/relationsTrouveWD.txt");
+    map<string, string> relation = bakoulearnFichier("relationsMotsWD.txt");
     cout<<"ce que l'on a appris : "<<endl;
     ifstream ifs ("liensavisiter.txt");
     string ligne; //un mot du top100
@@ -78,8 +78,8 @@ void bakouplayWD(){ //V1
 
 map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
     ifstream ifs(s);
-    ofstream ofs("motR.txt");
-    ofstream fichier("motStat.txt");
+    ofstream ofs("./ressources/motR.txt");
+    ofstream fichier("./ressources/motStat.txt");
     string ligne;
     map<string, string> retour;
     map<string, map<string, int> > MotRelation;
@@ -129,13 +129,13 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
 map<string, string> bakoulearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("relationsMotsWD2.txt");
+    ofstream ofs ("./ressources/relationsMotsWD.txt");
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
     map<string, int>::iterator iter;
     map<string, string>::iterator iterTrace;
-    ifstream ifs ("liensavisiter.txt");
+    ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //Version JDM du mot
     string lien; //Le lien correspondant
@@ -185,5 +185,5 @@ map<string, string> bakoulearnWD(){ //SUR WIKIDATA
             }
         }
     }
-    bakoulearnFichier("relationsMotsWD2.txt");
+    bakoulearnFichier("relationsMotsWD.txt");
 }

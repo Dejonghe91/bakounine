@@ -1,9 +1,6 @@
 #include "bakuSemanticLearn.h"
 
 
-/**
- *
- */
 void getMots(string *mr, string *mr2){
     string mrTest = jdmExiste(*mr);
     *mr2 = *mr;
@@ -133,7 +130,7 @@ void casIsaANdHypo(BakuSemantic baseSem, string mr, vector<relfind> voisins ,rel
 void bakouSemanticLearn(vector<string> words){
 
     BakuSemantic baseSem;
-    ofstream fichier("test.txt", ios::out | ios::app);
+    ofstream fichier("./traces/test.txt", ios::out | ios::app);
     map<string, vector<RelSem>> base = baseSem.getBakuSemanticBase();
 
     if(base.empty()){
@@ -207,7 +204,7 @@ void addWord(BakuSemantic *baseSem, string mot, RelSem rel){
 
 void bakuSemanticLearnTest() {
 
-    ifstream fichier("relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
+    ifstream fichier("./ressources/relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
     vector <string> mrs;
 
     if(fichier)  // si l'ouverture a réussi
@@ -239,7 +236,7 @@ void bakuSemanticLearnTest() {
 
 void bakuSemanticLearnTestWD() {
 
-    ifstream fichier("relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
+    ifstream fichier("./ressources/relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
     vector <string> mrs;
 
     if(fichier)  // si l'ouverture a réussi
@@ -270,7 +267,7 @@ void bakuSemanticLearnTestWD() {
 
 void bakuSemanticLearnTestMed(){
 
-    ifstream fichier("mot_lionel.txt", ios::in);  // on ouvre le fichier en lecture
+    ifstream fichier("./ressources/mot_lionel.txt", ios::in);  // on ouvre le fichier en lecture
     vector <string> mrs;
 
     if(fichier)  // si l'ouverture a réussi

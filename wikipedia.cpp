@@ -54,7 +54,7 @@ map<string,string> ouvririnfobox(string s){
 //1 : ouvrir 100 pages wikipedia
 map<string, string> bakoulearn()
 {
-    ofstream ofs ("relationsMots.txt");                 // écriture des résultats
+    ofstream ofs ("./ressources/relationsMots.txt");                 // écriture des résultats
     map<string, string> retour;                         // map de retour
     map<string, map<string, int> > MotRelation;         // clé : un mot infobox : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;    // itérateur sur la map mot relations
@@ -135,10 +135,10 @@ map<string, string> bakoulearn()
 void bakouplay(){ //V1
     string cible;
     string source;
-    ofstream ofs ("relationsTrouve.txt");
+    ofstream ofs ("./ressources/relationsTrouve.txt");
     map<string, string> relation = bakoulearn();
     cout<<"ce que l'on a appris : "<<endl;
-    ifstream ifs ("liensavisiter.txt");
+    ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //un mot du top100 version JDM
     string lien; //Le lien correspondant

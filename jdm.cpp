@@ -58,32 +58,6 @@ string jdmExiste(string s){
     return maxs;
 }
 
-/*
-//http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=saloperie
-string jdmExiste(string s){
-    //cout<<" existe ?"<<s<<endl;
-    string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
-    url+=s;
-    //cout<<url<<endl;
-    url = transformer(&url," ","%20");
-    //cout<<"url : "<<url<<endl;
-    //pause("url");
-    string result=ouvrirPage(url);
-        //cout<<result<<endl;
-        //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
-        int i=0;
-        string candidat;
-        lireMot(&i, &result, "[\"");
-        lireChar(&i, &result, '"', &candidat);
-        if(LevenshteinDistance(s, candidat)<4 || LevenshteinDistance(latin1(s), candidat)<4){
-            return boost::locale::conv::to_utf<char>(candidat,"Latin1");;
-        } else {
-            return "";
-        }
-    //}
-}
-*/
-
 
 bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
     //cout<<" existe ?"<<s<<endl;

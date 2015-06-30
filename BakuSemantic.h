@@ -24,7 +24,7 @@ struct RelSem{
 class BakuSemantic
 {
     public:
-        const string base_file = "base.txt";
+        const string base_file = "./ressources/base.txt";
 
         BakuSemantic();
         virtual ~BakuSemantic();

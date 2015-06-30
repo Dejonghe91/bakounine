@@ -5,25 +5,27 @@
 #include <iostream>
 #include <vector>
 #include <unistd.h>
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 /*
-    int TYPENUM = TYPENUM_H;
-    int MOTPRESENTS = MOTPRESENTS_H;
-    int NBMOTS = NBMOTS_H;
-    int NBMAXMOTS = NBMAXMOTS_H;
-    int COURANT = COURANT_H;
-    string TEXTEINFO;// = "générés depuis les données du .h";
-    //TEXTEINFO += TEXTEINFO_H;
-    int  VTRACE = VTRACE_H;
-    string NOMFICHIERWEKA = NOMFICHIERWEKA_H;
-     //TESTCOURANT = TESTCOURANT_H;
-    int  SAVEDESCRIPT = SAVEDESCRIPT_H;
-    int  CASECOURANTE = CASECOURANTE_H;
-    float  SEUILCOURANT = SEUILCOURANT_H;
-    string SORTIE = SORTIE_H;
+int TYPENUM = TYPENUM_H;
+int MOTPRESENTS = MOTPRESENTS_H;
+int NBMOTS = NBMOTS_H;
+int NBMAXMOTS = NBMAXMOTS_H;
+int COURANT = COURANT_H;
+string TEXTEINFO;// = "générés depuis les données du .h";
+//TEXTEINFO += TEXTEINFO_H;
+int  VTRACE = VTRACE_H;
+string NOMFICHIERWEKA = NOMFICHIERWEKA_H;
+ //TESTCOURANT = TESTCOURANT_H;
+int  SAVEDESCRIPT = SAVEDESCRIPT_H;
+int  CASECOURANTE = CASECOURANTE_H;
+float  SEUILCOURANT = SEUILCOURANT_H;
+string SORTIE = SORTIE_H;
 */
-
-
 
 
 //namespace perso {
@@ -35,80 +37,80 @@
     }
 }
 
-    void persoPause(){
-        int pause;
-        cout<<"pause"<<endl;
-        cin>>pause;
+void persoPause(){
+    int pause;
+    cout<<"pause"<<endl;
+    cin>>pause;
+}
+
+bool raz(int * it){
+    *it=0;
+    return true;
+}
+
+bool raz(string *s){
+    s->clear();
+    return true;
+}
+
+string repertoireCourant()
+{
+    char temp[200];
+    return ( getcwd(temp, 200) ? string( temp ) : string("") );
+}
+
+int alea(int nombre){
+    return rand() % nombre;
+}
+
+void pause (string message){
+    cout<<"pause : "<<message<<endl;
+    persoPause();
+
+}
+
+void bp(){
+    cout<<"break!"<<endl;
+}
+
+void init(){
+  srand ( time(NULL) );
+  initPoncutation();
+}
+
+void bpE(string erreur){
+    std::cout<<erreur<<std::endl;
+    bp();
+
+}
+
+void afficher(vector<string> s){
+    for(int i=0; i<(int)s.size(); i++){
+        cout<<s[i]<<endl;
     }
 
-    bool raz(int * it){
-        *it=0;
-        return true;
+}
+
+bool dansVecteur(string mot, vector<string> vTemp){
+    int i;
+    for( i =0; i<vTemp.size() && vTemp[i]!=mot; i++){
     }
+    return i<vTemp.size();
+}
 
-    bool raz(string *s){
-        s->clear();
-        return true;
+void afficher(vector<Relation> vr){
+    cout<<"affichage du vecteur (taille  "<<vr.size()<<") : "<<endl;
+    for(int i=0; i<(int)vr.size(); i++){
+        cout<<vr[i]<<endl;
     }
+}
 
-    string repertoireCourant()
-    {
-        char temp[200];
-        return ( getcwd(temp, 200) ? string( temp ) : string("") );
+
+void vider(vector <int> * v){
+    for(int i=0; i<(int)v->size(); i++){
+        (*v)[i]=0;
     }
-
-    int alea(int nombre){
-        return rand() % nombre;
-    }
-
-    void pause (string message){
-        cout<<"pause : "<<message<<endl;
-        persoPause();
-
-    }
-
-    void bp(){
-        cout<<"break!"<<endl;
-    }
-
-    void init(){
-      srand ( time(NULL) );
-      initPoncutation();
-    }
-
-    void bpE(string erreur){
-        std::cout<<erreur<<std::endl;
-        bp();
-
-    }
-
-    void afficher(vector<string> s){
-        for(int i=0; i<(int)s.size(); i++){
-            cout<<s[i]<<endl;
-        }
-
-    }
-
-    bool dansVecteur(string mot, vector<string> vTemp){
-        int i;
-        for( i =0; i<vTemp.size() && vTemp[i]!=mot; i++){
-        }
-        return i<vTemp.size();
-    }
-
-    void afficher(vector<Relation> vr){
-        cout<<"affichage du vecteur (taille  "<<vr.size()<<") : "<<endl;
-        for(int i=0; i<(int)vr.size(); i++){
-            cout<<vr[i]<<endl;
-        }
-    }
-
-
-    void vider(vector <int> * v){
-        for(int i=0; i<(int)v->size(); i++){
-            (*v)[i]=0;
-        }
-    }
+}
 
 
 bool isMajuscule(string s){ //renvoie vrai si la première lettre est une majuscule.
@@ -149,53 +151,12 @@ string minuscule(string s){ //renvoie la string avec sa première lettre en minu
     return s;
 }
 
-/*
-void vider(vector <int> * v){
-    for(int i=0; i<(int)v->size(); i++){
-        (*v)[i]=0;
-    }
-}
-*/
-//}
 
-    ostream& operator<<(ostream& os, const  Relation & r1){
-        os << r1.mot1 << " - " << r1.mot2 << " ( "<< r1.r<<" , "<<r1.date<<" ) "<<endl;
-        return os;
-    }
-
-/*
-int levenshtein_distance(const std::string &s1, const std::string &s2)
-{
-	// To change the type this function manipulates and returns, change
-	// the return type and the types of the two variables below.
-	int s1len = s1.size();
-	int s2len = s2.size();
-
-	auto column_start = (decltype(s1len))1;
-
-	auto column = new decltype(s1len)[s1len + 1];
-	std::iota(column + column_start, column + s1len + 1, column_start);
-
-	for (auto x = column_start; x <= s2len; x++) {
-		column[0] = x;
-		auto last_diagonal = x - column_start;
-		for (auto y = column_start; y <= s1len; y++) {
-			auto old_diagonal = column[y];
-			auto possibilities = {
-				column[y] + 1,
-				column[y - 1] + 1,
-				last_diagonal + (s1[y - 1] == s2[x - 1]? 0 : 1)
-			};
-			column[y] = std::min(possibilities);
-			last_diagonal = old_diagonal;
-		}
-	}
-	auto result = column[s1len];
-	delete[] column;
-	return result;
+ostream& operator<<(ostream& os, const  Relation & r1){
+    os << r1.mot1 << " - " << r1.mot2 << " ( "<< r1.r<<" , "<<r1.date<<" ) "<<endl;
+    return os;
 }
 
-*/
 
 int GetUtf8CharacterLength( unsigned char utf8Char )
 {
@@ -253,15 +214,8 @@ char *Utf8ToLatin1String( char *s )
 }
 
 
-
-
-#include <string>
-#include <iostream>
-using namespace std;
-
 // Compute Levenshtein Distance
 // Martin Ettl, 2012-10-05
-
 size_t LevenshteinDistance(const std::string &s1, const std::string &s2)
 {
   const size_t m(s1.size());

@@ -7,8 +7,8 @@
 #include "./tout.h"
 #include <curl/curl.h>
 
-ofstream ofs("arbreJson.txt");
-ofstream ofs2("relJson.txt");
+ofstream ofs("./traces/arbreJson.txt");
+ofstream ofs2("./traces/relJson.txt");
 
 vector<string> vcourant;
 string ccourant;
@@ -73,42 +73,6 @@ void afficheA(int decalage, Value::ConstMemberIterator itr, Value& sousArbre){
 
 }
 
-/*
-void recurRel(Value& sousArbre){
-    for (Value::ConstMemberIterator itr = sousArbre.MemberBegin(); itr != sousArbre.MemberEnd(); ++itr){
-        //cout<<espace(decalage)<<itr->name.GetString()<<kTypeNames[itr->value.GetType()]<<endl;
-        RetourneRel(itr, sousArbre);
-        if(itr->value.GetType()==3){
-            recurRel(sousArbre[itr->name.GetString()]);
-        }
-        //printf("Type of member %s is %s\n", itr->name.GetString(), kTypeNames[itr->value.GetType()]);
-    }
-}
-
-void RetourneRel(Value::ConstMemberIterator itr, Value& sousArbre){
-    if(itr->name.GetString()[0]=='P'){
-        if(vcourant.size()>0){
-            rel[ccourant]=vcourant;
-            vcourant.clear();
-            ccourant=itr->name.GetString();
-        }
-    }
-    if(itr->value.GetType()==4){
-        for (SizeType i = 0; i < sousArbre[itr->name.GetString()].Size(); i++){
-            if(sousArbre[itr->name.GetString()][i].GetType()==3){
-                recurRel(sousArbre[itr->name.GetString()][i]);
-            }
-        }
-    }
-    if(itr->value.GetType()==6){
-        string cmp = "numeric-id";
-        string cmp2 (itr->name.GetString());
-        if(cmp2==cmp){
-            vcourant.push_back(getNom(sousArbre[itr->name.GetString()].GetInt()));
-        }
-    }
-}
-*/
 
 void recurtest(int decalage, Value& sousArbre){
     for (Value::ConstMemberIterator itr = sousArbre.MemberBegin(); itr != sousArbre.MemberEnd(); ++itr){

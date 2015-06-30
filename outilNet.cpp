@@ -205,43 +205,14 @@ string ouvrirPageManuel(string domaine, string page, string cookieC, string para
     }
     Request.setField("cookie", cookieC);
     Request.setField("referer", refererC);
-    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    //std::cout << "page à ouvrir : "<<page<<endl;
-    //std::cout << "parametres : "<<param<<endl;
-    //std::cout << "Cookie : "<<cookieC<<endl;
-    //std::cout << "Referer : "<<refererC<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    //cout<<"parametres : "<<param<<endl;
-    //std::cout << "Status code (should be 200 on success) : " << Page.getStatus() << std::endl
-    //          << "Response received from "<<domaine << std::endl
-    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
-    //std::cout<< "Returned message : " << Page.getBody() << std::endl << std::endl;
-    //    cookie = Page.getField("Set-Cookie");
-    //    referer = domaine+page;
+
     string reponse = Page.getBody();
     if(Page.getStatus()!=200) {
         cout<<"réponse reçut après erreur : "<<reponse<<endl;
     }
 
-/*
-    if(Page.getStatus()==301) {
-        cout<<"ERREUR 301 : "<<endl<<reponse<<endl;
-        string nouveauLien = Page.getField("Location");
-        cout<<"Location : "<<nouveauLien<<endl;
-        if(nouveauLien.size()>2) {
-            reponse = ouvrirPage(nouveauLien);
-        }
-    }
-    if(Page.getStatus()==302) {
-        int it=0;
-        lireMot(&it, &reponse, "HREF");
-        it+=2;
-        string temp;
-        lireChar(&it, &reponse, '"',&temp);
-        cerr<<"nouvelle addresse trouve : "<<temp<<endl;
-        reponse = ouvrirPage(temp);
-    }
-*/
+
     return reponse;
 }
 
@@ -317,16 +288,7 @@ string ouvrirPage(string domaine, string page, string param) {
         Request.setField("cookie", cookie);
     }
 
-    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    //std::cout << "page à ouvrir : "<<page<<endl;
-    //std::cout << "parametres : "<<param<<endl;
-    //std::cout << "Cookie : "<<cookie<<endl;
-    //std::cout << "Referer : "<<referer<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
-    //cout<<"parametres : "<<param<<endl;
-    //std::cout << "Status code (should be 200 on success): " << Page.getStatus() << std::endl
-    //          << "Response received from "<<domaine << std::endl
-    //          << "HTTP version: " << Page.getMajorHttpVersion() << "." << Page.getMinorHttpVersion() << std::endl;
     cookie = Page.getField("Set-Cookie");
     referer = domaine+page;
     string reponse = Page.getBody();
@@ -356,23 +318,15 @@ string ouvrirPage(string domaine, string page, string param) {
 
 
 string ouvrirPage(string domaine, string page) {
-    //cout<<"OUVRIR PAGE : domaine et pas (pas d'arguments)"<<endl;
-    //cout<<domaine<<", "<<page<<endl;
-    //pause("ouverture d'une page");
+
     sf::Http Http;
     Http.setHost(domaine);
     sf::Http::Request Request;
     Request.setMethod(sf::Http::Request::Get);
-    //Request.setMethod(sf::Http::Request::Post); //A CHANGER
     Request.setUri(page);
     Request.setBody("");
     Request.setHttpVersion(1, 0);
-    //AJOUT
-    /*
-    Request.setField("Connection", "keep-alive");
-    Request.setField("Keep-Alive","115");
-    */
-    //FIN AJOUT
+
 
 
     if(cookie.size()>0){
@@ -382,8 +336,6 @@ string ouvrirPage(string domaine, string page) {
         //cout<<"pas de cookies!"<<endl;
     }
 
-    //std::cout << "Sending a request to "<<domaine  <<"..." << std::endl;
-    //std::cout << "page à ouvrir : "<<page<<endl;
     sf::Http::Response Page = Http.sendRequest(Request);
     cookie = Page.getField("Set-Cookie");
     //std::cout << "Cookie récupéré : \""<<cookie<<"\""<<endl;
@@ -393,7 +345,7 @@ string ouvrirPage(string domaine, string page) {
     if(Page.getStatus()!=200 || Page.getStatus()!=204) {
         //pause("erreur suspecté");
         //cout<<"réponse reçut après erreur : "<<reponse<<endl;
-        ofstream ofspage("pageerreur.html");
+        ofstream ofspage("./traces/pageerreur.html");
         ofspage<<"//"<<Page.getStatus()<<endl<<"//"<<domaine<<endl<<"//"<<page<<endl<<reponse<<endl;
         //pause("/erreur");
     }
@@ -507,7 +459,7 @@ string ouvrirPageHttpsForce(string addresse) {
 
     //std::cout <<"adresse : "<< addresse << std::endl;
     //std::cout <<"page : "<< retour << std::endl;
-    ofstream ofspage("pageerreur.html");
+    ofstream ofspage("./traces/pageerreur.html");
     ofspage<<retour<<endl;
     //std::cout <<"res : "<< res << std::endl;
     //std::cout <<"codeRetour : "<< codeRetour << std::endl;
@@ -779,7 +731,7 @@ string decouperPage(string * page, string balise, string nom) {
     } else {
         //la balise recherché n'existe pas!
         cerr<<"balise de type "<<balise<<" non trouvé : "<<nom<<" dans le texte se trouvant dans erreur.html"<<endl;
-        ofstream erreur ("erreur.html");
+        ofstream erreur ("./traces/erreur.html");
         erreur<<*page<<endl;
         retour="! BALISE NON TROUVE... ... ...";
          //pause("ERREUR DE BALISE 2");
@@ -825,7 +777,7 @@ string enleverPage(string * page, string balise, string nom) {
         cout<<"boucle, it ="<<it<<endl;
     }
     cout<<"sortie"<<endl;
-    ofstream erreur ("erreur.html");
+    ofstream erreur ("./traces/erreur.html");
     erreur<<*page<<endl;
     //retour="! BALISE NON TROUVE... ... ...";
     //pause("ERREUR DE BALISE 3");

@@ -355,26 +355,6 @@ bool lireMot(int * i, string * ligne, string * retour, string motRecherche){ //p
 }
 
 bool lireMot(int * i, string * ligne, string motRecherche, int deplacementMax){
-    //trace<<"lire mot : "<<motRecherche<<endl;
-    //trace<<" ligne : "<<*ligne<<endl;
-    //A SUPPRIMER!!!!
-    /*
-    cout<<" -100 : ";
-    for(int iter = *i-100; iter< *i; iter++){
-        cout<<(*ligne)[iter];
-    }
-    cout<<endl;
-    cout<<" A analyser : ";
-    for(int iter = *i; iter< deplacementMax; iter++){
-        cout<<(*ligne)[iter];
-    }
-    cout<<endl;
-    cout<<" Fin : ";
-    for(int iter = *i+deplacementMax; iter< deplacementMax+100; iter++){
-        cout<<(*ligne)[iter];
-    }
-    cout<<endl;
-    */
 
     int emplacementMax = min(*i+deplacementMax, ligne->size());
     bool trouve = false;
