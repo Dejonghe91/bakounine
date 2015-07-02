@@ -126,10 +126,10 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
     return retour;
 }
 
-map<string, string> bakoulearnWD(){ //SUR WIKIDATA
+map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("./ressources/relationsMotsWD.txt");
+    ofstream ofs ("./ressources/relationsMotsWD.txt", ios::out | ios::app);
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;

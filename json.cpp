@@ -124,15 +124,19 @@ string getNom(int id){
     /*string sid="Q";
     sid+=to_string(id);*/
     string json = ouvrirPageHttps(page);
-    Document document;
-    document.Parse(json.c_str());
-    assert(document.IsObject());
-    string sid = document["entities"].MemberBegin()->name.GetString();
-    if(document["entities"][sid.c_str()]["labels"].HasMember("fr")){
-        return document["entities"][sid.c_str()]["labels"]["fr"]["value"].GetString();
-    } else {
-        return "BakouErreur";
+    if(json != ""){
+        Document document;
+        document.Parse(json.c_str());
+        assert(document.IsObject());
+        string sid = document["entities"].MemberBegin()->name.GetString();
+        if(document["entities"][sid.c_str()]["labels"].HasMember("fr")){
+            return document["entities"][sid.c_str()]["labels"]["fr"]["value"].GetString();
+        } else {
+            return "BakouErreur";
+        }
     }
+    else
+        return "BakouJsonErreur";
 }
 
 

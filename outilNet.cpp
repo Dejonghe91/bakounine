@@ -635,13 +635,7 @@ string decouperPage(string * page, string balise, string nom, int * it) {
         balises[1]+='/';
         balises[1]+=balise;
         while(compteur>=0) {
-            /*cout<<"2... :"<<endl;
-            cout<<balises[0]<<endl;
-            cout<<balises[1]<<endl;
-            cout<<compteur<<endl;
-            cout<<*it<<endl;
-            cout<<page->size()<<endl;
-            */
+
             if(compteur>0){
                 //cout<<"récupéré : "<<retour<<endl;
                  //bp();
@@ -666,16 +660,7 @@ string decouperPage(string * page, string balise, string nom, int * it) {
         //On est ressorti de la zone à récuperer.
         retour+=">";
     } else {
-        //la balise recherché n'existe pas!
-        //cout<<"balise non trouvé!"<<endl;
-        //cerr<<"balise non trouvé : "<<nom<<" dans le texte :"<<endl<<*page<<endl;
-        /*
-        cerr<<"balise non trouvé ! "<<endl;
-        cout<<"retour!!!! '"<<retour<<"'"<<endl;
-        retour="! BALISE NON TROUVE... ... ...";
-         pause("ERREUR DE BALISE");
-         //bp();
-        */
+
         retour="";
     }
     return retour;

@@ -10,9 +10,29 @@
 #include "wikipedia.h"
 #include "wikidata.h"
 #include "bakuSemanticLearn.h"
+#include "FileMining.h"
 
 
 using namespace std;
+
+
+/**
+ * Prends tous les mots dans liensavisiter et récupères les informations de différentes sources d'informations
+ * Afin d'effectuer un apprentissage par une méthode statistique et une méthode sémantique
+ */
+void bakoulearn() {
+    // On charge la base de connaissances/bakuSemanticPlay();
+    BakuSemantic base;
+    base.getBakuSemanticBase();
+
+    // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
+    //bakoustatlearnWD();
+    base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
+
+    // On finis par l'apprentissage par propagation dans le réseau jdm
+    bakoustatlearn();
+    bakuSemanticLearnTest();
+}
 
 
 void bakoucontribue(){
@@ -74,9 +94,6 @@ void bakoucontribue(){
 
 int main()
 {
-    BakuSemantic baseSem;
-    baseSem.getBakuSemanticBase();
-    baseSem.addStatRels();
-
-    return 0;
+    bakoulearn();
+    //testGetPhrase();
 }

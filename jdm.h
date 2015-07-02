@@ -37,4 +37,6 @@ bool jdmEquivalent(string s); //TRUE uniquement si le premier mot de l('autocomp
 
 bool existeRel(string mot1, string mot2, string rel);
 
+string jdmExiste2(string s);
+
 #endif

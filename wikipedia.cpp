@@ -52,15 +52,15 @@ map<string,string> ouvririnfobox(string s){
 
 //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
 //1 : ouvrir 100 pages wikipedia
-map<string, string> bakoulearn()
+map<string, string> bakoustatlearn()
 {
-    ofstream ofs ("./ressources/relationsMots.txt");                 // écriture des résultats
+    ofstream ofs ("./ressources/relationsMots.txt",  ios::out | ios::app);                 // écriture des résultats
     map<string, string> retour;                         // map de retour
     map<string, map<string, int> > MotRelation;         // clé : un mot infobox : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;    // itérateur sur la map mot relations
     map<string, int>::iterator iter;                    // itérateur sur relation score
     map<string, string>::iterator iterTrace;            // itérateur sur la map return
-    ifstream ifs ("liensavisiter.txt");                 // fichier pages à visité
+    ifstream ifs ("./ressources/liensavisiter.txt");                 // fichier pages à visité
     string ligne;                                       // un mot du top100
     string mot;                                         // version JDM du mot
     string lien;                                        // le lien correspondant
@@ -132,11 +132,11 @@ map<string, string> bakoulearn()
     return retour;
 }
 
-void bakouplay(){ //V1
+void bakouplay(){
     string cible;
     string source;
     ofstream ofs ("./ressources/relationsTrouve.txt");
-    map<string, string> relation = bakoulearn();
+    map<string, string> relation = bakoustatlearn();
     cout<<"ce que l'on a appris : "<<endl;
     ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100

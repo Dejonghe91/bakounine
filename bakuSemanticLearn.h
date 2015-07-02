@@ -26,4 +26,6 @@ void bakuSemanticLearnTestWD();
 
 void bakuSemanticLearnTest();
 
+void bakuSemanticPlay();
+
 #endif

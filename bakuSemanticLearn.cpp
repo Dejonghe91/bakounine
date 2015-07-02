@@ -234,6 +234,62 @@ void bakuSemanticLearnTest() {
 }
 
 
+
+void bakuSemanticPlay() {
+
+    ifstream fichier("./ressources/relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
+    ofstream retour("./ressources/relationTrouveSem.txt");
+    BakuSemantic baseSem ;
+    map<string, vector<RelSem>> t = baseSem.getBakuSemanticBase();
+
+    cout << "début avec base de " << t.size() << " éléments" << endl;
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string word;
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            word = "";
+            if(lireMot(&i, &ligne, &word, "|")){
+                string m1 = word; word="";
+                lireMot(&i, &ligne, &word, "|");
+                string mr = word; word="";
+                lireMot(&i, &ligne, &word, "|");
+                string m2 = word;
+
+                string sr = jdmExiste2(mr);
+                cout << mr << " to -> " << sr << endl;
+                vector<RelSem> rels = baseSem.getRel(sr);
+
+                cout << "Pour : " << m1 << " / " << sr << " / " << m2 << ", il existe : " << rels.size() << " relations"<< endl;
+
+                if(!rels.empty()){
+                    // méthode de choix, pour l'instant le dernier plus grand poids
+                    RelSem rel = rels[0];
+                    cout << "OK" << endl;
+                    if(rels.size() != 1){
+                        for(int i=1; i<rels.size(); i++){
+                            if(rels[i].weight > rel.weight)
+                                rel = rels[i];
+                        }
+                    }
+                    cout << m1 << "--" << rel.name << "-->" << m2 << endl;
+                    // on écrit dans le fichier
+                    retour << m1 << "--" << rel.name << "-->" << m2 << endl;
+                }
+            }
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+}
+
+
 void bakuSemanticLearnTestWD() {
 
     ifstream fichier("./ressources/relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture

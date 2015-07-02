@@ -58,6 +58,27 @@ string jdmExiste(string s){
     return maxs;
 }
 
+string jdmExiste2(string s){
+    string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
+    url+=s;
+    url = transformer(&url," ","%20");
+    string result=ouvrirPage(url);
+    int i=0;
+    string candidat;
+    lireMot(&i, &result, "[\"");
+    string maxs="";
+    int maxi=10;
+    while(lireMot(&i, &result, &candidat, "\"")){
+        if( maxi<(poidJDM(candidat)/pow(LevenshteinDistance(s, candidat),3)) ){
+            maxi=poidJDM(candidat)/pow(LevenshteinDistance(s, candidat),3);
+            maxs=s;
+        }
+        candidat.clear();
+        lireMot(&i, &result, "\"");
+    }
+    return maxs;
+}
+
 
 bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
     //cout<<" existe ?"<<s<<endl;

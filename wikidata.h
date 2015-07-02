@@ -19,6 +19,6 @@ void bakouplayWD();
 
 map<string, string> bakoulearnFichier(string s);
 
-map<string, string> bakoulearnWD();
+map<string, string> bakoustatlearnWD();
 
 #endif

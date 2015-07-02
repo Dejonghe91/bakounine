@@ -41,6 +41,8 @@
 		</Compiler>
 		<Unit filename="BakuSemantic.cpp" />
 		<Unit filename="BakuSemantic.h" />
+		<Unit filename="FileMining.cpp" />
+		<Unit filename="FileMining.h" />
 		<Unit filename="bakuSemanticLearn.cpp" />
 		<Unit filename="bakuSemanticLearn.h" />
 		<Unit filename="jdm.cpp">
@@ -57,6 +59,8 @@
 		<Unit filename="src/bakuBaseSemantic.cpp" />
 		<Unit filename="tout.cpp" />
 		<Unit filename="tout.h" />
+		<Unit filename="wikidata.cpp" />
+		<Unit filename="wikidata.h" />
 		<Unit filename="wikipedia.cpp" />
 		<Unit filename="wikipedia.h" />
 		<Extensions>
