@@ -35,7 +35,7 @@ int  poidJDM(string s){
 
 }
 
-string jdmExiste(string s){
+string jdmExiste2(string s){
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     url = transformer(&url," ","%20");
@@ -58,7 +58,7 @@ string jdmExiste(string s){
     return maxs;
 }
 
-string jdmExiste2(string s){
+string jdmExiste(string s){
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     url = transformer(&url," ","%20");

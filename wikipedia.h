@@ -27,6 +27,6 @@ map<string,string> bakoustatlearn();
 
 string majusculeW(string s); //renvoie le mot avec une minuscule ou une majuscule en fonction de l'opinion de Wikipedia sur le sujet...
 
-void bakouplay();
+void bakoustatplay();
 
 #endif

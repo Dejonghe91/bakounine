@@ -234,6 +234,29 @@ void bakuSemanticLearnTest() {
 }
 
 
+void bakousemplay(ofstream* retour, BakuSemantic *baseSem, string m1, string mr, string m2){
+    string sr = jdmExiste(mr);
+    cout << mr << " to -> " << sr << endl;
+    vector<RelSem> rels = baseSem->getRel(sr);
+
+    cout << "Pour : " << m1 << " / " << sr << " / " << m2 << ", il existe : " << rels.size() << " relations"<< endl;
+
+    if(!rels.empty()){
+        // méthode de choix, pour l'instant le dernier plus grand poids
+        RelSem rel = rels[0];
+        cout << "OK" << endl;
+        if(rels.size() != 1){
+            for(int i=1; i<rels.size(); i++){
+                if(rels[i].weight > rel.weight)
+                    rel = rels[i];
+            }
+        }
+        cout << m1 << "--" << rel.name << "-->" << m2 << endl;
+        // on écrit dans le fichier
+        *retour << m1 << "--" << rel.name << "-->" << m2 << endl;
+    }
+}
+
 
 void bakuSemanticPlay() {
 
@@ -259,26 +282,52 @@ void bakuSemanticPlay() {
                 lireMot(&i, &ligne, &word, "|");
                 string m2 = word;
 
-                string sr = jdmExiste2(mr);
-                cout << mr << " to -> " << sr << endl;
-                vector<RelSem> rels = baseSem.getRel(sr);
+                bakousemplay(&retour, &baseSem, m1, mr, m2);
+            }
+        }
 
-                cout << "Pour : " << m1 << " / " << sr << " / " << m2 << ", il existe : " << rels.size() << " relations"<< endl;
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+}
 
-                if(!rels.empty()){
-                    // méthode de choix, pour l'instant le dernier plus grand poids
-                    RelSem rel = rels[0];
-                    cout << "OK" << endl;
-                    if(rels.size() != 1){
-                        for(int i=1; i<rels.size(); i++){
-                            if(rels[i].weight > rel.weight)
-                                rel = rels[i];
-                        }
-                    }
-                    cout << m1 << "--" << rel.name << "-->" << m2 << endl;
-                    // on écrit dans le fichier
-                    retour << m1 << "--" << rel.name << "-->" << m2 << endl;
-                }
+
+
+void bakuSemanticPlayWD() {
+
+    ifstream fichier("./ressources/relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
+    ofstream retour("./ressources/relationTrouveSemWD.txt");
+    BakuSemantic baseSem ;
+    map<string, vector<RelSem>> t = baseSem.getBakuSemanticBase();
+
+    cout << "début avec base de " << t.size() << " éléments" << endl;
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string m1 ="", m2="", mr="";
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            if(lireMot(&ligne,":") && !lireMot(&ligne, "(")) {
+                m1 = "";
+                lireMot(&i, &ligne, &m1, " :");
+                cout << "Mot 1 :" << m1 << endl;
+            }
+            else {
+                lireMot(&i, &ligne, &mr, " - ");
+                lireMot(&i, &ligne, "( ");
+                lireMot(&i, &ligne, &m2, " )");
+
+                cout << "MotR : " << mr << ", Mot2 : " << m2 << endl;
+            }
+
+
+            if(m1 !="" && m2 != "" && mr != ""){
+                bakousemplay(&retour, &baseSem, m1, mr, m2);
+                m2 = ""; mr ="";
             }
         }
 
@@ -304,7 +353,7 @@ void bakuSemanticLearnTestWD() {
         {
             i=0;
             word = "";
-            if(lireMot(&ligne, "-")){
+            if(lireMot(&ligne, "-")) {
                 lireMot(&i, &ligne, &word, " -");
                 mrs.push_back(word);
             }
@@ -319,30 +368,5 @@ void bakuSemanticLearnTestWD() {
     if(!mrs.empty()){
         bakouSemanticLearn(mrs);
     }
-}
-
-void bakuSemanticLearnTestMed(){
-
-    ifstream fichier("./ressources/mot_lionel.txt", ios::in);  // on ouvre le fichier en lecture
-    vector <string> mrs;
-
-    if(fichier)  // si l'ouverture a réussi
-    {
-        string ligne;
-        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
-        {
-            mrs.push_back(ligne);
-        }
-
-        fichier.close();  // on referme le fichier
-    }
-    else {
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
-    }
-
-    if(!mrs.empty()){
-        bakouSemanticLearn(mrs);
-    }
-
 }
 

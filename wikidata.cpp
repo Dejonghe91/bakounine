@@ -1,7 +1,7 @@
 #include "wikidata.h"
 
 
-void bakouplayWD(){ //V1
+void bakoustatplayWD(){ //V1
     string cible;
     string source;
     ofstream ofs ("./ressources/relationsTrouveWD.txt");
@@ -37,10 +37,7 @@ void bakouplayWD(){ //V1
                         for(int i2=0; i2<i->second.size(); i2++){
                             string mot2 = i->second[i2];
                             if(i->second[i2].size()>2 && mot!=i->second[i2] && !lireMot(&mot2, ":") && !lireMot(&mot2,"wiki") ){
-                //for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){
-                    //if(i->first.size()>2 && i->second.size()>2 && mot!=i->second  ){
-                        //cout<<" => "<<i->first<<" - "<<i->second<<endl;
-                        //if(relation[i->first].size()>1){
+
                                 string nomRelC = getNomRel(i->first);
                                 cible = majusculeW(jdmExiste(i->second[i2]));
                                 source = majusculeW(jdmExiste(mot));
@@ -65,7 +62,6 @@ void bakouplayWD(){ //V1
                             if(lireMot(&mot2, ":")){
                                 //A faire : les catégories...
                             }
-                            //<<endl;
                         }
                     }
                 }
@@ -186,4 +182,5 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
         }
     }
     bakoulearnFichier("relationsMotsWD.txt");
+    return retour;
 }

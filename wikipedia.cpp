@@ -132,7 +132,7 @@ map<string, string> bakoustatlearn()
     return retour;
 }
 
-void bakouplay(){
+void bakoustatplay(){
     string cible;
     string source;
     ofstream ofs ("./ressources/relationsTrouve.txt");

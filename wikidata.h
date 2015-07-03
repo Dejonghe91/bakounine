@@ -15,7 +15,7 @@
 using namespace std;
 
 
-void bakouplayWD();
+void bakoustatplayWD();
 
 map<string, string> bakoulearnFichier(string s);
 
