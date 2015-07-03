@@ -35,6 +35,50 @@ void bakoulearn() {
 }
 
 
+bool bakoutrie(string *m1, string *m2){
+    if(*m1==*m2){
+        return false;
+    }
+    if(*m2=="BakouErreur"){
+        return false;
+    }
+    int i =0;
+    string temp;
+    if(lireMot(&i, m2,"Catégorie:") ){
+        recopieFin(&i, m2, &temp);
+        *m2=temp;
+        return true;
+    }
+    int =0;
+    if(lireMot(&i, m2, &temp, "(") ){
+        *m2=temp;
+        return true;
+    }
+    int =0;
+    temp.clear();
+    if(lireMot(&i, m2, &temp, ",") ){
+        *m2=temp;
+        return true;
+    }
+    int =0;
+    temp.clear();
+    if(lireMot(&i, m2, &temp, "/") ){
+        *m2=temp;
+        return true;
+    }
+    int =0;
+    temp.clear();
+    if(lireMot(&i, m2, &temp, "\\") ){
+        *m2=temp;
+        return true;
+    }
+
+
+
+}
+
+
+
 void bakoucontribue(){
     map<string, string> relJDM=relationJDM();
     map<string, string>::iterator itertrace;
@@ -55,15 +99,16 @@ void bakoucontribue(){
         rel.clear();
         cible.clear();
         i=0;
-        if(!lireMot(&ligne, "JDM")){
+        //if(!lireMot(&ligne, "JDM")){
             lireMot(&i, &ligne, &source, " -- " );
             lireMot(&i, &ligne, &rel, " --> " );
             lireMot(&i, &ligne, &cible, " | " );
             relations[source][rel].push_back(cible);
-        }
+        //}
     }
     map<string, map<string, vector<string> > >::iterator it;
     map<string, vector<string> > ::iterator it2;
+    int taille;//Taille URL avant les ajouts.
     for(it = relations.begin(); it != relations.end(); it++  ){
         cout<<it->first<<endl;
         string urldelete="http://www.jeuxdemots.org/intern_interpretor.php?s=deleteall&p=Bakounine&t=";
@@ -78,18 +123,26 @@ void bakoucontribue(){
             //pause("r");
             urlContrib += relJDM[it2->first];
             urlContrib += "&prop=";
+            taille=urlContrib.size();
             for(int i=0; i<it2->second.size(); i++){
-                cout<<"    "<<it2->second[i]<<endl;
-                urlContrib +=curl_easy_escape(curl, it2->second[i].c_str(), it2->second[i].size());
-                urlContrib +="|";
+                string mot1 = it2->first;
+                string mot2 = it2->second[i];
+                if(bakoutrie(&mot1 , &mot2 )){
+                    cout<<"    "<<it2->second[i]<<endl;
+                    urlContrib +=curl_easy_escape(curl, it2->second[i].c_str(), it2->second[i].size());
+                    urlContrib +="|";
+                }
             }
-            urlContrib.resize(urlContrib.size()-1);
-            int curlit;
-            cout<<urlContrib<<endl;
-            ouvrirPageForce(urlContrib);
+            if(urlContrib.size()>taille){
+                urlContrib.resize(urlContrib.size()-1);
+                cout<<urlContrib<<endl;
+                ouvrirPageForce(urlContrib);
+            }
         }
     }
 }
+
+
 
 
 int main()
