@@ -16,25 +16,6 @@
 using namespace std;
 
 
-/**
- * Prends tous les mots dans liensavisiter et récupères les informations de différentes sources d'informations
- * Afin d'effectuer un apprentissage par une méthode statistique et une méthode sémantique
- */
-void bakoulearn() {
-    // On charge la base de connaissances/bakuSemanticPlay();
-    BakuSemantic base;
-    base.getBakuSemanticBase();
-
-    // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
-    //bakoustatlearnWD();
-    base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
-
-    // On finis par l'apprentissage par propagation dans le réseau jdm
-    bakoustatlearn();
-    bakuSemanticLearnTest();
-}
-
-
 bool bakoutrie(string *m1, string *m2){
     if(*m1==*m2){
         return false;
@@ -49,37 +30,35 @@ bool bakoutrie(string *m1, string *m2){
         *m2=temp;
         return true;
     }
-    int =0;
+    i=0;
     if(lireMot(&i, m2, &temp, "(") ){
         *m2=temp;
         return true;
     }
-    int =0;
+    i =0;
     temp.clear();
     if(lireMot(&i, m2, &temp, ",") ){
         *m2=temp;
         return true;
     }
-    int =0;
+    i =0;
     temp.clear();
     if(lireMot(&i, m2, &temp, "/") ){
         *m2=temp;
         return true;
     }
-    int =0;
+    i=0;
     temp.clear();
     if(lireMot(&i, m2, &temp, "\\") ){
         *m2=temp;
         return true;
     }
-
-
-
+    return true;
 }
 
 
 
-void bakoucontribue(){
+void bakoucontribue(string fichier){
     map<string, string> relJDM=relationJDM();
     map<string, string>::iterator itertrace;
     for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
@@ -87,7 +66,7 @@ void bakoucontribue(){
     }
     //pause("b");
     map<string, map<string, vector<string> > > relations;
-    ifstream ifs("relationsTrouve.txt");
+    ifstream ifs("./ressources/"+fichier);
     string ligne;
     int i;
     string source;
@@ -142,11 +121,43 @@ void bakoucontribue(){
     }
 }
 
+/**
+ * Prends tous les mots dans liensavisiter et récupères les informations de différentes sources d'informations
+ * Afin d'effectuer un apprentissage par une méthode statistique et une méthode sémantique
+ */
+void bakoulearn() {
+    // On charge la base de connaissances/bakuSemanticPlay();
+    BakuSemantic base;
+    base.getBakuSemanticBase();
 
+    // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
+    //bakoustatlearnWD();
+    base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
+
+    // On finis par l'apprentissage par propagation dans le réseau jdm
+    bakoustatlearn();
+    bakuSemanticLearnTest();
+}
+
+void bakouplay(){
+    bakoustatplay();
+    bakoustatplayWD();
+    bakuSemanticPlay();
+    bakuSemanticPlayWD();
+}
+
+void bakoucontribue() {
+    string prefixe = "./ressources/";
+    bakoucontribue(prefixe+"relationsTrouve.txt");
+    bakoucontribue(prefixe+"relationsTrouveWD.txt");
+    bakoucontribue(prefixe+"relationsTrouveSem.txt");
+    bakoucontribue(prefixe+"relationsTrouveSemWD.txt");
+}
 
 
 int main()
 {
     bakoulearn();
-    //testGetPhrase();
+    bakouplay();
+    bakoucontribue();
 }

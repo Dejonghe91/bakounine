@@ -391,6 +391,7 @@ string ouvrirPageHttps(string adresse) { //ATTENTION : NECESSITE UNE ADRESSE CON
             lastPageVisite=adresse;
         }
         if(codeRetour!=200){
+            cout << "ERREUR !!" << endl;
             cout<<adresse<<endl;
             cout<<codeRetour<<endl;
         }

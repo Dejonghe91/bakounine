@@ -145,6 +145,8 @@ void bakouSemanticLearn(vector<string> words){
 
         getMots(&mr, &mr2);
 
+        // si mr 2 dans base alors ajout sinon continue
+
         cout << "Traitement de : " << mr << endl;
 
         // si le mot n'est pas présent dans la base de connaissances
