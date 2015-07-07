@@ -96,7 +96,6 @@ bool BakuSemantic::isRelExist(string terme){
     return base.count(terme) > 0;
 }
 
-//a modifier
 bool BakuSemantic::addRel(string terme, int id, string relname){
     if(BakuSemantic::isRelExist(terme)){
 

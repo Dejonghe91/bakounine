@@ -1,7 +1,7 @@
 #include "bakuSemanticLearn.h"
 
 
-void getMots(string *mr, string *mr2){
+bool getMots(BakuSemantic *baseSem, string *mr, string *mr2){
     string mrTest = jdmExiste(*mr);
     *mr2 = *mr;
     if(mrTest == "") {
@@ -15,18 +15,33 @@ void getMots(string *mr, string *mr2){
         if(locution.size() >= 1){
             cout << "mot non trouvé : " << *mr << ", remplaçant = " << locution[0] << endl;
             *mr = jdmExiste(locution[0]);
+            vector <RelSem> rels = baseSem->getRel(*mr);
+            if(!rels.empty()){
+                RelSem _max = rels[0];
+                for(int i=1; i<rels.size(); i++){
+                    if(_max.weight < rels[i].weight)
+                        _max = rels[i];
+                }
+
+                addWord(baseSem, *mr, _max);
+                return true;
+            }
+
+            return false;
         }
     }
     else{
         mr2 = &mrTest;
         mr = &mrTest;
+
+        return false;
     }
 }
 
 
-void casSynAndLocution(BakuSemantic baseSem, string mr, string mr2, relfind voisin, ofstream *fichier){
+void casSynAndLocution(BakuSemantic *baseSem, string mr, string mr2, relfind voisin, ofstream *fichier){
     cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
-    vector<RelSem> rels = baseSem.getRel(voisin.cible);
+    vector<RelSem> rels = baseSem->getRel(voisin.cible);
     int pmt = voisin.w;
     for(int k=0; k<rels.size(); k++)
     {
@@ -39,10 +54,10 @@ void casSynAndLocution(BakuSemantic baseSem, string mr, string mr2, relfind vois
             r.weight = (float)prt/(float)2;
 
             if(mr != mr2){
-                addWord(&baseSem, mr, r);
-                addWord(&baseSem, mr2, r);
+                addWord(baseSem, mr, r);
+                addWord(baseSem, mr2, r);
             }else{
-                addWord(&baseSem, mr, r);
+                addWord(baseSem, mr, r);
             }
 
             if(voisin.sens){
@@ -57,7 +72,7 @@ void casSynAndLocution(BakuSemantic baseSem, string mr, string mr2, relfind vois
 }
 
 
-void casIsaANdHypo(BakuSemantic baseSem, string mr, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
+void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
     cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
 
 
@@ -70,8 +85,8 @@ void casIsaANdHypo(BakuSemantic baseSem, string mr, vector<relfind> voisins ,rel
         test = voisin.cible.find(mr) != std::string::npos;
 
     if(test){
-        vector<RelSem> rels = baseSem.getRel(voisin.cible);
-        addWord(&baseSem, mr, rels);
+        vector<RelSem> rels = baseSem->getRel(voisin.cible);
+        addWord(baseSem, mr, rels);
 
         if(voisin.sens){
             *fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
@@ -106,8 +121,8 @@ void casIsaANdHypo(BakuSemantic baseSem, string mr, vector<relfind> voisins ,rel
                         (vtlist_mr.rel == "r_isa" && vtlist_mr.sens == 0) ||
                         (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 1)) ) {
 
-                        vector<RelSem> rels = baseSem.getRel(jdmExiste(voisin.cible));
-                        addWord(&baseSem, mr, rels);
+                        vector<RelSem> rels = baseSem->getRel(jdmExiste(voisin.cible));
+                        addWord(baseSem, mr, rels);
 
 
                         if(voisin.sens){
@@ -143,38 +158,40 @@ void bakouSemanticLearn(vector<string> words){
         string mr = words.at(i);
         string mr2 = "";
 
-        getMots(&mr, &mr2);
 
-        // si mr 2 dans base alors ajout sinon continue
+        if(!getMots(&baseSem, &mr, &mr2)) {
 
-        cout << "Traitement de : " << mr << endl;
+            // si mr 2 dans base alors ajout sinon continue
 
-        // si le mot n'est pas présent dans la base de connaissances
-        if(mr != "" && !baseSem.isRelExist(mr)) {
+            cout << "Traitement de : " << mr << endl;
 
-            vector<relfind> voisins = getNeightboors(mr);
+            // si le mot n'est pas présent dans la base de connaissances
+            if(mr != "" && !baseSem.isRelExist(mr)) {
 
-            // on regarde si un voisins de ce mot dans jeuxDeMot est présent dans la base de connaissances
-            // par les relation syn, locution, isa et hypo
-            for (long j=0; j<(long)voisins.size(); ++j)
-            {
-                relfind voisin = voisins.at(j); // voisin = tlist
+                vector<relfind> voisins = getNeightboors(mr);
 
-                if(baseSem.isRelExist(voisin.cible) )
+                // on regarde si un voisins de ce mot dans jeuxDeMot est présent dans la base de connaissances
+                // par les relation syn, locution, isa et hypo
+                for (long j=0; j<(long)voisins.size(); ++j)
                 {
+                    relfind voisin = voisins.at(j); // voisin = tlist
 
-                    if(voisin.rel == "r_syn" || voisin.rel == "r_syn_strict" || voisin.rel == "r_locution" )
+                    if(baseSem.isRelExist(voisin.cible) )
                     {
-                        casSynAndLocution(baseSem, mr, mr2, voisin, &fichier);
-                    }
-                    else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0))
-                    {
-                        casIsaANdHypo(baseSem, mr, voisins , voisin, &fichier);
+
+                        if(voisin.rel == "r_syn" || voisin.rel == "r_syn_strict" || voisin.rel == "r_locution" )
+                        {
+                            casSynAndLocution(&baseSem, mr, mr2, voisin, &fichier);
+                        }
+                        else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0))
+                        {
+                            casIsaANdHypo(&baseSem, mr, voisins , voisin, &fichier);
+                        }
                     }
                 }
             }
+            cout << "---------------------------------------" << endl;
         }
-        cout << "---------------------------------------" << endl;
     }
     fichier.close();
 }
