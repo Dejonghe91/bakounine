@@ -118,7 +118,6 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
     for(iterTrace=retour.begin(); iterTrace!=retour.end(); iterTrace++) {
         cout<<iterTrace->first<<" : "<<iterTrace->second<<endl;
     }
-    pause("ben...");
     return retour;
 }
 

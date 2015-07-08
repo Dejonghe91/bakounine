@@ -1,3 +1,5 @@
+famille|22|r_familly|1
+division|22|r_familly|1
 appartient|9|r_has_part|1
 auteur|100|r_has_auteur|1
 capitale|15|r_lieu|1

@@ -66,7 +66,7 @@ void bakoucontribue(string fichier){
     }
     //pause("b");
     map<string, map<string, vector<string> > > relations;
-    ifstream ifs("./ressources/"+fichier);
+    ifstream ifs(fichier);
     string ligne;
     int i;
     string source;
@@ -131,7 +131,7 @@ void bakoulearn() {
     base.getBakuSemanticBase();
 
     // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
-    //bakoustatlearnWD();
+    bakoustatlearnWD();
     base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
 
     // On finis par l'apprentissage par propagation dans le réseau jdm
@@ -147,11 +147,10 @@ void bakouplay(){
 }
 
 void bakoucontribue() {
-    string prefixe = "./ressources/";
-    bakoucontribue(prefixe+"relationsTrouve.txt");
-    bakoucontribue(prefixe+"relationsTrouveWD.txt");
-    bakoucontribue(prefixe+"relationsTrouveSem.txt");
-    bakoucontribue(prefixe+"relationsTrouveSemWD.txt");
+    bakoucontribue("./ressources/relationsTrouve.txt");
+    bakoucontribue("./ressources/relationsTrouveWD.txt");
+    bakoucontribue("./ressources/relationsTrouveSem.txt");
+    bakoucontribue("./ressources/relationsTrouveSemWD.txt");
 }
 
 

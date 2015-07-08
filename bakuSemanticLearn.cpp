@@ -270,9 +270,9 @@ void bakousemplay(ofstream* retour, BakuSemantic *baseSem, string m1, string mr,
                     rel = rels[i];
             }
         }
-        cout << m1 << "--" << rel.name << "-->" << m2 << endl;
+        cout << m1 << " -- " << rel.name << " --> " << m2 << " | " << endl;
         // on écrit dans le fichier
-        *retour << m1 << "--" << rel.name << "-->" << m2 << endl;
+        *retour << m1 << " -- " << rel.name << " --> " << m2 << " | " << endl;
     }
 }
 
