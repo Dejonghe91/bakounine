@@ -17,49 +17,61 @@ using namespace std;
 
 
 bool bakoutrie(string *m1, string *m2){
-    if(*m1==*m2){
-        return false;
-    }
+    //cout<<"BAKOUTRIE : "<<*m1<<" - "<<*m2<<endl;
     if(*m2=="BakouErreur"){
+        //cout<<"bakouErreur!"<<endl;
         return false;
     }
     int i =0;
     string temp;
     if(lireMot(&i, m2,"Catégorie:") ){
+        //cout<<"trie : Catégorie:"<<endl;
         recopieFin(&i, m2, &temp);
         *m2=temp;
-        return true;
+        //return true;
     }
     i=0;
     if(lireMot(&i, m2, &temp, "(") ){
+        //cout<<"trie : (!"<<endl;
         *m2=temp;
-        return true;
+        //return true;
     }
+
     i =0;
     temp.clear();
     if(lireMot(&i, m2, &temp, ",") ){
         *m2=temp;
-        return true;
+        //return true;
     }
     i =0;
     temp.clear();
-    if(lireMot(&i, m2, &temp, "/") ){
+    if(lireMot(&i, m2, &temp, " /") ){
         *m2=temp;
-        return true;
+        //return true;
     }
+    //cout<<"M2 : \""<<*m2<<"\""<<endl;
+    //cout<<"M1 : \""<<*m1<<"\""<<endl;
+
+
     i=0;
     temp.clear();
-    if(lireMot(&i, m2, &temp, "\\") ){
+    if(lireMot(&i, m2, &temp, " \\") ){
         *m2=temp;
         return true;
     }
-    return true;
+
+    if(egal(*m1,*m2)){
+        //cout<<"trie : identique!"<<endl;
+        return false;
+    } else {
+        return true;
+    }
 }
 
 
 
 void bakoucontribue(string fichier){
-    map<string, string> relJDM=relationJDM();
+    map<string, string> relJDM=relationJDMTrue();
     map<string, string>::iterator itertrace;
     for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
         cout<<itertrace->first<<" - \""<<itertrace->second<<"\""<<endl;
@@ -72,7 +84,7 @@ void bakoucontribue(string fichier){
     string source;
     string rel;
     string cible;
-    CURL *curl = curl_easy_init();
+    //CURL *curl = curl_easy_init();
     while(getline(ifs, ligne)){
         source.clear();
         rel.clear();
@@ -91,12 +103,12 @@ void bakoucontribue(string fichier){
     for(it = relations.begin(); it != relations.end(); it++  ){
         cout<<it->first<<endl;
         string urldelete="http://www.jeuxdemots.org/intern_interpretor.php?s=deleteall&p=Bakounine&t=";
-        urldelete+=curl_easy_escape(curl, it->first.c_str(), it->first.size());
+        urldelete+=Url_encodeR(it->first);
         ouvrirPageForce(urldelete);
         for(it2 = it->second.begin(); it2 != it->second.end(); it2++){
             cout<<"  "<<it2->first<<endl;
             string urlContrib = "http://www.jeuxdemots.org/intern_interpretor.php?s=makecontrib&p=Bakounine&t=";
-            urlContrib += curl_easy_escape(curl, it->first.c_str(), it->first.size());
+            urlContrib += Url_encodeR(majusculeW(it->first));
             urlContrib += "&r=";
             cout<<"relation : \""<<it2->first<<"\" : \""<<relJDM[it2->first]<<"\""<<endl;
             //pause("r");
@@ -104,11 +116,11 @@ void bakoucontribue(string fichier){
             urlContrib += "&prop=";
             taille=urlContrib.size();
             for(int i=0; i<it2->second.size(); i++){
-                string mot1 = it2->first;
+                string mot1 = it->first;
                 string mot2 = it2->second[i];
                 if(bakoutrie(&mot1 , &mot2 )){
-                    cout<<"    "<<it2->second[i]<<endl;
-                    urlContrib +=curl_easy_escape(curl, it2->second[i].c_str(), it2->second[i].size());
+                    cout<<"    "<<mot2<<endl;
+                    urlContrib +=Url_encodeR(majusculeW(mot2));
                     urlContrib +="|";
                 }
             }
@@ -147,16 +159,19 @@ void bakouplay(){
 }
 
 void bakoucontribue() {
+/*
     bakoucontribue("./ressources/relationsTrouve.txt");
     bakoucontribue("./ressources/relationsTrouveWD.txt");
     bakoucontribue("./ressources/relationsTrouveSem.txt");
+*/
     bakoucontribue("./ressources/relationsTrouveSemWD.txt");
+    //bakoucontribue("./ressources/test.txt");
 }
 
 
 int main()
 {
-    bakoulearn();
-    bakouplay();
+    //bakoulearn();
+    //bakouplay();
     bakoucontribue();
 }
