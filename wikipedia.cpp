@@ -54,7 +54,7 @@ map<string,string> ouvririnfobox(string s){
 //1 : ouvrir 100 pages wikipedia
 map<string, string> bakoustatlearn()
 {
-    ofstream ofs ("./ressources/relationsMots.txt",  ios::out | ios::app);                 // écriture des résultats
+    ofstream ofs ("./ressources/relationsMots.txt");                 // écriture des résultats
     map<string, string> retour;                         // map de retour
     map<string, map<string, int> > MotRelation;         // clé : un mot infobox : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;    // itérateur sur la map mot relations
@@ -89,10 +89,10 @@ map<string, string> bakoustatlearn()
         if(jdme!="") //Si le mot est présent dans JDM
         {
             cout<<"mot existant"<<endl;
-            lien = "http://fr.wikipedia.org/wiki/";
+            lien = "https://fr.wikipedia.org/wiki/";
             lien +=ligne;
             transformer(&lien, ' ','_');
-            page = ouvrirPage(lien);
+            page = ouvrirPageHttps(lien);
             infos = ouvririnfobox(page);
             for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){
                 if(i->first.size()>2 && i->second.size()>2 && mot!=i->second){
@@ -146,7 +146,7 @@ void bakoustatplay(){
     map<string,string> infos;  // Le contenu de l'infobox d'une page...
     vector <string> relations; //Les relations de JDM pour le mot donné.
     int cpt=0;
-    while(getline(ifs, ligne) && cpt<4600){
+    while(getline(ifs, ligne) && cpt<1000){
         if((int)ligne[ligne.size()-1]==13){
             ligne.resize(ligne.size()-1);
         }
@@ -163,7 +163,7 @@ void bakoustatplay(){
             lien = "http://fr.wikipedia.org/wiki/";
             lien +=ligne;
             transformer(&lien, ' ','_');
-            page = ouvrirPage(lien);
+            page = ouvrirPageHttps(lien);
             //cout<<"page wikipedia : "<<lien<<endl;
             infos = ouvririnfobox(page);
             for(map<string, string>::iterator i=infos.begin(); i!=infos.end(); i++){

@@ -143,7 +143,7 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
 
 
     int cpt=0;
-    while(getline(ifs, ligne) && cpt<2000){
+    while(getline(ifs, ligne) && cpt<800){
         if((int)ligne[ligne.size()-1]==13){
             ligne.resize(ligne.size()-1);
         }
