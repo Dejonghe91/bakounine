@@ -73,7 +73,7 @@ void casSynAndLocution(BakuSemantic *baseSem, string mr, string mr2, relfind voi
 }
 
 
-void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
+void casIsaANdHypo(BakuSemantic *baseSem, string mr, string mr2, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
     cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
 
     /*
@@ -192,7 +192,7 @@ void bakouSemanticLearn(vector<string> words){
                         }
                         else if ((voisin.rel == "r_isa" && voisin.sens == 1)|| (voisin.rel == "r_hypo" && voisin.sens == 0) || (voisin.rel == "r_instance" && voisin.sens == 0))
                         {
-                            casIsaANdHypo(&baseSem, mr, voisins , voisin, &fichier);
+                            casIsaANdHypo(&baseSem, mr, mr2, voisins , voisin, &fichier);
                         }
                     }
                 }

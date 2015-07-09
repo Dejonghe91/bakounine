@@ -124,7 +124,7 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
 map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    ofstream ofs ("./ressources/relationsMotsWD.txt", ios::out | ios::app);
+    ofstream ofs ("./ressources/relationsMotsWD.txt");
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
@@ -161,15 +161,19 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
             cout<<"mot existant"<<endl;
             id = qid(mot);
             if(id!=""){
+                cout<<"page trouvé"<<endl;
                 relationsT = getRelWD(id);
                 for(map<string, vector <string> >::iterator i=relationsT.begin(); i!=relationsT.end(); i++){
                     if(i->first.size()>2 ){
+                        cout<<"Et 1 : "<<i->first<<endl;
                         for(int i2=0; i2<i->second.size(); i2++){
                             if(i->second[i2].size()>2 && mot!=i->second[i2]){
+                                cout<<"Et 2 : "<<i->second[i2]<<endl;
                                 relations = jdmRel(mot, i->second[i2]);
                                 MotRelation[i->first]["R"]++;
                                 ofs<<getNomRel(i->first)<<" - R : "<<MotRelation[i->first]["R"]<<" ( "<<i->second[i2]<<" ) "<<endl;
                                 for(int j=0; j<relations.size(); j++){
+                                    cout<<"Et 3 : "<<relations[j]<<endl;
                                     MotRelation[i->first][relations[j]]++;//On incremente la relation  courante pour l'info courante.
                                     ofs<<getNomRel(i->first)<<" - "<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<" ( "<<i->second[i2]<<" ) "<<endl;
                                 }

@@ -220,7 +220,7 @@ string qid(string nom){//Renvoi l'id wikidata du mot donné en entrée.
 
     document.Parse(page.c_str());
 
-    if(codeRetour != 200){
+    if(codeRetour == 200){
         assert(document.IsObject());
         //fils(document);
         assert(document["search"].IsArray());
