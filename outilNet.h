@@ -77,6 +77,7 @@ string htmlToXML(string * texte);
 
 string ouvrirPageManuel(string domaine, string page, string cookieC, string param, string refererC);
 
+string Url_encodeR (string url);
 
 
 #endif

@@ -73,6 +73,7 @@ bool bakoutrie(string *m1, string *m2){
 void bakoucontribue(string fichier){
     map<string, string> relJDM=relationJDMTrue();
     map<string, string>::iterator itertrace;
+    ofstream traceFile("./traces/trace_url.txt");
     for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
         cout<<itertrace->first<<" - \""<<itertrace->second<<"\""<<endl;
     }
@@ -127,7 +128,8 @@ void bakoucontribue(string fichier){
             if(urlContrib.size()>taille){
                 urlContrib.resize(urlContrib.size()-1);
                 cout<<urlContrib<<endl;
-                ouvrirPageForce(urlContrib);
+                traceFile << urlContrib << endl;
+                //ouvrirPageForce(urlContrib);
             }
         }
     }
@@ -149,6 +151,7 @@ void bakoulearn() {
     // On finis par l'apprentissage par propagation dans le réseau jdm
     bakoustatlearn();
     bakuSemanticLearnTest();
+    bakuSemanticLearnTestWD();
 }
 
 void bakouplay(){
@@ -159,19 +162,16 @@ void bakouplay(){
 }
 
 void bakoucontribue() {
-/*
     bakoucontribue("./ressources/relationsTrouve.txt");
     bakoucontribue("./ressources/relationsTrouveWD.txt");
     bakoucontribue("./ressources/relationsTrouveSem.txt");
-*/
     bakoucontribue("./ressources/relationsTrouveSemWD.txt");
-    //bakoucontribue("./ressources/test.txt");
 }
 
 
 int main()
 {
-    //bakoulearn();
-    //bakouplay();
+    bakoulearn();
+    bakouplay();
     bakoucontribue();
 }

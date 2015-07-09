@@ -5,6 +5,7 @@ bool getMots(BakuSemantic *baseSem, string *mr, string *mr2){
     string mrTest = jdmExiste(*mr);
     *mr2 = *mr;
     if(mrTest == "") {
+        // analyse syntaxique
         vector<string> locution;
         string mot="";
         int dep=0;
@@ -75,7 +76,7 @@ void casSynAndLocution(BakuSemantic *baseSem, string mr, string mr2, relfind voi
 void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,relfind voisin, ofstream *fichier){
     cout << "Voisin trouvé pour " << voisin.rel << ": " << voisin.cible << endl;
 
-
+    /*
     string m = mr.size()>voisin.cible.size() ? mr : voisin.cible;
     bool test = false;
 
@@ -96,8 +97,8 @@ void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,re
         *fichier << "--------------------------------------------" << endl;
     }
     // OK
-    else
-    {
+    else*/
+    //{
         vector<string> filtre;
         filtre.push_back("r_isa");
         filtre.push_back("r_hypo");
@@ -122,8 +123,14 @@ void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,re
                         (vtlist_mr.rel == "r_hypo" && vtlist_mr.sens == 1)) ) {
 
                         vector<RelSem> rels = baseSem->getRel(jdmExiste(voisin.cible));
-                        addWord(baseSem, mr, rels);
 
+                        if(mr != mr2){
+                            addWord(baseSem, mr, rels);
+                            addWord(baseSem, mr2, rels);
+                        }
+                        else{
+                            addWord(baseSem, mr, rels);
+                        }
 
                         if(voisin.sens){
                             *fichier << voisin.cible << " <-- " << voisin.rel << " (" << voisin.w << ") -- " << mr << endl;
@@ -137,7 +144,7 @@ void casIsaANdHypo(BakuSemantic *baseSem, string mr, vector<relfind> voisins ,re
                 }
             }
         }
-    }
+    //}
 
 }
 
