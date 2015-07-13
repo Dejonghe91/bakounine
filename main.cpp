@@ -145,7 +145,8 @@ void bakoulearn() {
     base.getBakuSemanticBase();
 
     // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
-    //bakoustatlearnWD();
+    bakoustatlearnWD();
+    bakoulearnFichier("./ressources/relationsMotsWD.txt");
     base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
 
     // On finis par l'apprentissage par propagation dans le réseau jdm

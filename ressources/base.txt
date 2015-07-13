@@ -1,8 +1,9 @@
-famille|22|r_familly|1
-division|22|r_familly|1
+alimentation|102|r_can_eat|0.5
+alimentation du lac|102|r_can_eat|0.5
 appartient|9|r_has_part|1
 auteur|100|r_has_auteur|1
 capitale|15|r_lieu|1
+capitale de|15|r_lieu|1
 capitale économique|15|r_lieu|1
 catégorie|3|r_domain|1
 catégorise|3|r_domain|1
@@ -12,15 +13,21 @@ construire|10|r_agent|1
 conséquence|41|r_conseq|1
 continent|15|r_lieu|1
 créateur|100|r_has_auteur|1
+division|22|r_familly|1
+domaine d'activité|22|r_familly|0.5
+domaine internet|22|r_familly|0.5
 effets|41|r_conseq|1
 est similaire|67|r_similar|1
 est spécifique|64|r_instance|1
 facteur|42|r_causatif|0.5
 facteur contributif|42|r_causatif|0.5
 faire|10|r_agent|1
+famille|22|r_familly|1
+genre artistique|22|r_familly|0.5
 groupe ethnique|15|r_lieu|1
 implique|57|r_implication|1
 impliquer|57|r_implication|1
+influence|17|r_carac|0.5
 instrument|15|r_lieu|1
 jouer|10|r_agent|1
 lieu|15|r_lieu|1
@@ -28,10 +35,18 @@ manger|10|r_agent|1
 manger|102|r_can_eat|1
 moins que|74|r_smaller_than|1
 partie|9|r_has_part|1
+partie de|22|r_familly|0.5
 pays|15|r_lieu|1
 pays d'origine|15|r_lieu|1
+plus|73|r_bigger_than|0.5
+plus haute juridiction|73|r_bigger_than|0.5
 plus que|73|r_bigger_than|1
+point|15|r_lieu|0.5
+point culminant|15|r_lieu|0.5
+point le plus bas|15|r_lieu|0.5
 possède|9|r_has_part|1
+poste|15|r_lieu|0.5
+poste occupé par le chef de l'exécutif|15|r_lieu|0.5
 pouvoir|17|r_carac|1
 produire|53|r_make|1
 reine|15|r_lieu|1
@@ -39,6 +54,9 @@ réalisateur|100|r_has_auteur|1
 régime politique|17|r_carac|0.5
 scénario|100|r_has_auteur|1
 signifier|5|r_syn|1
+siège social|15|r_lieu|0.5
 société mère|15|r_lieu|1
 sport|15|r_lieu|1
+sujet|42|r_causatif|0.5
+sujet de l'œuvre|42|r_causatif|0.5
 être|6|r_isa|1

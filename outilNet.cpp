@@ -671,8 +671,6 @@ string decouperPage(string * page, string balise, string nom) {
 //prend le nom d'une balise et récupère le contenu texte présent entre la balise d'ouverture et celle de fermeture.
     if(page->size()<3) {
         cout<<"ERREUR : DECOUPAGE D'UNE PAGE VIDE !!!!"<<endl;
-        int pause;
-        cin>>pause;
         return "";
     }
     cout<<"découper Page!"<<endl;
@@ -737,8 +735,6 @@ string enleverPage(string * page, string balise, string nom) {
     bool victoire = false;
     if(page->size()<3) {
         cout<<"ERREUR : DECOUPAGE D'UNE PAGE VIDE !!!!"<<endl;
-        int pause;
-        cin>>pause;
         return "";
     }
     cout<<"découper Page!"<<endl;

@@ -82,19 +82,28 @@ string jdmExiste(string s){
 
 bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
     //cout<<" existe ?"<<s<<endl;
+    int i=0;
+    CURL *curl;
+    curl = curl_easy_init();
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
-    url+=s;
+    url += curl_easy_escape(curl, s.c_str(), s.size());;
     //cout<<url<<endl;
     url = transformer(&url," ","%20");
-    //cout<<"url : "<<url<<endl;
+    url = transformer(&url,"%20","+");
+    url = transformer(&url,"%E2%80%99","%27");
+//    cout<<"url : "<<url<<endl;
     //pause("url");
     string result=ouvrirPage(url);
-    //cout<<result<<endl;
+//    cout<<result<<endl;
     //cout<<"le mot n'existe pas dans JDM!!!"<<endl;
     string r = "\"";
     r+=s;
     r+="\"";
-    return lireMot(&result, r);
+    r=latin1(r);
+    r=transformer(&r,"_", "\'");
+    // cout<<"R: "<<r<<endl;
+
+    return lireMot( &result, r);
 
 }
 

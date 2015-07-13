@@ -152,7 +152,7 @@ void casIsaANdHypo(BakuSemantic *baseSem, string mr, string mr2, vector<relfind>
 void bakouSemanticLearn(vector<string> words){
 
     BakuSemantic baseSem;
-    ofstream fichier("./traces/test.txt", ios::out | ios::app);
+    ofstream fichier("./traces/test.txt");
     map<string, vector<RelSem>> base = baseSem.getBakuSemanticBase();
 
     if(base.empty()){
