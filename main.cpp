@@ -73,7 +73,7 @@ bool bakoutrie(string *m1, string *m2){
 void bakoucontribue(string fichier){
     map<string, string> relJDM=relationJDMTrue();
     map<string, string>::iterator itertrace;
-    ofstream traceFile("./traces/trace_url.txt");
+    ofstream traceFile("./traces/trace_url.txt", ios::app);
     for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
         cout<<itertrace->first<<" - \""<<itertrace->second<<"\""<<endl;
     }
@@ -156,8 +156,8 @@ void bakoulearn() {
 }
 
 void bakouplay(){
-    bakoustatplay();
-    bakoustatplayWD();
+    //bakoustatplay();
+    //bakoustatplayWD();
     bakuSemanticPlay();
     bakuSemanticPlayWD();
 }
@@ -172,7 +172,7 @@ void bakoucontribue() {
 
 int main()
 {
-    bakoulearn();
-    bakouplay();
+    //bakoulearn();
+    //bakouplay();
     bakoucontribue();
 }

@@ -109,7 +109,7 @@ bool ajouterLien(string lien) {
     }
 }
 
-void majLiens(string nomFichier, int min) {
+void majLiens(string nomFichier, int mini) {
     ifstream ifs (nomFichier.c_str());
     vector <LienCompteur> vs;
     string ligne;
@@ -143,7 +143,7 @@ void majLiens(string nomFichier, int min) {
     ifs.close();
     ofstream traceMots (nomFichier.c_str());
     for(int i=0; i<(int)vs.size(); i++) {
-        if(vs[i].compteur>=min) {
+        if(vs[i].compteur>=mini) {
             traceMots<<vs[i].lien<<" ( "<<vs[i].compteur<<" ) "<<endl;
         }
     }
