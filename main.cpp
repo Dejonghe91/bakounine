@@ -69,11 +69,18 @@ bool bakoutrie(string *m1, string *m2){
 }
 
 
+ofstream traceFile("./traces/trace_url.txt");
+
 
 void bakoucontribue(string fichier){
     map<string, string> relJDM=relationJDMTrue();
+    map<string, string> relJDMTemp=relationJDM();
+
+    for(map<string, string>::iterator it= relJDMTemp.begin(); it!=relJDMTemp.end(); it++ ){
+        relJDM[it->first]=it->second;
+    }
+
     map<string, string>::iterator itertrace;
-    ofstream traceFile("./traces/trace_url.txt", ios::app);
     for(itertrace=relJDM.begin(); itertrace!=relJDM.end(); itertrace++){
         cout<<itertrace->first<<" - \""<<itertrace->second<<"\""<<endl;
     }
@@ -129,7 +136,7 @@ void bakoucontribue(string fichier){
                 urlContrib.resize(urlContrib.size()-1);
                 cout<<urlContrib<<endl;
                 traceFile << urlContrib << endl;
-                //ouvrirPageForce(urlContrib);
+                ouvrirPageForce(urlContrib);
             }
         }
     }
