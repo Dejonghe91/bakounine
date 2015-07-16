@@ -124,7 +124,7 @@ string getNom(int id){
     /*string sid="Q";
     sid+=to_string(id);*/
     string json = ouvrirPageHttps(page);
-    if(json != ""){
+    if(json != "" && codeRetour == 200){
         Document document;
         document.Parse(json.c_str());
         assert(document.IsObject());
