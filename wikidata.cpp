@@ -1,5 +1,8 @@
 #include "wikidata.h"
 
+ofstream ofs ("./ressources/relationsMotsWD.txt");
+
+
 
 void bakoustatplayWD(){ //V1
     string cible;
@@ -124,11 +127,16 @@ map<string, string> bakoulearnFichier(string s){ //SUR un fichier avec mot - r
     return retour;
 }
 
+
+
+
+
+
 map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
     //lire toutes les catégories possibles dans wikipedia et les comparer aux relations sémantiques dans JDM (en français d'abord)
     //1 : ouvrir 100 pages wikipedia
-    string fileRes = "./ressources/relationsMotsWD.txt";
-    ofstream ofs (fileRes);
+    //string fileRes = "./ressources/relationsMotsWD.txt";
+    //
     map<string, string> retour;
     map<string, map<string, int> > MotRelation; // clé : un mot dans une infobox de wp : valeur, une liste de relations avec leur score.
     map<string, map<string, int> >::iterator iterMR;
