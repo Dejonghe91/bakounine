@@ -29,6 +29,10 @@ string SORTIE = SORTIE_H;
 
 
 //namespace perso {
+
+vector<string> termesavisiter;
+vector<string> newtermesavisiter;
+
  string boolToTex(bool b){
     if(b){
         return "vrai";

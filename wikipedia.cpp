@@ -60,23 +60,25 @@ map<string, string> bakoustatlearn()
     map<string, map<string, int> >::iterator iterMR;    // itérateur sur la map mot relations
     map<string, int>::iterator iter;                    // itérateur sur relation score
     map<string, string>::iterator iterTrace;            // itérateur sur la map return
-    ifstream ifs ("./ressources/liensavisiter.txt");                 // fichier pages à visité
+    //ifstream ifs ("./ressources/liensavisiter.txt");                 // fichier pages à visité
     string ligne;                                       // un mot du top100
     string mot;                                         // version JDM du mot
     string lien;                                        // le lien correspondant
     string page;                                        // une page du top100
     map<string,string> infos;                           // le contenu de l'infobox d'une page...
     vector <string> relations;                          // les relations de JDM pour le mot donné.
-    int cpt=0;
+    int cpt=0, itmot=0;
 
 
     // parcours de tous les mots à visiter sur wikipédia
-    while(getline(ifs, ligne) && cpt<4600) {
+    while(itmot<termesavisiter.size() && cpt<800) {
+        ligne = termesavisiter[itmot];
         if((int)ligne[ligne.size()-1]==13) {
             ligne.resize(ligne.size()-1);
         }
 
         cpt++;
+        itmot++;
         cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
         mot=ligne;
         string jdme = jdmExiste(mot);
@@ -138,18 +140,19 @@ void bakoustatplay(){
     ofstream ofs ("./ressources/relationsTrouve.txt");
     map<string, string> relation = bakoustatlearn();
     cout<<"ce que l'on a appris : "<<endl;
-    ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //un mot du top100 version JDM
     string lien; //Le lien correspondant
     string page; //une page du top100
     map<string,string> infos;  // Le contenu de l'infobox d'une page...
     vector <string> relations; //Les relations de JDM pour le mot donné.
-    int cpt=0;
-    while(getline(ifs, ligne) && cpt<1000){
+    int cpt=0, itmot=0;
+    while(itmot<termesavisiter.size() && cpt<1000){
+        ligne = termesavisiter[itmot];
         if((int)ligne[ligne.size()-1]==13){
             ligne.resize(ligne.size()-1);
         }
+        itmot++;
         cpt++;
         cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
         mot=ligne;
@@ -177,6 +180,7 @@ void bakoustatplay(){
                         }
                         if(cible!=""){
                             ofs<<source<<" -- "<<relation[i->first]<<" --> "<<cible;
+                            newtermesavisiter.push_back(cible);
                             if(existeRel(mot, i->second, relation[i->first])){
                                 ofs<<" | JDM"<<endl;
                             } else {
@@ -184,6 +188,7 @@ void bakoustatplay(){
                             }
                         } else {
                             ofs<<mot<<" -- "<<relation[i->first]<<" --> "<<transformer(&(i->second), "_", " ")<<" | nouveau mot"<<endl;
+                             newtermesavisiter.push_back(transformer(&(i->second), "_", " "));
                         }
                         //<<endl;
                     }

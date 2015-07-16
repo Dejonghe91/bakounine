@@ -14,8 +14,6 @@ using namespace std;
 static const char* kTypeNames[] = { "Null", "False", "True", "Object", "Array", "String", "Number" };
 
 
-
-
 void recurtest(int decalage, Value& sousArbre);
 string espace(int n);
 void afficheA(int decalage, Value::ConstMemberIterator itr, Value& sousArbre);

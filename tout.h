@@ -15,7 +15,8 @@
 
 using namespace std;
 
-
+extern vector<string> termesavisiter;
+extern vector<string> newtermesavisiter;
 
 struct Relation{
     string mot1;

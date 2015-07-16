@@ -7,19 +7,20 @@ void bakoustatplayWD(){ //V1
     ofstream ofs ("./ressources/relationsTrouveWD.txt");
     map<string, string> relation = bakoulearnFichier("./ressources/relationsMotsWD.txt");
     cout<<"ce que l'on a appris : "<<endl;
-    ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //un mot du top100 version JDM
     string lien; //Le lien correspondant
     string page; //une page du top100
     map<string,string> infos;  // Le contenu de l'infobox d'une page...
     vector <string> relations; //Les relations de JDM pour le mot donné.
-    int cpt=0;
-    while(getline(ifs, ligne) && cpt<1000){
+    int cpt=0, itmot=0;
+    while(itmot < termesavisiter.size() && cpt<1000){
+        ligne = termesavisiter[itmot];
         if((int)ligne[ligne.size()-1]==13){
             ligne.resize(ligne.size()-1);
         }
         cpt++;
+        itmot++;
         cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
         mot=ligne;
         string jdme = jdmExiste(mot);
@@ -52,10 +53,12 @@ void bakoustatplayWD(){ //V1
                                         } else {
                                             ofs<<" | Nouvelle relation"<<endl;
                                         }
+                                        newtermesavisiter.push_back(transformer(&cible,"_", " "));
                                     } else {
                                         source= majusculeW(mot);
                                         cible = majusculeW(i->second[i2]);
                                         ofs<<transformer(&source,"_", " ")<<" -- "<<relation[nomRelC]<<" --> "<<transformer(&cible, "_", " ")<<" | nouveau mot"<<endl;
+                                        newtermesavisiter.push_back(transformer(&cible,"_", " "));
                                     }
                                 }
                             }
@@ -131,7 +134,7 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
     map<string, map<string, int> >::iterator iterMR;
     map<string, int>::iterator iter;
     map<string, string>::iterator iterTrace;
-    ifstream ifs ("./ressources/liensavisiter.txt");
+    //ifstream ifs ("./ressources/liensavisiter.txt");
     string ligne; //un mot du top100
     string mot; //Version JDM du mot
     string lien; //Le lien correspondant
@@ -143,12 +146,14 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
     map<string, vector<string> > relationsT;
 
 
-    int cpt=0;
-    while(getline(ifs, ligne) && cpt<800){
+    int cpt=0, itmot=0;
+    while(itmot < termesavisiter.size() && cpt<800){
+        ligne = termesavisiter[itmot];
         if((int)ligne[ligne.size()-1]==13){
             ligne.resize(ligne.size()-1);
         }
         cpt++;
+        itmot++;
         cout<<endl<<"------------------"<<endl<<endl<<"ligne : "<<ligne<<endl;
         mot=transformer(&ligne,"_", " ");
 

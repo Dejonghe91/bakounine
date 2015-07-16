@@ -223,12 +223,16 @@ string qid(string nom){//Renvoi l'id wikidata du mot donné en entrée.
     if(codeRetour == 200){
         assert(document.IsObject());
         //fils(document);
-        assert(document["search"].IsArray());
-        //fils(document["search"][0]);
-        if(document["search"].Size()>0){
-            return document["search"][0]["id"].GetString();
-        } else {
-            cout<<"pas de page wikidata"<<endl;
+        if(document.HasMember("search")){
+            //fils(document["search"][0]);
+            if(document["search"].Size()>0){
+                return document["search"][0]["id"].GetString();
+            } else {
+                cout<<"pas de page wikidata"<<endl;
+                return "";
+            }
+        }
+        else{
             return "";
         }
     }

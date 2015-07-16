@@ -2,6 +2,7 @@
 #include <map>
 #include <curl/curl.h>
 #include <string>
+#include "tout.h"
 #include "outilNet.h"
 #include "outilParsage.h"
 #include "jdm.h"
@@ -153,7 +154,6 @@ void bakoulearn() {
 
     // On entraine sur le fichier liensavisiter  par le biais de plusieurs ressources
     bakoustatlearnWD();
-    bakoulearnFichier("./ressources/relationsMotsWD.txt");
     base.addStatRels(); // on ajoute les résultats obtenues par stats à la base de connaissances
 
     // On finis par l'apprentissage par propagation dans le réseau jdm
@@ -163,8 +163,8 @@ void bakoulearn() {
 }
 
 void bakouplay(){
-    //bakoustatplay();
-    //bakoustatplayWD();
+    bakoustatplay();
+    bakoustatplayWD();
     bakuSemanticPlay();
     bakuSemanticPlayWD();
 }
@@ -176,10 +176,40 @@ void bakoucontribue() {
     bakoucontribue("./ressources/relationsTrouveSemWD.txt");
 }
 
+void loadWords(string file){
+    ifstream fichier (file);
+    string ligne;
+    while(getline(fichier, ligne)){
+        termesavisiter.push_back(ligne);
+    }
+}
+
+void rechargerMot(){
+    int i=0, j=0;
+    while(i<newtermesavisiter.size()) {
+        j=i+1;
+        while(j<newtermesavisiter.size()) {
+            if(newtermesavisiter[i] == newtermesavisiter[j])
+                newtermesavisiter.erase(newtermesavisiter.begin()+j);
+            j++;
+        }
+        i++;
+    }
+    termesavisiter.clear();
+    termesavisiter = newtermesavisiter;
+    newtermesavisiter.clear();
+}
 
 int main()
 {
-    //bakoulearn();
-    //bakouplay();
-    bakoucontribue();
+    if(termesavisiter.empty()){
+        loadWords("./ressources/liensavisiter.txt");
+    }
+
+    while(!termesavisiter.empty()) {
+        bakoulearn();
+        bakouplay();
+        bakoucontribue();
+        rechargerMot();
+    }
 }
