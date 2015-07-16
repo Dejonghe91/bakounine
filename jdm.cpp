@@ -89,7 +89,7 @@ bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomp
     string stub = "&gotermrel=";
     string finAdresse = "&output=onlyxml";
     string result = ouvrirPage(adresse+stub+s+finAdresse);
-    r="n'existe pas";
+    string r="n'existe pas";
 
     /*
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
