@@ -1,6 +1,6 @@
 #include "wikidata.h"
 
-ofstream ofs ("./ressources/relationsMotsWD.txt");
+ofstream ofsRelM ("./ressources/relationsMotsWD.txt");
 
 
 
@@ -171,7 +171,7 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
             jdme=jdmExiste(mot);
         }
         if(jdme!=""){  //Si le mot est présent dans JDM
-            ofs<<jdme<<" : "<<endl;
+            ofsRelM<<jdme<<" : "<<endl;
             cout<<"mot existant"<<endl;
             id = qid(mot);
             if(id!=""){
@@ -185,11 +185,11 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
                                 cout<<"Et 2 : "<<i->second[i2]<<endl;
                                 relations = jdmRel(mot, i->second[i2]);
                                 MotRelation[i->first]["R"]++;
-                                ofs<<getNomRel(i->first)<<" - R : "<<MotRelation[i->first]["R"]<<" ( "<<i->second[i2]<<" ) "<<endl;
+                                ofsRelM<<getNomRel(i->first)<<" - R : "<<MotRelation[i->first]["R"]<<" ( "<<i->second[i2]<<" ) "<<endl;
                                 for(int j=0; j<relations.size(); j++){
                                     cout<<"Et 3 : "<<relations[j]<<endl;
                                     MotRelation[i->first][relations[j]]++;//On incremente la relation  courante pour l'info courante.
-                                    ofs<<getNomRel(i->first)<<" - "<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<" ( "<<i->second[i2]<<" ) "<<endl;
+                                    ofsRelM<<getNomRel(i->first)<<" - "<<relations[j]<<" : "<<MotRelation[i->first][relations[j]]<<" ( "<<i->second[i2]<<" ) "<<endl;
                                 }
                             }
                         }
@@ -198,6 +198,6 @@ map<string, string> bakoustatlearnWD(){ //SUR WIKIDATA
             }
         }
     }
-    bakoulearnFichier(fileRes);
+    retour = bakoulearnFichier("./ressources/relationsMotsWD.txt");
     return retour;
 }
