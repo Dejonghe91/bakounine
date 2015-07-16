@@ -49,7 +49,7 @@ void savePage(string nom, string * contenu){ //nom doit être une adresse de sit
             it++;
         }
         //cout<<"save page : "<<nom<<endl;
-        system("pwd");
+        int i = system("pwd");
         //cout<<REPSAVE<<endl;
         //cout<<nom2<<endl;
         string fichier = REPSAVE;
@@ -937,6 +937,9 @@ int getCodeRetour(){
 
 
 string Url_encodeR (string url){
+
+    if(url[url.size()-1] == ' ')
+        url.resize(url.size()-1);
 
     url = transformer(&url, "€","%80");
     url = transformer(&url, "%A0","%20");
