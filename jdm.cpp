@@ -85,6 +85,13 @@ bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomp
     int i=0;
     CURL *curl;
     curl = curl_easy_init();
+    string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
+    string stub = "&gotermrel=";
+    string finAdresse = "&output=onlyxml";
+    string result = ouvrirPage(adresse+stub+s+finAdresse);
+    r="n'existe pas";
+
+    /*
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url += curl_easy_escape(curl, s.c_str(), s.size());;
     //cout<<url<<endl;
@@ -102,8 +109,8 @@ bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomp
     r=latin1(r);
     r=transformer(&r,"_", "\'");
     // cout<<"R: "<<r<<endl;
-
-    return lireMot( &result, r);
+*/
+    return !lireMot( &result, r);
 
 }
 

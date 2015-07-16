@@ -112,8 +112,7 @@ map<string, string> bakoustatlearn()
     int maxi;
     string maxs;
 
-    for(iterMR=MotRelation.begin(); iterMR!=MotRelation.end(); iterMR++)
-    {
+    for(iterMR=MotRelation.begin(); iterMR!=MotRelation.end(); iterMR++){
         maxi=0;
         maxs="";
         for(iter=iterMR->second.begin(); iter!=iterMR->second.end(); iter++) {
@@ -126,7 +125,6 @@ map<string, string> bakoustatlearn()
             retour[iterMR->first]=maxs;
         }
     }
-
     cout<<"------------Mot->relation-----------"<<endl;
     for(iterTrace=retour.begin(); iterTrace!=retour.end(); iterTrace++){
         cout<<iterTrace->first<<" : "<<iterTrace->second<<endl;
