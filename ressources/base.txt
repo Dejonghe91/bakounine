@@ -48,15 +48,21 @@ possède|9|r_has_part|1
 poste|15|r_lieu|0.5
 poste occupé par le chef de l'exécutif|15|r_lieu|0.5
 pouvoir|17|r_carac|1
+producteur|100|r_has_auteur|0.5
 produire|53|r_make|1
 reine|15|r_lieu|1
 réalisateur|100|r_has_auteur|1
 régime politique|17|r_carac|0.5
 scénario|100|r_has_auteur|1
+scénariste|100|r_has_auteur|1
 signifier|5|r_syn|1
 siège social|15|r_lieu|0.5
+société|15|r_lieu|1
+société de production|15|r_lieu|1
 société mère|15|r_lieu|1
 sport|15|r_lieu|1
 sujet|42|r_causatif|0.5
 sujet de l'œuvre|42|r_causatif|0.5
+États-Unis|15|r_lieu|1
+États-Unis : |15|r_lieu|1
 être|6|r_isa|1

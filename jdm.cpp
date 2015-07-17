@@ -22,7 +22,7 @@ bool existeRel(string mot1, string mot2, string rel){
     return false;
 }
 
-int  poidJDM(string s){
+int poidJDM(string s){
     string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
     string stub = "&gotermrel=";
     string finAdresse = "&output=onlyxml";
@@ -83,8 +83,8 @@ string jdmExiste(string s){
 bool jdmEquivalent(string s){ //TRUE uniquement si le premier mot de l('autocomplétion est strictement identique.
     //cout<<" existe ?"<<s<<endl;
     int i=0;
-    CURL *curl;
-    curl = curl_easy_init();
+    //CURL *curl;
+    //curl = curl_easy_init();
     string adresse = "http://www.jeuxdemots.org/rezo-xml.php?gotermsubmit=Chercher";
     string stub = "&gotermrel=";
     string finAdresse = "&output=onlyxml";

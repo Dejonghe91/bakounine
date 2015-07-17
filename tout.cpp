@@ -279,7 +279,7 @@ string majusculeW(string s){ //renvoie le mot avec une minuscule ou une majuscul
     }
 
     string s2= transformer(&s," ","_");
-    CURL *curl = curl_easy_init();
+    //CURL *curl = curl_easy_init();
     //s2= curl_easy_escape(curl, s2.c_str(), s2.size());
     string adresse =  "fr.wikipedia.org/wiki/";
     adresse+=s2;
