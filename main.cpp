@@ -16,6 +16,7 @@
 
 using namespace std;
 
+const int seuilVisite = 100;
 
 bool bakoutrie(string *m1, string *m2){
     //cout<<"BAKOUTRIE : "<<*m1<<" - "<<*m2<<endl;
@@ -186,6 +187,14 @@ void loadWords(string file){
 
 void rechargerMot(){
     int i=0, j=0;
+    vector<string>::iterator it;    //itérateur sur termesvisite;
+    //on dépile les termes en trop
+    while(termesvisite.size() > seuilVisite){
+        termesvisite.erase(termesvisite.begin()+0);
+        cout << "nombre de termes atteins, on pop" << endl;
+    }
+
+    // on retire les doublons
     while(i<newtermesavisiter.size()) {
         j=i+1;
         while(j<newtermesavisiter.size()) {
@@ -195,8 +204,33 @@ void rechargerMot(){
         }
         i++;
     }
+
     termesavisiter.clear();
-    termesavisiter = newtermesavisiter;
+
+    cout << "------------------------" << endl;
+    for(i=0; i<termesvisite.size(); i++){
+        cout << "\t" << termesvisite[i] << endl;
+    }
+    cout << "------------------------" << endl;
+
+    for(i=0; i<newtermesavisiter.size(); i++){
+        // on pop le terme le plus ancien
+        if(termesvisite.size() > seuilVisite){
+            termesvisite.erase(termesvisite.begin()+0);
+            cout << "nombre de termes atteins, on pop" << endl;
+        }
+        cout << "terme : " << newtermesavisiter[i] << endl;
+        // on vérifie que le termes n'as pas été visité
+        it = find(termesvisite.begin(),termesvisite.end(), newtermesavisiter[i]);
+        if(it==termesvisite.end()) {
+            termesvisite.push_back(newtermesavisiter[i]);
+            termesavisiter.push_back(newtermesavisiter[i]);
+            cout << "ajout du terme" << endl;
+        }
+        else{
+            cout << "terme déja visité" << endl;
+        }
+    }
     newtermesavisiter.clear();
 }
 
@@ -204,12 +238,15 @@ int main()
 {
     if(termesavisiter.empty()){
         loadWords("./ressources/liensavisiter.txt");
+        termesvisite = termesavisiter;
     }
 
     while(!termesavisiter.empty()) {
         bakoulearn();
         bakouplay();
         bakoucontribue();
+        cout << "Recharge des mots " << endl;
+        cout << "-------------------------------" << endl;
         rechargerMot();
     }
 }

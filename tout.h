@@ -15,8 +15,9 @@
 
 using namespace std;
 
-extern vector<string> termesavisiter;
-extern vector<string> newtermesavisiter;
+extern vector<string> termesavisiter;       // termes courants à visiter
+extern vector<string> termesvisite;         // mémoire des termes visités
+extern vector<string> newtermesavisiter;    // nouveau termes à visiter
 
 struct Relation{
     string mot1;
@@ -25,54 +26,42 @@ struct Relation{
     int date;
 };
 
-
-ostream & operator<<(ostream& os, const  Relation & r1);
-
-string majusculeW(string s);
-//namespace perso{
-    //void pause();
-    string repertoireCourant();
-
-    bool raz(int * it);
-
-    bool raz(string * s);
-
-
-    void pause(string message);
-
-    void bp();
-
-    void bpE(string erreur);
-
-    void afficher(vector<string> s);
-
-    void init();
-    int alea(int nombre);
-
-    void afficher(vector<Relation> vr);
-
-    void vider(vector <int> * v);
-
-    bool dansVecteur(string mot, vector<string> vTemp);
-
-char * Utf8ToLatin1String (char*s);
-
-
-
-
-
-//}
-
-//int levenshtein_distance(const std::string &s1, const std::string &s2);
-
 struct score{
     string mot;
     int valeur;
 };
 
+ostream & operator<<(ostream& os, const  Relation & r1);
+
+string majusculeW(string s);
+
+string repertoireCourant();
+
+bool raz(int * it);
+
+bool raz(string * s);
+
+void pause(string message);
+
+void bp();
+
+void bpE(string erreur);
+
+void afficher(vector<string> s);
+
+void init();
+
+int alea(int nombre);
+
+void afficher(vector<Relation> vr);
+
+void vider(vector <int> * v);
+
+bool dansVecteur(string mot, vector<string> vTemp);
+
+char * Utf8ToLatin1String (char*s);
 
 size_t LevenshteinDistance(const std::string &s1, const std::string &s2);
-
 
 bool isMajuscule(string s); //renvoie vrai si la première lettre est une majuscule.
 

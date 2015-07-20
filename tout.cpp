@@ -32,6 +32,7 @@ string SORTIE = SORTIE_H;
 
 vector<string> termesavisiter;
 vector<string> newtermesavisiter;
+vector<string> termesvisite;
 
  string boolToTex(bool b){
     if(b){
