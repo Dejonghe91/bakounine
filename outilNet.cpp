@@ -300,7 +300,7 @@ string ouvrirPage(string domaine, string page, string param) {
         string nouveauLien = Page.getField("Location");
         cout<<"Location : "<<nouveauLien<<endl;
         if(nouveauLien.size()>2) {
-            reponse = ouvrirPage(nouveauLien);http://www.mountyhall.com/
+            reponse = ouvrirPage(nouveauLien);
         }
     }
     if(Page.getStatus()==302) {
@@ -936,9 +936,9 @@ int getCodeRetour(){
 }
 
 
-string Url_encodeR (string url){
+string Url_encodeR(string url){
 
-    if(url[url.size()-1] == ' ')
+    while(url[url.size()-1] == ' ')
         url.resize(url.size()-1);
 
     url = transformer(&url, "€","%80");

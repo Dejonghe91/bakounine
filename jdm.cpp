@@ -65,7 +65,7 @@ string jdmExiste(string s){
 
     int i=0;
     string result;
-    if(lireMot(&i, s, "/"))
+    if(lireMot(&i, &s, "/"))
         result = ouvrirPageForce(url);
     else
         result = ouvrirPage(url);
