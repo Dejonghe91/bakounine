@@ -30,6 +30,7 @@ impliquer|57|r_implication|1
 influence|17|r_carac|0.5
 instrument|15|r_lieu|1
 jouer|10|r_agent|1
+lac de barrage|15|r_lieu|1
 lieu|15|r_lieu|1
 manger|10|r_agent|1
 manger|102|r_can_eat|1
@@ -60,6 +61,8 @@ siège social|15|r_lieu|0.5
 société|15|r_lieu|1
 société de production|15|r_lieu|1
 société mère|15|r_lieu|1
+sous-continent|15|r_lieu|0.5
+sous-continent : |15|r_lieu|0.5
 sport|15|r_lieu|1
 sujet|42|r_causatif|0.5
 sujet de l'œuvre|42|r_causatif|0.5

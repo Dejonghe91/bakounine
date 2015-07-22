@@ -62,8 +62,15 @@ string jdmExiste(string s){
     string url="http://www.jeuxdemots.org/autocompletion/autocompletion.php?completionarg=proposition&proposition=";
     url+=s;
     url = transformer(&url," ","%20");
-    string result=ouvrirPage(url);
+
     int i=0;
+    string result;
+    if(lireMot(&i, s, "/"))
+        result = ouvrirPageForce(url);
+    else
+        result = ouvrirPage(url);
+
+    i=0;
     string candidat;
     lireMot(&i, &result, "[\"");
     string maxs="";

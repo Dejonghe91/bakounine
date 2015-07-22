@@ -300,7 +300,7 @@ string ouvrirPage(string domaine, string page, string param) {
         string nouveauLien = Page.getField("Location");
         cout<<"Location : "<<nouveauLien<<endl;
         if(nouveauLien.size()>2) {
-            reponse = ouvrirPage(nouveauLien);
+            reponse = ouvrirPage(nouveauLien);http://www.mountyhall.com/
         }
     }
     if(Page.getStatus()==302) {
