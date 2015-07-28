@@ -95,6 +95,7 @@ vector<string> getPhrase(){
     vector<string> result;
     string page, stub;
     string adresse = "fr.wikipedia.org/wiki/";
+    ofstream trace("./traces/phrases.txt");
 
     for(int i=0; i<termesavisiter.size(); i++){
         stub = termesavisiter[i];
@@ -102,10 +103,38 @@ vector<string> getPhrase(){
 
         if(page != ""){
             string texte = decouperPage(&page, "div", "mw-content-text");
-            string phrase = "";
+            string phrase ="";
+
+            string res = "", texteres ="";
+
             int i=0;
-            // on récupère les phrases
-            while(lireMot(&i, &texte, &phrase, ".")){
+            // on supprimer les balises
+            while(lireMot(&i, &texte, &res, "<")){
+                texteres += res;
+                lireMot(&i, &texte, ">");
+                res.clear();
+            }
+            texte = texteres;
+            texteres.clear();
+
+            // on supprimer les éléments entre crochets
+            i = 0;
+            while(lireMot(&i, &texte, &res, "[")){
+                texteres += res;
+                lireMot(&i, &texte, "]");
+                res.clear();
+            }
+
+            //on supprime les espaces insécables
+            //texteres = transformer(&texteres, "&#160;","");
+            trace << "------------------ TEXTE COMPLET ----------------" << endl;
+            trace << texteres << endl;
+            trace << "-------------------------------------------------" << endl;
+            trace << "-------------- PHRASES EXTRAITES ----------------" << endl;
+
+            // on récupère les phrases (attention)
+            i=0;
+            while(lireMot(&i, &texteres, &phrase, ".")){
                 phrases.push_back(phrase);
                 phrase.clear();
                 i++;
@@ -118,7 +147,10 @@ vector<string> getPhrase(){
                         result.push_back(phrases[j]);
                         cout << " ------ " << endl;
                         cout << phrases[j] << endl;
-                        cout << " ------ " << endl;
+                        cout << " ------ " << it->first << " --------- " << endl;
+                        trace << " ------ " << endl;
+                        trace << phrases[j] << endl;
+                        trace << " ------ " << it->first << " --------- " << endl;
                     }
                 }
             }
@@ -127,6 +159,6 @@ vector<string> getPhrase(){
         }
         cout << "FIN FIN" << endl;
     }
-    cout << "nombre de phrases récupérées : " << result.size() << endl;
+    cout << "nombre de phrases récupérées : " << result.size() << " / " << phrases.size() << endl;
     return result;
 }
