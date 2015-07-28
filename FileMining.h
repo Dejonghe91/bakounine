@@ -26,7 +26,7 @@ vector<string> getBagOfTreGrammAndBiGramm(string phrase);
  */
 PNode getGraphPhrase(string phrase);
 
-
+vector<string> getPhrase();
 
 /// TESTS ///
 void testGetPhrase();

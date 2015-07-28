@@ -178,7 +178,7 @@ void bakoustatplay(){
                         }
                         if(cible!=""){
                             ofs<<source<<" -- "<<relation[i->first]<<" --> "<<cible;
-                            newtermesavisiter.push_back(cible);
+                            addnewtermeavisiter(cible);
                             if(existeRel(mot, i->second, relation[i->first])){
                                 ofs<<" | JDM"<<endl;
                             } else {
@@ -186,9 +186,8 @@ void bakoustatplay(){
                             }
                         } else {
                             ofs<<mot<<" -- "<<relation[i->first]<<" --> "<<transformer(&(i->second), "_", " ")<<" | nouveau mot"<<endl;
-                             newtermesavisiter.push_back(transformer(&(i->second), "_", " "));
+                            addnewtermeavisiter(transformer(&cible,"_", " "));
                         }
-                        //<<endl;
                     }
                 }
             }

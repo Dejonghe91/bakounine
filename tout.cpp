@@ -31,8 +31,9 @@ string SORTIE = SORTIE_H;
 //namespace perso {
 
 vector<string> termesavisiter;
-vector<string> newtermesavisiter;
+map<string,int> m_newtermesavisiter;
 vector<string> termesvisite;
+map<string,int> m_termesvisite;
 
  string boolToTex(bool b){
     if(b){
@@ -322,4 +323,10 @@ string majusculeW(string s){ //renvoie le mot avec une minuscule ou une majuscul
     cout<<s<<endl;
     //pause("majuscule?");
     return s;
+}
+
+void addnewtermeavisiter(string mot){
+    if(m_termesvisite[mot] == 0 && m_newtermesavisiter[mot] == 0){
+        m_newtermesavisiter[mot] = 1;
+    }
 }

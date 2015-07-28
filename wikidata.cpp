@@ -56,12 +56,15 @@ void bakoustatplayWD(){ //V1
                                         } else {
                                             ofs<<" | Nouvelle relation"<<endl;
                                         }
-                                        newtermesavisiter.push_back(transformer(&cible,"_", " "));
+
+                                        addnewtermeavisiter(transformer(&cible,"_", " "));
+
                                     } else {
                                         source= majusculeW(mot);
                                         cible = majusculeW(i->second[i2]);
                                         ofs<<transformer(&source,"_", " ")<<" -- "<<relation[nomRelC]<<" --> "<<transformer(&cible, "_", " ")<<" | nouveau mot"<<endl;
-                                        newtermesavisiter.push_back(transformer(&cible,"_", " "));
+
+                                        addnewtermeavisiter(transformer(&cible,"_", " "));
                                     }
                                 }
                             }

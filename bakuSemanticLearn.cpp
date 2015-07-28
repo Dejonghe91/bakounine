@@ -188,7 +188,8 @@ void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels){
     }
     baseSem->writeBakuSemanticBase();
     baseSem->getBakuSemanticBase();
-    newtermesavisiter.push_back(mot);
+
+    addnewtermeavisiter(mot);
 }
 
 
@@ -200,7 +201,8 @@ void addWord(BakuSemantic *baseSem, string mot, RelSem rel){
 
     baseSem->writeBakuSemanticBase();
     baseSem->getBakuSemanticBase();
-    newtermesavisiter.push_back(mot);
+
+    addnewtermeavisiter(mot);
 }
 
 

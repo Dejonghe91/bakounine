@@ -85,3 +85,48 @@ void testGetPhrase(){
     s = "La maison fait partie du quartier.";
     vector<string> bag = getBagOfTreGrammAndBiGramm(s);
 }
+
+
+
+vector<string> getPhrase(){
+    BakuSemantic base;
+    map<string,vector<RelSem> > motSem = base.getBakuSemanticBase();
+    vector<string> phrases;
+    vector<string> result;
+    string page, stub;
+    string adresse = "fr.wikipedia.org/wiki/";
+
+    for(int i=0; i<termesavisiter.size(); i++){
+        stub = termesavisiter[i];
+        page = ouvrirPageHttps(adresse+stub);
+
+        if(page != ""){
+            string texte = decouperPage(&page, "div", "mw-content-text");
+            string phrase = "";
+            int i=0;
+            // on récupère les phrases
+            while(lireMot(&i, &texte, &phrase, ".")){
+                phrases.push_back(phrase);
+                phrase.clear();
+                i++;
+            }
+
+            map<string, vector<RelSem>>::iterator it;
+            for(int j=0; j<phrases.size(); j++){
+                for(it=motSem.begin(); it != motSem.end(); it++){
+                    if(lireMot(&phrases[j], it->first)){
+                        result.push_back(phrases[j]);
+                        cout << " ------ " << endl;
+                        cout << phrases[j] << endl;
+                        cout << " ------ " << endl;
+                    }
+                }
+            }
+        }else{
+            cout << "Page vide pour : " << stub << endl;
+        }
+        cout << "FIN FIN" << endl;
+    }
+    cout << "nombre de phrases récupérées : " << result.size() << endl;
+    return result;
+}

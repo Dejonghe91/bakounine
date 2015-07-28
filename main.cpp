@@ -16,7 +16,7 @@
 
 using namespace std;
 
-const int seuilVisite = 100;
+const int seuilVisite = 10000;
 
 bool bakoutrie(string *m1, string *m2){
     //cout<<"BAKOUTRIE : "<<*m1<<" - "<<*m2<<endl;
@@ -95,7 +95,7 @@ void bakoucontribue(string fichier){
     string rel;
     string cible;
     //CURL *curl = curl_easy_init();
-    while(getline(ifs, ligne)){
+    while(getline(ifs, ligne)) {
         source.clear();
         rel.clear();
         cible.clear();
@@ -187,52 +187,36 @@ void loadWords(string file){
 
 void rechargerMot(){
     int i=0, j=0;
-    vector<string>::iterator it;    //itérateur sur termesvisite;
+
     //on dépile les termes en trop
     while(termesvisite.size() > seuilVisite){
+        string t = termesvisite[0];
         termesvisite.erase(termesvisite.begin()+0);
-        cout << "nombre de termes atteins, on pop" << endl;
-    }
-
-    // on retire les doublons
-    while(i<newtermesavisiter.size()) {
-        j=i+1;
-        while(j<newtermesavisiter.size()) {
-            if(newtermesavisiter[i] == newtermesavisiter[j])
-                newtermesavisiter.erase(newtermesavisiter.begin()+j);
-            j++;
-        }
-        i++;
+        m_termesvisite.erase(t);
+        cout << "nombre de termes atteins, on pop : " << t << endl;
     }
 
     termesavisiter.clear();
-
-    cout << "------------------------" << endl;
-    for(i=0; i<termesvisite.size(); i++){
-        cout << "\t" << termesvisite[i] << endl;
-    }
-    cout << "------------------------" << endl;
-
-    for(i=0; i<newtermesavisiter.size(); i++){
+    map<string,int>::iterator it;
+    for(it = m_newtermesavisiter.begin(); it != m_newtermesavisiter.end(); it++) {
         // on pop le terme le plus ancien
         if(termesvisite.size() > seuilVisite){
+            string t = termesvisite[0];
             termesvisite.erase(termesvisite.begin()+0);
-            cout << "nombre de termes atteins, on pop" << endl;
+            m_termesvisite.erase(t);
+            cout << "nombre de termes atteins, on pop : " << t << endl;
         }
-        cout << "terme : " << newtermesavisiter[i] << endl;
-        // on vérifie que le termes n'as pas été visité
-        it = find(termesvisite.begin(),termesvisite.end(), newtermesavisiter[i]);
-        if(it==termesvisite.end()) {
-            termesvisite.push_back(newtermesavisiter[i]);
-            termesavisiter.push_back(newtermesavisiter[i]);
-            cout << "ajout du terme" << endl;
-        }
-        else{
-            cout << "terme déja visité" << endl;
-        }
+
+        //copie colle valeur dans la m_termevisite, dans le vecteur termesvisite et dans le vecteur termesavisite
+        string terme = it->first;
+        termesavisiter.push_back(terme);
+        m_termesvisite[terme] = 1;
+        termesvisite.push_back(terme);
+
     }
-    newtermesavisiter.clear();
+    m_newtermesavisiter.clear();
 }
+
 
 int main()
 {
@@ -242,11 +226,13 @@ int main()
     }
 
     while(!termesavisiter.empty()) {
-        bakoulearn();
-        bakouplay();
-        bakoucontribue();
-        cout << "Recharge des mots " << endl;
-        cout << "-------------------------------" << endl;
-        rechargerMot();
+        //bakoulearn();
+        //bakouplay();
+        //bakoucontribue();
+        //cout << "Recharge des mots " << endl;
+        //cout << "-------------------------------" << endl;
+        //rechargerMot();
+        getPhrase();
+        termesavisiter.clear();
     }
 }

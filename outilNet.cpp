@@ -396,7 +396,8 @@ string ouvrirPageHttps(string adresse) { //ATTENTION : NECESSITE UNE ADRESSE CON
             cout<<codeRetour<<endl;
         }
     } else  {
-        //cout<<"lecture d'une page sauvegardée"<<endl;
+        cout<<"lecture d'une page sauvegardée"<<endl;
+        //cout<<resultat<<endl;
         lastPageVisite=adresse;
         codeRetour=200;
     }

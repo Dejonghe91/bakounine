@@ -17,7 +17,8 @@ using namespace std;
 
 extern vector<string> termesavisiter;       // termes courants à visiter
 extern vector<string> termesvisite;         // mémoire des termes visités
-extern vector<string> newtermesavisiter;    // nouveau termes à visiter
+extern map<string,int> m_termesvisite;      // aide find terme visités
+extern map<string,int> m_newtermesavisiter; // aide find nouveau termes à visiter
 
 struct Relation{
     string mot1;
@@ -70,5 +71,7 @@ string majuscule(string s); //renvoie la string avec sa première lettre en maju
 string minuscule(string s); //renvoie la string avec sa première lettre en minuscule.
 
 string invMajuscule(string s); //renvoie la string avec sa première lettre en majuscule si elle est minuscule ou en minuscule si elle est majuscule.
+
+void addnewtermeavisiter(string mot);   // fonction de test pour ajout des mots
 
 #endif
