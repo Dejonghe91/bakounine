@@ -124,11 +124,11 @@ void casIsaANdHypo(BakuSemantic *baseSem, string mr, string mr2, vector<relfind>
 }
 
 
-void bakouSemanticLearn(vector<string> words){
+void bakouSemLearn(vector<string> words){
 
     BakuSemantic baseSem;
     ofstream fichier("./traces/test.txt");
-    map<string, vector<RelSem>> base = baseSem.getBakuSemanticBase();
+    map<string, vector<RelSem> > base = baseSem.getBakuSemanticBase();
 
     if(base.empty()){
         base = baseSem.getBakuSemanticBase();
@@ -178,6 +178,10 @@ void bakouSemanticLearn(vector<string> words){
     fichier.close();
 }
 
+void bakouSemLearn(){
+    bakuSemanticLearn();
+    bakuSemanticLearnWD();
+}
 
 void addWord(BakuSemantic *baseSem, string mot, vector<RelSem> rels){
     cout << "Ajout dans la base sémantique avec les relations suivantes : " << endl;
@@ -204,40 +208,6 @@ void addWord(BakuSemantic *baseSem, string mot, RelSem rel){
 
     addnewtermeavisiter(mot);
 }
-
-
-
-void bakuSemanticLearnTest() {
-
-    ifstream fichier("./ressources/relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
-    vector <string> mrs;
-
-    if(fichier)  // si l'ouverture a réussi
-    {
-        string ligne;
-        string word;
-        int i=0;
-        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
-        {
-            i=0;
-            word = "";
-            if(lireMot(&i, &ligne, "|")){
-                lireMot(&i, &ligne, &word, "|");
-                mrs.push_back(word);
-            }
-        }
-
-        fichier.close();  // on referme le fichier
-    }
-    else {
-        cerr << "Impossible d'ouvrir le fichier !" << endl;
-    }
-
-    if(!mrs.empty()){
-        bakouSemanticLearn(mrs);
-    }
-}
-
 
 void bakousemplay(ofstream* retour, BakuSemantic *baseSem, string m1, string mr, string m2){
     string sr = jdmExiste(mr);
@@ -268,7 +238,7 @@ void bakuSemanticPlay() {
     ifstream fichier("./ressources/relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
     ofstream retour("./ressources/relationTrouveSem.txt");
     BakuSemantic baseSem ;
-    map<string, vector<RelSem>> t = baseSem.getBakuSemanticBase();
+    map<string, vector<RelSem> > t = baseSem.getBakuSemanticBase();
 
     cout << "début avec base de " << t.size() << " éléments" << endl;
     if(fichier)  // si l'ouverture a réussi
@@ -305,7 +275,7 @@ void bakuSemanticPlayWD() {
     ifstream fichier("./ressources/relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
     ofstream retour("./ressources/relationTrouveSemWD.txt");
     BakuSemantic baseSem ;
-    map<string, vector<RelSem>> t = baseSem.getBakuSemanticBase();
+    map<string, vector<RelSem> > t = baseSem.getBakuSemanticBase();
 
     cout << "début avec base de " << t.size() << " éléments" << endl;
     if(fichier)  // si l'ouverture a réussi
@@ -344,7 +314,7 @@ void bakuSemanticPlayWD() {
 }
 
 
-void bakuSemanticLearnTestWD() {
+void bakuSemanticLearnWD() {
 
     ifstream fichier("./ressources/relationsMotsWD.txt", ios::in);  // on ouvre le fichier en lecture
     vector <string> mrs;
@@ -371,7 +341,37 @@ void bakuSemanticLearnTestWD() {
     }
 
     if(!mrs.empty()){
-        bakouSemanticLearn(mrs);
+        bakouSemLearn(mrs);
     }
 }
 
+void bakuSemanticLearn() {
+
+    ifstream fichier("./ressources/relationsMots.txt", ios::in);  // on ouvre le fichier en lecture
+    vector <string> mrs;
+
+    if(fichier)  // si l'ouverture a réussi
+    {
+        string ligne;
+        string word;
+        int i=0;
+        while(getline(fichier, ligne))  // tant que l'on peut mettre la ligne dans "contenu"
+        {
+            i=0;
+            word = "";
+            if(lireMot(&i, &ligne, "|")){
+                lireMot(&i, &ligne, &word, "|");
+                mrs.push_back(word);
+            }
+        }
+
+        fichier.close();  // on referme le fichier
+    }
+    else {
+        cerr << "Impossible d'ouvrir le fichier !" << endl;
+    }
+
+    if(!mrs.empty()){
+        bakouSemLearn(mrs);
+    }
+}

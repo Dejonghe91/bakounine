@@ -17,6 +17,7 @@
 using namespace std;
 
 const int seuilVisite = 10000;
+ofstream traceFile("./traces/trace_url.txt");
 
 bool bakoutrie(string *m1, string *m2){
     //cout<<"BAKOUTRIE : "<<*m1<<" - "<<*m2<<endl;
@@ -69,10 +70,6 @@ bool bakoutrie(string *m1, string *m2){
         return true;
     }
 }
-
-
-ofstream traceFile("./traces/trace_url.txt");
-
 
 void bakoucontribue(string fichier){
     map<string, string> relJDM=relationJDMTrue();
@@ -159,8 +156,7 @@ void bakoulearn() {
 
     // On finis par l'apprentissage par propagation dans le réseau jdm
     bakoustatlearn();
-    bakuSemanticLearnTest();
-    bakuSemanticLearnTestWD();
+    bakouSemLearn();
 }
 
 void bakouplay(){
@@ -220,7 +216,7 @@ void rechargerMot(){
 
 int main()
 {
-    
+    // 
     if(termesavisiter.empty()){
         loadWords("./ressources/liensavisiter.txt");
         termesvisite = termesavisiter;
@@ -233,6 +229,7 @@ int main()
         //cout << "Recharge des mots " << endl;
         //cout << "-------------------------------" << endl;
         //rechargerMot();
+        
         vector<string> result = getPhrase();
         ofstream trace ("./traces/phrases_extraites.txt");
         for(int i=0; i<result.size(); i++){
