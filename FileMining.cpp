@@ -95,7 +95,6 @@ vector<string> getPhrase(){
     vector<string> result;
     string page, stub;
     string adresse = "fr.wikipedia.org/wiki/";
-    ofstream trace("./traces/phrases.txt");
 
     for(int i=0; i<termesavisiter.size(); i++){
         stub = termesavisiter[i];
@@ -104,11 +103,11 @@ vector<string> getPhrase(){
         if(page != ""){
             string texte = decouperPage(&page, "div", "mw-content-text");
             string phrase ="";
-
-            string res = "", texteres ="";
+            string res = "", texteres = "";
 
             int i=0;
             // on supprimer les balises
+            
             while(lireMot(&i, &texte, &res, "<")){
                 texteres += res;
                 lireMot(&i, &texte, ">");
@@ -116,7 +115,7 @@ vector<string> getPhrase(){
             }
             texte = texteres;
             texteres.clear();
-
+            
             // on supprimer les éléments entre crochets
             i = 0;
             while(lireMot(&i, &texte, &res, "[")){
@@ -124,15 +123,11 @@ vector<string> getPhrase(){
                 lireMot(&i, &texte, "]");
                 res.clear();
             }
+            
+            //on supprime les groupements de caractères XML inutiles
+            texteres = transformer(&texteres, "&#160;","");
 
-            //on supprime les espaces insécables
-            //texteres = transformer(&texteres, "&#160;","");
-            trace << "------------------ TEXTE COMPLET ----------------" << endl;
-            trace << texteres << endl;
-            trace << "-------------------------------------------------" << endl;
-            trace << "-------------- PHRASES EXTRAITES ----------------" << endl;
-
-            // on récupère les phrases (attention)
+            // on récupère les phrases délimitées par un point
             i=0;
             while(lireMot(&i, &texteres, &phrase, ".")){
                 phrases.push_back(phrase);
@@ -144,13 +139,13 @@ vector<string> getPhrase(){
             for(int j=0; j<phrases.size(); j++){
                 for(it=motSem.begin(); it != motSem.end(); it++){
                     if(lireMot(&phrases[j], it->first)){
-                        result.push_back(phrases[j]);
-                        cout << " ------ " << endl;
-                        cout << phrases[j] << endl;
-                        cout << " ------ " << it->first << " --------- " << endl;
-                        trace << " ------ " << endl;
-                        trace << phrases[j] << endl;
-                        trace << " ------ " << it->first << " --------- " << endl;
+                        string tmp=it->first+"|";
+                        vector<RelSem> rels = it->second;
+                        tmp+=rels[0].name;
+                        for(int k=1; k<rels.size(); k++){
+                            tmp+=","+rels[k].name;
+                        }
+                        result.push_back(tmp+"|"+phrases[j]);
                     }
                 }
             }

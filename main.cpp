@@ -125,7 +125,7 @@ void bakoucontribue(string fichier){
             urlContrib += relJDM[it2->first];
             urlContrib += "&prop=";
             taille=urlContrib.size();
-            for(int i=0; i<it2->second.size(); i++){
+            for(int i=0; i<it2->second.size(); i++) {
                 string mot1 = it->first;
                 string mot2 = it2->second[i];
                 if(bakoutrie(&mot1 , &mot2 )){
@@ -134,7 +134,7 @@ void bakoucontribue(string fichier){
                     urlContrib +="|";
                 }
             }
-            if(urlContrib.size()>taille){
+            if(urlContrib.size()>taille) {
                 urlContrib.resize(urlContrib.size()-1);
                 cout<<urlContrib<<endl;
                 traceFile << urlContrib << endl;
@@ -220,6 +220,7 @@ void rechargerMot(){
 
 int main()
 {
+    
     if(termesavisiter.empty()){
         loadWords("./ressources/liensavisiter.txt");
         termesvisite = termesavisiter;
@@ -232,7 +233,15 @@ int main()
         //cout << "Recharge des mots " << endl;
         //cout << "-------------------------------" << endl;
         //rechargerMot();
-        getPhrase();
+        vector<string> result = getPhrase();
+        ofstream trace ("./traces/phrases_extraites.txt");
+        for(int i=0; i<result.size(); i++){
+            trace << result[i] << endl;
+            trace << "-----------------------------------------" << endl;
+            cout << result[i] << endl;
+            cout << "-----------------------------------------" << endl;
+        }
+        trace.close();
         termesavisiter.clear();
     }
 }

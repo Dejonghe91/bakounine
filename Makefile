@@ -1,16 +1,17 @@
+# Environment 
+MKDIR=mkdir
+CP=cp
+CCADMIN=CCadmin
 CXX = g++ -lstdc++
 DEBUG = yes
 CXXFLAGSD = -g -O1 -std=c++0x
 CXXFLAGSR = -O2 -Wall -W -std=c++0x
-
-
 INCPATH = -lsfml-network -lsfml-system -lboost_system -lboost_filesystem -lcurl -lboost_iostreams -lboost_locale
 
+all : main
 
 main : main.o outilParsage.o tout.o jdm.o outilNet.o json.o BakuSemantic.o wikipedia.o wikidata.o bakuSemanticLearn.o FileMining.o
 	$(CXX) $(CXXFLAGSD) main.o outilParsage.o tout.o jdm.o outilNet.o json.o BakuSemantic.o wikipedia.o wikidata.o bakuSemanticLearn.o FileMining.o $(INCPATH) -o Bakounibot
-
-all : main
 
 main.o : main.cpp
 	$(CXX) $(CXXFLAGSD) -c main.cpp -o main.o
@@ -47,7 +48,6 @@ bakuSemanticLearn.o : bakuSemanticLearn.cpp
 FileMining.o : FileMining.cpp
 	$(CXX) $(CXXFLAGSD)  -c FileMining.cpp -o FileMining.o
 
-
 clean :
 	rm -rf *.o
 
@@ -58,6 +58,3 @@ tar :
 		*.h\
 		*.html\
 		*.txt
-
-
-
